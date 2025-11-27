@@ -35,11 +35,22 @@ class GitHubConnection:
             contents = self.repo.get_contents(self.file_path, ref=self.branch)
             json_data = json.loads(contents.decoded_content.decode("utf-8"))
             
+            # --- AUTO-CORREÇÃO (MIGRATION) ---
+            # Garante que reservas antigas tenham um ID para não quebrar o app
+            if "reservations" in json_data:
+                for i, res in enumerate(json_data["reservations"]):
+                    if "reservation_id" not in res:
+                        # Gera um ID provisório estável para dados legados
+                        clean_name = str(res.get('student_name', 'aluno')).replace(" ", "")
+                        res["reservation_id"] = f"legacy_{i}_{clean_name}"
+            
+            # Garante configuração de senha
             if "admin_config" not in json_data:
                 json_data["admin_config"] = {"password": "villa123"}
                 
             return json_data, contents.sha
         except Exception:
+            # Retorna estrutura vazia se arquivo não existir
             return {
                 "admin_config": {"password": "villa123"},
                 "books": [], 
@@ -69,7 +80,7 @@ def login_family(parent, student, grade, class_name):
             'parent': parent,
             'student': student,
             'grade': grade,
-            'class_name': class_name # Nova informação na sessão
+            'class_name': class_name
         }
         st.rerun()
     else:
@@ -107,8 +118,6 @@ def main():
             with st.form("login_family"):
                 parent_in = st.text_input("Nome do Responsável")
                 student_in = st.text_input("Nome do Estudante")
-                
-                # Seleção de Série e Turma lado a lado
                 cc1, cc2 = st.columns(2)
                 grade_in = cc1.selectbox("Série do Aluno", SERIES_DISPONIVEIS)
                 class_in = cc2.selectbox("Turma", TURMAS_DISPONIVEIS)
@@ -137,7 +146,7 @@ def main():
 
         data, sha = db.get_data()
 
-        # Filtragem Rigorosa: Série E Turma
+        # Filtro: Série E Turma
         books_for_grade = [
             b for b in data.get('books', []) 
             if b['grade'] == user['grade'] and b.get('class_name') == user['class_name']
@@ -168,21 +177,21 @@ def main():
                                 data['books'][book_index]['reserved_by'] = user['parent']
                                 data['books'][book_index]['reserved_student'] = user['student']
                                 
-                                # Cria Reserva
+                                # Cria Reserva com ID
                                 new_reservation = {
                                     "reservation_id": int(time.time()),
                                     "book_id": book['id'],
                                     "parent_name": user['parent'],
                                     "student_name": user['student'],
                                     "grade": user['grade'],
-                                    "class_name": user['class_name'], # Salva a turma na reserva
+                                    "class_name": user['class_name'],
                                     "book_title": book['title'],
                                     "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                                 }
                                 data['reservations'].append(new_reservation)
 
                                 with st.spinner("Confirmando reserva..."):
-                                    if db.update_data(data, sha, f"Reserva: {book['title']} ({user['class_name']})"):
+                                    if db.update_data(data, sha, f"Reserva: {book['title']}"):
                                         st.success("✅ Reserva confirmada!")
                                         time.sleep(2)
                                         st.rerun()
@@ -210,12 +219,10 @@ def main():
             "⚙️ Configurações"
         ])
 
-        # ABA 1: Cadastrar (Com Turma)
         with tab1:
             st.markdown("### Adicionar Novo Título")
             with st.form("add_book_form"):
                 title = st.text_input("Título do Livro")
-                
                 c_grade, c_class = st.columns(2)
                 grade_sel = c_grade.selectbox("Série Destino", SERIES_DISPONIVEIS)
                 class_sel = c_class.selectbox("Turma Destino", TURMAS_DISPONIVEIS)
@@ -227,23 +234,20 @@ def main():
                             "id": new_id,
                             "title": title,
                             "grade": grade_sel,
-                            "class_name": class_sel, # Salva a turma no livro
+                            "class_name": class_sel,
                             "available": True,
                             "reserved_by": None,
                             "reserved_student": None
                         }
-                        
                         if 'books' not in data: data['books'] = []
                         data['books'].append(new_book)
-                        
-                        if db.update_data(data, sha, f"Admin add: {title} {class_sel}"):
-                            st.success(f"Livro cadastrado para {grade_sel} - Turma {class_sel}!")
+                        if db.update_data(data, sha, f"Admin add: {title}"):
+                            st.success(f"Cadastrado: {title} ({grade_sel} {class_sel})")
                             time.sleep(1)
                             st.rerun()
                     else:
                         st.error("Título é obrigatório.")
 
-        # ABA 2: Cancelamento
         with tab2:
             st.markdown("### Gerenciar Reservas")
             reservations = data.get('reservations', [])
@@ -251,31 +255,41 @@ def main():
                 st.info("Sem reservas.")
             else:
                 for res in reservations:
-                    # Mostra Turma no resumo
-                    res_class = res.get('class_name', 'N/A')
-                    with st.expander(f"{res['timestamp']} | {res['grade']} {res_class} | {res['student_name']}"):
+                    # Uso seguro do reservation_id (garantido pela função get_data)
+                    res_id = res.get('reservation_id')
+                    
+                    with st.expander(f"{res.get('timestamp')} | {res.get('student_name')}"):
                         c_det, c_canc = st.columns([3, 1])
-                        c_det.write(f"**Livro:** {res['book_title']}")
-                        c_det.write(f"**Responsável:** {res['parent_name']}")
+                        c_det.write(f"**Livro:** {res.get('book_title')}")
+                        c_det.write(f"**Responsável:** {res.get('parent_name')}")
+                        c_det.write(f"**Turma:** {res.get('grade')} {res.get('class_name', '-')}")
                         
-                        if c_canc.button("Cancelar", key=f"del_{res['reservation_id']}"):
+                        if c_canc.button("Cancelar", key=f"del_{res_id}"):
+                            # 1. Tenta liberar o livro
                             for book in data['books']:
-                                if book['id'] == res['book_id']:
+                                # Tenta match por ID ou Título (para legados)
+                                match = False
+                                if 'book_id' in res and book['id'] == res['book_id']:
+                                    match = True
+                                elif book['title'] == res['book_title'] and book['reserved_by'] == res['parent_name']:
+                                    match = True
+                                
+                                if match:
                                     book['available'] = True
                                     book['reserved_by'] = None
                                     book['reserved_student'] = None
                                     break
                             
-                            data['reservations'] = [r for r in data['reservations'] if r['reservation_id'] != res['reservation_id']]
+                            # 2. Remove da lista usando o ID
+                            data['reservations'] = [r for r in data['reservations'] if r.get('reservation_id') != res_id]
                             
                             if db.update_data(data, sha, "Cancelamento Admin"):
                                 st.success("Cancelado!")
                                 time.sleep(1)
                                 st.rerun()
 
-        # ABA 3: Relatório Filtrado
         with tab3:
-            st.markdown("### Gerar Lista de Entrega")
+            st.markdown("### Relatório por Turma")
             c_rep1, c_rep2 = st.columns(2)
             sel_grade = c_rep1.selectbox("Série", SERIES_DISPONIVEIS, key="rep_grade")
             sel_class = c_rep2.selectbox("Turma", TURMAS_DISPONIVEIS, key="rep_class")
@@ -283,32 +297,34 @@ def main():
             if st.button("Gerar Lista"):
                 filtered = [
                     r for r in data.get('reservations', []) 
-                    if r['grade'] == sel_grade and r.get('class_name') == sel_class
+                    if r.get('grade') == sel_grade and r.get('class_name') == sel_class
                 ]
                 
                 if filtered:
                     df = pd.DataFrame(filtered)
+                    # Tratamento de erro se colunas não existirem
+                    cols_map = {
+                        "student_name": "Aluno", 
+                        "parent_name": "Responsável", 
+                        "book_title": "Livro",
+                        "timestamp": "Data"
+                    }
+                    # Filtra apenas colunas que existem no dataframe
+                    existing_cols = [c for c in cols_map.keys() if c in df.columns]
+                    
                     st.dataframe(
-                        df[['student_name', 'parent_name', 'book_title', 'timestamp']],
-                        column_config={
-                            "student_name": "Aluno", 
-                            "parent_name": "Responsável", 
-                            "book_title": "Livro",
-                            "timestamp": "Data"
-                        },
+                        df[existing_cols].rename(columns=cols_map),
                         hide_index=True,
                         use_container_width=True
                     )
                 else:
                     st.warning("Nenhum registro para esta turma.")
 
-        # ABA 4: Estoque
         with tab4:
             st.markdown("### Estoque Total")
             books = data.get('books', [])
             if books:
                 df = pd.DataFrame(books)
-                # Garante coluna class_name
                 if 'class_name' not in df.columns: df['class_name'] = '-'
                 
                 st.dataframe(
@@ -324,7 +340,6 @@ def main():
                     use_container_width=True
                 )
 
-        # ABA 5: Configurações
         with tab5:
             st.markdown("### Alterar Senha Admin")
             with st.form("change_pass"):
