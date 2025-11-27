@@ -23,9 +23,9 @@
       "title": "teste 1",
       "grade": "1º Ano",
       "class_name": "A",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "efsef",
+      "reserved_student": "sefsef"
     },
     {
       "id": 1764286928,
@@ -53,7 +53,18 @@
       "student_name": "Pedro Silva",
       "grade": "5",
       "book_title": "Português Fundamental",
-      "timestamp": "2023-10-27 14:30:00"
+      "timestamp": "2023-10-27 14:30:00",
+      "reservation_id": "legacy_0_PedroSilva"
+    },
+    {
+      "reservation_id": 1764287034,
+      "book_id": 1764286915,
+      "parent_name": "efsef",
+      "student_name": "sefsef",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "book_title": "teste 1",
+      "timestamp": "2025-11-27 23:43:54"
     }
   ],
   "admin_config": {
