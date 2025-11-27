@@ -17,6 +17,15 @@
       "subject": "Português",
       "available": false,
       "reserved_by": "Família Silva"
+    },
+    {
+      "id": 1764286915,
+      "title": "teste 1",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     }
   ],
   "reservations": [
@@ -28,5 +37,8 @@
       "book_title": "Português Fundamental",
       "timestamp": "2023-10-27 14:30:00"
     }
-  ]
+  ],
+  "admin_config": {
+    "password": "villa123"
+  }
 }
