@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Matemática Aplicada - Volume 1",
+      "author": "Ana Silva",
+      "grade": "5",
+      "subject": "Matemática",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 2,
+      "title": "Português Fundamental",
+      "author": "Carlos Santos",
+      "grade": "5",
+      "subject": "Português",
+      "available": false,
+      "reserved_by": "Família Silva"
+    }
+  ],
+  "reservations": [
+    {
+      "id": 101,
+      "parent_name": "João Silva",
+      "student_name": "Pedro Silva",
+      "grade": "5",
+      "book_title": "Português Fundamental",
+      "timestamp": "2023-10-27 14:30:00"
+    }
+  ]
+}
