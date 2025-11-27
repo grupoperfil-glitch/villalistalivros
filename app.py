@@ -16,13 +16,12 @@ st.set_page_config(
 SERIES_DISPONIVEIS = ["1º Ano", "2º Ano", "3º Ano", "4º Ano"]
 TURMAS_DISPONIVEIS = ["A", "B", "D"]
 
-# --- CLASSE DE CONEXÃO COM GITHUB (VERSÃO BLINDADA) ---
+# --- CLASSE DE CONEXÃO COM GITHUB (VERSÃO BLINDADA 2.0) ---
 class GitHubConnection:
     def __init__(self):
         try:
             self.token = st.secrets["GH_TOKEN"]
             self.repo_name = st.secrets["GH_REPO"]
-            # Remove barras extras para evitar erro 404/422
             self.file_path = st.secrets["GH_PATH"].strip("/") 
             self.branch = st.secrets["GH_BRANCH"]
             
@@ -38,21 +37,24 @@ class GitHubConnection:
             contents = self.repo.get_contents(self.file_path, ref=self.branch)
             json_data = json.loads(contents.decoded_content.decode("utf-8"))
             
-            # 1. Correção de IDs em reservas antigas
+            # --- AUTO-CORREÇÃO DE DADOS (MIGRATION) ---
             if "reservations" in json_data:
                 for i, res in enumerate(json_data["reservations"]):
+                    # 1. Garante ID
                     if "reservation_id" not in res:
-                        # Gera ID baseado em dados existentes para não quebrar o app
                         clean_name = str(res.get('student_name', 'aluno')).replace(" ", "")
                         res["reservation_id"] = f"legacy_{i}_{clean_name}"
-            
-            # 2. Garante configuração de senha
+                    
+                    # 2. Garante Turma (Correção para o erro KeyError: class_name)
+                    if "class_name" not in res:
+                        # Define uma turma padrão para reservas antigas para não quebrar o filtro
+                        res["class_name"] = "Indefinida" 
+
             if "admin_config" not in json_data:
                 json_data["admin_config"] = {"password": "villa123"}
                 
             return json_data, contents.sha
         except Exception:
-            # Retorna estrutura virgem se arquivo não existir
             return {
                 "admin_config": {"password": "villa123"},
                 "books": [], 
@@ -60,13 +62,11 @@ class GitHubConnection:
             }, None
 
     def update_data(self, new_data, sha, commit_message="Update via Streamlit"):
-        """Tenta atualizar; se o SHA for rejeitado, tenta recriar o arquivo"""
         try:
             json_content = json.dumps(new_data, indent=2, ensure_ascii=False)
             
             if sha:
                 try:
-                    # Tentativa 1: Atualizar arquivo existente
                     self.repo.update_file(
                         path=self.file_path,
                         message=commit_message,
@@ -76,7 +76,6 @@ class GitHubConnection:
                     )
                     return True
                 except GithubException as e:
-                    # Se der erro 422 (SHA inválido), assume que o arquivo sumiu ou resetou
                     if e.status == 422:
                         self.repo.create_file(
                             path=self.file_path,
@@ -88,7 +87,6 @@ class GitHubConnection:
                     else:
                         raise e
             else:
-                # Tentativa 2: Criar novo arquivo
                 self.repo.create_file(
                     path=self.file_path,
                     message=commit_message,
@@ -118,9 +116,7 @@ def login_family(parent, student, grade, class_name):
         st.warning("Preencha todos os campos.")
 
 def login_admin(password_input, db_data):
-    # Lê a senha do banco de dados (JSON)
     stored_password = db_data.get("admin_config", {}).get("password", "villa123")
-    
     if password_input == stored_password:
         st.session_state.user = {'type': 'admin'}
         st.rerun()
@@ -134,11 +130,8 @@ def logout():
 # --- INTERFACE PRINCIPAL ---
 def main():
     db = GitHubConnection()
-    
-    # Carregamento inicial (já com correções automáticas)
-    data_cache, sha_cache = db.get_data()
+    data_cache, sha_cache = db.get_data() # Aqui a autocorreção acontece
 
-    # Cabeçalho
     st.markdown("""
     <div style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; text-align: center; margin-bottom: 25px;'>
         <h1>📚 Sistema de Reserva - Fundamental I</h1>
@@ -154,7 +147,6 @@ def main():
             with st.form("login_family"):
                 parent_in = st.text_input("Nome do Responsável")
                 student_in = st.text_input("Nome do Estudante")
-                
                 cc1, cc2 = st.columns(2)
                 grade_in = cc1.selectbox("Série do Aluno", SERIES_DISPONIVEIS)
                 class_in = cc2.selectbox("Turma", TURMAS_DISPONIVEIS)
@@ -181,10 +173,8 @@ def main():
         st.divider()
         st.subheader(f"📖 Livros Disponíveis para {user['grade']} {user['class_name']}")
 
-        # Recarrega dados para garantir disponibilidade real
         data, sha = db.get_data()
 
-        # Filtro Rigoroso: Série + Turma
         books_for_grade = [
             b for b in data.get('books', []) 
             if b['grade'] == user['grade'] and b.get('class_name') == user['class_name']
@@ -207,16 +197,13 @@ def main():
                     with c_act:
                         st.write("") 
                         if st.button(f"RESERVAR", key=f"btn_{book['id']}", type="primary"):
-                            # Busca índice
                             book_index = next((i for i, b in enumerate(data['books']) if b['id'] == book['id']), -1)
                             
                             if book_index != -1 and data['books'][book_index]['available']:
-                                # Atualiza status
                                 data['books'][book_index]['available'] = False
                                 data['books'][book_index]['reserved_by'] = user['parent']
                                 data['books'][book_index]['reserved_student'] = user['student']
                                 
-                                # Cria registro de reserva completo
                                 new_reservation = {
                                     "reservation_id": int(time.time()),
                                     "book_id": book['id'],
@@ -235,9 +222,9 @@ def main():
                                         time.sleep(2)
                                         st.rerun()
                                     else:
-                                        st.error("Erro de conexão. Tente novamente.")
+                                        st.error("Erro ao salvar.")
                             else:
-                                st.error("Livro já reservado por outra pessoa.")
+                                st.error("Livro já reservado.")
                                 time.sleep(2)
                                 st.rerun()
 
@@ -253,12 +240,11 @@ def main():
         tab1, tab2, tab3, tab4, tab5 = st.tabs([
             "➕ Cadastrar", 
             "📋 Reservas", 
-            "📄 Relatórios", 
+            "📄 Listas por Turma", 
             "📊 Estoque",
             "⚙️ Configurações"
         ])
 
-        # ABA 1: Cadastrar
         with tab1:
             st.markdown("### Adicionar Novo Título")
             with st.form("add_book_form"):
@@ -279,37 +265,32 @@ def main():
                             "reserved_by": None,
                             "reserved_student": None
                         }
-                        
                         if 'books' not in data: data['books'] = []
                         data['books'].append(new_book)
                         
                         if db.update_data(data, sha, f"Admin add: {title}"):
-                            st.success(f"Cadastrado: {title} ({grade_sel} {class_sel})")
+                            st.success(f"Cadastrado: {title}")
                             time.sleep(1)
                             st.rerun()
                     else:
                         st.error("Título é obrigatório.")
 
-        # ABA 2: Reservas e Cancelamento
         with tab2:
             st.markdown("### Gerenciar Reservas")
             reservations = data.get('reservations', [])
             if not reservations:
-                st.info("Sem reservas ativas.")
+                st.info("Sem reservas.")
             else:
                 for res in reservations:
-                    res_id = res.get('reservation_id') # Seguro devido à autocorreção
-                    
+                    res_id = res.get('reservation_id')
                     with st.expander(f"{res.get('timestamp')} | {res.get('student_name')}"):
                         c_det, c_canc = st.columns([3, 1])
                         c_det.write(f"**Livro:** {res.get('book_title')}")
                         c_det.write(f"**Resp:** {res.get('parent_name')}")
-                        c_det.write(f"**Turma:** {res.get('grade')} - {res.get('class_name', '-')}")
+                        c_det.write(f"**Turma:** {res.get('grade')} - {res.get('class_name', 'Indefinida')}")
                         
                         if c_canc.button("Cancelar", key=f"del_{res_id}"):
-                            # 1. Libera o livro
                             for book in data['books']:
-                                # Match inteligente (ID ou Título para legados)
                                 match = False
                                 if 'book_id' in res and book['id'] == res['book_id']:
                                     match = True
@@ -322,15 +303,12 @@ def main():
                                     book['reserved_student'] = None
                                     break
                             
-                            # 2. Remove reserva
                             data['reservations'] = [r for r in data['reservations'] if r.get('reservation_id') != res_id]
-                            
                             if db.update_data(data, sha, "Cancelamento Admin"):
-                                st.success("Reserva cancelada!")
+                                st.success("Cancelado!")
                                 time.sleep(1)
                                 st.rerun()
 
-        # ABA 3: Relatórios Filtrados
         with tab3:
             st.markdown("### Lista de Entrega")
             c_rep1, c_rep2 = st.columns(2)
@@ -338,6 +316,7 @@ def main():
             sel_class = c_rep2.selectbox("Turma", TURMAS_DISPONIVEIS, key="rep_class")
             
             if st.button("Gerar Lista"):
+                # AQUI estava o erro KeyError. Agora usamos .get() para proteger
                 filtered = [
                     r for r in data.get('reservations', []) 
                     if r.get('grade') == sel_grade and r.get('class_name') == sel_class
@@ -345,26 +324,19 @@ def main():
                 
                 if filtered:
                     df = pd.DataFrame(filtered)
-                    # Mapeamento seguro de colunas
                     cols_map = {
                         "student_name": "Aluno", 
                         "parent_name": "Responsável", 
                         "book_title": "Livro",
                         "timestamp": "Data"
                     }
-                    existing_cols = [c for c in cols_map.keys() if c in df.columns]
-                    
-                    st.dataframe(
-                        df[existing_cols].rename(columns=cols_map),
-                        hide_index=True,
-                        use_container_width=True
-                    )
+                    existing = [c for c in cols_map.keys() if c in df.columns]
+                    st.dataframe(df[existing].rename(columns=cols_map), hide_index=True, use_container_width=True)
                 else:
-                    st.warning("Nenhum registro encontrado para esta turma.")
+                    st.warning("Nenhum registro para esta turma.")
 
-        # ABA 4: Estoque
         with tab4:
-            st.markdown("### Visão Geral")
+            st.markdown("### Estoque")
             books = data.get('books', [])
             if books:
                 df = pd.DataFrame(books)
@@ -383,9 +355,8 @@ def main():
                     use_container_width=True
                 )
 
-        # ABA 5: Senha
         with tab5:
-            st.markdown("### Alterar Senha Admin")
+            st.markdown("### Senha Admin")
             with st.form("change_pass"):
                 p1 = st.text_input("Nova Senha", type="password")
                 p2 = st.text_input("Confirmar", type="password")
@@ -396,7 +367,7 @@ def main():
                             st.success("Sucesso! Logue novamente.")
                             logout()
                     else:
-                        st.error("Senhas inválidas ou curtas.")
+                        st.error("Senhas inválidas.")
 
 if __name__ == "__main__":
     main()
