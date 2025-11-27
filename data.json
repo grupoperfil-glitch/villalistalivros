@@ -48,15 +48,6 @@
   ],
   "reservations": [
     {
-      "id": 101,
-      "parent_name": "João Silva",
-      "student_name": "Pedro Silva",
-      "grade": "5",
-      "book_title": "Português Fundamental",
-      "timestamp": "2023-10-27 14:30:00",
-      "reservation_id": "legacy_0_PedroSilva"
-    },
-    {
       "reservation_id": 1764287034,
       "book_id": 1764286915,
       "parent_name": "efsef",
