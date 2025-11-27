@@ -26,6 +26,15 @@
       "available": true,
       "reserved_by": null,
       "reserved_student": null
+    },
+    {
+      "id": 1764286928,
+      "title": "teste 2",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     }
   ],
   "reservations": [
