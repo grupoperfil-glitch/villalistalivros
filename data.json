@@ -26,9 +26,9 @@
       "title": "teste ",
       "grade": "1º Ano",
       "class_name": "A",
-      "available": false,
-      "reserved_by": "fhfgh",
-      "reserved_student": "fghfgh"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1764288354,
@@ -41,16 +41,6 @@
     }
   ],
   "reservations": [
-    {
-      "reservation_id": 1764288403,
-      "book_id": 1764288352,
-      "parent_name": "fhfgh",
-      "student_name": "fghfgh",
-      "grade": "1º Ano",
-      "class_name": "A",
-      "book_title": "teste ",
-      "timestamp": "2025-11-28 00:06:43"
-    },
     {
       "reservation_id": 1764289086,
       "book_id": 1764288342,
