@@ -5,12 +5,39 @@ from datetime import datetime
 from github import Github, GithubException
 import pandas as pd
 
-# --- CONFIGURAÇÃO DA PÁGINA ---
+# --- CONFIGURAÇÃO DA PÁGINA E CORES ---
 st.set_page_config(
-    page_title="Reserva de Livros - Villa",
+    page_title="Reserva dos Livros de Literatura - Escola Villa Criar",
     page_icon="📚",
     layout="wide"
 )
+
+# --- ESTILIZAÇÃO CSS (BASEADA NA LOGO VILLA CRIAR) ---
+# Laranja Villa: #F26522
+# Azul Criar: #006680
+st.markdown("""
+    <style>
+    /* Botão Primário (Ação) - Laranja */
+    div.stButton > button:first-child {
+        background-color: #F26522;
+        color: white;
+        border: none;
+    }
+    div.stButton > button:first-child:hover {
+        background-color: #D1490E;
+        color: white;
+    }
+    /* Abas Selecionadas - Azul Petróleo */
+    .stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {
+        color: #F26522 !important;
+        border-top-color: #F26522 !important;
+    }
+    /* Links e detalhes */
+    a {
+        color: #006680;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 # --- CONSTANTES ---
 SERIES_DISPONIVEIS = ["1º Ano", "2º Ano", "3º Ano", "4º Ano"]
@@ -108,9 +135,11 @@ def main():
     db = GitHubConnection()
     data_cache, sha_cache = db.get_data()
 
+    # Cabeçalho Personalizado com Cores da Logo
     st.markdown("""
-    <div style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; text-align: center; margin-bottom: 25px;'>
-        <h1>📚 Sistema de Reserva - Fundamental I</h1>
+    <div style='background: linear-gradient(135deg, #006680 0%, #F26522 100%); padding: 25px; border-radius: 12px; color: white; text-align: center; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
+        <h1 style='margin:0; font-size: 2.2em;'>Reserva dos Livros de Literatura</h1>
+        <p style='margin-top:5px; font-size: 1.1em; opacity: 0.9;'>Escola Villa Criar</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -119,7 +148,7 @@ def main():
         c1, c2 = st.columns(2, gap="large")
         
         with c1:
-            st.subheader("👨‍👩‍👧‍👦 Acesso Família")
+            st.markdown("### 👨‍👩‍👧‍👦 Acesso Família")
             with st.form("login_family"):
                 parent_in = st.text_input("Nome do Responsável")
                 student_in = st.text_input("Nome do Estudante")
@@ -127,13 +156,15 @@ def main():
                 grade_in = cc1.selectbox("Série do Aluno", SERIES_DISPONIVEIS)
                 class_in = cc2.selectbox("Turma", TURMAS_DISPONIVEIS)
                 
-                if st.form_submit_button("Entrar", type="primary"):
+                st.markdown("<br>", unsafe_allow_html=True)
+                if st.form_submit_button("Entrar no Sistema", type="primary"):
                     login_family(parent_in, student_in, grade_in, class_in)
 
         with c2:
-            st.subheader("🛡️ Área Administrativa")
+            st.markdown("### 🛡️ Acesso Administrativo")
             with st.form("login_admin"):
                 pass_in = st.text_input("Senha Admin", type="password")
+                st.markdown("<br>", unsafe_allow_html=True)
                 if st.form_submit_button("Acessar Painel"):
                     login_admin(pass_in, data_cache)
 
@@ -142,12 +173,14 @@ def main():
         user = st.session_state.user
         
         col_info, col_btn = st.columns([4, 1])
-        col_info.info(f"👤 **{user['parent']}** | Aluno: {user['student']} ({user['grade']} - Turma {user['class_name']})")
-        if col_btn.button("Sair"):
-            logout()
+        with col_info:
+            st.info(f"Olá, **{user['parent']}**! Você está visualizando livros para: **{user['student']}** ({user['grade']} - Turma {user['class_name']})")
+        with col_btn:
+            if st.button("Sair / Logout"):
+                logout()
 
         st.divider()
-        st.subheader(f"📖 Livros Disponíveis para {user['grade']} {user['class_name']}")
+        st.subheader(f"📖 Livros Disponíveis")
 
         data, sha = db.get_data()
 
@@ -168,12 +201,12 @@ def main():
                 with st.container(border=True):
                     c_txt, c_act = st.columns([3, 1])
                     with c_txt:
-                        st.markdown(f"### {book['title']}")
-                        st.caption(f"Cód: {book['id']} | Destinado a: {book['grade']} {book.get('class_name', '-')}")
+                        st.markdown(f"#### {book['title']}")
+                        st.caption(f"Cód: {book['id']}")
                     
                     with c_act:
                         st.write("") 
-                        if st.button(f"RESERVAR", key=f"btn_{book['id']}", type="primary"):
+                        if st.button(f"RESERVAR AGORA", key=f"btn_{book['id']}", type="primary"):
                             book_index = next((i for i, b in enumerate(data['books']) if b['id'] == book['id']), -1)
                             
                             if book_index != -1 and data['books'][book_index]['available']:
@@ -197,19 +230,20 @@ def main():
 
                                 with st.spinner("Confirmando reserva..."):
                                     if db.update_data(data, sha, f"Reserva: {book['title']}"):
-                                        st.success("✅ Reserva confirmada!")
+                                        st.balloons()
+                                        st.success("✅ Reserva confirmada com sucesso!")
                                         time.sleep(2)
                                         st.rerun()
                                     else:
                                         st.error("Erro ao salvar.")
                             else:
-                                st.error("Livro já reservado.")
+                                st.error("Este livro acabou de ser reservado por outra pessoa.")
                                 time.sleep(2)
                                 st.rerun()
 
     # 3. PAINEL ADMIN
     elif st.session_state.user['type'] == 'admin':
-        st.success("🔒 Painel de Gestão")
+        st.success("🔒 Painel de Gestão - Villa Criar")
         c_logout, c_config = st.columns([1, 5])
         if c_logout.button("Sair"):
             logout()
@@ -217,8 +251,8 @@ def main():
         data, sha = db.get_data()
         
         tab1, tab2, tab3, tab4, tab5 = st.tabs([
-            "➕ Cadastrar", 
-            "📋 Reservas", 
+            "➕ Cadastrar Livros", 
+            "📋 Reservas Realizadas", 
             "📄 Listas por Turma", 
             "📊 Estoque / Editar",
             "⚙️ Configurações"
@@ -232,7 +266,8 @@ def main():
                 grade_sel = c_grade.selectbox("Série Destino", SERIES_DISPONIVEIS)
                 class_sel = c_class.selectbox("Turma Destino", TURMAS_DISPONIVEIS)
 
-                if st.form_submit_button("Salvar no Sistema"):
+                st.markdown("<br>", unsafe_allow_html=True)
+                if st.form_submit_button("Salvar no Sistema", type="primary"):
                     if title:
                         new_id = int(time.time())
                         new_book = {
@@ -248,7 +283,7 @@ def main():
                         data['books'].append(new_book)
                         
                         if db.update_data(data, sha, f"Admin add: {title}"):
-                            st.success(f"Cadastrado: {title}")
+                            st.success(f"Cadastrado com sucesso: {title}")
                             time.sleep(1)
                             st.rerun()
                     else:
@@ -258,7 +293,7 @@ def main():
             st.markdown("### Gerenciar Reservas")
             reservations = data.get('reservations', [])
             if not reservations:
-                st.info("Sem reservas.")
+                st.info("Nenhuma reserva ativa no momento.")
             else:
                 for res in reservations:
                     res_id = res.get('reservation_id')
@@ -268,7 +303,7 @@ def main():
                         c_det.write(f"**Resp:** {res.get('parent_name')}")
                         c_det.write(f"**Turma:** {res.get('grade')} - {res.get('class_name', 'Indefinida')}")
                         
-                        if c_canc.button("Cancelar", key=f"del_{res_id}"):
+                        if c_canc.button("Cancelar Reserva", key=f"del_{res_id}"):
                             for book in data['books']:
                                 match = False
                                 if 'book_id' in res and book['id'] == res['book_id']:
@@ -284,17 +319,18 @@ def main():
                             
                             data['reservations'] = [r for r in data['reservations'] if r.get('reservation_id') != res_id]
                             if db.update_data(data, sha, "Cancelamento Admin"):
-                                st.success("Cancelado!")
+                                st.success("Reserva cancelada!")
                                 time.sleep(1)
                                 st.rerun()
 
         with tab3:
             st.markdown("### Lista de Entrega")
             c_rep1, c_rep2 = st.columns(2)
-            sel_grade = c_rep1.selectbox("Série", SERIES_DISPONIVEIS, key="rep_grade")
-            sel_class = c_rep2.selectbox("Turma", TURMAS_DISPONIVEIS, key="rep_class")
+            sel_grade = c_rep1.selectbox("Selecione a Série", SERIES_DISPONIVEIS, key="rep_grade")
+            sel_class = c_rep2.selectbox("Selecione a Turma", TURMAS_DISPONIVEIS, key="rep_class")
             
-            if st.button("Gerar Lista"):
+            st.markdown("<br>", unsafe_allow_html=True)
+            if st.button("Gerar Lista de Conferência", type="primary"):
                 filtered = [
                     r for r in data.get('reservations', []) 
                     if r.get('grade') == sel_grade and r.get('class_name') == sel_class
@@ -311,9 +347,8 @@ def main():
                     existing = [c for c in cols_map.keys() if c in df.columns]
                     st.dataframe(df[existing].rename(columns=cols_map), hide_index=True, use_container_width=True)
                 else:
-                    st.warning("Nenhum registro para esta turma.")
+                    st.warning("Nenhum registro encontrado para esta turma.")
 
-        # --- NOVA ABA DE ESTOQUE/EDIÇÃO ---
         with tab4:
             st.markdown("### Gerenciar Estoque")
             books = data.get('books', [])
@@ -321,57 +356,44 @@ def main():
             if not books:
                 st.info("Nenhum livro cadastrado.")
             else:
-                # Ordena para visualização (Série -> Turma)
                 books_sorted = sorted(books, key=lambda x: (x.get('grade', ''), x.get('class_name', '')))
-                
-                st.caption(f"Total de livros: {len(books_sorted)}")
+                st.caption(f"Total de livros cadastrados: {len(books_sorted)}")
 
                 for book in books_sorted:
-                    # Ícone de status
                     status_icon = "🟢" if book['available'] else "🔴"
                     status_text = "Disponível" if book['available'] else f"Reservado por {book.get('reserved_by')}"
                     
-                    # Criação do Cartão Expansível
-                    label = f"{status_icon} {book['title']} | {book['grade']} - Turma {book.get('class_name', '-')}"
+                    label = f"{status_icon} {book['title']} | {book['grade']} {book.get('class_name', '-')}"
                     
                     with st.expander(label):
-                        # Formulário de Edição
                         with st.form(key=f"edit_form_{book['id']}"):
                             st.write(f"**Status:** {status_text}")
                             
                             c_edit1, c_edit2, c_edit3 = st.columns([3, 1, 1])
                             new_title = c_edit1.text_input("Título", value=book['title'])
                             
-                            # Índices seguros para os selectbox
                             idx_grade = SERIES_DISPONIVEIS.index(book['grade']) if book['grade'] in SERIES_DISPONIVEIS else 0
                             idx_class = TURMAS_DISPONIVEIS.index(book.get('class_name', 'A')) if book.get('class_name') in TURMAS_DISPONIVEIS else 0
                             
                             new_grade = c_edit2.selectbox("Série", SERIES_DISPONIVEIS, index=idx_grade)
                             new_class = c_edit3.selectbox("Turma", TURMAS_DISPONIVEIS, index=idx_class)
                             
-                            col_save, col_del = st.columns([1, 1])
-                            
-                            # Botão Salvar (Atualizar)
-                            if col_save.form_submit_button("💾 Salvar Alterações"):
-                                # Atualiza o objeto na lista
+                            if st.form_submit_button("💾 Salvar Alterações"):
                                 book['title'] = new_title
                                 book['grade'] = new_grade
                                 book['class_name'] = new_class
-                                
                                 if db.update_data(data, sha, f"Edit: {book['id']}"):
                                     st.success("Livro atualizado!")
                                     time.sleep(1)
                                     st.rerun()
 
-                        # Botão Excluir (Fora do form para segurança visual)
-                        if st.button("🗑️ Excluir este livro", key=f"del_btn_{book['id']}", type="secondary"):
+                        if st.button("🗑️ Excluir este livro", key=f"del_btn_{book['id']}"):
                             if not book['available']:
-                                st.error("❌ Não é possível excluir um livro reservado. Cancele a reserva primeiro.")
+                                st.error("❌ Não é possível excluir um livro reservado.")
                             else:
-                                # Filtra a lista removendo este ID
                                 data['books'] = [b for b in data['books'] if b['id'] != book['id']]
                                 if db.update_data(data, sha, f"Deleted: {book['id']}"):
-                                    st.success("Livro excluído com sucesso.")
+                                    st.success("Livro excluído.")
                                     time.sleep(1)
                                     st.rerun()
 
@@ -380,7 +402,7 @@ def main():
             with st.form("change_pass"):
                 p1 = st.text_input("Nova Senha", type="password")
                 p2 = st.text_input("Confirmar", type="password")
-                if st.form_submit_button("Alterar"):
+                if st.form_submit_button("Alterar Senha"):
                     if p1 == p2 and len(p1) > 3:
                         data["admin_config"]["password"] = p1
                         if db.update_data(data, sha, "Senha alterada"):
