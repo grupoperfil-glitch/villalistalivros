@@ -16,15 +16,14 @@ st.set_page_config(
 SERIES_DISPONIVEIS = ["1º Ano", "2º Ano", "3º Ano", "4º Ano"]
 TURMAS_DISPONIVEIS = ["A", "B", "D"]
 
-# --- CLASSE DE CONEXÃO COM GITHUB (VERSÃO BLINDADA 2.0) ---
+# --- CLASSE DE CONEXÃO COM GITHUB (LÓGICA ORIGINAL RESTAURADA) ---
 class GitHubConnection:
     def __init__(self):
         try:
             self.token = st.secrets["GH_TOKEN"]
             self.repo_name = st.secrets["GH_REPO"]
-            self.file_path = st.secrets["GH_PATH"].strip("/") 
+            self.file_path = st.secrets["GH_PATH"] # Voltamos ao original sem .strip()
             self.branch = st.secrets["GH_BRANCH"]
-            
             self.g = Github(self.token)
             self.repo = self.g.get_repo(self.repo_name)
         except Exception as e:
@@ -32,67 +31,51 @@ class GitHubConnection:
             st.stop()
 
     def get_data(self):
-        """Lê os dados e corrige automaticamente registros antigos (migration)"""
+        file_sha = None # Variável para guardar o SHA mesmo se o JSON falhar
         try:
             contents = self.repo.get_contents(self.file_path, ref=self.branch)
-            json_data = json.loads(contents.decoded_content.decode("utf-8"))
+            file_sha = contents.sha # Captura o SHA imediatamente (CRUCIAL)
             
-            # --- AUTO-CORREÇÃO DE DADOS (MIGRATION) ---
+            # Tenta ler o JSON
+            if contents.decoded_content:
+                json_data = json.loads(contents.decoded_content.decode("utf-8"))
+            else:
+                # Se o arquivo existir mas estiver vazio (0 bytes)
+                json_data = {"books": [], "reservations": [], "admin_config": {"password": "villa123"}}
+
+            # --- AUTO-CORREÇÃO (MIGRATION) ---
             if "reservations" in json_data:
                 for i, res in enumerate(json_data["reservations"]):
-                    # 1. Garante ID
                     if "reservation_id" not in res:
                         clean_name = str(res.get('student_name', 'aluno')).replace(" ", "")
                         res["reservation_id"] = f"legacy_{i}_{clean_name}"
-                    
-                    # 2. Garante Turma (Correção para o erro KeyError: class_name)
                     if "class_name" not in res:
-                        # Define uma turma padrão para reservas antigas para não quebrar o filtro
-                        res["class_name"] = "Indefinida" 
+                        res["class_name"] = "Indefinida"
 
             if "admin_config" not in json_data:
                 json_data["admin_config"] = {"password": "villa123"}
                 
-            return json_data, contents.sha
-        except Exception:
+            return json_data, file_sha
+
+        except Exception as e:
+            # Se cair aqui, é porque o arquivo não existe OU o JSON é inválido
+            # Retornamos o file_sha capturado acima. Se ele for válido, atualizamos o arquivo.
+            # Se for None, criamos um novo.
             return {
                 "admin_config": {"password": "villa123"},
                 "books": [], 
                 "reservations": []
-            }, None
+            }, file_sha
 
     def update_data(self, new_data, sha, commit_message="Update via Streamlit"):
         try:
             json_content = json.dumps(new_data, indent=2, ensure_ascii=False)
-            
             if sha:
-                try:
-                    self.repo.update_file(
-                        path=self.file_path,
-                        message=commit_message,
-                        content=json_content,
-                        sha=sha,
-                        branch=self.branch
-                    )
-                    return True
-                except GithubException as e:
-                    if e.status == 422:
-                        self.repo.create_file(
-                            path=self.file_path,
-                            message=commit_message,
-                            content=json_content,
-                            branch=self.branch
-                        )
-                        return True
-                    else:
-                        raise e
+                # Se temos SHA, ATUALIZAMOS (Mesmo que o JSON anterior fosse inválido)
+                self.repo.update_file(self.file_path, commit_message, json_content, sha, branch=self.branch)
             else:
-                self.repo.create_file(
-                    path=self.file_path,
-                    message=commit_message,
-                    content=json_content,
-                    branch=self.branch
-                )
+                # Só CRIAMOS se realmente não tiver SHA (arquivo não existe)
+                self.repo.create_file(self.file_path, commit_message, json_content, branch=self.branch)
             return True
         except GithubException as e:
             st.error(f"❌ Erro ao salvar no GitHub: {e}")
@@ -130,7 +113,7 @@ def logout():
 # --- INTERFACE PRINCIPAL ---
 def main():
     db = GitHubConnection()
-    data_cache, sha_cache = db.get_data() # Aqui a autocorreção acontece
+    data_cache, sha_cache = db.get_data()
 
     st.markdown("""
     <div style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white; text-align: center; margin-bottom: 25px;'>
@@ -175,6 +158,7 @@ def main():
 
         data, sha = db.get_data()
 
+        # Filtro: Série E Turma
         books_for_grade = [
             b for b in data.get('books', []) 
             if b['grade'] == user['grade'] and b.get('class_name') == user['class_name']
@@ -200,10 +184,12 @@ def main():
                             book_index = next((i for i, b in enumerate(data['books']) if b['id'] == book['id']), -1)
                             
                             if book_index != -1 and data['books'][book_index]['available']:
+                                # Atualiza Livro
                                 data['books'][book_index]['available'] = False
                                 data['books'][book_index]['reserved_by'] = user['parent']
                                 data['books'][book_index]['reserved_student'] = user['student']
                                 
+                                # Cria Reserva com ID
                                 new_reservation = {
                                     "reservation_id": int(time.time()),
                                     "book_id": book['id'],
@@ -316,7 +302,6 @@ def main():
             sel_class = c_rep2.selectbox("Turma", TURMAS_DISPONIVEIS, key="rep_class")
             
             if st.button("Gerar Lista"):
-                # AQUI estava o erro KeyError. Agora usamos .get() para proteger
                 filtered = [
                     r for r in data.get('reservations', []) 
                     if r.get('grade') == sel_grade and r.get('class_name') == sel_class
