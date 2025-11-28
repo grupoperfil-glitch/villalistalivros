@@ -2,16 +2,6 @@
   "admin_config": {
     "password": "villa123"
   },
-  "books": [
-    {
-      "id": 1764288354,
-      "title": "teste livro ",
-      "grade": "1º Ano",
-      "class_name": "A",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
-    }
-  ],
+  "books": [],
   "reservations": []
 }
