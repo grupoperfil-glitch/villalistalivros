@@ -16,13 +16,13 @@ st.set_page_config(
 SERIES_DISPONIVEIS = ["1º Ano", "2º Ano", "3º Ano", "4º Ano"]
 TURMAS_DISPONIVEIS = ["A", "B", "D"]
 
-# --- CLASSE DE CONEXÃO COM GITHUB (LÓGICA ORIGINAL RESTAURADA) ---
+# --- CLASSE DE CONEXÃO COM GITHUB ---
 class GitHubConnection:
     def __init__(self):
         try:
             self.token = st.secrets["GH_TOKEN"]
             self.repo_name = st.secrets["GH_REPO"]
-            self.file_path = st.secrets["GH_PATH"] # Voltamos ao original sem .strip()
+            self.file_path = st.secrets["GH_PATH"]
             self.branch = st.secrets["GH_BRANCH"]
             self.g = Github(self.token)
             self.repo = self.g.get_repo(self.repo_name)
@@ -31,16 +31,14 @@ class GitHubConnection:
             st.stop()
 
     def get_data(self):
-        file_sha = None # Variável para guardar o SHA mesmo se o JSON falhar
+        file_sha = None
         try:
             contents = self.repo.get_contents(self.file_path, ref=self.branch)
-            file_sha = contents.sha # Captura o SHA imediatamente (CRUCIAL)
+            file_sha = contents.sha
             
-            # Tenta ler o JSON
             if contents.decoded_content:
                 json_data = json.loads(contents.decoded_content.decode("utf-8"))
             else:
-                # Se o arquivo existir mas estiver vazio (0 bytes)
                 json_data = {"books": [], "reservations": [], "admin_config": {"password": "villa123"}}
 
             # --- AUTO-CORREÇÃO (MIGRATION) ---
@@ -58,9 +56,6 @@ class GitHubConnection:
             return json_data, file_sha
 
         except Exception as e:
-            # Se cair aqui, é porque o arquivo não existe OU o JSON é inválido
-            # Retornamos o file_sha capturado acima. Se ele for válido, atualizamos o arquivo.
-            # Se for None, criamos um novo.
             return {
                 "admin_config": {"password": "villa123"},
                 "books": [], 
@@ -71,10 +66,8 @@ class GitHubConnection:
         try:
             json_content = json.dumps(new_data, indent=2, ensure_ascii=False)
             if sha:
-                # Se temos SHA, ATUALIZAMOS (Mesmo que o JSON anterior fosse inválido)
                 self.repo.update_file(self.file_path, commit_message, json_content, sha, branch=self.branch)
             else:
-                # Só CRIAMOS se realmente não tiver SHA (arquivo não existe)
                 self.repo.create_file(self.file_path, commit_message, json_content, branch=self.branch)
             return True
         except GithubException as e:
@@ -227,7 +220,7 @@ def main():
             "➕ Cadastrar", 
             "📋 Reservas", 
             "📄 Listas por Turma", 
-            "📊 Estoque",
+            "📊 Estoque / Editar",
             "⚙️ Configurações"
         ])
 
@@ -320,25 +313,67 @@ def main():
                 else:
                     st.warning("Nenhum registro para esta turma.")
 
+        # --- NOVA ABA DE ESTOQUE/EDIÇÃO ---
         with tab4:
-            st.markdown("### Estoque")
+            st.markdown("### Gerenciar Estoque")
             books = data.get('books', [])
-            if books:
-                df = pd.DataFrame(books)
-                if 'class_name' not in df.columns: df['class_name'] = '-'
+            
+            if not books:
+                st.info("Nenhum livro cadastrado.")
+            else:
+                # Ordena para visualização (Série -> Turma)
+                books_sorted = sorted(books, key=lambda x: (x.get('grade', ''), x.get('class_name', '')))
                 
-                st.dataframe(
-                    df[['grade', 'class_name', 'title', 'available', 'reserved_by']],
-                    column_config={
-                        "grade": "Série",
-                        "class_name": "Turma",
-                        "title": "Título",
-                        "available": st.column_config.CheckboxColumn("Disp.", disabled=True),
-                        "reserved_by": "Reservado Por"
-                    },
-                    hide_index=True,
-                    use_container_width=True
-                )
+                st.caption(f"Total de livros: {len(books_sorted)}")
+
+                for book in books_sorted:
+                    # Ícone de status
+                    status_icon = "🟢" if book['available'] else "🔴"
+                    status_text = "Disponível" if book['available'] else f"Reservado por {book.get('reserved_by')}"
+                    
+                    # Criação do Cartão Expansível
+                    label = f"{status_icon} {book['title']} | {book['grade']} - Turma {book.get('class_name', '-')}"
+                    
+                    with st.expander(label):
+                        # Formulário de Edição
+                        with st.form(key=f"edit_form_{book['id']}"):
+                            st.write(f"**Status:** {status_text}")
+                            
+                            c_edit1, c_edit2, c_edit3 = st.columns([3, 1, 1])
+                            new_title = c_edit1.text_input("Título", value=book['title'])
+                            
+                            # Índices seguros para os selectbox
+                            idx_grade = SERIES_DISPONIVEIS.index(book['grade']) if book['grade'] in SERIES_DISPONIVEIS else 0
+                            idx_class = TURMAS_DISPONIVEIS.index(book.get('class_name', 'A')) if book.get('class_name') in TURMAS_DISPONIVEIS else 0
+                            
+                            new_grade = c_edit2.selectbox("Série", SERIES_DISPONIVEIS, index=idx_grade)
+                            new_class = c_edit3.selectbox("Turma", TURMAS_DISPONIVEIS, index=idx_class)
+                            
+                            col_save, col_del = st.columns([1, 1])
+                            
+                            # Botão Salvar (Atualizar)
+                            if col_save.form_submit_button("💾 Salvar Alterações"):
+                                # Atualiza o objeto na lista
+                                book['title'] = new_title
+                                book['grade'] = new_grade
+                                book['class_name'] = new_class
+                                
+                                if db.update_data(data, sha, f"Edit: {book['id']}"):
+                                    st.success("Livro atualizado!")
+                                    time.sleep(1)
+                                    st.rerun()
+
+                        # Botão Excluir (Fora do form para segurança visual)
+                        if st.button("🗑️ Excluir este livro", key=f"del_btn_{book['id']}", type="secondary"):
+                            if not book['available']:
+                                st.error("❌ Não é possível excluir um livro reservado. Cancele a reserva primeiro.")
+                            else:
+                                # Filtra a lista removendo este ID
+                                data['books'] = [b for b in data['books'] if b['id'] != book['id']]
+                                if db.update_data(data, sha, f"Deleted: {book['id']}"):
+                                    st.success("Livro excluído com sucesso.")
+                                    time.sleep(1)
+                                    st.rerun()
 
         with tab5:
             st.markdown("### Senha Admin")
