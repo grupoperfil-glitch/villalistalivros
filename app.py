@@ -254,7 +254,7 @@ def main():
             "➕ Cadastrar Livros", 
             "📋 Reservas Realizadas", 
             "📄 Listas por Turma", 
-            "📊 Estoque / Editar",
+            "📊 Estoque", # Nome da Aba alterado aqui
             "⚙️ Configurações"
         ])
 
@@ -349,53 +349,87 @@ def main():
                 else:
                     st.warning("Nenhum registro encontrado para esta turma.")
 
+        # --- ABA ESTOQUE COM FILTROS (ALTERAÇÃO SOLICITADA) ---
         with tab4:
             st.markdown("### Gerenciar Estoque")
-            books = data.get('books', [])
             
-            if not books:
-                st.info("Nenhum livro cadastrado.")
+            # --- ÁREA DE FILTROS ---
+            col_filter1, col_filter2 = st.columns(2)
+            
+            # Cria listas com a opção "Todas" no início
+            options_grade = ["Todas"] + SERIES_DISPONIVEIS
+            options_class = ["Todas"] + TURMAS_DISPONIVEIS
+            
+            filter_grade = col_filter1.selectbox("Filtrar por Série", options_grade)
+            filter_class = col_filter2.selectbox("Filtrar por Turma", options_class)
+            
+            st.divider()
+
+            # Pega todos os livros
+            all_books = data.get('books', [])
+            
+            # Aplica lógica de filtragem
+            filtered_books = []
+            if not all_books:
+                st.info("Nenhum livro cadastrado no sistema.")
             else:
-                books_sorted = sorted(books, key=lambda x: (x.get('grade', ''), x.get('class_name', '')))
-                st.caption(f"Total de livros cadastrados: {len(books_sorted)}")
-
-                for book in books_sorted:
-                    status_icon = "🟢" if book['available'] else "🔴"
-                    status_text = "Disponível" if book['available'] else f"Reservado por {book.get('reserved_by')}"
+                for book in all_books:
+                    # Checa Série
+                    match_grade = (filter_grade == "Todas") or (book.get('grade') == filter_grade)
                     
-                    label = f"{status_icon} {book['title']} | {book['grade']} {book.get('class_name', '-')}"
+                    # Checa Turma
+                    # Trata o caso de turma ser None ou chave inexistente
+                    book_class = book.get('class_name', 'Indefinida')
+                    match_class = (filter_class == "Todas") or (book_class == filter_class)
                     
-                    with st.expander(label):
-                        with st.form(key=f"edit_form_{book['id']}"):
-                            st.write(f"**Status:** {status_text}")
-                            
-                            c_edit1, c_edit2, c_edit3 = st.columns([3, 1, 1])
-                            new_title = c_edit1.text_input("Título", value=book['title'])
-                            
-                            idx_grade = SERIES_DISPONIVEIS.index(book['grade']) if book['grade'] in SERIES_DISPONIVEIS else 0
-                            idx_class = TURMAS_DISPONIVEIS.index(book.get('class_name', 'A')) if book.get('class_name') in TURMAS_DISPONIVEIS else 0
-                            
-                            new_grade = c_edit2.selectbox("Série", SERIES_DISPONIVEIS, index=idx_grade)
-                            new_class = c_edit3.selectbox("Turma", TURMAS_DISPONIVEIS, index=idx_class)
-                            
-                            if st.form_submit_button("💾 Salvar Alterações"):
-                                book['title'] = new_title
-                                book['grade'] = new_grade
-                                book['class_name'] = new_class
-                                if db.update_data(data, sha, f"Edit: {book['id']}"):
-                                    st.success("Livro atualizado!")
-                                    time.sleep(1)
-                                    st.rerun()
+                    if match_grade and match_class:
+                        filtered_books.append(book)
+                
+                # Ordenação
+                filtered_books.sort(key=lambda x: (x.get('grade', ''), x.get('class_name', '')))
+                
+                st.caption(f"Exibindo {len(filtered_books)} livros (Filtros: Série={filter_grade}, Turma={filter_class})")
 
-                        if st.button("🗑️ Excluir este livro", key=f"del_btn_{book['id']}"):
-                            if not book['available']:
-                                st.error("❌ Não é possível excluir um livro reservado.")
-                            else:
-                                data['books'] = [b for b in data['books'] if b['id'] != book['id']]
-                                if db.update_data(data, sha, f"Deleted: {book['id']}"):
-                                    st.success("Livro excluído.")
-                                    time.sleep(1)
-                                    st.rerun()
+                if not filtered_books:
+                    st.warning("Nenhum livro encontrado para os filtros selecionados.")
+                else:
+                    for book in filtered_books:
+                        status_icon = "🟢" if book['available'] else "🔴"
+                        status_text = "Disponível" if book['available'] else f"Reservado por {book.get('reserved_by')}"
+                        
+                        label = f"{status_icon} {book['title']} | {book['grade']} {book.get('class_name', '-')}"
+                        
+                        with st.expander(label):
+                            with st.form(key=f"edit_form_{book['id']}"):
+                                st.write(f"**Status:** {status_text}")
+                                
+                                c_edit1, c_edit2, c_edit3 = st.columns([3, 1, 1])
+                                new_title = c_edit1.text_input("Título", value=book['title'])
+                                
+                                idx_grade = SERIES_DISPONIVEIS.index(book['grade']) if book['grade'] in SERIES_DISPONIVEIS else 0
+                                idx_class = TURMAS_DISPONIVEIS.index(book.get('class_name', 'A')) if book.get('class_name') in TURMAS_DISPONIVEIS else 0
+                                
+                                new_grade = c_edit2.selectbox("Série", SERIES_DISPONIVEIS, index=idx_grade)
+                                new_class = c_edit3.selectbox("Turma", TURMAS_DISPONIVEIS, index=idx_class)
+                                
+                                if st.form_submit_button("💾 Salvar Alterações"):
+                                    book['title'] = new_title
+                                    book['grade'] = new_grade
+                                    book['class_name'] = new_class
+                                    if db.update_data(data, sha, f"Edit: {book['id']}"):
+                                        st.success("Livro atualizado!")
+                                        time.sleep(1)
+                                        st.rerun()
+
+                            if st.button("🗑️ Excluir este livro", key=f"del_btn_{book['id']}"):
+                                if not book['available']:
+                                    st.error("❌ Não é possível excluir um livro reservado.")
+                                else:
+                                    data['books'] = [b for b in data['books'] if b['id'] != book['id']]
+                                    if db.update_data(data, sha, f"Deleted: {book['id']}"):
+                                        st.success("Livro excluído.")
+                                        time.sleep(1)
+                                        st.rerun()
 
         with tab5:
             st.markdown("### Senha Admin")
