@@ -51,7 +51,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- CONSTANTES E REGRAS ---
-# Definição das Séries e suas Turmas permitidas
 REGRAS_TURMAS = {
     "Grupo 1": ["D"],
     "Grupo 2": ["A", "B", "D"],
@@ -68,7 +67,6 @@ SERIES_LISTA = list(REGRAS_TURMAS.keys())
 TURMAS_LISTA = ["A", "B", "D"]
 CATEGORIAS = ["Livro", "Jogo", "Brinquedo"]
 
-# Regras de Quantidade (Cotas)
 LIMITES_RESERVA = {
     "Infantil": {"Livro": 3, "Jogo": 1, "Brinquedo": 1},
     "Fundamental": {"Livro": 4, "Jogo": 1, "Brinquedo": 1}
@@ -104,16 +102,14 @@ class GitHubConnection:
             else:
                 json_data = {"books": [], "reservations": [], "admin_config": {"password": "villa123"}}
 
-            # --- MIGRATION (AUTO-CORREÇÃO) ---
+            # --- MIGRATION ---
             updated = False
-            # 1. Garante Categoria nos Itens
             if "books" in json_data:
                 for item in json_data["books"]:
                     if "category" not in item:
-                        item["category"] = "Livro" # Legado vira Livro
+                        item["category"] = "Livro"
                         updated = True
             
-            # 2. Garante Categoria nas Reservas
             if "reservations" in json_data:
                 for i, res in enumerate(json_data["reservations"]):
                     if "reservation_id" not in res:
@@ -122,7 +118,7 @@ class GitHubConnection:
                     if "class_name" not in res:
                         res["class_name"] = "Indefinida"
                     if "category" not in res:
-                        res["category"] = "Livro" # Assume livro para legados
+                        res["category"] = "Livro"
             
             if "admin_config" not in json_data:
                 json_data["admin_config"] = {"password": "villa123"}
@@ -152,10 +148,9 @@ class GitHubConnection:
 if 'user' not in st.session_state:
     st.session_state.user = None
 if 'page' not in st.session_state:
-    st.session_state.page = "login" # login, menu, books, toys
+    st.session_state.page = "login"
 
 def login_family(parent, student, grade, class_name):
-    # Validação de Turma para Grupo 1
     turmas_permitidas = REGRAS_TURMAS.get(grade, [])
     if class_name not in turmas_permitidas:
         st.error(f"A série {grade} não possui a Turma {class_name}. Turmas permitidas: {', '.join(turmas_permitidas)}")
@@ -298,16 +293,13 @@ def main():
         target_categories = ["Livro"] if is_book_mode else ["Jogo", "Brinquedo"]
         title_page = "Livros de Literatura" if is_book_mode else "Jogos e Brinquedos"
         
-        # Header com Voltar
         c_back, c_title, c_out = st.columns([1, 4, 1])
         if c_back.button("⬅️ Voltar ao Menu"): go_to_menu()
         c_title.markdown(f"<h2 style='text-align:center'>{title_page}</h2>", unsafe_allow_html=True)
         if c_out.button("Sair"): logout()
 
-        # Dados Frescos
         data, sha = db.get_data()
 
-        # Contagem de Cotas
         my_reservations = [r for r in data.get('reservations', []) if r['student_name'] == user['student'] and r['parent_name'] == user['parent']]
         
         counts = {"Livro": 0, "Jogo": 0, "Brinquedo": 0}
@@ -317,7 +309,6 @@ def main():
 
         limits = LIMITES_RESERVA[user['segment']]
         
-        # Barra de Progresso das Cotas
         st.write("---")
         cols_quota = st.columns(len(target_categories))
         for idx, cat in enumerate(target_categories):
@@ -329,10 +320,8 @@ def main():
 
         st.divider()
 
-        # Filtro de Itens Disponíveis
-        all_items = data.get('books', []) # Nota: chave no JSON continua 'books' para itens em geral
+        all_items = data.get('books', [])
         
-        # Filtra por Série, Turma e Categorias da Tela
         visible_items = [
             b for b in all_items 
             if b['grade'] == user['grade'] 
@@ -348,11 +337,8 @@ def main():
             else:
                 st.warning("⚠️ Todos os itens disponíveis já foram reservados.")
         else:
-            # Grid de exibição
             for item in available_items:
                 cat = item.get('category', 'Livro')
-                
-                # Checa se o usuário já atingiu o limite para ESTA categoria específica
                 can_reserve = counts[cat] < limits[cat]
                 
                 with st.container(border=True):
@@ -371,9 +357,7 @@ def main():
                             if st.button(f"RESERVAR", key=f"btn_{item['id']}", type="primary"):
                                 item_index = next((i for i, b in enumerate(data['books']) if b['id'] == item['id']), -1)
                                 
-                                # Verifica novamente atômico
                                 if item_index != -1 and data['books'][item_index]['available']:
-                                    # Atualiza
                                     data['books'][item_index]['available'] = False
                                     data['books'][item_index]['reserved_by'] = user['parent']
                                     data['books'][item_index]['reserved_student'] = user['student']
@@ -422,11 +406,11 @@ def main():
             "⚙️ Configurações"
         ])
 
-        # --- ABA 1: CADASTRO (COM LOTE) ---
+        # --- ABA 1: CADASTRO SIMPLIFICADO ---
         with tab1:
             st.markdown("### Cadastro de Itens")
             
-            mode = st.radio("Modo de Cadastro", ["Individual", "Em Lote (Vários)"], horizontal=True)
+            mode = st.radio("Modo de Cadastro", ["Individual", "Em Lote (Rápido)"], horizontal=True)
             
             if mode == "Individual":
                 with st.form("add_single"):
@@ -435,8 +419,8 @@ def main():
                     title = c_title.text_input("Nome do Item")
                     
                     c_grade, c_class = st.columns(2)
-                    grade_sel = c_grade.selectbox("Série", SERIES_LISTA)
-                    class_sel = c_class.selectbox("Turma", TURMAS_LISTA)
+                    grade_sel = c_grade.selectbox("Série Destino", SERIES_LISTA)
+                    class_sel = c_class.selectbox("Turma Destino", TURMAS_LISTA)
                     
                     if st.form_submit_button("Salvar Item"):
                         new_id = int(time.time())
@@ -457,37 +441,37 @@ def main():
                             time.sleep(1)
                             st.rerun()
 
-            else: # Modo Lote
-                st.info("Formato: Nome do Item; Série; Turma (Um por linha). A categoria selecionada abaixo será aplicada a todos.")
-                cat_batch = st.selectbox("Categoria para o Lote", CATEGORIAS)
-                batch_text = st.text_area("Cole aqui a lista (Ex: Banco Imobiliário; Grupo 5; A)")
+            else: # Modo Lote Simplificado
+                st.markdown("#### Configuração do Lote")
+                c_b1, c_b2, c_b3 = st.columns(3)
+                batch_cat = c_b1.selectbox("Categoria para TODOS os itens", CATEGORIAS)
+                batch_grade = c_b2.selectbox("Série para TODOS os itens", SERIES_LISTA)
+                batch_class = c_b3.selectbox("Turma para TODOS os itens", TURMAS_LISTA)
                 
-                if st.button("Processar Lote"):
+                st.info(f"Cole abaixo a lista de nomes (um por linha). Todos serão cadastrados como: **{batch_cat} - {batch_grade} - Turma {batch_class}**")
+                
+                batch_text = st.text_area("Lista de Nomes (Cole do Excel/Bloco de Notas)")
+                
+                if st.button("Processar Lote Agora"):
                     lines = batch_text.strip().split('\n')
                     added_count = 0
                     if 'books' not in data: data['books'] = []
                     
                     for line in lines:
-                        parts = line.split(';')
-                        if len(parts) >= 3:
-                            t = parts[0].strip()
-                            g = parts[1].strip()
-                            c = parts[2].strip()
-                            
-                            # Validação básica
-                            if g in SERIES_LISTA and c in TURMAS_LISTA:
-                                new_item = {
-                                    "id": int(time.time()) + added_count, # Hack p/ IDs unicos no loop
-                                    "category": cat_batch,
-                                    "title": t,
-                                    "grade": g,
-                                    "class_name": c,
-                                    "available": True,
-                                    "reserved_by": None,
-                                    "reserved_student": None
-                                }
-                                data['books'].append(new_item)
-                                added_count += 1
+                        name_item = line.strip()
+                        if name_item: # Se não for linha vazia
+                            new_item = {
+                                "id": int(time.time()) + added_count, 
+                                "category": batch_cat,
+                                "title": name_item,
+                                "grade": batch_grade,
+                                "class_name": batch_class,
+                                "available": True,
+                                "reserved_by": None,
+                                "reserved_student": None
+                            }
+                            data['books'].append(new_item)
+                            added_count += 1
                     
                     if added_count > 0:
                         if db.update_data(data, sha, f"Batch add: {added_count} items"):
@@ -495,9 +479,9 @@ def main():
                             time.sleep(2)
                             st.rerun()
                     else:
-                        st.error("Nenhum item válido encontrado ou formato incorreto.")
+                        st.error("A lista estava vazia.")
 
-        # --- ABA 2: RESERVAS COM FILTROS ---
+        # --- ABA 2: RESERVAS ---
         with tab2:
             st.markdown("### Gerenciar Reservas")
             
@@ -508,7 +492,6 @@ def main():
             
             reservations = data.get('reservations', [])
             
-            # Aplica Filtros
             filtered_res = []
             for r in reservations:
                 match_cat = (f_cat == "Todas") or (r.get('category', 'Livro') == f_cat)
@@ -521,7 +504,7 @@ def main():
             st.caption(f"Mostrando {len(filtered_res)} reservas.")
 
             if not filtered_res:
-                st.info("Nenhuma reserva encontrada com estes filtros.")
+                st.info("Nenhuma reserva encontrada.")
             else:
                 for res in filtered_res:
                     res_id = res.get('reservation_id')
@@ -534,10 +517,8 @@ def main():
                         c_det.write(f"**Local:** {res.get('grade')} - Turma {res.get('class_name')}")
                         
                         if c_canc.button("Cancelar", key=f"del_{res_id}"):
-                            # Libera item
                             for item in data['books']:
                                 match = False
-                                # Tenta pelo ID (novo) ou Título (legado)
                                 if 'book_id' in res and item['id'] == res['book_id']: match = True
                                 elif item['title'] == res['book_title'] and item['reserved_by'] == res['parent_name']: match = True
                                 
@@ -602,7 +583,7 @@ def main():
             
             for item in filtered_items:
                 status_icon = "🟢" if item['available'] else "🔴"
-                cat_icon = "📚" if item.get('category') == "Livro" else "🎲"
+                cat_icon = "📚" if item.get('category') == "Livro" else "🎲" if item.get('category') == "Jogo" else "🧸"
                 
                 label = f"{status_icon} {cat_icon} {item['title']} | {item['grade']} {item.get('class_name', '-')}"
                 
@@ -613,7 +594,6 @@ def main():
                         new_title = c_e2.text_input("Título", value=item['title'])
                         
                         c_e3, c_e4 = st.columns(2)
-                        # Index safe finding
                         curr_g = item['grade'] if item['grade'] in SERIES_LISTA else SERIES_LISTA[0]
                         curr_c = item.get('class_name', 'A') if item.get('class_name') in TURMAS_LISTA else 'A'
                         
