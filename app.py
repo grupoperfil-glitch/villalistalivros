@@ -151,12 +151,9 @@ class GitHubConnection:
 
 # --- FUNÇÃO AUXILIAR DE CANCELAMENTO ---
 def process_cancellation(db, data, sha, item_id, user_parent_name, reservation_id=None):
-    """Lógica centralizada para cancelar reserva e liberar item"""
-    # 1. Liberar o Item no Estoque
     item_found = False
     for item in data['books']:
         if item['id'] == item_id:
-            # Segurança extra: verifica se é o dono ou se é admin (admin passa user_parent_name=None ou ignora)
             if item['reserved_by'] == user_parent_name or user_parent_name == "ADMIN_OVERRIDE":
                 item['available'] = True
                 item['reserved_by'] = None
@@ -164,15 +161,11 @@ def process_cancellation(db, data, sha, item_id, user_parent_name, reservation_i
                 item_found = True
             break
     
-    # 2. Remover da lista de Reservas
-    # Se tivermos o ID da reserva, usamos ele (mais seguro). Se não, tentamos achar pelo item.
     if reservation_id:
         data['reservations'] = [r for r in data['reservations'] if r.get('reservation_id') != reservation_id]
     else:
-        # Fallback para caso não tenha ID da reserva passado
         data['reservations'] = [r for r in data['reservations'] if r.get('book_id') != item_id]
 
-    # 3. Salvar
     if item_found:
         return db.update_data(data, sha, f"Cancelamento: {item_id}")
     return False
@@ -299,17 +292,14 @@ def main():
                 st.session_state.page = "view_toys"
                 st.rerun()
         
-        # --- LISTAGEM COM OPÇÃO DE DESELECIONAR ---
         st.divider()
         st.markdown("#### 📋 Suas Reservas Atuais")
         
-        # Filtra reservas deste usuário
         my_res = [r for r in data_cache.get('reservations', []) if r['student_name'] == user['student'] and r['parent_name'] == user['parent']]
         
         if not my_res:
             st.caption("Nenhuma reserva realizada ainda.")
         else:
-            # Cabeçalho da Lista
             c_h1, c_h2, c_h3, c_h4 = st.columns([1, 4, 2, 1])
             c_h1.markdown("**Tipo**")
             c_h2.markdown("**Item**")
@@ -325,9 +315,8 @@ def main():
                 c2.write(res.get('book_title'))
                 c3.write(res.get('timestamp'))
                 
-                # Botão de Cancelar no Menu
                 if c4.button("❌ Cancelar", key=f"cancel_menu_{res.get('reservation_id')}"):
-                    data, sha = db.get_data() # Recarrega para garantir
+                    data, sha = db.get_data()
                     success = process_cancellation(
                         db, data, sha, 
                         item_id=res.get('book_id'), 
@@ -349,7 +338,6 @@ def main():
         user = st.session_state.user
         is_book_mode = (st.session_state.page == "view_books")
         
-        # Configuração do Modo
         target_categories = ["Livro"] if is_book_mode else ["Jogo", "Brinquedo"]
         title_page = "Livros de Literatura" if is_book_mode else "Jogos e Brinquedos"
         
@@ -382,32 +370,31 @@ def main():
 
         all_items = data.get('books', [])
         
+        # --- ALTERAÇÃO AQUI: FILTRO DE VISIBILIDADE ---
+        # Só mostra itens que:
+        # 1. Pertencem a série/turma/categoria
+        # 2. E (Estão Disponíveis OU São Minhas Reservas)
+        # Itens reservados por OUTROS não entram nesta lista.
         visible_items = [
             b for b in all_items 
             if b['grade'] == user['grade'] 
             and b.get('class_name') == user['class_name']
             and b.get('category', 'Livro') in target_categories
+            and (b['available'] or (b.get('reserved_by') == user['parent'] and b.get('reserved_student') == user['student']))
         ]
         
-        # Ordenar: Disponíveis primeiro
+        # Ordenação: Disponíveis primeiro
         visible_items.sort(key=lambda x: x['available'], reverse=True)
 
         if not visible_items:
-            st.warning(f"Não há itens cadastrados para {user['grade']} Turma {user['class_name']} nesta categoria.")
+            # Se a lista estiver vazia, significa que tudo foi reservado por outros
+            st.info(f"No momento, não há opções disponíveis para reserva nesta categoria.")
         else:
             for item in visible_items:
                 cat = item.get('category', 'Livro')
                 is_mine = (item.get('reserved_by') == user['parent'] and item.get('reserved_student') == user['student'])
                 
-                # Estado do Cartão:
-                # 1. É meu? -> Botão de Desfazer
-                # 2. Disponível e tenho cota? -> Botão Reservar
-                # 3. Disponível mas sem cota? -> Botão Bloqueado (Limite)
-                # 4. Indisponível (Outro) -> Botão Bloqueado (Reservado)
-                
-                box_border = True
-                
-                with st.container(border=box_border):
+                with st.container(border=True):
                     c_icon, c_txt, c_act = st.columns([0.5, 3, 1.5])
                     
                     icon = "📚" if cat == "Livro" else "🎲" if cat == "Jogo" else "🧸"
@@ -423,7 +410,6 @@ def main():
                         st.write("") 
                         
                         if is_mine:
-                            # BOTÃO DE DESFAZER (DESELEÇÃO)
                             if st.button("DESFAZER RESERVA", key=f"undo_{item['id']}", type="secondary"):
                                 success = process_cancellation(
                                     db, data, sha, item['id'], user['parent']
@@ -436,7 +422,6 @@ def main():
                                     st.error("Erro ao remover.")
                         
                         elif item['available']:
-                            # Verifica Cota
                             can_reserve = counts[cat] < limits[cat]
                             
                             if can_reserve:
@@ -473,9 +458,7 @@ def main():
                                         time.sleep(2)
                                         st.rerun()
                             else:
-                                st.button("Limite Atingido", key=f"full_{item['id']}", disabled=True)
-                        else:
-                            st.button(f"Esgotado", key=f"out_{item['id']}", disabled=True)
+                                st.button(f"Limite Atingido", key=f"full_{item['id']}", disabled=True)
 
     # ---------------------------------------------------------
     # TELA 4: ADMINISTRAÇÃO
@@ -494,7 +477,6 @@ def main():
             "⚙️ Configurações"
         ])
 
-        # --- ABA 1: CADASTRO ---
         with tab1:
             st.markdown("### Cadastro de Itens")
             mode = st.radio("Modo de Cadastro", ["Individual", "Em Lote (Rápido)"], horizontal=True)
@@ -504,22 +486,14 @@ def main():
                     c_cat, c_title = st.columns([1, 3])
                     cat = c_cat.selectbox("Categoria", CATEGORIAS)
                     title = c_title.text_input("Nome do Item")
-                    
                     c_grade, c_class = st.columns(2)
                     grade_sel = c_grade.selectbox("Série Destino", SERIES_LISTA)
                     class_sel = c_class.selectbox("Turma Destino", TURMAS_LISTA)
-                    
                     if st.form_submit_button("Salvar Item"):
                         new_id = int(time.time())
                         new_item = {
-                            "id": new_id,
-                            "category": cat,
-                            "title": title,
-                            "grade": grade_sel,
-                            "class_name": class_sel,
-                            "available": True,
-                            "reserved_by": None,
-                            "reserved_student": None
+                            "id": new_id, "category": cat, "title": title, "grade": grade_sel, "class_name": class_sel,
+                            "available": True, "reserved_by": None, "reserved_student": None
                         }
                         if 'books' not in data: data['books'] = []
                         data['books'].append(new_item)
@@ -534,10 +508,8 @@ def main():
                 batch_cat = c_b1.selectbox("Categoria", CATEGORIAS)
                 batch_grade = c_b2.selectbox("Série", SERIES_LISTA)
                 batch_class = c_b3.selectbox("Turma", TURMAS_LISTA)
-                
-                st.info(f"Cole abaixo a lista de nomes (um por linha). Cadastro será: **{batch_cat} - {batch_grade} - Turma {batch_class}**")
+                st.info(f"Cole abaixo a lista de nomes. Cadastro: **{batch_cat} - {batch_grade} - Turma {batch_class}**")
                 batch_text = st.text_area("Lista de Nomes")
-                
                 if st.button("Processar Lote Agora"):
                     lines = batch_text.strip().split('\n')
                     added_count = 0
@@ -546,14 +518,9 @@ def main():
                         name_item = line.strip()
                         if name_item:
                             new_item = {
-                                "id": int(time.time()) + added_count, 
-                                "category": batch_cat,
-                                "title": name_item,
-                                "grade": batch_grade,
-                                "class_name": batch_class,
-                                "available": True,
-                                "reserved_by": None,
-                                "reserved_student": None
+                                "id": int(time.time()) + added_count, "category": batch_cat, "title": name_item,
+                                "grade": batch_grade, "class_name": batch_class,
+                                "available": True, "reserved_by": None, "reserved_student": None
                             }
                             data['books'].append(new_item)
                             added_count += 1
@@ -563,7 +530,6 @@ def main():
                             time.sleep(2)
                             st.rerun()
 
-        # --- ABA 2: RESERVAS ---
         with tab2:
             st.markdown("### Gerenciar Reservas")
             c_f1, c_f2, c_f3 = st.columns(3)
@@ -572,13 +538,10 @@ def main():
             f_class = c_f3.selectbox("Filtro Turma", ["Todas"] + TURMAS_LISTA, key="f_res_class")
             
             reservations = data.get('reservations', [])
-            filtered_res = []
-            for r in reservations:
-                match_cat = (f_cat == "Todas") or (r.get('category', 'Livro') == f_cat)
-                match_grade = (f_grade == "Todas") or (r.get('grade') == f_grade)
-                match_class = (f_class == "Todas") or (r.get('class_name') == f_class)
-                if match_cat and match_grade and match_class:
-                    filtered_res.append(r)
+            filtered_res = [r for r in reservations if 
+                            ((f_cat == "Todas") or (r.get('category') == f_cat)) and
+                            ((f_grade == "Todas") or (r.get('grade') == f_grade)) and
+                            ((f_class == "Todas") or (r.get('class_name') == f_class))]
             
             st.caption(f"Mostrando {len(filtered_res)} reservas.")
             for res in filtered_res:
@@ -592,21 +555,14 @@ def main():
                         time.sleep(1)
                         st.rerun()
 
-        # --- ABA 3: RELATÓRIOS ---
         with tab3:
             st.markdown("### Lista de Conferência")
             c1, c2, c3 = st.columns(3)
             sel_cat = c1.selectbox("Categoria", ["Todas"] + CATEGORIAS, key="rep_cat")
             sel_grade = c2.selectbox("Série", SERIES_LISTA, key="rep_grade")
             sel_class = c3.selectbox("Turma", TURMAS_LISTA, key="rep_class")
-            
             if st.button("Gerar Lista"):
-                filtered = [
-                    r for r in data.get('reservations', []) 
-                    if r.get('grade') == sel_grade 
-                    and r.get('class_name') == sel_class
-                    and (sel_cat == "Todas" or r.get('category', 'Livro') == sel_cat)
-                ]
+                filtered = [r for r in data.get('reservations', []) if r.get('grade') == sel_grade and r.get('class_name') == sel_class and (sel_cat == "Todas" or r.get('category', 'Livro') == sel_cat)]
                 if filtered:
                     df = pd.DataFrame(filtered)
                     cols_map = {"category": "Tipo", "student_name": "Aluno", "parent_name": "Responsável", "book_title": "Item", "timestamp": "Data"}
@@ -615,7 +571,6 @@ def main():
                 else:
                     st.warning("Nenhum dado encontrado.")
 
-        # --- ABA 4: ESTOQUE ---
         with tab4:
             st.markdown("### Gerenciar Estoque")
             cf1, cf2, cf3 = st.columns(3)
@@ -624,21 +579,17 @@ def main():
             fg_class = cf3.selectbox("Turma", ["Todas"] + TURMAS_LISTA, key="est_class")
             
             all_items = data.get('books', [])
-            filtered_items = [
-                i for i in all_items 
-                if ((fg_cat == "Todas") or (i.get('category', 'Livro') == fg_cat)) and
-                   ((fg_grade == "Todas") or (i.get('grade') == fg_grade)) and
-                   ((fg_class == "Todas") or (i.get('class_name') == fg_class))
-            ]
-            
+            filtered_items = [i for i in all_items if 
+                              ((fg_cat == "Todas") or (i.get('category', 'Livro') == fg_cat)) and
+                              ((fg_grade == "Todas") or (i.get('grade') == fg_grade)) and
+                              ((fg_class == "Todas") or (i.get('class_name') == fg_class))]
             filtered_items.sort(key=lambda x: (x.get('grade',''), x.get('class_name',''), x.get('title','')))
-            st.caption(f"Itens encontrados: {len(filtered_items)}")
             
+            st.caption(f"Itens encontrados: {len(filtered_items)}")
             for item in filtered_items:
                 status_icon = "🟢" if item['available'] else "🔴"
                 cat_icon = "📚" if item.get('category') == "Livro" else "🎲"
                 label = f"{status_icon} {cat_icon} {item['title']} | {item['grade']} {item.get('class_name', '-')}"
-                
                 with st.expander(label):
                     with st.form(key=f"edit_{item['id']}"):
                         new_cat = st.selectbox("Categoria", CATEGORIAS, index=CATEGORIAS.index(item.get('category', 'Livro')))
@@ -660,7 +611,6 @@ def main():
                             time.sleep(1)
                             st.rerun()
 
-        # --- ABA 5: SENHA ---
         with tab5:
             st.markdown("### Alterar Senha Admin")
             with st.form("pass_chg"):
