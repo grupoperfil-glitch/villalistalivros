@@ -9,9 +9,9 @@
       "title": "er",
       "grade": "1º Ano",
       "class_name": "A",
-      "available": false,
-      "reserved_by": "bruno",
-      "reserved_student": "liz"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1764374420,
@@ -175,17 +175,6 @@
       "class_name": "A",
       "book_title": "wrwer",
       "timestamp": "2025-11-29 00:01:52"
-    },
-    {
-      "reservation_id": 1764374518,
-      "book_id": 1764374419,
-      "category": "Livro",
-      "parent_name": "bruno",
-      "student_name": "liz",
-      "grade": "1º Ano",
-      "class_name": "A",
-      "book_title": "er",
-      "timestamp": "2025-11-29 00:01:58"
     },
     {
       "reservation_id": 1764374530,
