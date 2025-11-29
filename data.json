@@ -2,6 +2,77 @@
   "admin_config": {
     "password": "villa123"
   },
-  "books": [],
+  "books": [
+    {
+      "id": 1764374419,
+      "category": "Livro",
+      "title": "er",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
+    },
+    {
+      "id": 1764374420,
+      "category": "Livro",
+      "title": "wrwer",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
+    },
+    {
+      "id": 1764374421,
+      "category": "Livro",
+      "title": "gdfgdfg",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
+    },
+    {
+      "id": 1764374422,
+      "category": "Livro",
+      "title": "hjghjghj",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
+    },
+    {
+      "id": 1764374423,
+      "category": "Livro",
+      "title": "hkukhuk",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
+    },
+    {
+      "id": 1764374424,
+      "category": "Livro",
+      "title": "sdfsdfsadf",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
+    },
+    {
+      "id": 1764374425,
+      "category": "Livro",
+      "title": "zsxcadfc",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
+    }
+  ],
   "reservations": []
 }
