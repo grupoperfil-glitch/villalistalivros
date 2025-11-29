@@ -109,9 +109,9 @@
       "title": "567",
       "grade": "1º Ano",
       "class_name": "A",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "bruno",
+      "reserved_student": "liz"
     },
     {
       "id": 1764374442,
@@ -208,6 +208,17 @@
       "class_name": "A",
       "book_title": "hjghjghj",
       "timestamp": "2025-11-29 00:02:10"
+    },
+    {
+      "reservation_id": 1764374565,
+      "book_id": 1764374441,
+      "category": "Jogo",
+      "parent_name": "bruno",
+      "student_name": "liz",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "book_title": "567",
+      "timestamp": "2025-11-29 00:02:45"
     }
   ]
 }
