@@ -109,9 +109,9 @@
       "title": "567",
       "grade": "1º Ano",
       "class_name": "A",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "liz",
+      "reserved_student": "bruno"
     },
     {
       "id": 1764374442,
@@ -230,6 +230,17 @@
       "class_name": "A",
       "book_title": "zsxcadfc",
       "timestamp": "2025-11-29 00:11:59"
+    },
+    {
+      "reservation_id": 1764375140,
+      "book_id": 1764374441,
+      "category": "Jogo",
+      "parent_name": "liz",
+      "student_name": "bruno",
+      "grade": "1º Ano",
+      "class_name": "A",
+      "book_title": "567",
+      "timestamp": "2025-11-29 00:12:20"
     }
   ]
 }
