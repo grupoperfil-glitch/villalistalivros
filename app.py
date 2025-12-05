@@ -27,7 +27,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- CONSTANTES E MAPEAMENTOS ---
-# Mapeamento do CSV da Escola
 MAP_CURSO_CSV = {
     1: "Grupo 1", 2: "Grupo 2", 3: "Grupo 3", 4: "Grupo 4", 5: "Grupo 5",
     91: "1º Ano", 92: "2º Ano", 93: "3º Ano", 94: "4º Ano"
@@ -37,12 +36,9 @@ MAP_TURNO_CSV = {
     "V": "Vespertino"
 }
 
-# Atualizando Turmas para refletir o CSV (Matutino/Vespertino) + Legado (A,B,D)
 TURMAS_LISTA = ["Matutino", "Vespertino", "A", "B", "D", "Integral"]
 SERIES_LISTA = ["Grupo 1", "Grupo 2", "Grupo 3", "Grupo 4", "Grupo 5", "1º Ano", "2º Ano", "3º Ano", "4º Ano"]
-
 CATEGORIAS = ["Livro", "Jogo", "Brinquedo"]
-
 LIMITES_RESERVA = {
     "Infantil": {"Livro": 3, "Jogo": 1, "Brinquedo": 1},
     "Fundamental": {"Livro": 4, "Jogo": 1, "Brinquedo": 1}
@@ -75,13 +71,11 @@ class GitHubConnection:
             else:
                 json_data = {}
 
-            # Inits
             if "books" not in json_data: json_data["books"] = []
             if "reservations" not in json_data: json_data["reservations"] = []
             if "students_db" not in json_data: json_data["students_db"] = []
             if "admin_config" not in json_data: json_data["admin_config"] = {"password": "villa123"}
 
-            # Migrations
             for item in json_data["books"]:
                 if "category" not in item: item["category"] = "Livro"
             for i, res in enumerate(json_data["reservations"]):
@@ -112,7 +106,6 @@ def process_cancellation(db, data, sha, item_id, user_parent, res_id=None):
             break
     if res_id: data['reservations'] = [r for r in data['reservations'] if r.get('reservation_id') != res_id]
     else: data['reservations'] = [r for r in data['reservations'] if r.get('book_id') != item_id]
-    
     if found: return db.update_data(data, sha, f"Cancel: {item_id}")
     return False
 
@@ -121,9 +114,7 @@ if 'user' not in st.session_state: st.session_state.user = None
 if 'page' not in st.session_state: st.session_state.page = "login"
 
 def login_email(student_obj, parent_name):
-    # Usa o nome do responsável que veio do CSV se o input estiver vazio, senão usa o input
     final_parent = parent_name if parent_name else student_obj.get('parent_csv', 'Responsável')
-    
     st.session_state.user = {
         'type': 'family', 'parent': final_parent, 
         'student': student_obj['name'], 'grade': student_obj['grade'],
@@ -169,11 +160,8 @@ def main():
                     st.success(f"{len(found)} aluno(s) encontrado(s).")
                     opts = {f"{s['name']} ({s['grade']} - {s['class_name']})": s for s in found}
                     sel = st.selectbox("Selecione o Aluno:", list(opts.keys()))
-                    
-                    # Recupera nome do responsável do CSV para sugerir
                     suggested_parent = opts[sel].get('parent_csv', '')
                     p_name = st.text_input("Nome do Responsável", value=suggested_parent)
-                    
                     if st.button("Entrar", type="primary"):
                         if p_name: login_email(opts[sel], p_name)
                         else: st.error("Confirme seu nome.")
@@ -239,7 +227,6 @@ def main():
 
         st.divider()
         items = data.get('books', [])
-        # Filtro de Visibilidade
         visible = [
             i for i in items 
             if i['grade'] == user['grade'] and i.get('class_name') == user['class_name']
@@ -294,13 +281,10 @@ def main():
 
         t0, t1, t2, t3, t4, t5 = st.tabs(["👥 Alunos (CSV)", "➕ Itens", "📋 Reservas", "📄 Listas", "📊 Estoque", "⚙️ Config"])
 
-        # ABA 0: ALUNOS (CSV UPLOAD + MANUAL)
         with t0:
             st.markdown("### 👥 Base de Alunos")
-            
             c_man, c_csv = st.columns(2)
             
-            # Cadastro Manual
             with c_man:
                 st.markdown("#### Cadastro Manual")
                 with st.form("manual_student"):
@@ -309,97 +293,80 @@ def main():
                     m_name = st.text_input("Nome Aluno")
                     m_grade = st.selectbox("Série", SERIES_LISTA)
                     m_class = st.selectbox("Turno/Turma", TURMAS_LISTA)
-                    
-                    if st.form_submit_button("Cadastrar Aluno"):
+                    if st.form_submit_button("Cadastrar"):
                         new_s = {"email": m_email, "name": m_name, "grade": m_grade, "class_name": m_class, "parent_csv": m_parent}
                         data['students_db'].append(new_s)
-                        if db.update_data(data, sha, f"Add student {m_name}"):
-                            st.success("Aluno cadastrado!"); st.rerun()
+                        if db.update_data(data, sha, f"Add {m_name}"): st.success("OK!"); st.rerun()
 
-            # Upload CSV
             with c_csv:
-                st.markdown("#### Importar CSV Oficial")
-                uploaded_file = st.file_uploader("Arquivo .csv (ListaAlunosMatriculados)", type="csv")
-                
-                if uploaded_file is not None:
-                    if st.button("Processar Arquivo"):
+                st.markdown("#### Importar CSV")
+                uploaded_file = st.file_uploader("Arquivo .csv", type="csv")
+                if uploaded_file and st.button("Processar"):
+                    try:
+                        # Tenta ler como UTF-8, se falhar tenta Latin-1 (comum no Brasil)
                         try:
-                            # Lê o CSV
-                            df = pd.read_csv(uploaded_file, sep=',') # Tenta vírgula padrão
-                            
-                            # Validação das colunas
-                            required_cols = ['Email', 'NomeAluno', 'Curso', 'CodTurno', 'NomeResponsavel']
-                            if not all(col in df.columns for col in required_cols):
-                                st.error(f"Colunas incorretas. Esperado: {required_cols}")
-                            else:
-                                current_db = data.get('students_db', [])
-                                added = 0
-                                existing_keys = {f"{s['email']}|{s['name']}".lower() for s in current_db}
+                            df = pd.read_csv(uploaded_file, sep=',')
+                        except UnicodeDecodeError:
+                            uploaded_file.seek(0)
+                            df = pd.read_csv(uploaded_file, sep=',', encoding='latin-1')
+                        
+                        # Limpeza do Cabeçalho (Remove # e espaços)
+                        df.columns = df.columns.str.replace('#', '').str.strip()
+                        
+                        required_cols = ['Email', 'NomeAluno', 'Curso', 'CodTurno', 'NomeResponsavel']
+                        if not all(col in df.columns for col in required_cols):
+                            st.error(f"Colunas esperadas: {required_cols}. Encontradas: {list(df.columns)}")
+                        else:
+                            current_db = data.get('students_db', [])
+                            added = 0
+                            existing_keys = {f"{s['email']}|{s['name']}".lower() for s in current_db}
 
-                                for _, row in df.iterrows():
-                                    # Mapeamento
-                                    raw_curso = row['Curso']
-                                    raw_turno = row['CodTurno']
-                                    
-                                    mapped_grade = MAP_CURSO_CSV.get(raw_curso, str(raw_curso))
-                                    mapped_class = MAP_TURNO_CSV.get(raw_turno, str(raw_turno))
-                                    
-                                    # Chave única
-                                    email = str(row['Email']).strip()
-                                    aluno = str(row['NomeAluno']).strip()
-                                    responsavel = str(row['NomeResponsavel']).strip()
-                                    
-                                    key = f"{email}|{aluno}".lower()
-                                    
-                                    if key not in existing_keys:
-                                        new_student = {
-                                            "email": email,
-                                            "name": aluno,
-                                            "grade": mapped_grade,
-                                            "class_name": mapped_class,
-                                            "parent_csv": responsavel
-                                        }
-                                        current_db.append(new_student)
-                                        added += 1
+                            for _, row in df.iterrows():
+                                raw_c = row['Curso']; raw_t = row['CodTurno']
+                                mg = MAP_CURSO_CSV.get(raw_c, str(raw_c))
+                                mc = MAP_TURNO_CSV.get(raw_t, str(raw_t))
                                 
-                                data['students_db'] = current_db
-                                if db.update_data(data, sha, f"Import CSV {added}"):
-                                    st.success(f"{added} novos alunos importados!")
-                                    time.sleep(2); st.rerun()
-                        except Exception as e:
-                            st.error(f"Erro ao ler arquivo: {e}")
+                                email = str(row['Email']).strip()
+                                aluno = str(row['NomeAluno']).strip()
+                                resp = str(row['NomeResponsavel']).strip()
+                                key = f"{email}|{aluno}".lower()
+                                
+                                if key not in existing_keys:
+                                    current_db.append({"email": email, "name": aluno, "grade": mg, "class_name": mc, "parent_csv": resp})
+                                    added += 1
+                            
+                            data['students_db'] = current_db
+                            if db.update_data(data, sha, f"CSV {added}"):
+                                st.success(f"{added} novos alunos!"); time.sleep(2); st.rerun()
+                    except Exception as e: st.error(f"Erro: {e}")
 
-            # Visualizar Base
             st.divider()
-            with st.expander(f"Ver Base de Alunos ({len(data.get('students_db', []))})"):
+            with st.expander(f"Ver Base ({len(data.get('students_db', []))})"):
                 st.dataframe(data.get('students_db', []))
 
-        # ABA 1: ITENS
+        # Resto das abas mantido igual
         with t1:
             st.markdown("### Cadastro Itens")
             mode = st.radio("Modo", ["Individual", "Lote"])
             if mode=="Individual":
                 with st.form("fi"):
-                    cat=st.selectbox("Cat", CATEGORIAS)
-                    tit=st.text_input("Nome")
+                    cat=st.selectbox("Cat", CATEGORIAS); tit=st.text_input("Nome")
                     sg=st.selectbox("Série", SERIES_LISTA); stt=st.selectbox("Turma", TURMAS_LISTA)
                     if st.form_submit_button("Salvar"):
                         data['books'].append({"id": int(time.time()), "category": cat, "title": tit, "grade": sg, "class_name": stt, "available": True, "reserved_by": None})
-                        db.update_data(data, sha, f"Add {tit}"); st.success("OK"); st.rerun()
+                        db.update_data(data, sha, "Add"); st.success("OK"); st.rerun()
             else:
                 c1,c2,c3 = st.columns(3)
-                bc=c1.selectbox("Cat Lote", CATEGORIAS); bg=c2.selectbox("Série Lote", SERIES_LISTA); bt=c3.selectbox("Turma Lote", TURMAS_LISTA)
+                bc=c1.selectbox("Cat", CATEGORIAS); bg=c2.selectbox("Série", SERIES_LISTA); bt=c3.selectbox("Turma", TURMAS_LISTA)
                 txt = st.text_area("Lista")
                 if st.button("Proc"):
-                    ls = txt.strip().split('\n')
-                    cnt=0
-                    for l in ls:
+                    lines = txt.strip().split('\n'); count = 0
+                    for l in lines:
                         if l.strip():
-                            data['books'].append({"id": int(time.time())+cnt, "category": bc, "title": l.strip(), "grade": bg, "class_name": bt, "available": True, "reserved_by": None})
-                            cnt+=1
-                    if cnt>0: db.update_data(data, sha, f"Batch {cnt}"); st.success(f"{cnt} add"); st.rerun()
+                            data['books'].append({"id": int(time.time())+count, "category": bc, "title": l.strip(), "grade": bg, "class_name": bt, "available": True, "reserved_by": None})
+                            count+=1
+                    if count>0: db.update_data(data, sha, "Batch"); st.success("OK"); st.rerun()
 
-        # OUTRAS ABAS (Resumidas)
         with t2:
             st.markdown("### Reservas")
             for r in data.get('reservations',[]):
