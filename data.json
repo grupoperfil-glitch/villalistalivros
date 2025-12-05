@@ -34,15 +34,6 @@
       "reserved_student": null
     },
     {
-      "id": 1764959478,
-      "category": "Livro",
-      "title": "654",
-      "grade": "Grupo 5",
-      "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
-    },
-    {
       "id": 1764959479,
       "category": "Livro",
       "title": "987",
