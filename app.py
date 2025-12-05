@@ -284,7 +284,6 @@ def main():
         with t0:
             st.markdown("### 👥 Base de Alunos")
             c_man, c_csv = st.columns(2)
-            
             with c_man:
                 st.markdown("#### Cadastro Manual")
                 with st.form("manual_student"):
@@ -303,48 +302,40 @@ def main():
                 uploaded_file = st.file_uploader("Arquivo .csv", type="csv")
                 if uploaded_file and st.button("Processar"):
                     try:
-                        # Tenta ler como UTF-8, se falhar tenta Latin-1 (comum no Brasil)
                         try:
                             df = pd.read_csv(uploaded_file, sep=',')
                         except UnicodeDecodeError:
                             uploaded_file.seek(0)
                             df = pd.read_csv(uploaded_file, sep=',', encoding='latin-1')
                         
-                        # Limpeza do Cabeçalho (Remove # e espaços)
                         df.columns = df.columns.str.replace('#', '').str.strip()
-                        
                         required_cols = ['Email', 'NomeAluno', 'Curso', 'CodTurno', 'NomeResponsavel']
                         if not all(col in df.columns for col in required_cols):
-                            st.error(f"Colunas esperadas: {required_cols}. Encontradas: {list(df.columns)}")
+                            st.error(f"Colunas incorretas. Esperado: {required_cols}")
                         else:
                             current_db = data.get('students_db', [])
                             added = 0
                             existing_keys = {f"{s['email']}|{s['name']}".lower() for s in current_db}
-
                             for _, row in df.iterrows():
                                 raw_c = row['Curso']; raw_t = row['CodTurno']
                                 mg = MAP_CURSO_CSV.get(raw_c, str(raw_c))
                                 mc = MAP_TURNO_CSV.get(raw_t, str(raw_t))
-                                
                                 email = str(row['Email']).strip()
                                 aluno = str(row['NomeAluno']).strip()
                                 resp = str(row['NomeResponsavel']).strip()
                                 key = f"{email}|{aluno}".lower()
-                                
                                 if key not in existing_keys:
                                     current_db.append({"email": email, "name": aluno, "grade": mg, "class_name": mc, "parent_csv": resp})
                                     added += 1
-                            
                             data['students_db'] = current_db
                             if db.update_data(data, sha, f"CSV {added}"):
                                 st.success(f"{added} novos alunos!"); time.sleep(2); st.rerun()
                     except Exception as e: st.error(f"Erro: {e}")
-
+            
             st.divider()
             with st.expander(f"Ver Base ({len(data.get('students_db', []))})"):
                 st.dataframe(data.get('students_db', []))
 
-        # Resto das abas mantido igual
         with t1:
             st.markdown("### Cadastro Itens")
             mode = st.radio("Modo", ["Individual", "Lote"])
@@ -367,21 +358,97 @@ def main():
                             count+=1
                     if count>0: db.update_data(data, sha, "Batch"); st.success("OK"); st.rerun()
 
+        # --- ABA 2: RESERVAS COM FILTROS ---
         with t2:
             st.markdown("### Reservas")
-            for r in data.get('reservations',[]):
-                with st.expander(f"{r.get('book_title')} -> {r.get('student_name')}"):
-                    if st.button("Del", key=f"ad_c_{r.get('reservation_id')}"):
-                        process_cancellation(db, data, sha, r.get('book_id'), "ADMIN_OVERRIDE", r.get('reservation_id'))
-                        st.rerun()
-        
-        with t3:
-            st.markdown("### Listas")
-            if st.button("Gerar Geral"): st.dataframe(pd.DataFrame(data.get('reservations',[])))
+            c1, c2, c3 = st.columns(3)
+            # Filtros restaurados
+            fc = c1.selectbox("Categoria", ["Todas"] + CATEGORIAS, key="res_cat")
+            fg = c2.selectbox("Série", ["Todas"] + SERIES_LISTA, key="res_grade")
+            ft = c3.selectbox("Turma", ["Todas"] + TURMAS_LISTA, key="res_class")
+            
+            # Lógica de Filtragem
+            filtered_res = [
+                r for r in data.get('reservations',[]) 
+                if (fc=="Todas" or r.get('category')==fc) 
+                and (fg=="Todas" or r.get('grade')==fg) 
+                and (ft=="Todas" or r.get('class_name')==ft)
+            ]
+            
+            st.write(f"Total Encontrado: {len(filtered_res)}")
+            
+            if not filtered_res:
+                st.info("Nenhuma reserva com estes filtros.")
+            else:
+                for r in filtered_res:
+                    with st.expander(f"{r.get('book_title')} -> {r.get('student_name')}"):
+                        st.write(f"**Item:** {r.get('book_title')}")
+                        st.write(f"**Aluno:** {r.get('student_name')} ({r.get('grade')} - {r.get('class_name')})")
+                        if st.button("Cancelar Reserva", key=f"adm_canc_{r.get('reservation_id')}"):
+                            process_cancellation(db, data, sha, r.get('book_id'), "ADMIN_OVERRIDE", r.get('reservation_id'))
+                            st.success("Cancelado com sucesso!"); time.sleep(1); st.rerun()
 
+        # --- ABA 3: LISTAS COM FILTROS ---
+        with t3:
+            st.markdown("### Gerar Relatórios")
+            c1, c2, c3 = st.columns(3)
+            # Filtros restaurados
+            sc = c1.selectbox("Categoria Lista", ["Todas"] + CATEGORIAS, key="list_cat")
+            sg = c2.selectbox("Série Lista", ["Todas"] + SERIES_LISTA, key="list_grade")
+            stt = c3.selectbox("Turma Lista", ["Todas"] + TURMAS_LISTA, key="list_class")
+            
+            if st.button("Gerar Lista na Tela"):
+                lst = [
+                    r for r in data.get('reservations',[]) 
+                    if (sg=="Todas" or r.get('grade')==sg) 
+                    and (stt=="Todas" or r.get('class_name')==stt) 
+                    and (sc=="Todas" or r.get('category')==sc)
+                ]
+                
+                if lst: 
+                    df_list = pd.DataFrame(lst)
+                    st.dataframe(df_list[['category','student_name','parent_name','book_title','timestamp']], use_container_width=True)
+                else: 
+                    st.warning("Nenhum registro encontrado.")
+
+        # --- ABA 4: ESTOQUE COM FILTROS ---
         with t4:
-            st.markdown("### Estoque")
-            st.write(f"Total: {len(data.get('books',[]))}")
+            st.markdown("### Gerenciar Estoque")
+            c1, c2, c3 = st.columns(3)
+            # Filtros restaurados
+            ec = c1.selectbox("Categoria Est", ["Todas"] + CATEGORIAS, key="stk_cat")
+            eg = c2.selectbox("Série Est", ["Todas"] + SERIES_LISTA, key="stk_grade")
+            et = c3.selectbox("Turma Est", ["Todas"] + TURMAS_LISTA, key="stk_class")
+            
+            # Lógica de Filtragem de Itens
+            items = [
+                i for i in data.get('books',[]) 
+                if (ec=="Todas" or i.get('category')==ec) 
+                and (eg=="Todas" or i.get('grade')==eg) 
+                and (et=="Todas" or i.get('class_name')==et)
+            ]
+            
+            items.sort(key=lambda x: (x['grade'], x.get('class_name',''), x['title']))
+            st.caption(f"Itens mostrados: {len(items)}")
+            
+            if not items:
+                st.info("Nenhum item no estoque com estes filtros.")
+            else:
+                for i in items:
+                    icon = "🟢" if i['available'] else "🔴"
+                    with st.expander(f"{icon} {i['title']} ({i['grade']} {i.get('class_name')})"):
+                        with st.form(key=f"edit_stk_{i['id']}"):
+                            n_tit = st.text_input("Título", value=i['title'])
+                            if st.form_submit_button("Salvar Edição"):
+                                i['title'] = n_tit
+                                db.update_data(data, sha, f"Edit {i['id']}")
+                                st.success("Salvo!"); time.sleep(1); st.rerun()
+                        
+                        if st.button("Excluir Item", key=f"del_i_{i['id']}"):
+                            if i['available']:
+                                data['books'] = [b for b in data['books'] if b['id']!=i['id']]
+                                db.update_data(data, sha, f"Del {i['id']}"); st.rerun()
+                            else: st.error("Item reservado! Cancele a reserva antes.")
             
         with t5:
             with st.form("pw"):
