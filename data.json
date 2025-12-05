@@ -4,16 +4,6 @@
   },
   "books": [
     {
-      "id": 1764940314,
-      "category": "Livro",
-      "title": "123",
-      "grade": "Grupo 5",
-      "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
-    },
-    {
       "id": 1764940322,
       "category": "Livro",
       "title": "456",
