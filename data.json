@@ -32,16 +32,6 @@
       "available": true,
       "reserved_by": null,
       "reserved_student": null
-    },
-    {
-      "id": 1764374439,
-      "category": "Jogo",
-      "title": "nftyxft",
-      "grade": "1º Ano",
-      "class_name": "A",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
     }
   ],
   "reservations": []
