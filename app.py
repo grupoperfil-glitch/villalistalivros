@@ -163,7 +163,16 @@ def main():
             
             if email_in:
                 s_db = data.get('students_db', [])
-                found = [s for s in s_db if str(s.get('email','')).lower().strip() == email_in.lower().strip()]
+                
+                # BUSCA: Verifica se o input bate com 'email' OU 'email2'
+                found = []
+                target_email = email_in.lower().strip()
+                
+                for s in s_db:
+                    e1 = str(s.get('email', '')).lower().strip()
+                    e2 = str(s.get('email2', '')).lower().strip()
+                    if target_email and (target_email == e1 or target_email == e2):
+                        found.append(s)
                 
                 if not found:
                     if st.session_state.login_search_triggered:
@@ -299,7 +308,6 @@ def main():
         t0, t1, t2, t3, t4, t5 = st.tabs(["👥 Alunos", "➕ Itens", "📋 Reservas", "📄 Listas", "📊 Estoque", "⚙️ Config"])
 
         with t0:
-            # --- NOVA MÉTRICA DE TOTAL ---
             total_alunos = len(data.get('students_db', []))
             st.markdown(f"### 👥 Base de Alunos")
             st.metric(label="Total de Alunos Matriculados", value=total_alunos)
@@ -309,10 +317,14 @@ def main():
                 with c_man:
                     st.markdown("#### Cadastro Manual")
                     with st.form("manual_student"):
-                        m_email = st.text_input("E-mail")
                         m_name = st.text_input("Nome Aluno")
                         
-                        # --- NOVOS CAMPOS RESPONSÁVEIS ---
+                        # --- E-MAILS (AGORA SÃO 2) ---
+                        c_em1, c_em2 = st.columns(2)
+                        m_email1 = c_em1.text_input("E-mail 1")
+                        m_email2 = c_em2.text_input("E-mail 2 (Opcional)")
+                        
+                        # --- RESPONSÁVEIS (AGORA SÃO 2) ---
                         c_p1, c_p2 = st.columns(2)
                         m_parent1 = c_p1.text_input("Responsável 1")
                         m_parent2 = c_p2.text_input("Responsável 2 (Opcional)")
@@ -321,12 +333,17 @@ def main():
                         m_class = st.selectbox("Turno/Turma", TURMAS_LISTA)
                         
                         if st.form_submit_button("Cadastrar"):
-                            # Combina os pais numa string só para salvar
                             final_parents = m_parent1
-                            if m_parent2:
-                                final_parents += f" / {m_parent2}"
+                            if m_parent2: final_parents += f" / {m_parent2}"
                                 
-                            new_s = {"email": m_email, "name": m_name, "grade": m_grade, "class_name": m_class, "parent_csv": final_parents}
+                            new_s = {
+                                "email": m_email1, 
+                                "email2": m_email2, # Novo Campo
+                                "name": m_name, 
+                                "grade": m_grade, 
+                                "class_name": m_class, 
+                                "parent_csv": final_parents
+                            }
                             data['students_db'].append(new_s)
                             if db.update_data(data, sha, f"Add {m_name}"): st.success("OK!"); st.rerun()
 
@@ -349,39 +366,61 @@ def main():
                                 for _, row in df.iterrows():
                                     mg = MAP_CURSO_CSV.get(row['Curso'], str(row['Curso']))
                                     mc = MAP_TURNO_CSV.get(row['CodTurno'], str(row['CodTurno']))
-                                    key = f"{str(row['Email']).strip()}|{str(row['NomeAluno']).strip()}".lower()
+                                    email = str(row['Email']).strip()
+                                    aluno = str(row['NomeAluno']).strip()
+                                    resp = str(row['NomeResponsavel']).strip()
+                                    key = f"{email}|{aluno}".lower()
                                     if key not in existing_keys:
-                                        current_db.append({"email": str(row['Email']).strip(), "name": str(row['NomeAluno']).strip(), "grade": mg, "class_name": mc, "parent_csv": str(row['NomeResponsavel']).strip()})
+                                        # Nota: CSV não tem email2, então fica vazio no import automático
+                                        current_db.append({"email": email, "name": aluno, "grade": mg, "class_name": mc, "parent_csv": resp})
                                         added += 1
                                 data['students_db'] = current_db
                                 if db.update_data(data, sha, f"CSV {added}"): st.success(f"{added} novos!"); time.sleep(2); st.rerun()
                         except Exception as e: st.error(f"Erro: {e}")
 
             st.divider()
+            
+            # --- SEÇÃO DE EDIÇÃO (COM EMAIL 2) ---
             st.markdown("### ✏️ Gerenciar/Editar Alunos")
             search_query = st.text_input("🔍 Buscar aluno por nome ou e-mail", placeholder="Digite para buscar...")
             
             if search_query:
                 s_db = data.get('students_db', [])
-                filtered_students = [(i, s) for i, s in enumerate(s_db) if search_query.lower() in s['name'].lower() or search_query.lower() in s['email'].lower()]
+                filtered_students = [
+                    (i, s) for i, s in enumerate(s_db) 
+                    if search_query.lower() in s['name'].lower() 
+                    or search_query.lower() in str(s.get('email','')).lower()
+                    or search_query.lower() in str(s.get('email2','')).lower()
+                ]
                 st.caption(f"{len(filtered_students)} encontrados.")
                 
                 for index, student in filtered_students:
                     with st.expander(f"👤 {student['name']} ({student['grade']})"):
                         with st.form(key=f"edit_student_{index}"):
-                            c_e1, c_e2 = st.columns(2)
-                            new_name = c_e1.text_input("Nome do Aluno", value=student['name'])
-                            new_email = c_e2.text_input("E-mail do Responsável", value=student['email'])
+                            new_name = st.text_input("Nome do Aluno", value=student['name'])
+                            
+                            c_em_e1, c_em_e2 = st.columns(2)
+                            new_email = c_em_e1.text_input("E-mail Principal", value=student['email'])
+                            new_email2 = c_em_e2.text_input("E-mail Secundário", value=student.get('email2', '')) # Campo de Edição
+                            
                             c_e3, c_e4 = st.columns(2)
                             curr_g = student['grade'] if student['grade'] in SERIES_LISTA else SERIES_LISTA[0]
                             curr_c = student['class_name'] if student['class_name'] in TURMAS_LISTA else TURMAS_LISTA[0]
                             new_grade = c_e3.selectbox("Série", SERIES_LISTA, index=SERIES_LISTA.index(curr_g))
                             new_class = c_e4.selectbox("Turma/Turno", TURMAS_LISTA, index=TURMAS_LISTA.index(curr_c))
+                            
                             new_parent = st.text_input("Nome dos Responsáveis", value=student.get('parent_csv', ''))
                             
                             col_save, col_del = st.columns([1,1])
                             if col_save.form_submit_button("💾 Salvar Alterações"):
-                                data['students_db'][index] = {"email": new_email, "name": new_name, "grade": new_grade, "class_name": new_class, "parent_csv": new_parent}
+                                data['students_db'][index] = {
+                                    "email": new_email, 
+                                    "email2": new_email2, # Salva email 2
+                                    "name": new_name, 
+                                    "grade": new_grade, 
+                                    "class_name": new_class, 
+                                    "parent_csv": new_parent
+                                }
                                 if db.update_data(data, sha, f"Edit Student {new_name}"):
                                     st.success("Dados atualizados!"); time.sleep(1); st.rerun()
                         
@@ -390,6 +429,7 @@ def main():
                             if db.update_data(data, sha, f"Deleted Student"):
                                 st.success("Aluno removido."); time.sleep(1); st.rerun()
 
+        # ABA 1: ITENS
         with t1:
             st.markdown("### Cadastro Itens")
             mode = st.radio("Modo", ["Individual", "Lote"])
@@ -412,6 +452,7 @@ def main():
                             count+=1
                     if count>0: db.update_data(data, sha, "Batch"); st.success("OK"); st.rerun()
 
+        # ABA 2: RESERVAS
         with t2:
             st.markdown("### Reservas")
             c1, c2, c3 = st.columns(3)
@@ -426,6 +467,7 @@ def main():
                         process_cancellation(db, data, sha, r.get('book_id'), "ADMIN_OVERRIDE", r.get('reservation_id'))
                         st.success("Cancelado!"); time.sleep(1); st.rerun()
 
+        # ABA 3: LISTAS
         with t3:
             st.markdown("### Gerar Relatórios")
             c1, c2, c3 = st.columns(3)
@@ -437,6 +479,7 @@ def main():
                 if lst: st.dataframe(pd.DataFrame(lst)[['category','student_name','parent_name','book_title','timestamp']], use_container_width=True)
                 else: st.warning("Vazio")
 
+        # ABA 4: ESTOQUE
         with t4:
             st.markdown("### Estoque")
             c1, c2, c3 = st.columns(3)
