@@ -149,9 +149,9 @@
       "title": "n768,m678",
       "grade": "1º Ano",
       "class_name": "A",
-      "available": false,
-      "reserved_by": "liz",
-      "reserved_student": "bruno"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1764374457,
@@ -208,17 +208,6 @@
       "class_name": "A",
       "book_title": "567",
       "timestamp": "2025-11-29 00:12:20"
-    },
-    {
-      "reservation_id": 1764375144,
-      "book_id": 1764374456,
-      "category": "Brinquedo",
-      "parent_name": "liz",
-      "student_name": "bruno",
-      "grade": "1º Ano",
-      "class_name": "A",
-      "book_title": "n768,m678",
-      "timestamp": "2025-11-29 00:12:24"
     }
   ]
 }
