@@ -2,18 +2,7 @@
   "admin_config": {
     "password": "villa123"
   },
-  "books": [
-    {
-      "id": 1764959475,
-      "category": "Livro",
-      "title": "tati",
-      "grade": "Grupo 5",
-      "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
-    }
-  ],
+  "books": [],
   "reservations": [],
   "students_db": [
     {
