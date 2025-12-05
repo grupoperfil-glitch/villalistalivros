@@ -9,8 +9,9 @@
       "title": "123",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MAIANE DA SILVA PEREIRA",
+      "reserved_student": "ALICE DA SILVA LIMA SANTOS"
     },
     {
       "id": 1764940322,
@@ -31,7 +32,19 @@
       "reserved_by": null
     }
   ],
-  "reservations": [],
+  "reservations": [
+    {
+      "reservation_id": 1764941041,
+      "book_id": 1764940314,
+      "category": "Livro",
+      "parent_name": "MAIANE DA SILVA PEREIRA",
+      "student_name": "ALICE DA SILVA LIMA SANTOS",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "123",
+      "timestamp": "2025-12-05 13:24"
+    }
+  ],
   "students_db": [
     {
       "email": "ailtonssa@outlook.com",
