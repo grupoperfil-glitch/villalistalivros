@@ -3,5 +3,1183 @@
     "password": "villa123"
   },
   "books": [],
-  "reservations": []
+  "reservations": [],
+  "students_db": [
+    {
+      "email": "ailtonssa@outlook.com",
+      "name": "ALICE DA SILVA LIMA SANTOS",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "AILTON LIMA SANTOS"
+    },
+    {
+      "email": "priuneves@gmail.com",
+      "name": "AIME DAS NEVES GUALBERTO",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "parent_csv": "ALEXANDRE DA CONCEIÇÃO GUALBERTO"
+    },
+    {
+      "email": "alexeicarvalho@yahoo.com.br",
+      "name": "EDUARDO LIMA ESTEVEZ",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "parent_csv": "ALEXEI ESTEVEZ DE CARVALHO"
+    },
+    {
+      "email": "alexeicarvalho@yahoo.com.br",
+      "name": "FERNANDA LIMA ESTEVEZ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "ALEXEI ESTEVEZ DE CARVALHO"
+    },
+    {
+      "email": "alinecarmo@educacaosalvador.net",
+      "name": "NANA CAROLINA DA COSTA CARMO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "ALINE CARLA REIS DA COSTA CARMO"
+    },
+    {
+      "email": "allanpiauhy@gmail.com",
+      "name": "SOPHIE PAIXAO PIAUHY",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "ALLAN SILVA PIAUHY FALCÃO"
+    },
+    {
+      "email": "anapaula_ram@yahoo.com.br",
+      "name": "MARIA EDUARDA DE MOURA SOFIATTI",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "ANA PAULA RODRIGUES ALVES DE MOURA"
+    },
+    {
+      "email": "radv.anapaula@gmail.com",
+      "name": "ARTHUR RODRIGUES DE ANDRADE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "ANA PAULA RODRIGUES DE ANDRADE"
+    },
+    {
+      "email": "ana.paula@prof.escolavillacriar.com.br",
+      "name": "ANA CLARA RODRIGUES DE ALMEIDA SOUZA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "ANA PAULA RODRIGUES PRADO"
+    },
+    {
+      "email": "andrelsf4@gmail.com",
+      "name": "CECÍLIA SILVA SANTOS FREITAS",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "ANDRE LUIS SILVA FREITAS"
+    },
+    {
+      "email": "andrewskf@hotmail.com",
+      "name": "AYANNA RODRIGUES OLIVEIRA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "parent_csv": "ANDRE OLIVEIRA DOS SANTOS"
+    },
+    {
+      "email": "andrewskf@hotmail.com",
+      "name": "IAGO RODRIGUES OLIVEIRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "ANDRE OLIVEIRA DOS SANTOS"
+    },
+    {
+      "email": "amramosadv@gmail.com",
+      "name": "MIGUEL RAMOS MOURA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "ANDREA MIRANDA RAMOS"
+    },
+    {
+      "email": "andressanelli85@gmail.com",
+      "name": "LORENZO NELLI DE OLIVEIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "ANDRESSA DA ANUNCIAÇÃO NELLI"
+    },
+    {
+      "email": "aslfilho@yahoo.com.br",
+      "name": "ARTUR NADER LEITE",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "ANTÔNIO DA SILVA LEITE FILHO"
+    },
+    {
+      "email": "bucheni1983@gmail.com",
+      "name": "LORENZO NORONHA BUCHENI",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "parent_csv": "ANTONIO PAULO SILVA BUCHENI"
+    },
+    {
+      "email": "augusto_monteiro@live.com",
+      "name": "LUNA MONTEIRO LUNARTI",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "AUGUSTO JOSÉ MONTEIRO CARDOSO"
+    },
+    {
+      "email": "bruna.taubert@gmail.com",
+      "name": "LUISA TAUBERT GOMES DOMINGUEZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "BRUNA TAUBERT LIBORIO GOMES"
+    },
+    {
+      "email": "brunodorea.fisio@gmail.com",
+      "name": "ARTHUR ZUZA DOREA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "BRUNO DOREA JAQUES"
+    },
+    {
+      "email": "camilasarrafb@gmail.com",
+      "name": "EVA SARRAF CASSILLO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "CAMILA SANTOS SARRAF CASSILLO"
+    },
+    {
+      "email": "carlaribeiro49@yahoo.com.br",
+      "name": "EDUARDO HENRIQUE RIBEIRO RAMOS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "Carla da Cruz Ribeiro"
+    },
+    {
+      "email": "carlafugi@gmail.com",
+      "name": "NANDA MAYUMI FUGIWARA SAMPAIO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "CARLA FUGIWARA SANTOS"
+    },
+    {
+      "email": "carlaisa.souza@hotmail.com",
+      "name": "ALANA SOUZA DE LIMA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "CARLA ISA DA SILVA SOUZA"
+    },
+    {
+      "email": "tiagopedreirademendonca@gmail.com",
+      "name": "TIAGO ARGOLO DE MENDONÇA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "CAROLINA ALVES DE ARGOLO"
+    },
+    {
+      "email": "tiagopedreirademendonca@gmail.com",
+      "name": "GUILHERME ARGOLO DE MENDONÇA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "CAROLINA ALVES DE ARGOLO"
+    },
+    {
+      "email": "carol_fernandesba@hotmail.com",
+      "name": "MAXIMUS FERNANDES EVANGELISTA DOS SANTOS",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "parent_csv": "CAROLINA FERNANDES RODRIGUES DOS SANTOS"
+    },
+    {
+      "email": "carol_fernandesba@hotmail.com",
+      "name": "DIAMOND FERNANDES EVANGELISTA DOS SANTOS",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "parent_csv": "CAROLINA FERNANDES RODRIGUES DOS SANTOS"
+    },
+    {
+      "email": "carolinatdias@hotmail.com",
+      "name": "SOFIA DIAS DA PAZ MARTINS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "CAROLINA TORRES DIAS"
+    },
+    {
+      "email": "cintia_calmon@hotmail.com",
+      "name": "PEDRO HENRIQUE BISPO CALMON",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "CINTIA DOS SANTOS CALMON"
+    },
+    {
+      "email": "rosely_58@hotmail.com",
+      "name": "ELOAH RODRIGUES PEREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "CLAUDIO PEREIRA"
+    },
+    {
+      "email": "cristinacostaperes@gmail.com",
+      "name": "LEO PERES KENNEDY",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "parent_csv": "CRISTINA DA COSTA PERES"
+    },
+    {
+      "email": "danmx123@gmail.com",
+      "name": "MARIA JULIA SANTANA GONZALEZ",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "DANIEL LUIZ LUCENA ROCHA LEITE SANTANA"
+    },
+    {
+      "email": "danielatrevilato@hotmail.com",
+      "name": "MARIA VALENTINA SANTOS DE ALMEIDA GOUVEIA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "DANIELA SANTOS TREVILATO"
+    },
+    {
+      "email": "dradaniellefb@gmail.com",
+      "name": "ESTELLA BOMFIM MENEZES",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "DANIELLE FREIRE BOMFIM"
+    },
+    {
+      "email": "deboraurbanista@yahoo.com.br",
+      "name": "BENTO CELES CHAGAS",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "parent_csv": "DEBORA ALVES CELES"
+    },
+    {
+      "email": "dejagms@hotmail.com",
+      "name": "MARCELO LEVI GOMES DA SILVA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "DJACI DA SILVA GOMES"
+    },
+    {
+      "email": "dejagms@hotmail.com",
+      "name": "MELISSA GOMES DA SILVA",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "parent_csv": "DJACI DA SILVA GOMES"
+    },
+    {
+      "email": "odontorenatam@gmail.com",
+      "name": "VICENZO MANTOVANI PEREIRA SANTOS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "DUELO DE SOUZA SANTOS"
+    },
+    {
+      "email": "edsoncpimentel@hotmail.com",
+      "name": "MIGUEL DA SILVEIRA PIMENTEL ANDRADE",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "parent_csv": "EDSON CUNHA PIMENTEL"
+    },
+    {
+      "email": "edson.otk@icloud.com",
+      "name": "GABRIEL YUJI COSTA OTUKA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "EDSON HIROSHI OTUKA"
+    },
+    {
+      "email": "coacheduardofilho@hotmail.com",
+      "name": "TAYNA AQUINO SILVA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "EDUARDO PINTO DA SILVA FILHO"
+    },
+    {
+      "email": "coacheduardofilho@hotmail.com",
+      "name": "JOÃO LUCAS AQUINO SILVA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "EDUARDO PINTO DA SILVA FILHO"
+    },
+    {
+      "email": "elaine.rajas@gmail.com",
+      "name": "MATTEO MENDES DE LA ORDEM RAJAS",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "ELAINE MENDES DE LA ORDEM RAJAS"
+    },
+    {
+      "email": "enzolimongi@hotmail.com",
+      "name": "ENRICO COSTA LIMONGI",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "ENZO LIMONGI CHAVES"
+    },
+    {
+      "email": "fabiana.amg@gmail.com",
+      "name": "LARA ARAUJO MENEZES",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "FABIANA ARAUJO DE MELO GOMES"
+    },
+    {
+      "email": "fabianacofranca@hotmail.com",
+      "name": "ALICE CHAGAS OLIVEIRA DE JESUS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "FABIANA CHAGAS OLIVEIRA DE FRANÇA"
+    },
+    {
+      "email": "fabiocorrea@favellocacao.com",
+      "name": "MARIA CECILIA RODRIGUES CORREA",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "parent_csv": "FABIO NASCIMENTO CORREA"
+    },
+    {
+      "email": "lima.siara18@gmail.com",
+      "name": "INACIO MACEDO THOMAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "FELIPPE CALAZANS THOMAZ"
+    },
+    {
+      "email": "lima.siara18@gmail.com",
+      "name": "CAETANO MACEDO THOMAZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "FELIPPE CALAZANS THOMAZ"
+    },
+    {
+      "email": "fernandomacuna@me.com",
+      "name": "FRANCISCO DE CERQUEIRA TELES",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "FERNANDO JAIR F TELES"
+    },
+    {
+      "email": "flaviadesouzapinto@gmail.com",
+      "name": "LUIZA PINTO RIBEIRO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "FLAVIA DE SOUZA PINTO"
+    },
+    {
+      "email": "flavia.fernandes@hotmail.com",
+      "name": "JULIA FERNANDES RODRIGUES",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "FLAVIA FERNANDES DA SILVA ANDRADE"
+    },
+    {
+      "email": "flaviagiovannaf@gmail.com",
+      "name": "YANNA BARRETO MONTEIRO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "FLAVIA GIOVANA BARRETO DE FREITAS"
+    },
+    {
+      "email": "flavia_moreira10@hotmail.com",
+      "name": "ISABELLA MOREIRA RIBEIRO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "FLAVIA RAMOS MOREIRA RIBEIRO"
+    },
+    {
+      "email": "familia4fs.ba@gmail.com",
+      "name": "FLORA DANDARA SANTANA RIBEIRO DOS SANTOS",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "FRANCISCO CARLOS RIBEIRO DOS SANTOS"
+    },
+    {
+      "email": "tiao2006@bol.com.br",
+      "name": "CAUA CARDOSO OLIVEIRA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "GISELE CARDOSO DOS SANTOS"
+    },
+    {
+      "email": "gbbazilio@gmail.com",
+      "name": "CLARICE LIMA VIANA BAZILIO DOMINGUES",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "GUILHERME BAZILIO DOMINGUES"
+    },
+    {
+      "email": "lebarros79@gmail.com",
+      "name": "MAITE RUDGE PINHEIRO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "HELENA RUDGE DE MORAES BARROS"
+    },
+    {
+      "email": "irossie@hotmail.com",
+      "name": "THOMAS GOUVEIA ROSS",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "parent_csv": "IAN EDWARD"
+    },
+    {
+      "email": "contato@aloucadapapelaria.com.br",
+      "name": "ARTHUR COSTA BARRETO",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "INDIRA DE OLIVEIRA BARRETO COSTA"
+    },
+    {
+      "email": "iriscarlasbrasil@gmail.com",
+      "name": "BERNARDO JOEDIL BRASIL DE MELLO BASTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "IRIS CARLA SOUZA BRASIL DE MELLO TEIVES ARGOLO"
+    },
+    {
+      "email": "isaque_ssa@hotmail.com",
+      "name": "ISABELA MENEZES BENJAMIN",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "parent_csv": "ISAQUE MENEZES DA SILVA BENJAMIN"
+    },
+    {
+      "email": "jacquerainha@hotmail.com",
+      "name": "LIS MARQUES PEDREIRA OLIVEIRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "JACQUELINE MARQUES PEDREIRA"
+    },
+    {
+      "email": "jamileaquinoprof@gmail.com",
+      "name": "TAYNA AQUINO SILVA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "JAMILE CAMARA DE AQUINO"
+    },
+    {
+      "email": "siara.lima@grupoperfiledu.com.br",
+      "name": "JOAQUIM LOBO DE ALCANTARA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "JOÃO CARLOS DE ALCANTARA"
+    },
+    {
+      "email": "jocastarabelo@gmail.com",
+      "name": "JOSE JOAQUIM RABELO DA CONCEIÇÃO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "JOCASTA RABELO GONÇALVES"
+    },
+    {
+      "email": "jorgemattedi@gmail.com",
+      "name": "AURORA SOLON DE OLIVEIRA MATTEDI",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "parent_csv": "JORGE VICTORIO DE OLIVEIRA MATTEDI"
+    },
+    {
+      "email": "jorgemattedi@gmail.com",
+      "name": "LILA SOLON DE OLIVEIRA MATTEDI",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "JORGE VICTORIO DE OLIVEIRA MATTEDI"
+    },
+    {
+      "email": "josanamelo.jm@gmail.com",
+      "name": "VALENTINA ABREU SEABRA MELO ANTHAS",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "JOSANA MELO ANTHAS"
+    },
+    {
+      "email": "jzben2419@gmail.com",
+      "name": "ARTHUR BEN RIBEIRO LIMA",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "parent_csv": "JUAREZ DOS SANTOS LIMA"
+    },
+    {
+      "email": "gretasaucedo@outlook.com",
+      "name": "ISABELLA SAUCEDO LEITE DE BARROS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "JULIO CEZAR LEITE DE BARROS"
+    },
+    {
+      "email": "karenrpereira_1@hotmail.com",
+      "name": "MARIA LUIZA RAMOS FILGUEIRAS",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "KAREN RAMOS PEREIRA FILGUEIRAS"
+    },
+    {
+      "email": "kmcdourado@gmail.com",
+      "name": "SOFIA CAMPOS MUCCINI COSTA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "KEINA MACIELE CAMPOS DOURADO"
+    },
+    {
+      "email": "kijglaeser@gmail.com",
+      "name": "KADU AMORIM GLAESER",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "KLAUS INGOLF JOHAN GLAESER"
+    },
+    {
+      "email": "germannkleber@yahoo.com.br",
+      "name": "EDUARDO BRAMBILA GERMANN",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "KLEBER SHEFFER GERMANN"
+    },
+    {
+      "email": "layonara.lay@gmail.com",
+      "name": "LUA ANTONELLA DE ARAUJO DANTAS VAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "LAIONARA DE ARAUJO GONCALVES"
+    },
+    {
+      "email": "lea@abmnet.org.br",
+      "name": "LEANDRO DANTAS PINA MARTINEZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "LEA CLARISSA FLORES DANTAS PINA"
+    },
+    {
+      "email": "leandroagarcia100@gmail.com",
+      "name": "IZABEL CURCINO CUNHA GARCIA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "LEANDRO ANDRADE GARCIA"
+    },
+    {
+      "email": "leandrocezargouveia@hotmail.com",
+      "name": "JOAO ATAIDE GOUVEIA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "LEANDRO CEZAR C DE OLIVEIRA"
+    },
+    {
+      "email": "leticiasennavieira@gmail.com",
+      "name": "ROMULO SENNA AMADEU VIEIRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "LETICIA CAROLINE SENNA AMADEU"
+    },
+    {
+      "email": "lorealmeidaaa19@gmail.com",
+      "name": "MAITE MACEDO ALMEIDA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "LORENA SOUZA ALMEIDA"
+    },
+    {
+      "email": "louisedjane@yahoo.com.br",
+      "name": "RAFAEL ARAUJO RODRIGUES",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "LOUISE DJANE DE JESUS ARAUJO"
+    },
+    {
+      "email": "luanribeiros@gmail.com",
+      "name": "LARA RIBEIRO FREITAS SANTANA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "parent_csv": "LUAN RIBEIRO DE SANTANA"
+    },
+    {
+      "email": "lua.ufba@yahoo.com.br",
+      "name": "HEITOR FERRAZ SALMON",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "parent_csv": "LUANA FERRAZ FONSECA SALMON"
+    },
+    {
+      "email": "luanerodopiano@gmail.com",
+      "name": "IARA RODOPIANO RODRIGUES",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "LUANE RODOPIANO LIMA RODRIGUES"
+    },
+    {
+      "email": "lukasps85@gmail.com",
+      "name": "MARIA JULIA PEREIRA SCHRAMM",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "LUCAS PEREIRA DOS SANTOS"
+    },
+    {
+      "email": "lucas.cattony@hotmail.com",
+      "name": "MARIANA CAVALCANTE CATTONY",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "LUCAS RAFAEL ESTEVES CATTONY"
+    },
+    {
+      "email": "lucianeschramm@hotmail.com",
+      "name": "MARIA JULIA PEREIRA SCHRAMM",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "LUCIANE SCHRAMM OLIVEIRA"
+    },
+    {
+      "email": "luserrado@hotmail.com",
+      "name": "LAURA DE SOUZA PEREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "LUCIANO SERRADO DE SOUSA PEREIRA"
+    },
+    {
+      "email": "lu23palmeira@gmail.com",
+      "name": "BELLA CRISTINA MATOS PALMEIRA",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "parent_csv": "LUCIARA DE CARVALHO PALMEIRA"
+    },
+    {
+      "email": "luena.gramacho@gmail.com",
+      "name": "LARA GRAMACHO LOMBA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "LUENA BOMFIM GRAMACHO SANTOS"
+    },
+    {
+      "email": "luistfonseca19@gmail.com",
+      "name": "AYLLA BORGES DE BARROS FONSECA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "parent_csv": "LUIS TEIXEIRA DA FONSECA"
+    },
+    {
+      "email": "luiz.dev.melo@gmail.com",
+      "name": "JOÃO BERNARDO FARIAS MELO DIAS",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "parent_csv": "LUIZ EDUARDO DA SILVA DIAS"
+    },
+    {
+      "email": "luiz.dev.melo@gmail.com",
+      "name": "LUIS CARLOS FARIAS MELO DIAS",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "LUIZ EDUARDO DA SILVA DIAS"
+    },
+    {
+      "email": "lmrribeiro@hotmail.com",
+      "name": "LUIZA PINTO RIBEIRO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "LUIZ MARCOS RIBEIRO RIBEIRO"
+    },
+    {
+      "email": "enaiam@hotmail.com",
+      "name": "ALICE DA SILVA LIMA SANTOS",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "MAIANE DA SILVA PEREIRA"
+    },
+    {
+      "email": "bayebiologo@hotmail.com",
+      "name": "LUISA DE SOUSA GARGUR",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "MANUEL ALVES DE SOUSA JUNIOR"
+    },
+    {
+      "email": "marcelocvvieira@hotmail.com",
+      "name": "ROMULO SENNA AMADEU VIEIRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "MARCELO CHAVES VIANA VIEIRA"
+    },
+    {
+      "email": "marcioasm84@gmail.com",
+      "name": "DANIELA MORENO SILVA MONTEIRO",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "parent_csv": "MARCIO ALEXANDRE SILVA MONTEIRO"
+    },
+    {
+      "email": "marciojordao3@gmail.com",
+      "name": "MANOEL THIERRY DE SOUZA ARAUJO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "MARCIO JORDÃO ARAUJO"
+    },
+    {
+      "email": "mlabelo@hotmail.com",
+      "name": "ARTHUR COSTA BELO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "MARCIO LUIZ DOS ANJOS BELO"
+    },
+    {
+      "email": "marcosgnomo75@gmail.com",
+      "name": "BENJAMIN SEIPPEL LIMA M. DOS S",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "parent_csv": "MARCOS ALEXANDRE"
+    },
+    {
+      "email": "lourdes.mpontes@gmail.com",
+      "name": "LIZ PONTES BORGES",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "MARIA DE LOURDES MOREIRA PONTES"
+    },
+    {
+      "email": "mari.cris15@outlook.com",
+      "name": "MARIA FLOR MOREIRA SILVA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "MARIANA CRISTINA SANTOS MOREIRA"
+    },
+    {
+      "email": "adv.marianag@outlook.com",
+      "name": "MANUELA GOTTSCHALK SUKERMAN ARAUJO",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "parent_csv": "MARIANA GOTTSCHALK SUKERMAN BARRETO"
+    },
+    {
+      "email": "marilia.ufba@gmail.com",
+      "name": "GUSTAVO CARNEIRO DE ARAUJO MACHADO",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "MARÍLIA CARNEIRO DE ARAUJO MACHADO"
+    },
+    {
+      "email": "psic.marleal@gmail.com",
+      "name": "DIANA DE CASTRO BAHIENSE GUIMARÃES",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "MARINA LEAL DE CASTRO"
+    },
+    {
+      "email": "marivajunior@hotmail.com",
+      "name": "MARIANA NASCIMENTO BOMFIM SANTANA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "MARIVALDO  CERQUEIRA DE SANTANA JUNIOR"
+    },
+    {
+      "email": "mauriciobonifati@gmail.com",
+      "name": "MARINA DE CARVALHO CESAR BONIFATI",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "MAURICIO LERINA BONIFATI"
+    },
+    {
+      "email": "giceli_freire@hotmail.com",
+      "name": "WENDY FREIRE GUIMARÃES",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "MAURICIO MENDES DO NASCIMENTO GUIMARÃES"
+    },
+    {
+      "email": "mile_sa@hotmail.com",
+      "name": "LEVY LUCCA SÁ DE ALMEIDA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "MILENA OLIVEIRA SÁ"
+    },
+    {
+      "email": "miriabastianello@gmail.com",
+      "name": "HELENA DE AMORIM BASTIANELLO",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "parent_csv": "MIRIA DE AMORIM BASTIANELLO"
+    },
+    {
+      "email": "miriabastianello@gmail.com",
+      "name": "MARIAH LIZ DE AMORIM BASTIANELLO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "MIRIA DE AMORIM BASTIANELLO"
+    },
+    {
+      "email": "nara.bgois@gmail.com",
+      "name": "RAVI ALCANTARA BORBOREMA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "NARA DE BORBOREMA GOIS"
+    },
+    {
+      "email": "narinhaodonto@hotmail.com",
+      "name": "MARIA LUISA MARTINS SOUTO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "NARA MARTINS FERRAZ TEIXEIRA"
+    },
+    {
+      "email": "otosegundo@yahoo.com.br",
+      "name": "MALU CARVALHO COELHO DOS SANTOS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "OTO CARVALHO DOS SANTOS SEGUNDO"
+    },
+    {
+      "email": "paty.almeidasantos2525@gmail.com",
+      "name": "ARTHUR ALMEIDA SANTOS DA CONCEIÇÃO",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "parent_csv": "PATRICIA ALMEIDA SANTOS"
+    },
+    {
+      "email": "patriciadiasmenezes@hotmail.com",
+      "name": "MELINA MENEZES COSTA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "PATRICIA DIAS MENEZES"
+    },
+    {
+      "email": "patriciafernandesbr@yahoo.com.br",
+      "name": "JOAO GABRIEL ANDRADE DE SOUZA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "PATRICIA FERNANDES DA SILVA ANDRADE"
+    },
+    {
+      "email": "pprisensee@yahoo.com.br",
+      "name": "FRANCISCO PINHEIRO REIS ISENSEE",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "PATRICIA PINHEIRO REIS ISENSEE"
+    },
+    {
+      "email": "paulacnutri@gmail.com",
+      "name": "ANDRE DE CARVALHO SANTOS ALMEIDA PRADO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "PAULA DE CARVALHO SANTOS"
+    },
+    {
+      "email": "pmcparticular@gmail.com",
+      "name": "GABRIEL YUJI COSTA OTUKA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "PAULA MACHADO COSTA"
+    },
+    {
+      "email": "paulogiovani14@hotmail.com",
+      "name": "MAITÊ DE OLIVEIRA MENDONÇA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "PAULO GIOVANNI SOUZA DE OLIVEIRA"
+    },
+    {
+      "email": "prfj26@hotmail.com",
+      "name": "BELLA CARVALHO FERREIRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "PAULO ROBERTO FERREIRA DE JESUS"
+    },
+    {
+      "email": "prymiiranda@gmail.com",
+      "name": "GAEL MIRANDA PEDREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "PRISCILA MIRANDA  PEDREIRA"
+    },
+    {
+      "email": "alvesquesia23@gmail.com",
+      "name": "ZACK ALVES SANTOS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "QUESIA DA SILVA ALVES SANTOS"
+    },
+    {
+      "email": "rachel.santos@trt5.jus.br",
+      "name": "CLARA CARVALHO BRAGA DE OLIVEIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "RACHEL OLIVEIRA CARVALHO SANTOS"
+    },
+    {
+      "email": "rafaccontabeis@gmail.com",
+      "name": "SAMUEL GOMES FERREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "RAFAEL DAMASCENA FERREIRA"
+    },
+    {
+      "email": "rafaelleiro@hotmail.com",
+      "name": "MATEUS TAUBERT GOMES DOMINGUEZ",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "parent_csv": "RAFAEL LEIRO DOMINGUEZ"
+    },
+    {
+      "email": "rafaelleiro@hotmail.com",
+      "name": "JOAO TAUBERT GOMES DOMINGUEZ",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "parent_csv": "RAFAEL LEIRO DOMINGUEZ"
+    },
+    {
+      "email": "rves_7@hotmail.com",
+      "name": "GUILHERME ALVES PEREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "RAFAEL SOUZA ALVES DOS SANTOS"
+    },
+    {
+      "email": "rraquelclvj@yahoo.com.br",
+      "name": "ESTER LIMA VIANA BAZILIO DOMINGUES",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "parent_csv": "RAQUEL CRISTINA DE LIMA VIANA"
+    },
+    {
+      "email": "rraquelclvj@yahoo.com.br",
+      "name": "CLARICE LIMA VIANA BAZILIO DOMINGUES",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "RAQUEL CRISTINA DE LIMA VIANA"
+    },
+    {
+      "email": "renata.lima@escolavillacriar.com",
+      "name": "MANUELA CAYMAN LIMA DE ALMEIDA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "RENATA DE CASTRO LIMA"
+    },
+    {
+      "email": "rickfadul@hotmail.com",
+      "name": "LORENA TAVARES FADUL",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "RICARDO REGIS REIS SCHLAEPFER"
+    },
+    {
+      "email": "rodrigoleittte@yahoo.com.br",
+      "name": "ENRICO PINHEIRO LEITE",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "RODRIGO ATHAYDE LEITE"
+    },
+    {
+      "email": "taiane.amorim@prof.escolavillacriar.com.br",
+      "name": "ARTHUR PIETRO BRASILEIRO AMORIM",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "RODRIGO DOS SANTOS AMORIM"
+    },
+    {
+      "email": "siara.lima@grupoperfiledu.com.br",
+      "name": "MIGUEL PENA HAGGE ESPER",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "RODRIGO MARTINEZ HAGGE ESPER"
+    },
+    {
+      "email": "rogerionbs21@gmail.com",
+      "name": "ANNE CHARLOTTE MAIA DE SANTANA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "ROGERIO NASCIMENTO BRANDAO DE SANTANA"
+    },
+    {
+      "email": "ronei.badaro@prof.colegioperfil.com.br",
+      "name": "ALICE GONDIM BADARO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "RONEI LIMA BADARO"
+    },
+    {
+      "email": "satsjunior@gmail.com",
+      "name": "DAVI CURVELO TORRES",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "parent_csv": "SERGIO AUGUSTO TORRES SILVA JUNIOR"
+    },
+    {
+      "email": "sheldonnuno@hotmail.com",
+      "name": "MARINA NASCIMENTO FREIRE DE MATTOS",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "parent_csv": "SHELDON NUNO ROCHA DE MATTOS"
+    },
+    {
+      "email": "simone.msantos@yahoo.com.br",
+      "name": "MAITÊ DE OLIVEIRA MENDONÇA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "SIMONE MENDONÇA DOS SANTOS"
+    },
+    {
+      "email": "suzaneegidio2@gmail.com",
+      "name": "PAULO VICTOR EGIDIO CERQUEIRA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "parent_csv": "SUZANE CARLOS EGIDIO CERQUEIRA"
+    },
+    {
+      "email": "taiane.amorim@prof.escolavillacriar.com.br",
+      "name": "ARTHUR PIETRO BRASILEIRO AMORIM",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "TAIANE MOREIRA BRASILEIRO AMORIM"
+    },
+    {
+      "email": "talita.cunhasantos@hotmail.com",
+      "name": "GIOVANNA SANTOS VIANA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "TALITA DA CUNHA SANTOS"
+    },
+    {
+      "email": "talita.cunhasantos@hotmail.com",
+      "name": "MARINA SANTOS VIANA",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "parent_csv": "TALITA DA CUNHA SANTOS"
+    },
+    {
+      "email": "talitinhagalvao@gmail.com",
+      "name": "JULIA GALVAO DE CARVALHO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "TALITA GALVAO DE CARVALHO LIMA"
+    },
+    {
+      "email": "talitaurp@hotmail.com",
+      "name": "MARINA URPIA DE OLIVEIRA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "parent_csv": "TALITA MOREIRA URPIA"
+    },
+    {
+      "email": "tassiodiassouza@gmail.com",
+      "name": "ALICIA VITORIA PINHO MOREIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "TASSIO DIAS MOREIRA DE SOUZA"
+    },
+    {
+      "email": "diretoria@escolavillacriar.com.br",
+      "name": "NOAH GARCEZ BARBOSA PAULO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "TATIANA CAMPOS GARCEZ DE SENA"
+    },
+    {
+      "email": "britothai@gmail.com",
+      "name": "NOAH MEIRA PAES DE OLIVEIRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "THAIS BRITO DE MEIRA"
+    },
+    {
+      "email": "vhitor.lim@gmail.com",
+      "name": "MELL NASCIMENTO LIMA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "THAIS NASCIMENTO LIMA"
+    },
+    {
+      "email": "vhitor.lim@gmail.com",
+      "name": "LIZZ NASCIMENTO LIMA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "THAIS NASCIMENTO LIMA"
+    },
+    {
+      "email": "thiago.bezerra87@hotmail.com",
+      "name": "APOLO DE ASSIS BEZERRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "THIAGO BEZERRA DE DEUS DA SILVA"
+    },
+    {
+      "email": "thiago.bezerra87@hotmail.com",
+      "name": "MAITE DE ASSIS BEZERRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "THIAGO BEZERRA DE DEUS DA SILVA"
+    },
+    {
+      "email": "tsfarias@outlook.com",
+      "name": "VICTOR DIAS DE FARIAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "THIAGO SANTANA DE FARIAS"
+    },
+    {
+      "email": "carneiro10@hotmail.com",
+      "name": "CAUE CARNEIRO SOBRAL",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "THIAGO SILVA CARNEIRO"
+    },
+    {
+      "email": "tiagoarqurb@gmail.com",
+      "name": "LIZ ALCANTARA BORBOREMA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "TIAGO FONSECA ALCANTARA"
+    },
+    {
+      "email": "tiagoarqurb@gmail.com",
+      "name": "RAVI ALCANTARA BORBOREMA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "TIAGO FONSECA ALCANTARA"
+    },
+    {
+      "email": "ticianomartins@hotmail.com",
+      "name": "SOFIA DIAS DA PAZ MARTINS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "TICIANO DA PAZ BITTENCOURT MARTINS"
+    },
+    {
+      "email": "nessabittencourt@gmail.com",
+      "name": "MARIA TEREZA GUIMARÃES BALDO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "parent_csv": "VANESSA BITTENCOURT GUIMARÃES"
+    },
+    {
+      "email": "vanessa_pessoa@hotmail.com",
+      "name": "THIE HIRAOKA PESSOA DE OLIVEIRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "Vanessa Hiraoka Pessoa da Silva"
+    },
+    {
+      "email": "nessapessanha@yahoo.com.br",
+      "name": "LARA PESSANHA COSTA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "parent_csv": "VANESSA VIEIRA PESSANHA"
+    },
+    {
+      "email": "naianascunha@gmail.com",
+      "name": "ISRAEL CUNHA DE SOUSA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "VINICIUS MARTINS DE SOUSA"
+    },
+    {
+      "email": "talitinhagalvao@gmail.com",
+      "name": "JULIA GALVAO DE CARVALHO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "VITOR CLEY PINTO DE CARVALHO"
+    },
+    {
+      "email": "wiliam_sena@yahoo.com",
+      "name": "JULIA MARQUES DE SENA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "WILIAM COSTA BRAGA DE SENA"
+    },
+    {
+      "email": "yasmin.zuza@oncoexo.com.br",
+      "name": "ARTHUR ZUZA DOREA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "YASMIN LEITE ZUZA"
+    }
+  ]
 }
