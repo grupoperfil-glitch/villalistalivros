@@ -79,9 +79,9 @@
       "title": "jkhuikm",
       "grade": "1º Ano",
       "class_name": "A",
-      "available": false,
-      "reserved_by": "bruno",
-      "reserved_student": "liz"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1764374439,
@@ -165,17 +165,6 @@
     }
   ],
   "reservations": [
-    {
-      "reservation_id": 1764374844,
-      "book_id": 1764374438,
-      "category": "Jogo",
-      "parent_name": "bruno",
-      "student_name": "liz",
-      "grade": "1º Ano",
-      "class_name": "A",
-      "book_title": "jkhuikm",
-      "timestamp": "2025-11-29 00:07:24"
-    },
     {
       "reservation_id": 1764374851,
       "book_id": 1764374454,
