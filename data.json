@@ -39,9 +39,9 @@
       "title": "hjghjghj",
       "grade": "1º Ano",
       "class_name": "A",
-      "available": false,
-      "reserved_by": "bruno",
-      "reserved_student": "liz"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1764374423,
@@ -165,17 +165,6 @@
     }
   ],
   "reservations": [
-    {
-      "reservation_id": 1764374530,
-      "book_id": 1764374422,
-      "category": "Livro",
-      "parent_name": "bruno",
-      "student_name": "liz",
-      "grade": "1º Ano",
-      "class_name": "A",
-      "book_title": "hjghjghj",
-      "timestamp": "2025-11-29 00:02:10"
-    },
     {
       "reservation_id": 1764374844,
       "book_id": 1764374438,
