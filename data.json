@@ -11,6 +11,15 @@
       "class_name": "Vespertino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1764940322,
+      "category": "Livro",
+      "title": "456",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
