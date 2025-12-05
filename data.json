@@ -19,8 +19,9 @@
       "title": "456",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "AILTON LIMA SANTOS",
+      "reserved_student": "ALICE DA SILVA LIMA SANTOS"
     },
     {
       "id": 1764959476,
@@ -69,6 +70,17 @@
       "grade": "Grupo 5",
       "class_name": "Vespertino",
       "book_title": "bruno",
+      "timestamp": "2025-12-05 18:35"
+    },
+    {
+      "reservation_id": 1764959707,
+      "book_id": 1764959475,
+      "category": "Livro",
+      "parent_name": "AILTON LIMA SANTOS",
+      "student_name": "ALICE DA SILVA LIMA SANTOS",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "456",
       "timestamp": "2025-12-05 18:35"
     }
   ],
