@@ -28,24 +28,12 @@
       "title": "789",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "AILTON LIMA SANTOS",
-      "reserved_student": "ALICE DA SILVA LIMA SANTOS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     }
   ],
-  "reservations": [
-    {
-      "reservation_id": 1764941081,
-      "book_id": 1764940328,
-      "category": "Livro",
-      "parent_name": "AILTON LIMA SANTOS",
-      "student_name": "ALICE DA SILVA LIMA SANTOS",
-      "grade": "Grupo 5",
-      "class_name": "Vespertino",
-      "book_title": "789",
-      "timestamp": "2025-12-05 13:24"
-    }
-  ],
+  "reservations": [],
   "students_db": [
     {
       "email": "ailtonssa@outlook.com",
