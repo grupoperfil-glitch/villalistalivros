@@ -2,7 +2,62 @@
   "admin_config": {
     "password": "villa123"
   },
-  "books": [],
+  "books": [
+    {
+      "id": 1764959474,
+      "category": "Livro",
+      "title": "123",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1764959475,
+      "category": "Livro",
+      "title": "456",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1764959476,
+      "category": "Livro",
+      "title": "789",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1764959477,
+      "category": "Livro",
+      "title": "321",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1764959478,
+      "category": "Livro",
+      "title": "654",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1764959479,
+      "category": "Livro",
+      "title": "987",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    }
+  ],
   "reservations": [],
   "students_db": [
     {
