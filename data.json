@@ -4,16 +4,6 @@
   },
   "books": [
     {
-      "id": 1764959474,
-      "category": "Livro",
-      "title": "bruno",
-      "grade": "Grupo 5",
-      "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
-    },
-    {
       "id": 1764959475,
       "category": "Livro",
       "title": "tati",
