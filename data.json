@@ -142,16 +142,6 @@
       "available": true,
       "reserved_by": null,
       "reserved_student": null
-    },
-    {
-      "id": 1764374457,
-      "category": "Brinquedo",
-      "title": "456bwes56",
-      "grade": "1º Ano",
-      "class_name": "A",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
     }
   ],
   "reservations": []
