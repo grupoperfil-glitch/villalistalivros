@@ -2,7 +2,467 @@
   "admin_config": {
     "password": "villa123"
   },
-  "books": [],
+  "books": [
+    {
+      "id": 1765212929,
+      "category": "Livro",
+      "title": "A ARCA DE NOÉ  VINICIUS DE MORAES  CIA DAS LETRINHAS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212930,
+      "category": "Livro",
+      "title": "A BOLA QUIQUICA  ZIRALDO ALVES PINTO  MELHORAMENTOS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212931,
+      "category": "Livro",
+      "title": "A CASA SONOLENTA  AUDREY E DON WOOD  ÁTICA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212932,
+      "category": "Livro",
+      "title": "ATOLADO  JEZ ALBOROUGH  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212933,
+      "category": "Livro",
+      "title": "UM, DOIS FEIJÃO COM ARROZPATO  ZIRALDO  MELHORAMENTOS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212934,
+      "category": "Livro",
+      "title": "MACACO DANADO  JULIA DONALDSON  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212935,
+      "category": "Livro",
+      "title": "O CHAPEUZINHO  CIRANDA CULTURAL  CIRANDA CULTURAL",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212936,
+      "category": "Livro",
+      "title": "OS TRÊS PORQUINHOS  CIRANDA CULTURAL  CIRANDA CULTURAL",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212937,
+      "category": "Livro",
+      "title": "PÊSSEGO, PÊRA E AMEIXA NO POMAR  ALLAN AHLBERG /JANET AHLBERG SALAMANDRA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212938,
+      "category": "Livro",
+      "title": "VAMOS DORMIR?  GUIDO VAN GENECHTEN  BRINQUE-BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212939,
+      "category": "Livro",
+      "title": "ANIMAIS DA SELVA  CIRANDA CULTURAL  CIRANDA CULTURAL",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212940,
+      "category": "Livro",
+      "title": "QUAL É A COR DO AMOR?  DAVID WOJTOWYCS  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212941,
+      "category": "Livro",
+      "title": "FELIZ ANIVERSÁRIO, RATINHO!  GUIDO VAN GENECHTEN  BRINQUE-BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212942,
+      "category": "Livro",
+      "title": "PULAR, SALTAR, GIRAR...  MARGARET WILD  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212943,
+      "category": "Livro",
+      "title": "DORMINHOCO  MICHAEL ROSEN  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212944,
+      "category": "Livro",
+      "title": "DUDA ADORA PULAR  STEPHEN MICHEL KING  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212945,
+      "category": "Livro",
+      "title": "O DISFARCE DOS ANIMAIS FERNANDO VILELA BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212946,
+      "category": "Livro",
+      "title": "O QUE TEM DENTRO DA SUA FRALDA? VAN GENECHTEN  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212947,
+      "category": "Livro",
+      "title": "O TANQUE DE AREIA ILAN BANMAN BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212948,
+      "category": "Livro",
+      "title": "ABIGAIL  CATHERINE RAYNER  CIRANDA CULTURAL",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212949,
+      "category": "Livro",
+      "title": "O BALDE DAS CHUPETAS  BIA HETZEL  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212950,
+      "category": "Livro",
+      "title": "BEBÊ TUBARÃO  BIA HETZEL  MANATI",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212951,
+      "category": "Livro",
+      "title": "MUITO CANSADO E BEM ACORDADO   SUSANNE STRASSER  COMPANHIA DAS LETRINHAS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212952,
+      "category": "Livro",
+      "title": "BALEIA NA BANHEIRA  SUSANNE STRASSER  COMPANHIA DAS LETRINHAS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212953,
+      "category": "Livro",
+      "title": "O CASO DO POTE QUEBRADO  MILNTON CÉLIO DE OLIVEIRA FILHO  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212954,
+      "category": "Livro",
+      "title": "ALGAZARRA NA FLORESTA  STEPHANI HINTON  COLEÇÕES DEDOCHES",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212955,
+      "category": "Livro",
+      "title": "UM PRESENTE INCRÍVEL  GUIDO V. GENECHTEN/CAMILA VERNER  BRINQUE BOOKS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212956,
+      "category": "Livro",
+      "title": "O CASO DO BOLINHO  TATIANA BELINKY  MODERNA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212957,
+      "category": "Livro",
+      "title": "JOELHO JUVENAL  ZIRALDO  MELHORAMENTOS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212958,
+      "category": "Livro",
+      "title": "A CESTA DE DONA MARICOTA  TATIANA BELINKY  PAULINAS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212959,
+      "category": "Livro",
+      "title": "POSSO FICAR NO MEIO?  SUSANNE STRASSER  COMPANHIA DAS LETRINHAS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212960,
+      "category": "Livro",
+      "title": "UM PRESENTE INCRÍVEL  GUIDO VAN  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212961,
+      "category": "Livro",
+      "title": "O PEQUENIQUE  MARY FRANÇA  ÁTICA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212962,
+      "category": "Livro",
+      "title": "O JOGO E A BOLA  MARY FRANÇA  ÁTICA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212963,
+      "category": "Livro",
+      "title": "PERIGOSO!  TIM WARNES  CIRANDA CULTURAL",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212964,
+      "category": "Livro",
+      "title": "QUEM ABRE O BOCÃO?  LULU LIMA  MIL CARAMIOLAS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212965,
+      "category": "Livro",
+      "title": "A HORTA DE TICO, O OURIÇO  LAURENCE JAMMES E MARC CLAMENS  CAROCHINHA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212966,
+      "category": "Livro",
+      "title": "UMA LAGARTA MUITO COMILONA  ERIC CARLE  CALLIS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212967,
+      "category": "Livro",
+      "title": "CARA DE QUÊ?  MEY E IVANKE  CATAPULTA EDITORES",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212968,
+      "category": "Livro",
+      "title": "GILDO  SILVANA RANDO  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212969,
+      "category": "Livro",
+      "title": "FARRA NO QUINTAL  EDITH CHACON  BIRUTA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212970,
+      "category": "Livro",
+      "title": "BOA VIAGEM, BEBÊ!  BEATRICE ALEMAGNA  COMPANHIA DAS LETRINHAS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212971,
+      "category": "Livro",
+      "title": "BERÇO, BALANÇO, COLINHO , NENÉM  TIEZA TISSI E RAFAELA DEIAB  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212972,
+      "category": "Livro",
+      "title": "O PEDIDO  ANTJE DAMM  COMPANHIA DAS LETRINHAS",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212973,
+      "category": "Livro",
+      "title": "QUERO COLO  STELA BARBIERI  EDIÇÕES SM",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212974,
+      "category": "Livro",
+      "title": "O CARACOL E A TARTARUGA SÃO AMIGOS  STEPHEN MICHAEL KING  BRINQUE BOOK",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212975,
+      "category": "Livro",
+      "title": "É UM GATO?  GUIDO VAN GENECHTEN  GAUDÍ EDITORIAL",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212976,
+      "category": "Livro",
+      "title": "É UMA RÃ?  GUIDO VAN GENECHTEN  GAUDÍ EDITORIAL",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212977,
+      "category": "Livro",
+      "title": "É UM CARACOL?  GUIDO VAN GENECHTEN  GAUDÍ EDITORIAL",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212978,
+      "category": "Livro",
+      "title": "É UM RATINHO?  GUIDO VAN GENECHTEN  GAUDÍ EDITORIAL",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765212979,
+      "category": "Livro",
+      "title": "QUE BICHO DOIDO!  ENÉAS GUERRA  SOLISLUNA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    }
+  ],
   "reservations": [],
   "students_db": [
     {
