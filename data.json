@@ -461,6 +461,267 @@
       "class_name": "Vespertino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765369012,
+      "category": "Livro",
+      "title": "OU ISTO OU AQUILO   CECÍLIA MEIRELES  NOVA FRONTEIRA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369013,
+      "category": "Livro",
+      "title": "A MAIOR FLOR DO MUNDO  JOSÉ SARAMAGO  CIA DAS LETRINHAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369014,
+      "category": "Livro",
+      "title": "A BRUXA SALOMÉ   AUDREY WOOD  ÁTICA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369015,
+      "category": "Livro",
+      "title": "CURRUPACO PAPACO –  COL.",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369016,
+      "category": "Livro",
+      "title": "BATUTINHA   ANA MARIA MACHADO  SALAMANDRA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369017,
+      "category": "Livro",
+      "title": "O HOMEM QUE AMAVA CAIXAS   STEPHEN MICHAEL KING  BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369018,
+      "category": "Livro",
+      "title": "AS CONFUSÕES DE ANINHA   STELLA CAR  MODERNA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369019,
+      "category": "Livro",
+      "title": "AS AVENTURAS DO BONEQUINHO DO BANHEIRO   ZIRALDO  MELHORAMENTO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369020,
+      "category": "Livro",
+      "title": "QUANDO MAMÃE VIROU UM MONSTRO JOANNA  HARRISON BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369021,
+      "category": "Livro",
+      "title": "TIA ANACLETA E SUA DIETA  SYLVIA ORTHOF PAULINAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369022,
+      "category": "Livro",
+      "title": "FADA FOFA E OS SETE ANJINHOS  SYLVIA ORTHOF PAULINAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369023,
+      "category": "Livro",
+      "title": "PEDRO E TINA – UMA AMIZADE",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369024,
+      "category": "Livro",
+      "title": "MUITO ESPECIAL STEPHEN MICHAEL KING BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369025,
+      "category": "Livro",
+      "title": "A PALAVRA FEIA DE ALBERTO  AUDREY WOOD ÁTICA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369026,
+      "category": "Livro",
+      "title": "NO TEMPO EM QUE A TELEVISÃO MANDAVA NO CARLINHOS  RUTH ROCHA FTD",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369027,
+      "category": "Livro",
+      "title": "O CALCANHAR DE AQUILES  ZIRALDO MELHORAMENTOS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369028,
+      "category": "Livro",
+      "title": "BRUXA ONILDA E A MACACA  LARREULA E R.CAPDEVILA SCIPIONE",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369029,
+      "category": "Livro",
+      "title": "SOPA DE BOTÃO DE OSSO  AUBREY DAVIS BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369030,
+      "category": "Livro",
+      "title": "REI BIGODEIRA E SUA BANHEIRA  AUDREY WOOD ÁTICA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369031,
+      "category": "Livro",
+      "title": "A CASA SONOLENTA  AUDREY WOOD ÁTICA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369032,
+      "category": "Livro",
+      "title": "O GRÚFALO  JULIA DONALDSON  BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369033,
+      "category": "Livro",
+      "title": "A VELHA MISTERIOSA  ANA MARIA MACHADO  SALAMANDRA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369034,
+      "category": "Livro",
+      "title": "A GALINHA RUIVA  PILAR MARTÍNEZ MARCO SOMÁ MODERNA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369035,
+      "category": "Livro",
+      "title": "A FORMIGUINHA E A NEVE JOÃO DE BARRO BRAGUINHA MODERNA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369036,
+      "category": "Livro",
+      "title": "DONA BARATINHA  ANA MARIA MACHADO  FTD",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369037,
+      "category": "Livro",
+      "title": "OS TRÊS PORQUINHOS  RUI DE OLIVEIRA  GLOBO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369038,
+      "category": "Livro",
+      "title": "DONA BARATINHA E OUTRAS HISTÓRIAS FRANCISCO GREGÓRIO FILHO  ROCCO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369039,
+      "category": "Livro",
+      "title": "FESTA NO CÉU  ANA MARIA MACHADO  FTD",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765369040,
+      "category": "Livro",
+      "title": "BRUXA, BRUXA VENHA À MINHA FESTA  ARDEN DUCEN  BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
