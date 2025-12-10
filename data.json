@@ -1766,6 +1766,15 @@
       "class_name": "Matutino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765370074,
+      "category": "Livro",
+      "title": "CHUPIM  ITAMAR VIEIRA JUNIOR  BAIÃO",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
