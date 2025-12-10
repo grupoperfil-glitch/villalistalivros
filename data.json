@@ -1757,6 +1757,15 @@
       "class_name": "Matutino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765370025,
+      "category": "Livro",
+      "title": "LEO E LUA  ANA PAULA MIRA/ YURI FERRAZ   PIRULITOS E CAMBALHOTAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
