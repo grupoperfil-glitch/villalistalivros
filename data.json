@@ -5186,6 +5186,1005 @@
       "class_name": "Vespertino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765377343,
+      "category": "Livro",
+      "title": "FORA DA GAIOLA \tLALAU LAURABEATRIZ\tCIA DAS LETRINHAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377344,
+      "category": "Livro",
+      "title": "O GRITO DO RIO TIETÊ\tAMIR PIEDADE\tELEMENTAR",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377345,
+      "category": "Livro",
+      "title": "JOÃO E MARIA\tHERVÉ LE GOFF\tCIA DAS LETRINHAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377346,
+      "category": "Livro",
+      "title": "A BELA ADORMECIDA\tDULCY GRISOLIA\tFTD",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377347,
+      "category": "Livro",
+      "title": "A CHUVARADA \tISABELA CARPONEDA \tFTD",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377348,
+      "category": "Livro",
+      "title": "A MÃE DE JULIO ESPERA UM BEBÊ\tCHRISTIAN LAMBLIM \tÁTICA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377349,
+      "category": "Livro",
+      "title": "A PISCINA CRISTALINA DE MARIANA \tJONAS RIBEIRO \tELEMENTAR",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377350,
+      "category": "Livro",
+      "title": "PEDRO, MENINO NAVEGADOR \tLÚCIA FIDALGO \tMANATI",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377351,
+      "category": "Livro",
+      "title": "CARONA NA VASSOURA \tJULIA DONALDSON \tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377352,
+      "category": "Livro",
+      "title": "ANA, GUTO E O GATO DANÇARINO \tSTEPHEN MICHAEL KING \tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377353,
+      "category": "Livro",
+      "title": "QUEM SOU EU?\tSILVIA ZATZ \tCIA DAS LETRINHAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377354,
+      "category": "Livro",
+      "title": "GABRIEL, JÁ PRO BANHO? \tILAN BRENMAM\tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377355,
+      "category": "Livro",
+      "title": "BRANCA DE NEVE E OS 7 ANÕES \tCARAMELO \tCARAMELO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377356,
+      "category": "Livro",
+      "title": "BRUXA ONILDA E A MACACA \tROSER CAPDEVILA \tSCIPIONE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377357,
+      "category": "Livro",
+      "title": "CACHINHOS DE OURO \tANA MARIA MACHADO \tFTD",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377358,
+      "category": "Livro",
+      "title": "CADÊ  MEU TRAVESSEIRO? \tANA MARIA MACHADO\tSALAMANDRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377359,
+      "category": "Livro",
+      "title": "CASINHA DE BICHOS \tHARDI FILHO \tÁTICA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377360,
+      "category": "Livro",
+      "title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377361,
+      "category": "Livro",
+      "title": "COCÔ DE PASSARINHO \tEVA FURNARI \tCIA DAS LETRINHAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377362,
+      "category": "Livro",
+      "title": "COMO É QUE EU ERA COMO BEBÊ? \tTONY ROSS\tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377363,
+      "category": "Livro",
+      "title": "UM NÚMERO DEPOIS DO OUTRO\tJOSÉ PAULO PAES \tCIA DAS LK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377364,
+      "category": "Livro",
+      "title": "CHAPEUZINHO VERMELHO\tROSINHA \tCALLIS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377365,
+      "category": "Livro",
+      "title": "DA PEQUENA TOUPEIRA\tWERNWE HOLZWARTH \tCIA DAS LETRINHAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377366,
+      "category": "Livro",
+      "title": "DONA BARATINHA \tANA MARIA MACHADO \tFTD",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377367,
+      "category": "Livro",
+      "title": "EU NUNCA VOU COMER TOMATE\tLAUREN CHILD \tÁTICA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377368,
+      "category": "Livro",
+      "title": "FESTA NO CÉU \tRUTH ROCHA \tFTD",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377369,
+      "category": "Livro",
+      "title": "GUILHERME AUGUSTO ARAUJO FERNANDES \tMEN FOX \tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377370,
+      "category": "Livro",
+      "title": "MAMÃE É GRANDE COMO UMA TORRE \tBRIGITTE SCHAR\tCOSACNAIF",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377371,
+      "category": "Livro",
+      "title": "MANECO CANECO CHAPÉU DE FUNIL \tLUÍS CAMARGO \tÁTICA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377372,
+      "category": "Livro",
+      "title": "BRUXA, BRUXA VENHA À MINHA FESTA \tARDEN DRUCE \tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377373,
+      "category": "Livro",
+      "title": "MEU AVÔ PORTUGUÊS \tMANUEL FILHO \tBUSCAPÉ",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377374,
+      "category": "Livro",
+      "title": "NÃO CONFUNDA \tEVA FUNNARI \tMODERNA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377375,
+      "category": "Livro",
+      "title": "NO CORAÇÃO E NA BOLSA\tLAURENCE BOURGUIGNON E VAL’RIE D’HEUR\tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377376,
+      "category": "Livro",
+      "title": "NO IMENSO MAR AZUL\tANA MARIA MACHADO \tSALAMANDRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377377,
+      "category": "Livro",
+      "title": "ÁGUA SIM \tEUCANANÃ FERRAZ \tCIA DAS LETRINHAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377378,
+      "category": "Livro",
+      "title": "O CASO DA LAGARTA QUE TOMOU CHÁ DE SUMIÇO \tMILTON CÉLIO DE O. FILHO E ANDRÉ NEVES\tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377379,
+      "category": "Livro",
+      "title": "O DUENDE DA PONTE \tPATRÍCIA ERA WOLFF\tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377380,
+      "category": "Livro",
+      "title": "O GRÚFALO \tJULIA DONALDSON \tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377381,
+      "category": "Livro",
+      "title": "O HOMEM QUE AMAVA CAIXAS \tSTEPBREN BRING \tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377382,
+      "category": "Livro",
+      "title": "O MONSTRUOSO SEGREDO DE LILI \tANGELIKA GLITZ E ANETTE SWOBODA\tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377383,
+      "category": "Livro",
+      "title": "O SEGREDO DA LAGARTIXA \tLETÍCIA DANSA \tFTD",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377384,
+      "category": "Livro",
+      "title": "ORELHA DE LIMÃO \tKATJA REIDER \tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377385,
+      "category": "Livro",
+      "title": "PARA QUE SERVE UMA BARRIGA TÃO GRANDE  ROSA AMANDA STRAUSZ\tFTD",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377386,
+      "category": "Livro",
+      "title": "PARLENDAS PARA BRINCAR \tJOSCA AILINE BAROUKH\tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377387,
+      "category": "Livro",
+      "title": "POEMAS SAPECAS, RIMAS TRAQUINAS \tALMIR CORRÊA \tCIA DAS LETRINHAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377388,
+      "category": "Livro",
+      "title": "QUEM TEM MEDO DE ESCURO?\tFANNY JOLI \tSC",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377389,
+      "category": "Livro",
+      "title": "SÓ UM PULINHO DE GATO\tHENS JONISH \tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377390,
+      "category": "Livro",
+      "title": "TATUS TRANQUILOS\tFLORENCE BREKEN \tCIA DAS LETRINHAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377391,
+      "category": "Livro",
+      "title": "A PRINCESA SEM NOME\tALESSANDRA DE PAULA \tCALIIS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377392,
+      "category": "Livro",
+      "title": "TICO E OS LOBOS MAUS\tVALER GOBOCHEV\tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377393,
+      "category": "Livro",
+      "title": "TRAVADINHAS\tEVA FURNARI \tMODERNA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377394,
+      "category": "Livro",
+      "title": "O APELIDO DE MARIANA\tCRISTINA VON \tCALLIS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377395,
+      "category": "Livro",
+      "title": "UM TIGRE, DOIS TIGRES, TRÊS TIGRES\tEV FURNARI\tPAULUS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377396,
+      "category": "Livro",
+      "title": "UMA COR DUAS CORES TODAS ELAS  LALAU E LAURABEATRIZ CIA DAS LETRINHAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377397,
+      "category": "Livro",
+      "title": "VOCÊ TROCA?\tEVA FURNARI \tMODERNA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377398,
+      "category": "Livro",
+      "title": "POR QUE EU EXISTO?\tOSCAR BRENIFIER\tPANDA BOOKS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377399,
+      "category": "Livro",
+      "title": "CLARA \tILAN BRENMAN E SILVANA RANDO\tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377400,
+      "category": "Livro",
+      "title": "QUANDO MAMÃE VIROU UM MONSTRO\tJOANA HARRISON \tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377401,
+      "category": "Livro",
+      "title": "NOME, SOBRENOME, APELIDO\tRENATA BUENO\tCIA DAS LETRINHAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377402,
+      "category": "Livro",
+      "title": "O INCRÍVEL RESGATE DO DRAGÃO\tM.P.ROBERTSON\tBIRUTA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377403,
+      "category": "Livro",
+      "title": "DE VÁRIOS JEITOS\tFLÁVIA REIS\tCALLIS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377404,
+      "category": "Livro",
+      "title": "A ÚLTIMA GOTA\tJ.L.DIEGO\tSCIPIONE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377405,
+      "category": "Livro",
+      "title": "CICLO DA ÁGUA\tCRISTINA QUENTAL\tCARMO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377406,
+      "category": "Livro",
+      "title": "O LIVRO DOS TRAVA–LÍNGUAS\tANTÔNIO MOTA\tLEYA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377407,
+      "category": "Livro",
+      "title": "ENROSCA OU DESENROSCA?\tMARIA JOSÉ NÓBREGA\tMODERNA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377408,
+      "category": "Livro",
+      "title": "UM SORRISO CHAMADO LUIZ\tZIRALDO\tMELHORAMENTOS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377409,
+      "category": "Livro",
+      "title": "ALÉM DO RIO\tZIRALDO\tMELHORAMENTOS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377410,
+      "category": "Livro",
+      "title": "ÁGUA NOSSA DE CADA DIA\tZIRALDO\tMELHORAMENTOS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377411,
+      "category": "Livro",
+      "title": "ESSA NÃO É MINHA CAUDA \tCARLA BAREDES \tCALLIS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377412,
+      "category": "Livro",
+      "title": "A MENINA DA CABEÇA QUADRADA EMÍLIA NUÑEZ  TIBI",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377413,
+      "category": "Livro",
+      "title": "A LAGARTIXA COM CARA DE SALSICHA\tRENATA FERNANDES\tLETRA A",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377414,
+      "category": "Livro",
+      "title": "O LOBO QUE QUASE VIROU BOLO\tRENATA FERNANDES\tLETRA A",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377415,
+      "category": "Livro",
+      "title": "DA RAIZ DO CABELO ATÉ A PONTA DO PÉ\tEMÍLIA NUNEZ\tCARAMURÊ",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377416,
+      "category": "Livro",
+      "title": "A INVASÃO NA BANHEIRA\tLULU LIMA\tMIL CARAMIOLAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377417,
+      "category": "Livro",
+      "title": "QUEM VEM LÁ? \tRENATA FERNANDES\tRENATA FERNANDES",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377418,
+      "category": "Livro",
+      "title": "MARÉ BAIXA, MARÉ ALTA\tANA MARIA MACHADO\tGLOBAL",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377419,
+      "category": "Livro",
+      "title": "REI BIGODEIRA E SUA BANHEIRA\tAUDREY WOOD\tÁTICA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377420,
+      "category": "Livro",
+      "title": "EU SOU ASSIM E VOU TE MOSTRAR\tHEINZ JANISCH\tBRINQUE BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377421,
+      "category": "Livro",
+      "title": "BIA NA EUROPA\tEDITORA MODERNA\tRICARDO DREGUER",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377422,
+      "category": "Livro",
+      "title": "GUAYARÊ\tBIRUTA\tYAGUARÉ YAMÃ",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377423,
+      "category": "Livro",
+      "title": "FOI VOVÓ QUE DISSE \tDANIEL MUNDURUKU \tEDELBRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377424,
+      "category": "Livro",
+      "title": "AMORAS \tEMICIDA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377425,
+      "category": "Livro",
+      "title": "MINHA FAMILIA É COLORIDA\tSM\tGEORGINA MARTIN",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377426,
+      "category": "Livro",
+      "title": "CHAPEUZINHO NO PELÔ \tPALMIRA MEIRE\tEVAFURNARY",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377427,
+      "category": "Livro",
+      "title": "TUDO BEM SER DIFERENTE\tTOOD PARR\tPANDA BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377428,
+      "category": "Livro",
+      "title": "O LIVRO DOS SENTIMENTOS\tTOOD PARR\tPANDA BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377429,
+      "category": "Livro",
+      "title": "LÁ E AQUI \tCAROLINA MOREYRA E ODILON MORAES PEQUENAZAHAR",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377430,
+      "category": "Livro",
+      "title": "O MONSTRO DAS CORES\tANNA LLENAS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377431,
+      "category": "Livro",
+      "title": "MEU CORPO, MEU CORPINHO ROSELI MENDONÇA / SIDINEY MEIRELES\tMATRESCÊNCIA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377432,
+      "category": "Livro",
+      "title": "QUEM TEM MEDO DE ESCURO?\tFANNY /JOLY\tSCIPIONE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377433,
+      "category": "Livro",
+      "title": "QUE TEM MEDO DE BRUXA?\tFANNY /JOLY\tSCIPIONE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377434,
+      "category": "Livro",
+      "title": "QUE TEM MEDO DE MAR?\tFANNY /JOLY\tSCIPIONE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377435,
+      "category": "Livro",
+      "title": "A VELHINHA QUE DAVA NOMES ÀS COISAS CYNTHIA RYLANT BRINQUE - BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377436,
+      "category": "Livro",
+      "title": "FILHA DE VÓ \tMARILIA PIRILLO\tWMF MARTINS FONTES",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377437,
+      "category": "Livro",
+      "title": "O GUARDA CHUVA AZUL\tEMILY ANN DAVISON\tMELHORAMENTOS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377438,
+      "category": "Livro",
+      "title": "NAS PROFUNDEZAS  DO OCEANO\tANNA MILBOURNE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377439,
+      "category": "Livro",
+      "title": "ÁGUA: BICHOS QUE GOSTAM DE NADAR!  GUTO LINS AMARILYS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377440,
+      "category": "Livro",
+      "title": "QUEM DISSE? CAROLINE ARCARI\tCAQUI",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377441,
+      "category": "Livro",
+      "title": "VIAGEM ÀS TERRAS DE PORTUGAL \tJOSÉ SANTOS\tEDITORA PEIRÓPOLIS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377442,
+      "category": "Livro",
+      "title": "A HISTÓRIA DA GOTA D´ÁGUA\tDOMINGOS PELLEGRIN\tGERAÇÃOZINHA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377443,
+      "category": "Livro",
+      "title": "O GIGANTE MAIS ELEGANTE DA CIDADE \tJULIA DONALDSON \tBRINQUE-BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377444,
+      "category": "Livro",
+      "title": "APERTADO E SEM ESPAÇO\tJULIA DONALDSON\tBRINQUE-BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377445,
+      "category": "Livro",
+      "title": "O LIVRO PREFERIDO DE UM GAROTO SABIDO\tJULIA DONALDSON\tBRINQUE-BOOK",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377446,
+      "category": "Livro",
+      "title": "A ÚLTIMA GOTA \tEMÍLIA NUNEZ\tTIBI EDITORA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377447,
+      "category": "Livro",
+      "title": "FELICIDADE BICICLETA\tEMÍLIA NUNEZ\tTIBI EDITORA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377448,
+      "category": "Livro",
+      "title": "CHORAR É COMO CHOVER \tEMÍLIA NUNEZ\tTIBI EDITORA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377449,
+      "category": "Livro",
+      "title": "O DOMADOR DE MONTROS\tANA MARIA MACHADO \tFTD EDUCAÇÃO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377450,
+      "category": "Livro",
+      "title": "O LIVRO DA GENTILEZA\tTODD PARR\tPANDA BOOKS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377451,
+      "category": "Livro",
+      "title": "SEMENTES DE AFETO\tSILVIA DELAZARI\tADONIS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377452,
+      "category": "Livro",
+      "title": "O MENINO COM FLORES NO CABELO \tPEQUENA ZAHAR \tJARVIS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765377453,
+      "category": "Livro",
+      "title": "A TURMA DOS 11\tTELOS\tROCIO BONILHA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
