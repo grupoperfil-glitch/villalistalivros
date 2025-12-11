@@ -15527,6 +15527,1077 @@
       "class_name": "Vespertino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765483448,
+      "category": "Livro",
+      "title": "A ÁRVORE DO BETO RUTH ROCHA SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483449,
+      "category": "Livro",
+      "title": "A CASA DO MEU AVÔ RICARDO AZEVEDO ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483450,
+      "category": "Livro",
+      "title": "A CASA SONOLENTA ANDRY WOOD ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483451,
+      "category": "Livro",
+      "title": "A FLAUTA MÁGICA RUTH ROCHA CALLIS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483452,
+      "category": "Livro",
+      "title": "A MENINA QUE PROCURAVA   ALEXANDRE RAMPAZO LAROUSSE",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483453,
+      "category": "Livro",
+      "title": "AMIGOS DO PEITO CLAUDIO THEBAS FORMATO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483454,
+      "category": "Livro",
+      "title": "AMIGO DO REI (COLEÇÃO SAMBALELÊ) RUTH ROCHA ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483455,
+      "category": "Livro",
+      "title": "AS DÚVIDAS QUE EU TENHO RUTH ROCHA   ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483456,
+      "category": "Livro",
+      "title": "AS MENTIRAS DE PAULINHO FERNANDO LOPES DE ALMEIDA  ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483457,
+      "category": "Livro",
+      "title": "O GATO DE BOTAS SÂMIA RIOS SCIPIONE",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483458,
+      "category": "Livro",
+      "title": "BRINCAR DE PENSAR COM HISTÓRIA ANGÉLICA SÁTIRO/ IRENE",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483459,
+      "category": "Livro",
+      "title": "PUIG  CALLIS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483460,
+      "category": "Livro",
+      "title": "BRINCADEIRA DE TODOS OS TEMPOS ANA CLAUDIA RAMOS  ESCALA EDUCACIONAL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483461,
+      "category": "Livro",
+      "title": "BRUXA SALOMÉ ANDREY E BOM WOORD ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483462,
+      "category": "Livro",
+      "title": "CACOETE EVA FURNARI ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483463,
+      "category": "Livro",
+      "title": "CURIOSIDADE PREMIADA FERNANDA LOPES DE ALMEIDA / ALCY LINHARES  ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483464,
+      "category": "Livro",
+      "title": "DEIXA QUE EU NÃO FAÇO FERNANDA LOPES ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483465,
+      "category": "Livro",
+      "title": "O CASO DOS OVOS LIUS CAMARGO ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483466,
+      "category": "Livro",
+      "title": "MANECO CANECO CHAPÉU DE FUNIL LUÍS CAMARGO ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483467,
+      "category": "Livro",
+      "title": "O FRIO PODE SER QUENTE JANDIRA MASSUR ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483468,
+      "category": "Livro",
+      "title": "PALAVRAS, MUITAS PALAVRAS RUTH ROCHA QUINTETO EDITORIAL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483469,
+      "category": "Livro",
+      "title": "O SEGREDO DO REI CARMEM BERENGUER ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483470,
+      "category": "Livro",
+      "title": "LÁ VEM O LUIS ROSEANA MURRAY LEYA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483471,
+      "category": "Livro",
+      "title": "O QUE LEVAR PARA UMAI LHA DESERTA  LALAU LEYA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483472,
+      "category": "Livro",
+      "title": "ROMEU E JULIETA RUTH ROCHA ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483473,
+      "category": "Livro",
+      "title": "MELHOR DE TRÊS ANGELA CARNEIRO ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483474,
+      "category": "Livro",
+      "title": "TENHO MEDO, MAS DOU UM JEITO RUTH ROCHA/DORA LORCH ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483475,
+      "category": "Livro",
+      "title": "MARIA VAI COM AS OUTRAS SILVIA ORTHOY ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483476,
+      "category": "Livro",
+      "title": "JOÃO E O PÉ DE FEIJÃO SÂMIA RIOS SCIPIONE",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483477,
+      "category": "Livro",
+      "title": "UM CALDEIRÃO DE POEMAS TATIANA BELINKY CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483478,
+      "category": "Livro",
+      "title": "UM EXAME MÉDICO PRA NATUREZA NEWTON FOOT ESCALA EDUCACIONAL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483479,
+      "category": "Livro",
+      "title": "MEU AMBIENTE COMEÇA AQUI SHIRLEY SOUZA ESCALA EDUCACIONAL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483480,
+      "category": "Livro",
+      "title": "HISTÓRIA MEIO AO CONTRÁRIO ANA MARIA MACHADO ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483481,
+      "category": "Livro",
+      "title": "CHICO PAPELITA E A RECICLÁ NEREIDE SCHILANO SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483482,
+      "category": "Livro",
+      "title": "DIVERSIDADE TATIANA BELINKY FTD",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483483,
+      "category": "Livro",
+      "title": "A VERDADEIRA HISTÓRIA DECHAPEUZINHO  VERMELHO AGNES BARUZZI E SANDRO NATALINI BRINQUE BOOK",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483484,
+      "category": "Livro",
+      "title": "OBAX ANDRÉ NEVES BRINQUE BOOK",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483485,
+      "category": "Livro",
+      "title": "CHAPEUZINHO VERMELHO E O ARCO-ÍRIS – UMA HITÓRIA SEM LOBO MÁRCIA MURACO SCHOBESBERGER SARAIVA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483486,
+      "category": "Livro",
+      "title": "A HISTÓRIA DAS COISAS FRANCISCO MARQUES SARAIVA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483487,
+      "category": "Livro",
+      "title": "HISTÓRIAS MARAVILHOSAS DE ANDERSEN HASN CHRISTIAN ANDERSEN CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483488,
+      "category": "Livro",
+      "title": "CONTO DE FADAS CLÁSSICOS HELEN CRESSWELL MARTINS FONTES",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483489,
+      "category": "Livro",
+      "title": "MEU PRIMEIRO LIVRO DE CONTOS DE FADAS MARY HOFFMANCIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483490,
+      "category": "Livro",
+      "title": "CONTOS PERRAULT FERNANDO LOPES DE ALMEIDA ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483491,
+      "category": "Livro",
+      "title": "CHAPEUZINHOS COLORIDOS JOSÉ ROBERTO TORERO MARCUS AURÉLIO PIMENTA CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483492,
+      "category": "Livro",
+      "title": "BRANCA DE NEVE E AS SETE VERSÕES JOSÉ ROBERTO TORERO E MARCUS AURELIUS CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483493,
+      "category": "Livro",
+      "title": "COMO SE FOSSE DINHEIRO RUTH ROCHA SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483494,
+      "category": "Livro",
+      "title": "A POESIA É UMA PULGA SILVIA ORTHOF ATUAL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483495,
+      "category": "Livro",
+      "title": "LÁ VEM HISTÓRIA OUTRA VEZ HELOISA PRIETO CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483496,
+      "category": "Livro",
+      "title": "PRINCESA ARABELA, MIMADA QUE SÓ ELA! MYLO FREEMAN ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483497,
+      "category": "Livro",
+      "title": "O MENINO NITO SONIA ROSA PALLAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483498,
+      "category": "Livro",
+      "title": "O CASTELO DA BRUXA CONFUSA BO-GEUM, CHA E SUNG JILONG CALLIS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483499,
+      "category": "Livro",
+      "title": "ERA UMA VEZ UMA BRUXA LIA ZATS MODERNA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483500,
+      "category": "Livro",
+      "title": "NO TEMPO QUE A TELEVISÃO MANDAVA NO CARLINHOS RUTH ROCHA SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483501,
+      "category": "Livro",
+      "title": "BARRINHO, O MENINO DE BARRO MABEL VELLOSO COLEÇÃO DA BRUXA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483502,
+      "category": "Livro",
+      "title": "ONILDA ENRIC LARREULA SCIPIONE",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483503,
+      "category": "Livro",
+      "title": "A VELHA MISTERIOSA ANA MARIA NACHADO SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483504,
+      "category": "Livro",
+      "title": "CUIDADO COM O MENINO ANA MARIA MACHADO SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483505,
+      "category": "Livro",
+      "title": "O JOELHO JUVENAL ZIRALDO MELHORAMENTOS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483506,
+      "category": "Livro",
+      "title": "MANIA DE EXPLICAÇÃO ADRIANA FALCÃO SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483507,
+      "category": "Livro",
+      "title": "QUEM TEM MEDO DE QUE? RUTH ROCHA SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483508,
+      "category": "Livro",
+      "title": "COZINHAR É DIVERTIDO! ANNABEL KARMEL PUBLIFOLHA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483509,
+      "category": "Livro",
+      "title": "40 RECEITAS SEM FOGÃO CORINE ALBAUT NACIONAL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483510,
+      "category": "Livro",
+      "title": "PRATO DO DIA PARA CRIANÇAS TIÇA MAGALHÃES PAZ E TERRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483511,
+      "category": "Livro",
+      "title": "LANCHES PARA TODA HORA COM A TURMA DOSÍTIO DO PICAPAU AMARELO PAULO ROBERTO PACHELLA NACIONAL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483512,
+      "category": "Livro",
+      "title": "100 RECEITAS PARA CRIANÇAS INTELIGENTES CHRISTINE BAILEY PUBLIFOLHA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483513,
+      "category": "Livro",
+      "title": "O LIVRO DE RECEITAS DO MENINO MALUQUINHO ZIRALDO L&PM",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483514,
+      "category": "Livro",
+      "title": "O PEQUENO MESTRE CUCA KATHARINE IBBS PUBLIFOLHA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483515,
+      "category": "Livro",
+      "title": "COMIDA DE CRIANÇA CLÁUDIA LOBO MG",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483516,
+      "category": "Livro",
+      "title": "JUJU NA COZINHA DA CARLOTA CARLA PERNAMBUCO CARAMELO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483517,
+      "category": "Livro",
+      "title": "TEM CRIANÇA NA COZINHA- CULINÁRIA DIVERTIDA CIRANDA CULTURAL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483518,
+      "category": "Livro",
+      "title": "AS CONFUSÕES DE ANINHA STELLA CARR MODERNA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483519,
+      "category": "Livro",
+      "title": "A COZINHA ENCANTADA DOS CONTOS DE FADAS KÁTIA CANTON CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483520,
+      "category": "Livro",
+      "title": "DOMINGO NA PRAÇA NEIDE CORTIZO CARAMURÊ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483521,
+      "category": "Livro",
+      "title": "LÂMPADAS, LAMPARINAS E LAMPIÕES NEIDE CORTIZO CARAMURÊ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483522,
+      "category": "Livro",
+      "title": "VIAGENS E DESCOBRIMENTOS NEIDE CORTIZO CARAMURÊ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483523,
+      "category": "Livro",
+      "title": "A VELHINHA QUE DAVA NOME AS COISAS KATHRYN BROWN BRINQUE BOOK",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483524,
+      "category": "Livro",
+      "title": "O HOMEM QUE AMAVA CAIXAS STEPHEN MICHAEL KING BRINQUE BOOK",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483525,
+      "category": "Livro",
+      "title": "MARCELO MARMELO MARTELO E OUTRAS HISTÓRIAS RUTH ROCHA SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483526,
+      "category": "Livro",
+      "title": "A CINDERELA DAS BONECAS RUTH ROCHA SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483527,
+      "category": "Livro",
+      "title": "O MENINO QUE QUASE MORREU AFOGADO NO LIXO RUTH ROCHA SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483528,
+      "category": "Livro",
+      "title": "CUIDADO COM O MENINO! ANA MARIA MCHADO SALAMANDRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483529,
+      "category": "Livro",
+      "title": "UM DIA NA VIDA DE AMOS McGEE PHILIP C. STEAD PAZ E TERRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483530,
+      "category": "Livro",
+      "title": "A VIDA ÍNTIMA DE LAURA CLARICE LISPECTOR ROCCO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483531,
+      "category": "Livro",
+      "title": "A REVOLTA DAS PRINCESAS CELNE LAMOUR CROCHET EDITORA SABER E LER",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483532,
+      "category": "Livro",
+      "title": "UMA NOITE ASSUSTADORA LESLY GIBBES BRINKBOOK",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483533,
+      "category": "Livro",
+      "title": "A VERDADEIRA HISTÓRIAS DOS TRÊS PORQUINHOS JON SCIESZKA CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483534,
+      "category": "Livro",
+      "title": "A COZINHA ENCANTADA DOS CONTOS DE FADAS KÁTIA CANTON CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483535,
+      "category": "Livro",
+      "title": "MEU PRIMEIRO LIVRO DE CONTOS DE FADAS MARY HOFFMAN CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483536,
+      "category": "Livro",
+      "title": "SALVADOR A PRIMEIRA CAPITAL DO BRASIL. ANTONIETTA DE AGUIAR NUNES CORTEZ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483537,
+      "category": "Livro",
+      "title": "AMORAS EMICIDA CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483538,
+      "category": "Livro",
+      "title": "CONTO DE FADAS ANA MARIA MACHADO ZAHAR",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483539,
+      "category": "Livro",
+      "title": "EU E OS OUTROS: MELHORADO AS RELAÇÕESLILIAN LACOCCA E MICHELE LACOCCA ÁTICA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483540,
+      "category": "Livro",
+      "title": "O CABELO DE CORA ANA ZARCO PALLAS SINTO O QUE SINTO LÁZARO RAMOS CAROCHINHA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483541,
+      "category": "Livro",
+      "title": "MANDELA O AFRICANO DE TODAS AS CORES ALAIN SERRES PEQUENA ZAHAR",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483542,
+      "category": "Livro",
+      "title": "A COR DE CORALINE ALEXANDRE RAMPAZO ROCCO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483543,
+      "category": "Livro",
+      "title": "MEU AVÔ AFRICANO CARMEN LUCIA CAMPOS PANDA BOOKS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483544,
+      "category": "Livro",
+      "title": "A PARTE QUE FALTA SHEL SILVERSTEIN CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483545,
+      "category": "Livro",
+      "title": "MEU AMIGO AUTISTA MARIA EDUARDA LOUREIRO ABRACE",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483546,
+      "category": "Livro",
+      "title": "EU GOSTO DE PESSOAS SEBASTIAN DE LA SERNA SABER E LER",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483547,
+      "category": "Livro",
+      "title": "AZUL E LINDO: PLANETA TERRA, NOSSA CASA RUTH ROCHA MODERNA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483548,
+      "category": "Livro",
+      "title": "MANUAL PARA SUPER-HERÓIS – O INÍCIO DA REVOLUÇÃO SUSTENTÁVEL LAILA ZAID MELHORAMENTOS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483549,
+      "category": "Livro",
+      "title": "GENTE, BICHO, PLANTA: O MUNDO ME ENCANTA ANA MARIA MACHADO GLOBAL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483550,
+      "category": "Livro",
+      "title": "E A TERRA ESCREVEU UMA CARTA... JONAS RIBEIRO CRIS EICH MELHORAMENTOS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483551,
+      "category": "Livro",
+      "title": "NINA NO CERRADO NINA NAZARIO OFICINA DE TEXTOS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483552,
+      "category": "Livro",
+      "title": "SERÁ QUE EU COMPRO ROSANA JATOBÁ PLANO B EDITORIAL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483553,
+      "category": "Livro",
+      "title": "SEIS RAZÕES PARA DIMINUIR O LIXO NO MUNDO NILSON JOSÉ MACHADO E SILMARA CASADEI",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483554,
+      "category": "Livro",
+      "title": "ESCRITURAS DOIS PASSARINHOS DIPACHO PULO DO GATO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483555,
+      "category": "Livro",
+      "title": "CONSUMO CONSCIENTE, GENTE CONTENTE! ÁLVARO MODERNELL MAIS ATIVOS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483556,
+      "category": "Livro",
+      "title": "O BICHINHO TUDO -É -MEU LETICIA RIBAS SINOPSYS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483557,
+      "category": "Livro",
+      "title": "MAR DE PLÁSTICO FELIPE SCHUERY CRIA EDITORA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483558,
+      "category": "Livro",
+      "title": "PLÁSTICO: O LIVRO DOS PORQUES KATIE DAYNES USBORNE",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483559,
+      "category": "Livro",
+      "title": "DUDA CATA TUDO SHEILA KAPLAN ROVELLE",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483560,
+      "category": "Livro",
+      "title": "CONTOS DE GRIMM JACOB GRIMM E WILHEM GRIMM CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483561,
+      "category": "Livro",
+      "title": "HISTÓRIAS MARAVILHOSAS DE ANDERSEN HANS CHRISTIAN ANDERSEN CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483562,
+      "category": "Livro",
+      "title": "SABORZINHO DO BRASIL ALICE GRANATO BAZAR DO TEMPO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483563,
+      "category": "Livro",
+      "title": "O CARTEIRO ENCOLHEU ALLAN AHLBERG CIA DAS LETRINHAS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483564,
+      "category": "Livro",
+      "title": "CULINÁRIA AFRO BRASILEIRA ANTONIO J. DIAS FILHO CIRANDA CULTURAL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483565,
+      "category": "Livro",
+      "title": "FOGÃOZINHO MARIA STELLA LIBANIO E FREI BETTO MERCURYO JOVEM;",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765483566,
+      "category": "Livro",
+      "title": "COZINHEIRINHOS DA DIÁSPORA ALINE CHERMOULA CONEXÃO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
