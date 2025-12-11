@@ -13376,6 +13376,15 @@
       "class_name": "Matutino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765459887,
+      "category": "Jogo",
+      "title": "DOMINÓS – ALIMENTAÇÃO SAUDÁVEL CARLU",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
