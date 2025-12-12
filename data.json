@@ -18650,6 +18650,15 @@
       "class_name": "Matutino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765543412,
+      "category": "Livro",
+      "title": "\"Wangari's Trees of Peace: A True Story from Africa\" by  Jeanette Winter ",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
