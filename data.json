@@ -18641,6 +18641,15 @@
       "class_name": "Matutino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765543388,
+      "category": "Livro",
+      "title": "\"This is the way we go to school: A Book About Children Around the World\", by Edith Baer",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
