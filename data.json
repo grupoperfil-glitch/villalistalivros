@@ -17930,6 +17930,708 @@
       "class_name": "Matutino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765542264,
+      "category": "Livro",
+      "title": "QUE HISTÓRIA É ESSA\tFLÁVIO DE SOUZA\tCIA DAS LETRINHAS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542265,
+      "category": "Livro",
+      "title": "HISTÓRIA MEIO AO CONTRÁRIO\tANA MARIA MACHADO\tÁTICA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542266,
+      "category": "Livro",
+      "title": "HISTÓRIAS DA PRETA\tHELOISA PIRES LIMA\tCIA DAS LETRINHAS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542267,
+      "category": "Livro",
+      "title": "HISTÓRIAS DAS MIL E UMA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542268,
+      "category": "Livro",
+      "title": "NOITES\tRUTH ROCHA\tFTD",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542269,
+      "category": "Livro",
+      "title": "MANIA DE EXPLICAÇÃO\tADRIANA FALCÃO\tSALAMANDRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542270,
+      "category": "Livro",
+      "title": "ARITIMÉTICA DA EMÍLIA\tMONTEIRO LOBATO\tEDITORA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542271,
+      "category": "Livro",
+      "title": "BRASILIENSE",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542272,
+      "category": "Livro",
+      "title": "AVENTUREIROS DE ARGOS\tVITOR LUIZ STUTZ\tFORMATO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542273,
+      "category": "Livro",
+      "title": "ZUMBI, O MENINO QUE",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542274,
+      "category": "Livro",
+      "title": "NASCEU E MORREU LIVRE\tJANAÍNA AMADO\tFORMATO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542275,
+      "category": "Livro",
+      "title": "MINIMAGINÁRIO DE",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542276,
+      "category": "Livro",
+      "title": "ANDERSEN\tHANS CRHISTIAN",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542277,
+      "category": "Livro",
+      "title": "ANDERSEN\tCIA DAS LETRINHAS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542278,
+      "category": "Livro",
+      "title": "O CAIXÃO RASTEJANTE E",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542279,
+      "category": "Livro",
+      "title": "OUTRAS ASSOMBRAÇÕES DE FAMÍLIA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542280,
+      "category": "Livro",
+      "title": "ANGELA LAGO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542281,
+      "category": "Livro",
+      "title": "CIA DAS LETRINHAS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542282,
+      "category": "Livro",
+      "title": "DIÁRIO DE PILAR NA ÁFRICA\tFLÁVIA LINS E SILVA\tPEQUENA ZAHAR",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542283,
+      "category": "Livro",
+      "title": "SETE HISTÓRIAS PARA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542284,
+      "category": "Livro",
+      "title": "SACUDIR O ESQUELETO\tANGELA LAGO\tCIA DAS LETRINHAS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542285,
+      "category": "Livro",
+      "title": "O SILÊNCIO DA ÁGUA\tJOSÉ SARAMAGO\tCIA DAS LETRINHAS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542286,
+      "category": "Livro",
+      "title": "O PEQUENO PRÍNCIPE\tANTOINE SAINT-EXUPÉRY\tAGIR",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542287,
+      "category": "Livro",
+      "title": "FÁBULAS DE ESOPO\tRUSSELL ASH\tCIA DAS LETRINHAS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542288,
+      "category": "Livro",
+      "title": "ODISSÉIA\tRUTH ROCHA\tSALAMANDRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542289,
+      "category": "Livro",
+      "title": "PLANETA CORPO\tSILVIA ZATZ\tCIA DAS LETRINHAS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542290,
+      "category": "Livro",
+      "title": "MONSTROS MITOLÓGICOS\tLUIZ ANTONIO AGUIAR\tFTD",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542291,
+      "category": "Livro",
+      "title": "MATEMÁTICA MORTÍFERA\tKJARTAN POSKITT\tMELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542292,
+      "category": "Livro",
+      "title": "INTERNET UM MUNDO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542293,
+      "category": "Livro",
+      "title": "PARALELO\tLUIZ ZICO ROCHA SOARES\tMELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542294,
+      "category": "Livro",
+      "title": "CELULAR, O TELEFONE DA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542295,
+      "category": "Livro",
+      "title": "PESSOA\tLUIZ ZICO ROCHA SOARES\tMELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542296,
+      "category": "Livro",
+      "title": "RIOS ABRASADORES\tANITA GANERI\tMELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542297,
+      "category": "Livro",
+      "title": "RÁDIO TODA HORA, EM",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542298,
+      "category": "Livro",
+      "title": "TODO LUGAR\tFERNANDO SOLANO\tMELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542299,
+      "category": "Livro",
+      "title": "A GUERRA DE TRÓIA EM",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542300,
+      "category": "Livro",
+      "title": "VERSOS DE CORDEL\tMAURÍCIO DE SOUZA E",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542301,
+      "category": "Livro",
+      "title": "FÁBIO SOMBRA\tMELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542302,
+      "category": "Livro",
+      "title": "CINEMA EMOÇÕES EM",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542303,
+      "category": "Livro",
+      "title": "MOVIMENTO\tHEIDI STRECKER\tMELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542304,
+      "category": "Livro",
+      "title": "IMAGEM – DA CAVERNA AO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542305,
+      "category": "Livro",
+      "title": "MONITOR, A AVENTURA DO OLHAR",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542306,
+      "category": "Livro",
+      "title": "SERGIO KON",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542307,
+      "category": "Livro",
+      "title": "MELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542308,
+      "category": "Livro",
+      "title": "JOÕES E MARIAS\tJOSÉ ROBERTO TORERO E",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542309,
+      "category": "Livro",
+      "title": "MARCUS AURELIUS PIMENTA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542310,
+      "category": "Livro",
+      "title": "CIA DAS LETRINHAS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542311,
+      "category": "Livro",
+      "title": "A REVOLTA DAS PRINCESAS\tCELINE LAMOUR-",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542312,
+      "category": "Livro",
+      "title": "CROCHET\tSABER E LER",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542313,
+      "category": "Livro",
+      "title": "DONA MILUCA\tMARIA ALICE COELHO\tSABER E LER",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542314,
+      "category": "Livro",
+      "title": "ULISSES E A ODISSEIA EM VERSO DE CORDEL\tFÁBIO SOMBRA E",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542315,
+      "category": "Livro",
+      "title": "MAURÍCIO DE SOUZA\tMELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542316,
+      "category": "Livro",
+      "title": "TELEVISÃO, UM VEÍCULO PARA TODOS\tADRIANA FERNANDES MELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542317,
+      "category": "Livro",
+      "title": "A HISTÓRIA MAIS BONITA DO MUNDO PATRÍCIA ENGEL SECCO MELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542318,
+      "category": "Livro",
+      "title": "QUEM É DEUS\tPATRÍCIA ENGEL SECCO\tMELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542319,
+      "category": "Livro",
+      "title": "TODO DIA É DIA DE MALALA\tROSEMARY MCCARNEY\tMELHORAMENTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542320,
+      "category": "Livro",
+      "title": "BANDEIRA DE SÃO JOÃO\tRONALDO CORREIA DE BRITO\tALFAGUARA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542321,
+      "category": "Livro",
+      "title": "MAS QUE FESTA!\tANA MARIA MACHADO\tALFAGUARA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542322,
+      "category": "Livro",
+      "title": "A HISTÓRIA DO PUG TEO...\tFABÍOLA NOON, LUCAS WEINDENBACH E JOELLE",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542323,
+      "category": "Livro",
+      "title": "TOURLONIAS\t SABER E LER",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542324,
+      "category": "Livro",
+      "title": "A MONSTRA PRIMA\tMARKUS HEITZ\tSABER E LER",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542325,
+      "category": "Livro",
+      "title": "ENQUANTO O DIA NÃO CHEGA\tANA MARIA MACHADO\tCIA DAS LETRINHAS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542326,
+      "category": "Livro",
+      "title": "O MENINO E O GELO\tVANIA ABREU\tCARAMURÊ",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542327,
+      "category": "Livro",
+      "title": "MITOS GREGOS\tERIC A. KIMMEL\tWMF MARTINS FONTES",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542328,
+      "category": "Livro",
+      "title": "DEUSES DO OLIMPO  DAD SQUARISI GERAÇÃO JOVEM",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542329,
+      "category": "Livro",
+      "title": "VIAGEM AO CENTRO DA TERRA\tJÚLIO VERNER\tSCIPIONE",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542330,
+      "category": "Livro",
+      "title": "UMA PALAVRA SÓ\tANGELA LAGO\tEDITORA MODERNA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542331,
+      "category": "Livro",
+      "title": "ANTES QUE A TERRA FUJA JULIETA GODOY\tEDITORA MODERNA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542332,
+      "category": "Livro",
+      "title": "A VELHINHA QUE DAVA NOMES AS COISAS CYNTIA RYLANT\tBRINQUE BOOK",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542333,
+      "category": "Livro",
+      "title": "A ÁRVORE DO BETO\tRUTH ROCHA\tSALAMANDRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542334,
+      "category": "Livro",
+      "title": "LILI INVENTA O MUNDO\tMÁRIO QUINTANA\tEDITORA GLOBAL",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542335,
+      "category": "Livro",
+      "title": "CONTOS AFRICANOS PARA CRIANÇAS BRASILEIRAS\t\tEDITORA PAULINAS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542336,
+      "category": "Livro",
+      "title": "OS DIREITOS DAS CRIANÇAS\tRUTH ROCHA  SALAMANDRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542337,
+      "category": "Livro",
+      "title": "E SE EU FOSSE OUTROS?\tSIDNEY BRETANHA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542338,
+      "category": "Livro",
+      "title": "SOMOS TODOS EXTRAORDINÁRIOS\tR.J. PALÁCIO\tSARAIVA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542339,
+      "category": "Livro",
+      "title": "DANIEL NO MUNDO DO SILÊNCIO\tWALCYR CARRASCO\tÁTICA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542340,
+      "category": "Livro",
+      "title": "UM ANJO LINGUARUDO\tRICHARD BYRNE\tPANDA BOOKS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542341,
+      "category": "Livro",
+      "title": "ESTE LIVRO COMEU O CÃO!\tRICHARD BYRNE\tPANDA BOOKS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
