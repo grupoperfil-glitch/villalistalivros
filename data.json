@@ -17516,6 +17516,420 @@
       "class_name": "Matutino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765542034,
+      "category": "Livro",
+      "title": "O LIVRO DOS PONTOS DE VISTA\tRICARDO AZEVEDO\tÁTICA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542035,
+      "category": "Livro",
+      "title": "FÁBULAS DO ESOPO\tHANS GARTHER / LISBETH ZWERGER\tÁTICA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542036,
+      "category": "Livro",
+      "title": "MARIA SAPEBA\tANA MARIA MACHADO\tÁTICA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542037,
+      "category": "Livro",
+      "title": "PEDRO E O LOBO\tHELOISA PIETRO\tÁTICA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542038,
+      "category": "Livro",
+      "title": "HISTÓRIAS À BRASILEIRINHA\tANA MARIA MACHADO\tÁTICA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542039,
+      "category": "Livro",
+      "title": "FELPO FILVA\tEVA FURNARI\tMODERNA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542040,
+      "category": "Livro",
+      "title": "VIVIANA RAINHA DO PIJAMA\tSTEVE WEBB\tSALAMANDRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542041,
+      "category": "Livro",
+      "title": "O QUE OS OLHOS NÃO VÊEM\tRUTH ROCHA\tSALAMANDRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542042,
+      "category": "Livro",
+      "title": "CIÊNCIA EM VERSO\tJON SCIESZKA\tCIA DAS LETRINHAS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542043,
+      "category": "Livro",
+      "title": "VIAGENS DE GULLIVER\tJONATHAN SWIFT\tCIA DAS LETRINHAS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542044,
+      "category": "Livro",
+      "title": "MONSTROMÁTICA\tJON SCIESZKA/LANE SMITH\tCIA DAS LETRINHAS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542045,
+      "category": "Livro",
+      "title": "JAKE CAKE E A PROFESSORA LOBISOMEM MICHAEL BROAD CIA DAS LETRINHAS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542046,
+      "category": "Livro",
+      "title": "NA BEIRA DA ESTRADA\tJULES FEIFFER\tCIA DAS LETRINHAS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542047,
+      "category": "Livro",
+      "title": "CHAPEUZINHOS COLORIDOS\tJOSÉ ROBERTO TORERO/MARCOS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542048,
+      "category": "Livro",
+      "title": "AURELIUS PIMENTA\tCIA DAS LETRINHAS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542049,
+      "category": "Livro",
+      "title": "OS 33 PORQUINHOS JOSÉ ROBERTO TORERO/MARCUS AURELIUS PIMENTA\tALFAGUARA/ OBJETIVA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542050,
+      "category": "Livro",
+      "title": "MARIA SAPEBA\tANA MARIA MACHADO\tÁTICA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542051,
+      "category": "Livro",
+      "title": "PEDRO E O LOBO\tHELOÍSA PIETRO\tÁTICA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542052,
+      "category": "Livro",
+      "title": "HISTÓRIAS À BRASILEIRA – A MOURA TORTA VOL. 1 ANA MARIA MACHADO CIA DAS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542053,
+      "category": "Livro",
+      "title": "LETRINHAS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542054,
+      "category": "Livro",
+      "title": "HISTÓRIAS À BRASILEIRA – PEDRO MALASARTES VOL. 2 ANA MARIA MACHADO\tCIA DAS LETRINHAS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542055,
+      "category": "Livro",
+      "title": "HISTÓRIAS À BRASILEIRA – O PAVÃO MISTERIOSO VOL. 3\tANA MARIA MACHADO CIA DAS LETRINHAS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542056,
+      "category": "Livro",
+      "title": "HISTÓRIAS À BRASILEIRA – A DONZELA GUERREIRA VOL. 4\tANA MARIA MACHADO CIA DAS LETRINHAS",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542057,
+      "category": "Livro",
+      "title": "FELPO FILVA\tEVA FURNARI\tMODERNA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542058,
+      "category": "Livro",
+      "title": "VIVIANA RAINHA DO PIJAMA\tSTEVE WEBB\tSALAMANDRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542059,
+      "category": "Livro",
+      "title": "A HISTÓRIA DO PRÍNCIPE SABIDO E A PRINCESA DESLUMBRANTE\tLUCIANA SANDRONI\tMODERNA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542060,
+      "category": "Livro",
+      "title": "QUANDO EU COMECEI A CRESCER\tRUTH ROCHA\tÁTICA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542061,
+      "category": "Livro",
+      "title": "O QUE OS OLHOS NÃO VEEM\tRUTH ROCHA\tSALAMANDRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542062,
+      "category": "Livro",
+      "title": "EU – DE CABEÇA PARA BAIXO\tROSANA RIOS\tJUJUBA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542063,
+      "category": "Livro",
+      "title": "CHICLETE GRUDADO EMBAIXO DA MESA\tROSANA RIOS JUJUBA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542064,
+      "category": "Livro",
+      "title": "MENINA AMARROTADA\tALINE ABREU\tJUJUBA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542065,
+      "category": "Livro",
+      "title": "NUNO E AS COISAS INCRÍVEIS\tANDRÉ NEVES\tJUJUBA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542066,
+      "category": "Livro",
+      "title": "O JABUTI, A BALEIA E A ANTA\tSTELA BARBIERI\tJUJUBA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542067,
+      "category": "Livro",
+      "title": "BRUNO E JOÃO\tJEAN-CLAUDE R. ALPHEN\tJUJUBA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542068,
+      "category": "Livro",
+      "title": "EU, VOCÊ E TUDO QUE EXISTE\tLILIANA LALOCCA/SIRON FRANCO ÁTICA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542069,
+      "category": "Livro",
+      "title": "ISSO E AQUILO\tCECÍLIA MEIRELES\tGLOBAL",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542070,
+      "category": "Livro",
+      "title": "A MENINA DA CABEÇA QUADRADA\tEMÍLIA NUNES  TIBI",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542071,
+      "category": "Livro",
+      "title": "POEMAS LAMBUZADOS\tLEO CUNHA\tSARAIVA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542072,
+      "category": "Livro",
+      "title": "AVENTURAS E TRAVESSURAS NO 2 DE JULHO\tNEIDE CORTIZO\tCARAMURÊ",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542073,
+      "category": "Livro",
+      "title": "THEODORO – UMA VIAGEM NO ONTEM\tMABEL VELOSO\tCARAMURÊ",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542074,
+      "category": "Livro",
+      "title": "EU E MEU LUGAR\tVANIA ABREU\tCARAMURÊ",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542075,
+      "category": "Livro",
+      "title": "MULHERES POETAS E BAIANAS\tCOL. 20 AUTORAS\tCARAMURÊ",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542076,
+      "category": "Livro",
+      "title": "POR QUE O SUBAÉ NÃO MOLHA O MAPA\tJORGE PORTUGAL\tCARAMURÊ",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542077,
+      "category": "Livro",
+      "title": "TIA CIATA E UM SONHO DE MENINO\tLENA LOIS\tCARAMURÊ",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542078,
+      "category": "Livro",
+      "title": "HISTÓRIAS CONTADAS AOS PÉS DA TENDA\tALI YEZZID IZZ-EDIN IBN- SALIN MALBA TAHAN\tCIRANDA CULTURAL",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765542079,
+      "category": "Livro",
+      "title": "A CENTOPEIA SEM PÉS\tERALDO MIRANDA\tCORTEZ",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
