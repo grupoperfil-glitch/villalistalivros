@@ -18632,6 +18632,15 @@
       "class_name": "Matutino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765543365,
+      "category": "Livro",
+      "title": " \"The Mixed-Up Chameleon\", by Eric Carle",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
