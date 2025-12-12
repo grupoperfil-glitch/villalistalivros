@@ -16598,6 +16598,924 @@
       "class_name": "Matutino",
       "available": true,
       "reserved_by": null
+    },
+    {
+      "id": 1765541599,
+      "category": "Livro",
+      "title": "OU ISTO OU AQUILO   CECILIA MEIRELES\tNOVA FRONTEIRA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541600,
+      "category": "Livro",
+      "title": "A MAIOR FLOR DO MUNDO\tJOSE SARAMAGO\tCIA DAS LETRINHAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541601,
+      "category": "Livro",
+      "title": "A BRUXA SALOMÉ\tAUREY WOOD\tÁTICA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541602,
+      "category": "Livro",
+      "title": "CURRUPACO PAPACO – COL.  BATUTINHA ANA MARIA MACHADO\tSALAMANDRA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541603,
+      "category": "Livro",
+      "title": "O HOMEM QUE AMAVA CAIXAS\tSTEPHEN MICHAEL KING\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541604,
+      "category": "Livro",
+      "title": "AS CONFUSÕES DE ANINHA  STELLA CAR\tMODERNA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541605,
+      "category": "Livro",
+      "title": "AS AVENTURAS DO  BONEQUINHO DO BANHEIRO\tZIRALDO  MELHORAMENTO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541606,
+      "category": "Livro",
+      "title": "QUANDO MAMÃE VIROU UM MONSTRO\tJOANNA HARRISON\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541607,
+      "category": "Livro",
+      "title": "TIA ANACLETA E SUA DIETA\tSYLVIA ORTHOF\tPAULINAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541608,
+      "category": "Livro",
+      "title": "FADA FOFA E OS SETE ANJINHOS\tSYLVIA ORTHOF\tPAULINAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541609,
+      "category": "Livro",
+      "title": "PEDRO E TINA – UMA AMIZADE MUITO ESPECIAL  STEPHEN MICHAEL KING BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541610,
+      "category": "Livro",
+      "title": "A PALAVRA FEIA DE ALBERTO\tAUREY WOOD\tÁTICA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541611,
+      "category": "Livro",
+      "title": "NO TEMPO EM QUE A TELEVISÃO MANDAVA NO  CARLINHOS… RUTH ROCHA FTD",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541612,
+      "category": "Livro",
+      "title": "O CALCANHAR DE AQUILES\tZIRALDO\tMELHORAMENTOS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541613,
+      "category": "Livro",
+      "title": "BRUXA ONILDA E A MACACA\tE. LARREULA & R. CAPDEVILA\tSCIPIONE",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541614,
+      "category": "Livro",
+      "title": "SOPA DE BOTÃO DE OSSO\tAUBREY DAVIS\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541615,
+      "category": "Livro",
+      "title": "REI BIGODEIRA E SUA BANHEIRA\tAUDREY WOOD\tÁTICA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541616,
+      "category": "Livro",
+      "title": "A CASA SONOLENTA\tAUDREY WOOD\tÁTICA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541617,
+      "category": "Livro",
+      "title": "O GRÚFALO\tJULIA DONALDSON\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541618,
+      "category": "Livro",
+      "title": "A VELHA MISTERIOSA\tANA MARIA MACHADO\tSALAMANDRA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541619,
+      "category": "Livro",
+      "title": "A GALINHA RUIVA\tPILAR MARTÍNEZ MARCO SOMÁ\tMODERNA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541620,
+      "category": "Livro",
+      "title": "A FORMIGUINHA E A NEVE\tJOÃO DE BARRO BRAGUINHA\tMODERNA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541621,
+      "category": "Livro",
+      "title": "DONA BARATINHA\tANA MARIA MACHADO\tFTD",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541622,
+      "category": "Livro",
+      "title": "OS TRÊS PORQUINHOS\tRUI DE OLIVEIRA\tGLOBO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541623,
+      "category": "Livro",
+      "title": "DONA BARATINHA E OUTRAS HISTÓRIAS FRANCISCO GREGÓRIO  FILHO\tROCCO  FESTA NO CÉU\tANA MARIA MACHADO\tFTD",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541624,
+      "category": "Livro",
+      "title": "BRUXA, BRUXA VENHA À MINHA FESTA\tARDEN DUCEN\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541625,
+      "category": "Livro",
+      "title": "A BRUXINHA ATRAPALHADA\tEVA FURNARI\tGLOBAL",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541626,
+      "category": "Livro",
+      "title": "UM CALDEIRÃO DE POEMAS\tTATIANA BELINKY\tCIA DAS LETRINHAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541627,
+      "category": "Livro",
+      "title": "O POTE VAZIO\tDEMI\tMARTINS FONTES",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541628,
+      "category": "Livro",
+      "title": "FIZ O QUE PUDE\tLUCILIA J. A. PRADO/ MARIA EUGENIA\tMODERNA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541629,
+      "category": "Livro",
+      "title": "O MAIS FANTÁSTICO OVO DO MUNDO\tHELME HEINE TRADUÇÃO GIAN CALVI GLOBAL",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541630,
+      "category": "Livro",
+      "title": "A HISTÓRIA DA GALINHA AMARANTE NINA AMARANTE/ CLÁUDIA SCATAMACCHIA GLOBAL",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541631,
+      "category": "Livro",
+      "title": "O PROBLEMA DO CLÓVIS\tEVA FURNARI GLOBAL",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541632,
+      "category": "Livro",
+      "title": "A COBRA QUE NÃO SABIA COBRAR\tMIGUEL SANCHES NETO\tGLOBAL",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541633,
+      "category": "Livro",
+      "title": "PIMENTA NO COCURUTO – CONTA DE NOVO\tANA MARIA MACHADO\tFTD",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541634,
+      "category": "Livro",
+      "title": "MACACO DANADO\tJULIA DONALDSON\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541635,
+      "category": "Livro",
+      "title": "O MACACO QUE FICOU SEM RABO LUÍSA DUCLA SOARES /RAQUEL PINHEIRO SOREGRA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541636,
+      "category": "Livro",
+      "title": "CHAPEUZINHO VERMELHO E O ARCO-ÍRIS – UMA HISTÓRIA SEM",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541637,
+      "category": "Livro",
+      "title": "LOBO\tMARCIA MURACO SCHOBESBERGER  FORMATO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541638,
+      "category": "Livro",
+      "title": "CADÊ O DOCINHO QUE ESTAVA AQUI?\tMARIA ANGELA RESENDE\tFORMATO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541639,
+      "category": "Livro",
+      "title": "A ERVILHA QUE NÃO ERA TONTA (NOVA ORTOGRAFIA) MARIA AMÁLIA CAMARGO CARAMELO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541640,
+      "category": "Livro",
+      "title": "FIZ VOAR O MEU CHAPÉU\tANA MARIA MACHADO\tFORMATO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541641,
+      "category": "Livro",
+      "title": "O JOGO DO VIRA-VIRA – CONFORME A NOVA ORTOGRAFIA ANA MARIA MACHADO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541642,
+      "category": "Livro",
+      "title": "O PATINHO CULPADO\tSILVANA TAVANO\tCARAMELO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541643,
+      "category": "Livro",
+      "title": "POEMAS SAPECAS, RIMAS TRAQUINAS\tALMIR CORREIA\tFORMATO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541644,
+      "category": "Livro",
+      "title": "O NATAL DO CARTEIRO\tALLAN AHLBERG\tCIA DAS LETRINHAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541645,
+      "category": "Livro",
+      "title": "DE CARTA EM CARTA\tANA MARIA MACHADO\tSALAMANDRA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541646,
+      "category": "Livro",
+      "title": "A MENINA QUE NÃO ERA MALUQUINHA\tRUTH ROCHA\tMELHORAMENTOS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541647,
+      "category": "Livro",
+      "title": "DONA FOFOCA\tREGINA COELI RENNÓ\tBRASIL",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541648,
+      "category": "Livro",
+      "title": "O LOBINHO BOM\tNADIA SHIREEN\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541649,
+      "category": "Livro",
+      "title": "A PRINCESA E AS ERVILHAS\tCARYL HART\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541650,
+      "category": "Livro",
+      "title": "O NASCIMENTO DA LUA\tCOBY HOL\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541651,
+      "category": "Livro",
+      "title": "O ESCONDERIJO DAS VONTADES\tJONAS RIBEIRO\tCALLIS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541652,
+      "category": "Livro",
+      "title": "CHAPEUZINHO VERMELHO A VERDADEIRA HISTÓRIA ANTONIO R. AL MODOVAR\tCALLIS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541653,
+      "category": "Livro",
+      "title": "XAXADO\tANTONIO CEDRAZ\tESTÚDIO CEDRAZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541654,
+      "category": "Livro",
+      "title": "1001 HISTÓRIAS\tLILA PRAP\tBIRUTA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541655,
+      "category": "Livro",
+      "title": "LEVANTE UM POUQUINHO, POR  FAVOR\tHEE JUNG CHANG\tCALLIS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541656,
+      "category": "Livro",
+      "title": "PORCO-ESPINHO VAI SER PAPAI\tFANNY JOLY\tBIRUTA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541657,
+      "category": "Livro",
+      "title": "O MENINO E O PARDAL\tDANIEL MUNDURUKU\tCALLIS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541658,
+      "category": "Livro",
+      "title": "SAMANTA GORDUCHA VAI AO BAILE DAS BRUXAS\tKATHRYN MEYRICK\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541659,
+      "category": "Livro",
+      "title": "SR. VARETA\tJULIA DONALDSON E AXEL SCHEFFLER\tFUNDAMENTO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541660,
+      "category": "Livro",
+      "title": "A BRUXINHA INTELIGENTE\tLIEVE BAETEN\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541661,
+      "category": "Livro",
+      "title": "O NATAL DA BRUXINHA\tLIEVE BAETEN\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541662,
+      "category": "Livro",
+      "title": "AS FORMIGAS RUIVAS\tMONTEIRO LOBARO\tED. GLOBO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541663,
+      "category": "Livro",
+      "title": "SOPA DE BRUXAS\tHAE WANG\tCALLIS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541664,
+      "category": "Livro",
+      "title": "O HOMEN QUE ROUBAVA HORAS\tDANIEL MUNDURUKU\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541665,
+      "category": "Livro",
+      "title": "O FILHO DO GRÚFALO AXEL SCHEFFLER/JÚLIA DONALDSON BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541666,
+      "category": "Livro",
+      "title": "O LIMPADOR DE PLACAS\tMONICA FETH/DIETER  HEIDEMANN\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541667,
+      "category": "Livro",
+      "title": "OS 3 LOBINHOS E O PORCO MAU\tEUGENE TRIVIZAS\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541668,
+      "category": "Livro",
+      "title": "O CASTELO DA BRUXA CONFUSA\tBO GEUM CHA/ELIZABETH KIM\tCALLIS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541669,
+      "category": "Livro",
+      "title": "PAI, TODOS OS ANIMAIS  SOLTAM PUM? ILAN BRENMAN/IONIT ZILBERMAN BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541670,
+      "category": "Livro",
+      "title": "A IARA\tTONI BRANDÃO\tSTUDIO NOBEL",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541671,
+      "category": "Livro",
+      "title": "O BOTO\tTONI BRANDÃO\tSTUDIO NOBEL",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541672,
+      "category": "Livro",
+      "title": "O SACI E O CURUPIRA\tJOEL RUFINO SANTOS\tÁTICA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541673,
+      "category": "Livro",
+      "title": "A MULA-SEM-CABEÇA\tTONI BRANDÃO\tSTUDIO NOBEL",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541674,
+      "category": "Livro",
+      "title": "TURMA DA MÔNICA  LENDAS BRASILEIRAS MAURICIO DE SOUSA MAURICIO DE SOUSA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541675,
+      "category": "Livro",
+      "title": "O LOBO VOLTOU\tGEOFFROY DE PENNART  BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541676,
+      "category": "Livro",
+      "title": "UMA NOITE ASSUSTADORA\tLESLEY GIBBES  BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541677,
+      "category": "Livro",
+      "title": "CAOS!\tLILLI L’ARRONGE\tBRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541678,
+      "category": "Livro",
+      "title": "CACHINHOS DOURADOS E UM URSO APENAS  LEIGH HODGKINSON BRINQUE BOOK",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541679,
+      "category": "Livro",
+      "title": "A FESTA DO SACI\tFLÁVIO PAIVA\tCORTEZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541680,
+      "category": "Livro",
+      "title": "RECEITA PARA PEGAR SACI\tANNA CLÁUDIA RAMOS E GABRIEL CAMPÊLO  CORTEZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541681,
+      "category": "Livro",
+      "title": "O MENINO QUE ACORDOU O RIO\tCLAUDIO LINS\tCORTEZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541682,
+      "category": "Livro",
+      "title": "EU PRODUZO MENOS LIXO\tCRISTINE SANTOS\tCORTEZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541683,
+      "category": "Livro",
+      "title": "A REVOLTA DAS PRINCESAS CELINE L.CROCHET E LISBETH RENARDY\tSABER LER",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541684,
+      "category": "Livro",
+      "title": "QUEM TEM MEDO DO ESCURO?\tFANNY JOLY / JEAN-NOEL TOCHET SCIPIONE",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541685,
+      "category": "Livro",
+      "title": "LÁPIS COR DE PELE  DANIELA BRITO\tCORTEZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541686,
+      "category": "Livro",
+      "title": "O LOBO QUE QUASE VIROU BOLO\tRENATA FERNANDEZ\tLETRA A",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541687,
+      "category": "Livro",
+      "title": "DE OLHO NOS BICHOS\tELIAS JOSÉ\tFTD",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541688,
+      "category": "Livro",
+      "title": "MEU LIVRO DE FOLCLORE\tRICARDO AZEVEDO\tÁTICA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541689,
+      "category": "Livro",
+      "title": "LENDAS BRASILEIRAS\tMÁRIO DE BAG.\tPAULINAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541690,
+      "category": "Livro",
+      "title": "O SACI/ COLEÇÃO FOLHA FOLCLORE PARA CRIANÇAS  FOLHA DE SÃO PAULO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541691,
+      "category": "Livro",
+      "title": "MISTURICHOS  BEATRIZ CARVALHO E RENATA BUENO\tMARTINS FONTES",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541692,
+      "category": "Livro",
+      "title": "MEU PRIMEIRO BICHONÁRIO\tMARCO HAILER\tCAROCHINHA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541693,
+      "category": "Livro",
+      "title": "CANTISAPOS, HISTOCARÉS E CIRANDEFANTES/ HISTÓRIAS PARA CANTAR E CONTAR SINVAL MEDINA E RENATA BUENO \tCIA DAS LETRINHAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541694,
+      "category": "Livro",
+      "title": "VIAGEM PELO BRASIL EM 52 HISTÓRIAS\t  SILVANA SALERNO\tCIA DAS LETRINHAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541695,
+      "category": "Livro",
+      "title": "COMO CONTAR CROCODILOS  HISTÓRIAS DE BICHOS  CIA DAS LETRINHAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541696,
+      "category": "Livro",
+      "title": "CHUVA DE MANGAS JAMES RUMFORD BRUNA E A GALINHA D’ ANGOLA GERCILGA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541697,
+      "category": "Livro",
+      "title": "EM ANGOLA TEM?  NO BRASIL TAMBÉM\tROGÉRIO ANDRADE",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541698,
+      "category": "Livro",
+      "title": "HISTÓRIA DA PRETA\tHELOISA PIRES LIMA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541699,
+      "category": "Livro",
+      "title": "FLORA\tBARTOLOMEU CAMPOS DE QUEIROZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
+    },
+    {
+      "id": 1765541700,
+      "category": "Livro",
+      "title": "HISTÓRIA DA CAZUMBINHA\tMEIRE CAZUMBÁ  MARIE ANGE BORDAS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "available": true,
+      "reserved_by": null
     }
   ],
   "reservations": [],
