@@ -2836,8 +2836,9 @@
       "title": "QUEM TEM MEDO DE LOBO?\tFANNY JOLLY\tSCIPIONE",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TALITA MOREIRA URPIA",
+      "reserved_student": "MARINA URPIA DE OLIVEIRA"
     },
     {
       "id": 1765376944,
@@ -18719,6 +18720,17 @@
       "class_name": "Matutino",
       "book_title": "KIT DE COZINHA",
       "timestamp": "2025-12-16 13:33"
+    },
+    {
+      "reservation_id": 1765893165,
+      "book_id": 1765376943,
+      "category": "Livro",
+      "parent_name": "TALITA MOREIRA URPIA",
+      "student_name": "MARINA URPIA DE OLIVEIRA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "QUEM TEM MEDO DE LOBO?\tFANNY JOLLY\tSCIPIONE",
+      "timestamp": "2025-12-16 13:52"
     }
   ],
   "students_db": [
