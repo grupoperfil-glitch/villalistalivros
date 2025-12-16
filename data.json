@@ -3163,9 +3163,9 @@
       "title": "BOM DIA TODAS AS CORES \tRUTH ROCHA \tSALAMANDRA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "TALITA MOREIRA URPIA",
-      "reserved_student": "MARINA URPIA DE OLIVEIRA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765376980,
@@ -18678,17 +18678,6 @@
     }
   ],
   "reservations": [
-    {
-      "reservation_id": 1765891570,
-      "book_id": 1765376979,
-      "category": "Livro",
-      "parent_name": "TALITA MOREIRA URPIA",
-      "student_name": "MARINA URPIA DE OLIVEIRA",
-      "grade": "Grupo 3",
-      "class_name": "Matutino",
-      "book_title": "BOM DIA TODAS AS CORES \tRUTH ROCHA \tSALAMANDRA",
-      "timestamp": "2025-12-16 13:26"
-    },
     {
       "reservation_id": 1765891855,
       "book_id": 1765376915,
