@@ -2890,9 +2890,9 @@
       "title": "UMA LAGARTA MUITO COMILONA \tERIC CARLE\tCALLIS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "TALITA MOREIRA URPIA",
-      "reserved_student": "MARINA URPIA DE OLIVEIRA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765376950,
@@ -18676,17 +18676,6 @@
     }
   ],
   "reservations": [
-    {
-      "reservation_id": 1765891522,
-      "book_id": 1765376949,
-      "category": "Livro",
-      "parent_name": "TALITA MOREIRA URPIA",
-      "student_name": "MARINA URPIA DE OLIVEIRA",
-      "grade": "Grupo 3",
-      "class_name": "Matutino",
-      "book_title": "UMA LAGARTA MUITO COMILONA \tERIC CARLE\tCALLIS",
-      "timestamp": "2025-12-16 13:25"
-    },
     {
       "reservation_id": 1765891570,
       "book_id": 1765376979,
