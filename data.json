@@ -2583,9 +2583,9 @@
       "title": "A CASA SONOLENTA\tAUDREY WOOD \tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "TALITA MOREIRA URPIA",
-      "reserved_student": "MARINA URPIA DE OLIVEIRA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765376916,
@@ -18680,17 +18680,6 @@
     }
   ],
   "reservations": [
-    {
-      "reservation_id": 1765891855,
-      "book_id": 1765376915,
-      "category": "Livro",
-      "parent_name": "TALITA MOREIRA URPIA",
-      "student_name": "MARINA URPIA DE OLIVEIRA",
-      "grade": "Grupo 3",
-      "class_name": "Matutino",
-      "book_title": "A CASA SONOLENTA\tAUDREY WOOD \tÁTICA",
-      "timestamp": "2025-12-16 13:30"
-    },
     {
       "reservation_id": 1765891998,
       "book_id": 1765458293,
