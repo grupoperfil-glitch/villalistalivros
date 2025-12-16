@@ -2922,8 +2922,9 @@
       "title": "POESIA NA VARANDA \tSÔNIA JUNQUEIRA \tAUTENTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TALITA MOREIRA URPIA",
+      "reserved_student": "MARINA URPIA DE OLIVEIRA"
     },
     {
       "id": 1765376953,
@@ -18723,6 +18724,17 @@
       "class_name": "Matutino",
       "book_title": "POSSO IR TAMBÉM?\tLÚCIA PIMENTEL GÓES \tSCIPIONE",
       "timestamp": "2025-12-16 14:13"
+    },
+    {
+      "reservation_id": 1765894527,
+      "book_id": 1765376952,
+      "category": "Livro",
+      "parent_name": "TALITA MOREIRA URPIA",
+      "student_name": "MARINA URPIA DE OLIVEIRA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "POESIA NA VARANDA \tSÔNIA JUNQUEIRA \tAUTENTICA",
+      "timestamp": "2025-12-16 14:15"
     }
   ],
   "students_db": [
