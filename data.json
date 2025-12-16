@@ -2828,9 +2828,9 @@
       "title": "QUANDO EU SINTO MEDO \tJAMES MISSE \tPÉ DA LETRA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "TALITA MOREIRA URPIA",
+      "reserved_student": "MARINA URPIA DE OLIVEIRA"
     },
     {
       "id": 1765376943,
@@ -18724,6 +18724,17 @@
       "class_name": "Matutino",
       "book_title": "POESIA NA VARANDA \tSÔNIA JUNQUEIRA \tAUTENTICA",
       "timestamp": "2025-12-16 14:15"
+    },
+    {
+      "reservation_id": 1765894647,
+      "book_id": 1765376942,
+      "category": "Livro",
+      "parent_name": "TALITA MOREIRA URPIA",
+      "student_name": "MARINA URPIA DE OLIVEIRA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "QUANDO EU SINTO MEDO \tJAMES MISSE \tPÉ DA LETRA",
+      "timestamp": "2025-12-16 14:17"
     }
   ],
   "students_db": [
