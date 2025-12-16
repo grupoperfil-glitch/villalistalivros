@@ -11028,8 +11028,9 @@
       "title": "QUEBRA CABEÇA DIVERSOS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TALITA MOREIRA URPIA",
+      "reserved_student": "MARINA URPIA DE OLIVEIRA"
     },
     {
       "id": 1765458294,
@@ -18706,6 +18707,17 @@
       "class_name": "Matutino",
       "book_title": "A CASA SONOLENTA\tAUDREY WOOD \tÁTICA",
       "timestamp": "2025-12-16 13:30"
+    },
+    {
+      "reservation_id": 1765891998,
+      "book_id": 1765458293,
+      "category": "Jogo",
+      "parent_name": "TALITA MOREIRA URPIA",
+      "student_name": "MARINA URPIA DE OLIVEIRA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "QUEBRA CABEÇA DIVERSOS",
+      "timestamp": "2025-12-16 13:33"
     }
   ],
   "students_db": [
