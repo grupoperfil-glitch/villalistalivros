@@ -8341,8 +8341,9 @@
       "title": "PERIGOSO!  CIRANDA CULTURAL  TIM WARNES",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LEANDRO CEZAR C DE OLIVEIRA",
+      "reserved_student": "JOAO ATAIDE GOUVEIA"
     },
     {
       "id": 1765391883,
@@ -18916,6 +18917,17 @@
       "class_name": "Matutino",
       "book_title": "A MENINA DA CABEÇA QUADRADA  EMÍLIA NUNES TIBI",
       "timestamp": "2025-12-17 19:43"
+    },
+    {
+      "reservation_id": 1766000706,
+      "book_id": 1765391882,
+      "category": "Livro",
+      "parent_name": "LEANDRO CEZAR C DE OLIVEIRA",
+      "student_name": "JOAO ATAIDE GOUVEIA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "PERIGOSO!  CIRANDA CULTURAL  TIM WARNES",
+      "timestamp": "2025-12-17 19:45"
     }
   ],
   "students_db": [
