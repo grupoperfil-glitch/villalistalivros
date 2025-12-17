@@ -11691,8 +11691,9 @@
       "title": "DOMINÓ DE CORES MADEIRA",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "reserved_student": "YANNA BARRETO MONTEIRO"
     },
     {
       "id": 1765459190,
@@ -19084,6 +19085,17 @@
       "class_name": "Vespertino",
       "book_title": "KIT MÉDICO",
       "timestamp": "2025-12-17 20:07"
+    },
+    {
+      "reservation_id": 1766002098,
+      "book_id": 1765459189,
+      "category": "Jogo",
+      "parent_name": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "student_name": "YANNA BARRETO MONTEIRO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "DOMINÓ DE CORES MADEIRA",
+      "timestamp": "2025-12-17 20:08"
     }
   ],
   "students_db": [
