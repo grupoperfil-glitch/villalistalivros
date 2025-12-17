@@ -1090,8 +1090,9 @@
       "title": "BRINCADEIRA DE TODOS OS TEMPOS ANA CLAUDIA RAMOS ESCALA EDUCACIONAL",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Vanessa Hiraoka Pessoa da Silva",
+      "reserved_student": "THIE HIRAOKA PESSOA DE OLIVEIRA"
     },
     {
       "id": 1765369194,
@@ -18856,6 +18857,17 @@
       "class_name": "Matutino",
       "book_title": "AS DÚVIDAS QUE EU TENHO  RUTH ROCHA  ÁTICA",
       "timestamp": "2025-12-17 19:34"
+    },
+    {
+      "reservation_id": 1766000181,
+      "book_id": 1765369193,
+      "category": "Livro",
+      "parent_name": "Vanessa Hiraoka Pessoa da Silva",
+      "student_name": "THIE HIRAOKA PESSOA DE OLIVEIRA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "BRINCADEIRA DE TODOS OS TEMPOS ANA CLAUDIA RAMOS ESCALA EDUCACIONAL",
+      "timestamp": "2025-12-17 19:36"
     }
   ],
   "students_db": [
