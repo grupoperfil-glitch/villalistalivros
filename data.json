@@ -1986,8 +1986,9 @@
       "title": "FELICIDADE BICICLETA  EMILIA NUNEZ",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "reserved_student": "YANNA BARRETO MONTEIRO"
     },
     {
       "id": 1765376550,
@@ -19036,6 +19037,17 @@
       "class_name": "Vespertino",
       "book_title": "OS DEZ AMIGOS\tZIRALDO",
       "timestamp": "2025-12-17 20:02"
+    },
+    {
+      "reservation_id": 1766001798,
+      "book_id": 1765376549,
+      "category": "Livro",
+      "parent_name": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "student_name": "YANNA BARRETO MONTEIRO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "JOELHO JUVENAL\tZIRALDO\tMELHORAMENTOS",
+      "timestamp": "2025-12-17 20:03"
     }
   ],
   "students_db": [
