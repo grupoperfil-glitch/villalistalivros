@@ -7887,8 +7887,9 @@
       "title": "UM PORCO VEM MORAR AQUI  BRINQUE BOOK  CLAUDIA FRIES",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LEANDRO CEZAR C DE OLIVEIRA",
+      "reserved_student": "JOAO ATAIDE GOUVEIA"
     },
     {
       "id": 1765391833,
@@ -18867,6 +18868,17 @@
       "grade": "2º Ano",
       "class_name": "Matutino",
       "book_title": "BRINCADEIRA DE TODOS OS TEMPOS ANA CLAUDIA RAMOS ESCALA EDUCACIONAL",
+      "timestamp": "2025-12-17 19:36"
+    },
+    {
+      "reservation_id": 1766000185,
+      "book_id": 1765391832,
+      "category": "Livro",
+      "parent_name": "LEANDRO CEZAR C DE OLIVEIRA",
+      "student_name": "JOAO ATAIDE GOUVEIA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "UM PORCO VEM MORAR AQUI  BRINQUE BOOK  CLAUDIA FRIES",
       "timestamp": "2025-12-17 19:36"
     }
   ],
