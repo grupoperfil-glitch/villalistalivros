@@ -13128,8 +13128,9 @@
       "title": "QUEBRA-CABEÇA INCLUSÃO SOCIAL\tCARLU",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANA PAULA RODRIGUES DE ANDRADE",
+      "reserved_student": "ARTHUR RODRIGUES DE ANDRADE"
     },
     {
       "id": 1765459718,
@@ -19145,6 +19146,17 @@
       "class_name": "Vespertino",
       "book_title": "KIT MÉDICO",
       "timestamp": "2025-12-17 22:18"
+    },
+    {
+      "reservation_id": 1766010343,
+      "book_id": 1765459717,
+      "category": "Jogo",
+      "parent_name": "ANA PAULA RODRIGUES DE ANDRADE",
+      "student_name": "ARTHUR RODRIGUES DE ANDRADE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "QUEBRA-CABEÇA INCLUSÃO SOCIAL\tCARLU",
+      "timestamp": "2025-12-17 22:25"
     }
   ],
   "students_db": [
