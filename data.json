@@ -18213,8 +18213,9 @@
       "title": "PARALELO\tLUIZ ZICO ROCHA SOARES\tMELHORAMENTOS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "IRIS CARLA SOUZA BRASIL DE MELLO TEIVES ARGOLO",
+      "reserved_student": "BERNARDO JOEDIL BRASIL DE MELLO BASTOS"
     },
     {
       "id": 1765542294,
@@ -18784,6 +18785,17 @@
       "class_name": "Matutino",
       "book_title": "QUEBRA- CABEÇA 100 PEÇAS\tBRASIL TOYSTER",
       "timestamp": "2025-12-17 19:18"
+    },
+    {
+      "reservation_id": 1765999274,
+      "book_id": 1765542293,
+      "category": "Livro",
+      "parent_name": "IRIS CARLA SOUZA BRASIL DE MELLO TEIVES ARGOLO",
+      "student_name": "BERNARDO JOEDIL BRASIL DE MELLO BASTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "PARALELO\tLUIZ ZICO ROCHA SOARES\tMELHORAMENTOS",
+      "timestamp": "2025-12-17 19:21"
     }
   ],
   "students_db": [
