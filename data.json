@@ -13377,8 +13377,9 @@
       "title": "JOGO CAIU PERDEU \tPAIS E FILHOS",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VANESSA VIEIRA PESSANHA",
+      "reserved_student": "LARA PESSANHA COSTA"
     },
     {
       "id": 1765459875,
@@ -18820,6 +18821,17 @@
       "class_name": "Matutino",
       "book_title": "O MENINO NITO – ENTÃO, HOMEM CHORA OU NÃO?  PALLAS  SÔNIA ROSA",
       "timestamp": "2025-12-17 19:32"
+    },
+    {
+      "reservation_id": 1766000047,
+      "book_id": 1765459739,
+      "category": "Jogo",
+      "parent_name": "VANESSA VIEIRA PESSANHA",
+      "student_name": "LARA PESSANHA COSTA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "JOGO CAIU PERDEU \tPAIS E FILHOS",
+      "timestamp": "2025-12-17 19:34"
     }
   ],
   "students_db": [
