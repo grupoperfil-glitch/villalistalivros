@@ -13055,9 +13055,9 @@
       "title": "MEMÓRIA – FRUTAS E HORTALIÇAS\tCARLU",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "ANA PAULA RODRIGUES DE ANDRADE",
-      "reserved_student": "ARTHUR RODRIGUES DE ANDRADE"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765459710,
@@ -19134,17 +19134,6 @@
       "class_name": "Vespertino",
       "book_title": "O LIVRO PREFERIDO DE UM GAROTO SABIDO\tJULIA DONALDSON\tBRINQUE-BOOK",
       "timestamp": "2025-12-17 22:06"
-    },
-    {
-      "reservation_id": 1766009726,
-      "book_id": 1765459709,
-      "category": "Jogo",
-      "parent_name": "ANA PAULA RODRIGUES DE ANDRADE",
-      "student_name": "ARTHUR RODRIGUES DE ANDRADE",
-      "grade": "Grupo 4",
-      "class_name": "Vespertino",
-      "book_title": "MEMÓRIA – FRUTAS E HORTALIÇAS\tCARLU",
-      "timestamp": "2025-12-17 22:15"
     },
     {
       "reservation_id": 1766009905,
