@@ -7659,8 +7659,9 @@
       "title": "O MENINO NITO – ENTÃO, HOMEM CHORA OU NÃO?  PALLAS  SÔNIA ROSA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LEANDRO CEZAR C DE OLIVEIRA",
+      "reserved_student": "JOAO ATAIDE GOUVEIA"
     },
     {
       "id": 1765391808,
@@ -18808,6 +18809,17 @@
       "class_name": "Matutino",
       "book_title": "INTERNET UM MUNDO",
       "timestamp": "2025-12-17 19:22"
+    },
+    {
+      "reservation_id": 1765999978,
+      "book_id": 1765391807,
+      "category": "Livro",
+      "parent_name": "LEANDRO CEZAR C DE OLIVEIRA",
+      "student_name": "JOAO ATAIDE GOUVEIA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "O MENINO NITO – ENTÃO, HOMEM CHORA OU NÃO?  PALLAS  SÔNIA ROSA",
+      "timestamp": "2025-12-17 19:32"
     }
   ],
   "students_db": [
