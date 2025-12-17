@@ -6131,8 +6131,9 @@
       "title": "O LIVRO PREFERIDO DE UM GAROTO SABIDO\tJULIA DONALDSON\tBRINQUE-BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANA PAULA RODRIGUES DE ANDRADE",
+      "reserved_student": "ARTHUR RODRIGUES DE ANDRADE"
     },
     {
       "id": 1765377446,
@@ -19120,6 +19121,17 @@
       "class_name": "Vespertino",
       "book_title": "O GIGANTE MAIS ELEGANTE DA CIDADE \tJULIA DONALDSON \tBRINQUE-BOOK",
       "timestamp": "2025-12-17 22:03"
+    },
+    {
+      "reservation_id": 1766009161,
+      "book_id": 1765377445,
+      "category": "Livro",
+      "parent_name": "ANA PAULA RODRIGUES DE ANDRADE",
+      "student_name": "ARTHUR RODRIGUES DE ANDRADE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "O LIVRO PREFERIDO DE UM GAROTO SABIDO\tJULIA DONALDSON\tBRINQUE-BOOK",
+      "timestamp": "2025-12-17 22:06"
     }
   ],
   "students_db": [
