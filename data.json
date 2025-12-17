@@ -14979,8 +14979,9 @@
       "title": "QUEBRA- CABEÇA 100 PEÇAS\tBRASIL TOYSTER",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LEANDRO CEZAR C DE OLIVEIRA",
+      "reserved_student": "JOAO ATAIDE GOUVEIA"
     },
     {
       "id": 1765460539,
@@ -18772,6 +18773,17 @@
       "class_name": "Matutino",
       "book_title": "MATEMÁTICA MORTÍFERA\tKJARTAN POSKITT\tMELHORAMENTOS",
       "timestamp": "2025-12-17 19:17"
+    },
+    {
+      "reservation_id": 1765999116,
+      "book_id": 1765460538,
+      "category": "Brinquedo",
+      "parent_name": "LEANDRO CEZAR C DE OLIVEIRA",
+      "student_name": "JOAO ATAIDE GOUVEIA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "QUEBRA- CABEÇA 100 PEÇAS\tBRASIL TOYSTER",
+      "timestamp": "2025-12-17 19:18"
     }
   ],
   "students_db": [
