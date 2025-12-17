@@ -711,8 +711,9 @@
       "title": "FESTA NO CÉU  ANA MARIA MACHADO  FTD",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JUAREZ DOS SANTOS LIMA",
+      "reserved_student": "ARTHUR BEN RIBEIRO LIMA"
     },
     {
       "id": 1765369040,
@@ -19193,6 +19194,17 @@
       "class_name": "Vespertino",
       "book_title": "DONA BARATINHA E OUTRAS HISTÓRIAS FRANCISCO GREGÓRIO FILHO  ROCCO",
       "timestamp": "2025-12-17 22:37"
+    },
+    {
+      "reservation_id": 1766011098,
+      "book_id": 1765369039,
+      "category": "Livro",
+      "parent_name": "JUAREZ DOS SANTOS LIMA",
+      "student_name": "ARTHUR BEN RIBEIRO LIMA",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "OU ISTO OU AQUILO   CECÍLIA MEIRELES  NOVA FRONTEIRA",
+      "timestamp": "2025-12-17 22:38"
     }
   ],
   "students_db": [
