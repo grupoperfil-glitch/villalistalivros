@@ -18193,8 +18193,9 @@
       "title": "MATEMÁTICA MORTÍFERA\tKJARTAN POSKITT\tMELHORAMENTOS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "IRIS CARLA SOUZA BRASIL DE MELLO TEIVES ARGOLO",
+      "reserved_student": "BERNARDO JOEDIL BRASIL DE MELLO BASTOS"
     },
     {
       "id": 1765542292,
@@ -18760,6 +18761,17 @@
       "class_name": "Matutino",
       "book_title": "2 PEGAVARETAS",
       "timestamp": "2025-12-17 19:16"
+    },
+    {
+      "reservation_id": 1765999055,
+      "book_id": 1765542291,
+      "category": "Livro",
+      "parent_name": "IRIS CARLA SOUZA BRASIL DE MELLO TEIVES ARGOLO",
+      "student_name": "BERNARDO JOEDIL BRASIL DE MELLO BASTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "MATEMÁTICA MORTÍFERA\tKJARTAN POSKITT\tMELHORAMENTOS",
+      "timestamp": "2025-12-17 19:17"
     }
   ],
   "students_db": [
