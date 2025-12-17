@@ -1615,8 +1615,9 @@
       "title": "CHICLETE GRUDADO EMBAIXO DA MESA ROSANA RIOS  JUJUBA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PATRICIA FERNANDES DA SILVA ANDRADE",
+      "reserved_student": "JOAO GABRIEL ANDRADE DE SOUZA"
     },
     {
       "id": 1765369379,
@@ -19012,6 +19013,17 @@
       "class_name": "Matutino",
       "book_title": "BARALHO (MICO)",
       "timestamp": "2025-12-17 19:56"
+    },
+    {
+      "reservation_id": 1766001622,
+      "book_id": 1765369378,
+      "category": "Livro",
+      "parent_name": "PATRICIA FERNANDES DA SILVA ANDRADE",
+      "student_name": "JOAO GABRIEL ANDRADE DE SOUZA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "CHICLETE GRUDADO EMBAIXO DA MESA ROSANA RIOS  JUJUBA",
+      "timestamp": "2025-12-17 20:00"
     }
   ],
   "students_db": [
