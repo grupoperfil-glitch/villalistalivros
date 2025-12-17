@@ -6166,8 +6166,9 @@
       "title": "O DOMADOR DE MONTROS\tANA MARIA MACHADO \tFTD EDUCAÇÃO",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANA PAULA RODRIGUES DE ANDRADE",
+      "reserved_student": "ARTHUR RODRIGUES DE ANDRADE"
     },
     {
       "id": 1765377450,
@@ -19096,6 +19097,17 @@
       "class_name": "Vespertino",
       "book_title": "DOMINÓ DE CORES MADEIRA",
       "timestamp": "2025-12-17 20:08"
+    },
+    {
+      "reservation_id": 1766008940,
+      "book_id": 1765377449,
+      "category": "Livro",
+      "parent_name": "ANA PAULA RODRIGUES DE ANDRADE",
+      "student_name": "ARTHUR RODRIGUES DE ANDRADE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "O DOMADOR DE MONTROS\tANA MARIA MACHADO \tFTD EDUCAÇÃO",
+      "timestamp": "2025-12-17 22:02"
     }
   ],
   "students_db": [
