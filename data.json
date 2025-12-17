@@ -14830,8 +14830,9 @@
       "title": "BARALHO (MICO)",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA FERNANDES DA SILVA ANDRADE",
+      "reserved_student": "JULIA FERNANDES RODRIGUES"
     },
     {
       "id": 1765460379,
@@ -19000,6 +19001,17 @@
       "class_name": "Matutino",
       "book_title": "KIT MÉDICO",
       "timestamp": "2025-12-17 19:55"
+    },
+    {
+      "reservation_id": 1766001393,
+      "book_id": 1765460378,
+      "category": "Jogo",
+      "parent_name": "FLAVIA FERNANDES DA SILVA ANDRADE",
+      "student_name": "JULIA FERNANDES RODRIGUES",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "BARALHO (MICO)",
+      "timestamp": "2025-12-17 19:56"
     }
   ],
   "students_db": [
