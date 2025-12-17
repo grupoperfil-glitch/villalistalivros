@@ -1678,8 +1678,9 @@
       "title": "A MENINA DA CABEÇA QUADRADA  EMÍLIA NUNES TIBI",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PATRICIA FERNANDES DA SILVA ANDRADE",
+      "reserved_student": "JOAO GABRIEL ANDRADE DE SOUZA"
     },
     {
       "id": 1765369386,
@@ -18904,6 +18905,17 @@
       "class_name": "Matutino",
       "book_title": "MEU AMBIENTE COMEÇA AQUI SHIRLEY SOUZA ESCALA EDUCACIONAL",
       "timestamp": "2025-12-17 19:39"
+    },
+    {
+      "reservation_id": 1766000608,
+      "book_id": 1765369385,
+      "category": "Livro",
+      "parent_name": "PATRICIA FERNANDES DA SILVA ANDRADE",
+      "student_name": "JOAO GABRIEL ANDRADE DE SOUZA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "A MENINA DA CABEÇA QUADRADA  EMÍLIA NUNES TIBI",
+      "timestamp": "2025-12-17 19:43"
     }
   ],
   "students_db": [
