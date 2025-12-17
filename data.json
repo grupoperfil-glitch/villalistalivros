@@ -15084,8 +15084,9 @@
       "title": "KIT MÉDICO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DANIEL LUIZ LUCENA ROCHA LEITE SANTANA",
+      "reserved_student": "MARIA JULIA SANTANA GONZALEZ"
     },
     {
       "id": 1765460549,
@@ -18988,6 +18989,17 @@
       "class_name": "Matutino",
       "book_title": "DOMINÓ",
       "timestamp": "2025-12-17 19:54"
+    },
+    {
+      "reservation_id": 1766001331,
+      "book_id": 1765460548,
+      "category": "Brinquedo",
+      "parent_name": "DANIEL LUIZ LUCENA ROCHA LEITE SANTANA",
+      "student_name": "MARIA JULIA SANTANA GONZALEZ",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "KIT MÉDICO",
+      "timestamp": "2025-12-17 19:55"
     }
   ],
   "students_db": [
