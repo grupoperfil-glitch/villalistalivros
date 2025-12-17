@@ -965,8 +965,9 @@
       "title": "DONA BARATINHA E OUTRAS HISTÓRIAS FRANCISCO GREGÓRIO FILHO  ROCCO",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JUAREZ DOS SANTOS LIMA",
+      "reserved_student": "ARTHUR BEN RIBEIRO LIMA"
     },
     {
       "id": 1765369066,
@@ -19180,6 +19181,17 @@
       "grade": "1º Ano",
       "class_name": "Vespertino",
       "book_title": "A GALINHA RUIVA  PILAR MARTÍNEZ MARCO SOMÁ MODERNA",
+      "timestamp": "2025-12-17 22:37"
+    },
+    {
+      "reservation_id": 1766011062,
+      "book_id": 1765369065,
+      "category": "Livro",
+      "parent_name": "JUAREZ DOS SANTOS LIMA",
+      "student_name": "ARTHUR BEN RIBEIRO LIMA",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "DONA BARATINHA E OUTRAS HISTÓRIAS FRANCISCO GREGÓRIO FILHO  ROCCO",
       "timestamp": "2025-12-17 22:37"
     }
   ],
