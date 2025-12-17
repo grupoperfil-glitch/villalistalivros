@@ -7457,8 +7457,9 @@
       "title": "MEU CORPO PODE   GALERINHA   Katie Crenshaw E Ady Meschke",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DANIEL LUIZ LUCENA ROCHA LEITE SANTANA",
+      "reserved_student": "MARIA JULIA SANTANA GONZALEZ"
     },
     {
       "id": 1765391785,
@@ -18928,6 +18929,17 @@
       "class_name": "Matutino",
       "book_title": "PERIGOSO!  CIRANDA CULTURAL  TIM WARNES",
       "timestamp": "2025-12-17 19:45"
+    },
+    {
+      "reservation_id": 1766000839,
+      "book_id": 1765391784,
+      "category": "Livro",
+      "parent_name": "DANIEL LUIZ LUCENA ROCHA LEITE SANTANA",
+      "student_name": "MARIA JULIA SANTANA GONZALEZ",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "MEU CORPO PODE   GALERINHA   Katie Crenshaw E Ady Meschke",
+      "timestamp": "2025-12-17 19:47"
     }
   ],
   "students_db": [
