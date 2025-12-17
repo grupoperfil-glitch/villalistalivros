@@ -7515,8 +7515,9 @@
       "title": "SOPA DE BOTÃO DE OSSO  BRINQUE BOOK  AUBREY DAVIS / DUSAN PETRICIC",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PAULO GIOVANNI SOUZA DE OLIVEIRA",
+      "reserved_student": "MAITÊ DE OLIVEIRA MENDONÇA"
     },
     {
       "id": 1765391790,
@@ -19217,6 +19218,17 @@
       "class_name": "Vespertino",
       "book_title": "JÁ SEI CONTAR\tGROW",
       "timestamp": "2025-12-17 22:52"
+    },
+    {
+      "reservation_id": 1766013430,
+      "book_id": 1765391789,
+      "category": "Livro",
+      "parent_name": "PAULO GIOVANNI SOUZA DE OLIVEIRA",
+      "student_name": "MAITÊ DE OLIVEIRA MENDONÇA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "MEU CRESPO É DE RAINHA  BOITATÁ  BELL HOOKS",
+      "timestamp": "2025-12-17 23:17"
     }
   ],
   "students_db": [
