@@ -7460,8 +7460,9 @@
       "title": "BETO, O CARNEIRO   SALAMANDRA   ANA MARIA MACHADO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PAULO GIOVANNI SOUZA DE OLIVEIRA",
+      "reserved_student": "MAITÊ DE OLIVEIRA MENDONÇA"
     },
     {
       "id": 1765391784,
@@ -19228,6 +19229,17 @@
       "grade": "Grupo 5",
       "class_name": "Vespertino",
       "book_title": "MEU CRESPO É DE RAINHA  BOITATÁ  BELL HOOKS",
+      "timestamp": "2025-12-17 23:17"
+    },
+    {
+      "reservation_id": 1766013468,
+      "book_id": 1765391783,
+      "category": "Livro",
+      "parent_name": "PAULO GIOVANNI SOUZA DE OLIVEIRA",
+      "student_name": "MAITÊ DE OLIVEIRA MENDONÇA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "A MENINA QUE ABRAÇA O VENTO  VOOINHO  FERNANDA PARAGUASSU",
       "timestamp": "2025-12-17 23:17"
     }
   ],
