@@ -19914,6 +19914,14 @@
       "grade": "2º Ano",
       "class_name": "Matutino",
       "parent_csv": "YASMIN LEITE ZUZA"
+    },
+    {
+      "email": "naianascunha@gmail.com",
+      "email2": "",
+      "name": "ISRAEL CUNHA DE SOUSA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "Naiana Cunha"
     }
   ]
 }
