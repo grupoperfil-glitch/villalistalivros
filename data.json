@@ -2465,8 +2465,9 @@
       "title": "BOM DIA CORES   RUTE ROCHA",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "reserved_student": "YANNA BARRETO MONTEIRO"
     },
     {
       "id": 1765376575,
@@ -19048,6 +19049,17 @@
       "class_name": "Vespertino",
       "book_title": "JOELHO JUVENAL\tZIRALDO\tMELHORAMENTOS",
       "timestamp": "2025-12-17 20:03"
+    },
+    {
+      "reservation_id": 1766001919,
+      "book_id": 1765376574,
+      "category": "Livro",
+      "parent_name": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "student_name": "YANNA BARRETO MONTEIRO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "BOM DIA CORES   RUTE ROCHA",
+      "timestamp": "2025-12-17 20:05"
     }
   ],
   "students_db": [
