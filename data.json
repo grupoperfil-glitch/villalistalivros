@@ -2436,8 +2436,9 @@
       "title": "OS DEZ AMIGOS\tZIRALDO",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "reserved_student": "YANNA BARRETO MONTEIRO"
     },
     {
       "id": 1765376572,
@@ -19024,6 +19025,17 @@
       "class_name": "Matutino",
       "book_title": "CHICLETE GRUDADO EMBAIXO DA MESA ROSANA RIOS  JUJUBA",
       "timestamp": "2025-12-17 20:00"
+    },
+    {
+      "reservation_id": 1766001775,
+      "book_id": 1765376571,
+      "category": "Livro",
+      "parent_name": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "student_name": "YANNA BARRETO MONTEIRO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "OS DEZ AMIGOS\tZIRALDO",
+      "timestamp": "2025-12-17 20:02"
     }
   ],
   "students_db": [
