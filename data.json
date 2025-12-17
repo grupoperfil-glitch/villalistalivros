@@ -928,8 +928,9 @@
       "title": "A GALINHA RUIVA  PILAR MARTÍNEZ MARCO SOMÁ MODERNA",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JUAREZ DOS SANTOS LIMA",
+      "reserved_student": "ARTHUR BEN RIBEIRO LIMA"
     },
     {
       "id": 1765369062,
@@ -19168,6 +19169,17 @@
       "grade": "1º Ano",
       "class_name": "Vespertino",
       "book_title": "O CALCANHAR DE AQUILES  ZIRALDO MELHORAMENTOS",
+      "timestamp": "2025-12-17 22:37"
+    },
+    {
+      "reservation_id": 1766011050,
+      "book_id": 1765369061,
+      "category": "Livro",
+      "parent_name": "JUAREZ DOS SANTOS LIMA",
+      "student_name": "ARTHUR BEN RIBEIRO LIMA",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "A GALINHA RUIVA  PILAR MARTÍNEZ MARCO SOMÁ MODERNA",
       "timestamp": "2025-12-17 22:37"
     }
   ],
