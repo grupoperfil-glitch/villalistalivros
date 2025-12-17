@@ -12501,8 +12501,9 @@
       "title": "TREM 1 AO 20 NUMERAIS MADEIRA  PRESCHOOL",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "reserved_student": "YANNA BARRETO MONTEIRO"
     },
     {
       "id": 1765459329,
@@ -19072,6 +19073,17 @@
       "class_name": "Matutino",
       "book_title": "QUANDO EU COMECEI A CRESCER  RUTH ROCHA  ÁTICA",
       "timestamp": "2025-12-17 20:05"
+    },
+    {
+      "reservation_id": 1766002043,
+      "book_id": 1765459328,
+      "category": "Brinquedo",
+      "parent_name": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "student_name": "YANNA BARRETO MONTEIRO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "KIT MÉDICO",
+      "timestamp": "2025-12-17 20:07"
     }
   ],
   "students_db": [
