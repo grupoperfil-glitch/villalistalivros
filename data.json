@@ -14807,8 +14807,9 @@
       "title": "2 PEGAVARETAS",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LEANDRO CEZAR C DE OLIVEIRA",
+      "reserved_student": "JOAO ATAIDE GOUVEIA"
     },
     {
       "id": 1765460378,
@@ -18747,6 +18748,17 @@
       "grade": "4º Ano",
       "class_name": "Matutino",
       "book_title": "PLANETA CORPO\tSILVIA ZATZ\tCIA DAS LETRINHAS",
+      "timestamp": "2025-12-17 19:16"
+    },
+    {
+      "reservation_id": 1765998984,
+      "book_id": 1765460377,
+      "category": "Jogo",
+      "parent_name": "LEANDRO CEZAR C DE OLIVEIRA",
+      "student_name": "JOAO ATAIDE GOUVEIA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "2 PEGAVARETAS",
       "timestamp": "2025-12-17 19:16"
     }
   ],
