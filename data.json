@@ -13540,8 +13540,9 @@
       "title": "BRINCANDO DE ENGENHEIRO 42 PEÇAS",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VANESSA VIEIRA PESSANHA",
+      "reserved_student": "LARA PESSANHA COSTA"
     },
     {
       "id": 1765460027,
@@ -18831,6 +18832,17 @@
       "grade": "Grupo 4",
       "class_name": "Matutino",
       "book_title": "JOGO CAIU PERDEU \tPAIS E FILHOS",
+      "timestamp": "2025-12-17 19:34"
+    },
+    {
+      "reservation_id": 1766000066,
+      "book_id": 1765460026,
+      "category": "Brinquedo",
+      "parent_name": "VANESSA VIEIRA PESSANHA",
+      "student_name": "LARA PESSANHA COSTA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "BRINCANDO DE ENGENHEIRO 42 PEÇAS",
       "timestamp": "2025-12-17 19:34"
     }
   ],
