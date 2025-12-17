@@ -13014,8 +13014,9 @@
       "title": "JÁ SEI CONTAR\tGROW",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL DAMASCENA FERREIRA",
+      "reserved_student": "SAMUEL GOMES FERREIRA"
     },
     {
       "id": 1765459705,
@@ -19205,6 +19206,17 @@
       "class_name": "Vespertino",
       "book_title": "OU ISTO OU AQUILO   CECÍLIA MEIRELES  NOVA FRONTEIRA",
       "timestamp": "2025-12-17 22:38"
+    },
+    {
+      "reservation_id": 1766011928,
+      "book_id": 1765459704,
+      "category": "Jogo",
+      "parent_name": "RAFAEL DAMASCENA FERREIRA",
+      "student_name": "SAMUEL GOMES FERREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "JÁ SEI CONTAR\tGROW",
+      "timestamp": "2025-12-17 22:52"
     }
   ],
   "students_db": [
