@@ -13868,8 +13868,9 @@
       "title": "1 CHALEIRA TAMANHO MÉDIO",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANA PAULA RODRIGUES DE ANDRADE",
+      "reserved_student": "ARTHUR RODRIGUES DE ANDRADE"
     },
     {
       "id": 1765460061,
@@ -19144,6 +19145,17 @@
       "class_name": "Vespertino",
       "book_title": "MEMÓRIA – FRUTAS E HORTALIÇAS\tCARLU",
       "timestamp": "2025-12-17 22:15"
+    },
+    {
+      "reservation_id": 1766009905,
+      "book_id": 1765460060,
+      "category": "Brinquedo",
+      "parent_name": "ANA PAULA RODRIGUES DE ANDRADE",
+      "student_name": "ARTHUR RODRIGUES DE ANDRADE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "KIT MÉDICO",
+      "timestamp": "2025-12-17 22:18"
     }
   ],
   "students_db": [
