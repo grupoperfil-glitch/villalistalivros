@@ -19947,6 +19947,14 @@
       "grade": "Grupo 3",
       "class_name": "Matutino",
       "parent_csv": "LUCIANA CALDAS"
+    },
+    {
+      "email": "ramos@ciaflora.com.br",
+      "email2": "",
+      "name": "BENJAMIN SILVA RAMOS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "OSMAR OLIVEIRA"
     }
   ]
 }
