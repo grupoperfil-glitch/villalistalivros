@@ -18173,8 +18173,9 @@
       "title": "PLANETA CORPO\tSILVIA ZATZ\tCIA DAS LETRINHAS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "IRIS CARLA SOUZA BRASIL DE MELLO TEIVES ARGOLO",
+      "reserved_student": "BERNARDO JOEDIL BRASIL DE MELLO BASTOS"
     },
     {
       "id": 1765542290,
@@ -18736,6 +18737,17 @@
       "class_name": "Matutino",
       "book_title": "QUANDO EU SINTO RAIVA \tJAMES MISSE \tPÉ DA LETRA",
       "timestamp": "2025-12-16 14:18"
+    },
+    {
+      "reservation_id": 1765998968,
+      "book_id": 1765542289,
+      "category": "Livro",
+      "parent_name": "IRIS CARLA SOUZA BRASIL DE MELLO TEIVES ARGOLO",
+      "student_name": "BERNARDO JOEDIL BRASIL DE MELLO BASTOS",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "PLANETA CORPO\tSILVIA ZATZ\tCIA DAS LETRINHAS",
+      "timestamp": "2025-12-17 19:16"
     }
   ],
   "students_db": [
