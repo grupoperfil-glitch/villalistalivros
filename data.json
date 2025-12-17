@@ -15099,8 +15099,9 @@
       "title": "(VASSOURA PÁ, RODO)",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA FERNANDES DA SILVA ANDRADE",
+      "reserved_student": "JULIA FERNANDES RODRIGUES"
     },
     {
       "id": 1765460551,
@@ -18940,6 +18941,17 @@
       "class_name": "Matutino",
       "book_title": "MEU CORPO PODE   GALERINHA   Katie Crenshaw E Ady Meschke",
       "timestamp": "2025-12-17 19:47"
+    },
+    {
+      "reservation_id": 1766001041,
+      "book_id": 1765460550,
+      "category": "Brinquedo",
+      "parent_name": "FLAVIA FERNANDES DA SILVA ANDRADE",
+      "student_name": "JULIA FERNANDES RODRIGUES",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "(VASSOURA PÁ, RODO)",
+      "timestamp": "2025-12-17 19:50"
     }
   ],
   "students_db": [
