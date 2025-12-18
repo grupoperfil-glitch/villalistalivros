@@ -7454,8 +7454,9 @@
       "title": "A GRANDE AVENTURA DE MARIA FUMAÇA  GLOBAL  ANA MARIA MACHADO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CLAUDIO PEREIRA",
+      "reserved_student": "ELOAH RODRIGUES PEREIRA"
     },
     {
       "id": 1765391783,
@@ -19349,6 +19350,17 @@
       "class_name": "Matutino",
       "book_title": "KIT MÉDICO",
       "timestamp": "2025-12-18 01:04"
+    },
+    {
+      "reservation_id": 1766021045,
+      "book_id": 1765391782,
+      "category": "Livro",
+      "parent_name": "CLAUDIO PEREIRA",
+      "student_name": "ELOAH RODRIGUES PEREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "A FABULOSA MÁQUINA DE AMIGOS  BRINQUE  BOOK NICK BLAND",
+      "timestamp": "2025-12-18 01:24"
     }
   ],
   "students_db": [
