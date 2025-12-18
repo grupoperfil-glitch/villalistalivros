@@ -14317,8 +14317,9 @@
       "title": "3 COLHERES DE PAU",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALINE CARLA REIS DA COSTA CARMO",
+      "reserved_student": "NANA CAROLINA DA COSTA CARMO"
     },
     {
       "id": 1765460069,
@@ -19882,6 +19883,17 @@
       "class_name": "Vespertino",
       "book_title": "O HOMEM QUE AMAVA CAIXAS   STEPHEN MICHAEL KING  BRINQUE BOOK",
       "timestamp": "2025-12-18 16:25"
+    },
+    {
+      "reservation_id": 1766075324,
+      "book_id": 1765460068,
+      "category": "Brinquedo",
+      "parent_name": "ALINE CARLA REIS DA COSTA CARMO",
+      "student_name": "NANA CAROLINA DA COSTA CARMO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "3 COLHERES DE PAU",
+      "timestamp": "2025-12-18 16:28"
     }
   ],
   "students_db": [
