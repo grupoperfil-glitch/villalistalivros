@@ -18044,8 +18044,9 @@
       "title": "HISTÓRIA MEIO AO CONTRÁRIO\tANA MARIA MACHADO\tÁTICA",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PATRICIA DIAS MENEZES",
+      "reserved_student": "MELINA MENEZES COSTA"
     },
     {
       "id": 1765542266,
@@ -19918,6 +19919,17 @@
       "class_name": "Vespertino",
       "book_title": "JOGO DE PANELAS",
       "timestamp": "2025-12-18 16:45"
+    },
+    {
+      "reservation_id": 1766078190,
+      "book_id": 1765542265,
+      "category": "Livro",
+      "parent_name": "PATRICIA DIAS MENEZES",
+      "student_name": "MELINA MENEZES COSTA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "HISTÓRIA MEIO AO CONTRÁRIO\tANA MARIA MACHADO\tÁTICA",
+      "timestamp": "2025-12-18 17:16"
     }
   ],
   "students_db": [
