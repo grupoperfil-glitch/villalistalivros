@@ -5218,8 +5218,9 @@
       "title": "FORA DA GAIOLA \tLALAU LAURABEATRIZ\tCIA DAS LETRINHAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "KEINA MACIELE CAMPOS DOURADO",
+      "reserved_student": "SOFIA CAMPOS MUCCINI COSTA"
     },
     {
       "id": 1765377344,
@@ -19703,6 +19704,17 @@
       "class_name": "Matutino",
       "book_title": "O CAIXÃO RASTEJANTE E",
       "timestamp": "2025-12-18 15:25"
+    },
+    {
+      "reservation_id": 1766072063,
+      "book_id": 1765377343,
+      "category": "Livro",
+      "parent_name": "KEINA MACIELE CAMPOS DOURADO",
+      "student_name": "SOFIA CAMPOS MUCCINI COSTA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "FORA DA GAIOLA \tLALAU LAURABEATRIZ\tCIA DAS LETRINHAS",
+      "timestamp": "2025-12-18 15:34"
     }
   ],
   "students_db": [
