@@ -13692,8 +13692,9 @@
       "title": "CARRINHO BONECA",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL DAMASCENA FERREIRA",
+      "reserved_student": "SAMUEL GOMES FERREIRA"
     },
     {
       "id": 1765460035,
@@ -20082,6 +20083,17 @@
       "class_name": "Matutino",
       "book_title": "MONSTROMÁTICA JON SCIESZKA/LANE SMITH CIA DAS LETRINHAS",
       "timestamp": "2025-12-18 19:30"
+    },
+    {
+      "reservation_id": 1766086484,
+      "book_id": 1765460034,
+      "category": "Brinquedo",
+      "parent_name": "RAFAEL DAMASCENA FERREIRA",
+      "student_name": "SAMUEL GOMES FERREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "BLOCOS QUEBRA- CABEÇA (ZOOLÓGICO)\tYALINGO",
+      "timestamp": "2025-12-18 19:34"
     }
   ],
   "students_db": [
