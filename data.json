@@ -17921,8 +17921,9 @@
       "title": "ISSO E AQUILO\tCECÍLIA MEIRELES\tGLOBAL",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JANAINA A C TELES",
+      "reserved_student": "FRANCISCO DE CERQUEIRA TELES"
     },
     {
       "id": 1765542070,
@@ -19643,6 +19644,17 @@
       "class_name": "Matutino",
       "book_title": "A MENINA DA CABEÇA QUADRADA\tEMÍLIA NUNES  TIBI",
       "timestamp": "2025-12-18 15:18"
+    },
+    {
+      "reservation_id": 1766071266,
+      "book_id": 1765542069,
+      "category": "Livro",
+      "parent_name": "JANAINA A C TELES",
+      "student_name": "FRANCISCO DE CERQUEIRA TELES",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "ISSO E AQUILO\tCECÍLIA MEIRELES\tGLOBAL",
+      "timestamp": "2025-12-18 15:21"
     }
   ],
   "students_db": [
