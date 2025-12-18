@@ -15219,8 +15219,9 @@
       "title": "BOLA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDREA MIRANDA RAMOS",
+      "reserved_student": "MIGUEL RAMOS MOURA"
     },
     {
       "id": 1765460560,
@@ -19398,6 +19399,17 @@
       "class_name": "Matutino",
       "book_title": "AMORAS  EMICIDA",
       "timestamp": "2025-12-18 03:02"
+    },
+    {
+      "reservation_id": 1766027153,
+      "book_id": 1765460559,
+      "category": "Brinquedo",
+      "parent_name": "ANDREA MIRANDA RAMOS",
+      "student_name": "MIGUEL RAMOS MOURA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "BOLA",
+      "timestamp": "2025-12-18 03:05"
     }
   ],
   "students_db": [
