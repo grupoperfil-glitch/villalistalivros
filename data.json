@@ -72,8 +72,9 @@
       "title": "OS TRÊS PORQUINHOS  CIRANDA CULTURAL  CIRANDA CULTURAL",
       "grade": "Grupo 1",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRE OLIVEIRA DOS SANTOS",
+      "reserved_student": "AYANNA RODRIGUES OLIVEIRA"
     },
     {
       "id": 1765212937,
@@ -19966,6 +19967,17 @@
       "class_name": "Matutino",
       "book_title": "A HISTÓRIA MAIS BONITA DO MUNDO PATRÍCIA ENGEL SECCO MELHORAMENTOS",
       "timestamp": "2025-12-18 17:21"
+    },
+    {
+      "reservation_id": 1766078815,
+      "book_id": 1765212936,
+      "category": "Livro",
+      "parent_name": "ANDRE OLIVEIRA DOS SANTOS",
+      "student_name": "AYANNA RODRIGUES OLIVEIRA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "book_title": "OS TRÊS PORQUINHOS  CIRANDA CULTURAL  CIRANDA CULTURAL",
+      "timestamp": "2025-12-18 17:26"
     }
   ],
   "students_db": [
