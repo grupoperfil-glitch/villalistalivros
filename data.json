@@ -856,8 +856,9 @@
       "title": "NO TEMPO EM QUE A TELEVISÃO MANDAVA NO CARLINHOS  RUTH ROCHA FTD",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PRISCILLA LOPES ARANTES",
+      "reserved_student": "ELLA ARANTES SANTOS BORGES"
     },
     {
       "id": 1765369054,
@@ -19834,6 +19835,17 @@
       "class_name": "Vespertino",
       "book_title": "ALÉM DO RIO\tZIRALDO\tMELHORAMENTOS",
       "timestamp": "2025-12-18 15:59"
+    },
+    {
+      "reservation_id": 1766075037,
+      "book_id": 1765369053,
+      "category": "Livro",
+      "parent_name": "PRISCILLA LOPES ARANTES",
+      "student_name": "ELLA ARANTES SANTOS BORGES",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "NO TEMPO EM QUE A TELEVISÃO MANDAVA NO CARLINHOS  RUTH ROCHA FTD",
+      "timestamp": "2025-12-18 16:23"
     }
   ],
   "students_db": [
