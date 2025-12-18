@@ -18490,8 +18490,9 @@
       "title": "DONA MILUCA\tMARIA ALICE COELHO\tSABER E LER",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PATRICIA DIAS MENEZES",
+      "reserved_student": "MELINA MENEZES COSTA"
     },
     {
       "id": 1765542314,
@@ -19942,6 +19943,17 @@
       "class_name": "Matutino",
       "book_title": "NOITES\tRUTH ROCHA\tFTD",
       "timestamp": "2025-12-18 17:16"
+    },
+    {
+      "reservation_id": 1766078433,
+      "book_id": 1765542313,
+      "category": "Livro",
+      "parent_name": "PATRICIA DIAS MENEZES",
+      "student_name": "MELINA MENEZES COSTA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "DONA MILUCA\tMARIA ALICE COELHO\tSABER E LER",
+      "timestamp": "2025-12-18 17:20"
     }
   ],
   "students_db": [
