@@ -14501,8 +14501,9 @@
       "title": "SEQUÊNCIA LÓGICA-ANIMAIS 1112\tCARLU",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDREA MIRANDA RAMOS",
+      "reserved_student": "MIGUEL RAMOS MOURA"
     },
     {
       "id": 1765460358,
@@ -19410,6 +19411,17 @@
       "class_name": "Matutino",
       "book_title": "BOLA",
       "timestamp": "2025-12-18 03:05"
+    },
+    {
+      "reservation_id": 1766027168,
+      "book_id": 1765460357,
+      "category": "Jogo",
+      "parent_name": "ANDREA MIRANDA RAMOS",
+      "student_name": "MIGUEL RAMOS MOURA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "JENGA\tHASBRO",
+      "timestamp": "2025-12-18 03:06"
     }
   ],
   "students_db": [
