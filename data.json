@@ -17654,9 +17654,9 @@
       "title": "MARIA SAPEBA\tANA MARIA MACHADO\tÁTICA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "ANDRE OLIVEIRA DOS SANTOS",
-      "reserved_student": "IAGO RODRIGUES OLIVEIRA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765542037,
@@ -20098,17 +20098,6 @@
       "class_name": "Matutino",
       "book_title": "BRUNO E JOÃO JEAN-CLAUDE R. ALPHEN  JUJUBA",
       "timestamp": "2025-12-18 19:26"
-    },
-    {
-      "reservation_id": 1766086020,
-      "book_id": 1765542036,
-      "category": "Livro",
-      "parent_name": "ANDRE OLIVEIRA DOS SANTOS",
-      "student_name": "IAGO RODRIGUES OLIVEIRA",
-      "grade": "3º Ano",
-      "class_name": "Matutino",
-      "book_title": "MARIA SAPEBA\tANA MARIA MACHADO\tÁTICA",
-      "timestamp": "2025-12-18 19:27"
     }
   ],
   "students_db": [
