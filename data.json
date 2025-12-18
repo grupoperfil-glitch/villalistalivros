@@ -8577,9 +8577,9 @@
       "title": "O DOMADOR DE MONSTROS  FTD EDUCAÇÃO  ANA MARIA MACHADO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "FLAVIA FERNANDES DA SILVA ANDRADE",
-      "reserved_student": "JULIA FERNANDES RODRIGUES"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765391906,
@@ -19435,17 +19435,6 @@
       "class_name": "Matutino",
       "book_title": "A FABULOSA MÁQUINA DE AMIGOS  BRINQUE  BOOK NICK BLAND",
       "timestamp": "2025-12-18 04:57"
-    },
-    {
-      "reservation_id": 1766039038,
-      "book_id": 1765391905,
-      "category": "Livro",
-      "parent_name": "FLAVIA FERNANDES DA SILVA ANDRADE",
-      "student_name": "JULIA FERNANDES RODRIGUES",
-      "grade": "Grupo 5",
-      "class_name": "Matutino",
-      "book_title": "O DOMADOR DE MONSTROS  FTD EDUCAÇÃO  ANA MARIA MACHADO",
-      "timestamp": "2025-12-18 06:23"
     }
   ],
   "students_db": [
