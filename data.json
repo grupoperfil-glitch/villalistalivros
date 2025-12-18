@@ -7578,8 +7578,9 @@
       "title": "SOLTEI O PUM NA ESCOLA  COMPANHIA DAS LETRAS  BLANDINA FRANCO E JOSÉ CARLOS LOLLO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDREA MIRANDA RAMOS",
+      "reserved_student": "MIGUEL RAMOS MOURA"
     },
     {
       "id": 1765391796,
@@ -19384,6 +19385,17 @@
       "grade": "Grupo 5",
       "class_name": "Matutino",
       "book_title": "O OUTRO LADO DO MEDO  DEMÓCRITO ROCHA  KARLSON GRACIE",
+      "timestamp": "2025-12-18 02:57"
+    },
+    {
+      "reservation_id": 1766026634,
+      "book_id": 1765391795,
+      "category": "Livro",
+      "parent_name": "ANDREA MIRANDA RAMOS",
+      "student_name": "MIGUEL RAMOS MOURA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "SOLTEI O PUM NA ESCOLA  COMPANHIA DAS LETRAS  BLANDINA FRANCO E JOSÉ CARLOS LOLLO",
       "timestamp": "2025-12-18 02:57"
     }
   ],
