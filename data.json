@@ -13699,8 +13699,9 @@
       "title": "COMO CRESCEM OS ANIMAIS\tGROUW",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Carla da Cruz Ribeiro",
+      "reserved_student": "EDUARDO HENRIQUE RIBEIRO RAMOS"
     },
     {
       "id": 1765460039,
@@ -19547,6 +19548,17 @@
       "class_name": "Vespertino",
       "book_title": "SUPER MEMÓRIA FIGURAS INFANTIS\tGROW",
       "timestamp": "2025-12-18 12:04"
+    },
+    {
+      "reservation_id": 1766059648,
+      "book_id": 1765460038,
+      "category": "Brinquedo",
+      "parent_name": "Carla da Cruz Ribeiro",
+      "student_name": "EDUARDO HENRIQUE RIBEIRO RAMOS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "BRINCANDO DE ENGENHEIRO 42 PEÇAS",
+      "timestamp": "2025-12-18 12:07"
     }
   ],
   "students_db": [
