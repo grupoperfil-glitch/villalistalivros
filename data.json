@@ -1456,8 +1456,9 @@
       "title": "VIAGENS DE GULLIVER JONATHAN SWIFT CIA DAS LETRINHAS",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRE OLIVEIRA DOS SANTOS",
+      "reserved_student": "IAGO RODRIGUES OLIVEIRA"
     },
     {
       "id": 1765369360,
@@ -20078,6 +20079,17 @@
       "class_name": "Matutino",
       "book_title": "CHORAR É COMO CHOVER  TIBI EDITORA  EMÍLIA NUNEZ",
       "timestamp": "2025-12-18 18:29"
+    },
+    {
+      "reservation_id": 1766083964,
+      "book_id": 1765369359,
+      "category": "Livro",
+      "parent_name": "ANDRE OLIVEIRA DOS SANTOS",
+      "student_name": "IAGO RODRIGUES OLIVEIRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "VIAGENS DE GULLIVER JONATHAN SWIFT CIA DAS LETRINHAS",
+      "timestamp": "2025-12-18 18:52"
     }
   ],
   "students_db": [
