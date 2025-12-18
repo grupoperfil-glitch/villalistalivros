@@ -18150,8 +18150,9 @@
       "title": "O CAIXÃO RASTEJANTE E",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VITOR CLEY PINTO DE CARVALHO",
+      "reserved_student": "JULIA GALVAO DE CARVALHO"
     },
     {
       "id": 1765542279,
@@ -19691,6 +19692,17 @@
       "class_name": "Matutino",
       "book_title": "BRASILIENSE",
       "timestamp": "2025-12-18 15:24"
+    },
+    {
+      "reservation_id": 1766071500,
+      "book_id": 1765542278,
+      "category": "Livro",
+      "parent_name": "VITOR CLEY PINTO DE CARVALHO",
+      "student_name": "JULIA GALVAO DE CARVALHO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "O CAIXÃO RASTEJANTE E",
+      "timestamp": "2025-12-18 15:25"
     }
   ],
   "students_db": [
