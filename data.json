@@ -16691,8 +16691,9 @@
       "title": "A MAIOR FLOR DO MUNDO\tJOSE SARAMAGO\tCIA DAS LETRINHAS",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MANUEL ALVES DE SOUSA JUNIOR",
+      "reserved_student": "LUISA DE SOUSA GARGUR"
     },
     {
       "id": 1765541601,
@@ -19559,6 +19560,17 @@
       "class_name": "Vespertino",
       "book_title": "BRINCANDO DE ENGENHEIRO 42 PEÇAS",
       "timestamp": "2025-12-18 12:07"
+    },
+    {
+      "reservation_id": 1766065920,
+      "book_id": 1765541600,
+      "category": "Livro",
+      "parent_name": "MANUEL ALVES DE SOUSA JUNIOR",
+      "student_name": "LUISA DE SOUSA GARGUR",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "A MAIOR FLOR DO MUNDO\tJOSE SARAMAGO\tCIA DAS LETRINHAS",
+      "timestamp": "2025-12-18 13:52"
     }
   ],
   "students_db": [
