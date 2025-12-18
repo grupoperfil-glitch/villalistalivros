@@ -5479,9 +5479,9 @@
       "title": "BRUXA, BRUXA VENHA À MINHA FESTA \tARDEN DRUCE \tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "Carla da Cruz Ribeiro",
-      "reserved_student": "EDUARDO HENRIQUE RIBEIRO RAMOS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377373,
@@ -19490,17 +19490,6 @@
       "class_name": "Matutino",
       "book_title": "A REVOLTA DAS PRINCESAS\tCELINE LAMOUR-",
       "timestamp": "2025-12-18 11:29"
-    },
-    {
-      "reservation_id": 1766057637,
-      "book_id": 1765377372,
-      "category": "Livro",
-      "parent_name": "Carla da Cruz Ribeiro",
-      "student_name": "EDUARDO HENRIQUE RIBEIRO RAMOS",
-      "grade": "Grupo 4",
-      "class_name": "Vespertino",
-      "book_title": "BRUXA, BRUXA VENHA À MINHA FESTA \tARDEN DRUCE \tBRINQUE BOOK",
-      "timestamp": "2025-12-18 11:33"
     },
     {
       "reservation_id": 1766057677,
