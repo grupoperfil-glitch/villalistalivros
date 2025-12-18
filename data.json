@@ -5298,9 +5298,9 @@
       "title": "ANA, GUTO E O GATO DANÇARINO \tSTEPHEN MICHAEL KING \tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "Carla da Cruz Ribeiro",
-      "reserved_student": "EDUARDO HENRIQUE RIBEIRO RAMOS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377353,
@@ -19497,17 +19497,6 @@
       "grade": "Grupo 4",
       "class_name": "Vespertino",
       "book_title": "CARONA NA VASSOURA \tJULIA DONALDSON \tBRINQUE BOOK",
-      "timestamp": "2025-12-18 11:33"
-    },
-    {
-      "reservation_id": 1766057608,
-      "book_id": 1765377352,
-      "category": "Livro",
-      "parent_name": "Carla da Cruz Ribeiro",
-      "student_name": "EDUARDO HENRIQUE RIBEIRO RAMOS",
-      "grade": "Grupo 4",
-      "class_name": "Vespertino",
-      "book_title": "ANA, GUTO E O GATO DANÇARINO \tSTEPHEN MICHAEL KING \tBRINQUE BOOK",
       "timestamp": "2025-12-18 11:33"
     },
     {
