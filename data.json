@@ -776,8 +776,9 @@
       "title": "O HOMEM QUE AMAVA CAIXAS   STEPHEN MICHAEL KING  BRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PRISCILLA LOPES ARANTES",
+      "reserved_student": "ELLA ARANTES SANTOS BORGES"
     },
     {
       "id": 1765369045,
@@ -19870,6 +19871,17 @@
       "class_name": "Vespertino",
       "book_title": "A MAIOR FLOR DO MUNDO  JOSÉ SARAMAGO  CIA DAS LETRINHAS",
       "timestamp": "2025-12-18 16:24"
+    },
+    {
+      "reservation_id": 1766075131,
+      "book_id": 1765369044,
+      "category": "Livro",
+      "parent_name": "PRISCILLA LOPES ARANTES",
+      "student_name": "ELLA ARANTES SANTOS BORGES",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "O HOMEM QUE AMAVA CAIXAS   STEPHEN MICHAEL KING  BRINQUE BOOK",
+      "timestamp": "2025-12-18 16:25"
     }
   ],
   "students_db": [
