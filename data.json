@@ -18647,8 +18647,9 @@
       "title": "LILI INVENTA O MUNDO\tMÁRIO QUINTANA\tEDITORA GLOBAL",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RACHEL OLIVEIRA CARVALHO SANTOS",
+      "reserved_student": "CLARA CARVALHO BRAGA DE OLIVEIRA"
     },
     {
       "id": 1765542335,
@@ -19509,6 +19510,17 @@
       "class_name": "Vespertino",
       "book_title": "BRUXA, BRUXA VENHA À MINHA FESTA \tARDEN DRUCE \tBRINQUE BOOK",
       "timestamp": "2025-12-18 11:33"
+    },
+    {
+      "reservation_id": 1766057677,
+      "book_id": 1765542334,
+      "category": "Livro",
+      "parent_name": "RACHEL OLIVEIRA CARVALHO SANTOS",
+      "student_name": "CLARA CARVALHO BRAGA DE OLIVEIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "LILI INVENTA O MUNDO\tMÁRIO QUINTANA\tEDITORA GLOBAL",
+      "timestamp": "2025-12-18 11:34"
     }
   ],
   "students_db": [
