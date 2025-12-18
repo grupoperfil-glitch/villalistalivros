@@ -5703,8 +5703,9 @@
       "title": "UMA COR DUAS CORES TODAS ELAS  LALAU E LAURABEATRIZ CIA DAS LETRINHAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "KEINA MACIELE CAMPOS DOURADO",
+      "reserved_student": "SOFIA CAMPOS MUCCINI COSTA"
     },
     {
       "id": 1765377397,
@@ -19727,6 +19728,17 @@
       "class_name": "Vespertino",
       "book_title": "DONA BARATINHA \tANA MARIA MACHADO \tFTD",
       "timestamp": "2025-12-18 15:37"
+    },
+    {
+      "reservation_id": 1766072309,
+      "book_id": 1765377396,
+      "category": "Livro",
+      "parent_name": "KEINA MACIELE CAMPOS DOURADO",
+      "student_name": "SOFIA CAMPOS MUCCINI COSTA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "UMA COR DUAS CORES TODAS ELAS  LALAU E LAURABEATRIZ CIA DAS LETRINHAS",
+      "timestamp": "2025-12-18 15:38"
     }
   ],
   "students_db": [
