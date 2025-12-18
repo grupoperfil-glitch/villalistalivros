@@ -13066,8 +13066,9 @@
       "title": "JOGO DE PANELAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALINE CARLA REIS DA COSTA CARMO",
+      "reserved_student": "NANA CAROLINA DA COSTA CARMO"
     },
     {
       "id": 1765459707,
@@ -19906,6 +19907,17 @@
       "class_name": "Vespertino",
       "book_title": "CACHINHOS DE OURO \tANA MARIA MACHADO \tFTD",
       "timestamp": "2025-12-18 16:39"
+    },
+    {
+      "reservation_id": 1766076353,
+      "book_id": 1765459706,
+      "category": "Jogo",
+      "parent_name": "ALINE CARLA REIS DA COSTA CARMO",
+      "student_name": "NANA CAROLINA DA COSTA CARMO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "JOGO DE PANELAS",
+      "timestamp": "2025-12-18 16:45"
     }
   ],
   "students_db": [
