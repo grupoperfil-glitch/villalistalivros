@@ -18699,8 +18699,9 @@
       "title": "CONTOS AFRICANOS PARA CRIANÇAS BRASILEIRAS\t\tEDITORA PAULINAS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUANE RODOPIANO LIMA RODRIGUES",
+      "reserved_student": "IARA RODOPIANO RODRIGUES"
     },
     {
       "id": 1765542336,
@@ -19970,6 +19971,17 @@
       "class_name": "Matutino",
       "book_title": "MAURÍCIO DE SOUZA\tMELHORAMENTOS",
       "timestamp": "2025-12-18 17:35"
+    },
+    {
+      "reservation_id": 1766079366,
+      "book_id": 1765542335,
+      "category": "Livro",
+      "parent_name": "LUANE RODOPIANO LIMA RODRIGUES",
+      "student_name": "IARA RODOPIANO RODRIGUES",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "CONTOS AFRICANOS PARA CRIANÇAS BRASILEIRAS\t\tEDITORA PAULINAS",
+      "timestamp": "2025-12-18 17:36"
     }
   ],
   "students_db": [
