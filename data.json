@@ -5352,8 +5352,9 @@
       "title": "CACHINHOS DE OURO \tANA MARIA MACHADO \tFTD",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALINE CARLA REIS DA COSTA CARMO",
+      "reserved_student": "NANA CAROLINA DA COSTA CARMO"
     },
     {
       "id": 1765377358,
@@ -19894,6 +19895,17 @@
       "class_name": "Vespertino",
       "book_title": "3 COLHERES DE PAU",
       "timestamp": "2025-12-18 16:28"
+    },
+    {
+      "reservation_id": 1766075947,
+      "book_id": 1765377357,
+      "category": "Livro",
+      "parent_name": "ALINE CARLA REIS DA COSTA CARMO",
+      "student_name": "NANA CAROLINA DA COSTA CARMO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "CACHINHOS DE OURO \tANA MARIA MACHADO \tFTD",
+      "timestamp": "2025-12-18 16:39"
     }
   ],
   "students_db": [
