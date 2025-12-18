@@ -18073,8 +18073,9 @@
       "title": "NOITES\tRUTH ROCHA\tFTD",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PATRICIA DIAS MENEZES",
+      "reserved_student": "MELINA MENEZES COSTA"
     },
     {
       "id": 1765542269,
@@ -19929,6 +19930,17 @@
       "grade": "4º Ano",
       "class_name": "Matutino",
       "book_title": "HISTÓRIA MEIO AO CONTRÁRIO\tANA MARIA MACHADO\tÁTICA",
+      "timestamp": "2025-12-18 17:16"
+    },
+    {
+      "reservation_id": 1766078205,
+      "book_id": 1765542268,
+      "category": "Livro",
+      "parent_name": "PATRICIA DIAS MENEZES",
+      "student_name": "MELINA MENEZES COSTA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "NOITES\tRUTH ROCHA\tFTD",
       "timestamp": "2025-12-18 17:16"
     }
   ],
