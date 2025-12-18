@@ -13086,9 +13086,9 @@
       "title": "MEMÓRIA – FRUTAS E HORTALIÇAS\tCARLU",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "KEINA MACIELE CAMPOS DOURADO",
+      "reserved_student": "SOFIA CAMPOS MUCCINI COSTA"
     },
     {
       "id": 1765459710,
@@ -19762,6 +19762,17 @@
       "grade": "4º Ano",
       "class_name": "Matutino",
       "book_title": "ENQUANTO O DIA NÃO CHEGA\tANA MARIA MACHADO\tCIA DAS LETRINHAS",
+      "timestamp": "2025-12-18 15:40"
+    },
+    {
+      "reservation_id": 1766072436,
+      "book_id": 1765459709,
+      "category": "Jogo",
+      "parent_name": "KEINA MACIELE CAMPOS DOURADO",
+      "student_name": "SOFIA CAMPOS MUCCINI COSTA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "MEMÓRIA – FRUTAS E HORTALIÇAS\tCARLU",
       "timestamp": "2025-12-18 15:40"
     }
   ],
