@@ -18104,9 +18104,9 @@
       "title": "BRASILIENSE",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "VITOR CLEY PINTO DE CARVALHO",
-      "reserved_student": "JULIA GALVAO DE CARVALHO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765542272,
@@ -19703,17 +19703,6 @@
       "grade": "4º Ano",
       "class_name": "Matutino",
       "book_title": "HISTÓRIAS DA PRETA\tHELOISA PIRES LIMA\tCIA DAS LETRINHAS",
-      "timestamp": "2025-12-18 15:24"
-    },
-    {
-      "reservation_id": 1766071492,
-      "book_id": 1765542271,
-      "category": "Livro",
-      "parent_name": "VITOR CLEY PINTO DE CARVALHO",
-      "student_name": "JULIA GALVAO DE CARVALHO",
-      "grade": "4º Ano",
-      "class_name": "Matutino",
-      "book_title": "BRASILIENSE",
       "timestamp": "2025-12-18 15:24"
     },
     {
