@@ -8194,8 +8194,9 @@
       "title": "JOÃO ESPERTO LEVA O PRESENTE CERTO  FAROL  CANDACE FLEMING G. BRIAN KARAS",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARINA LEAL DE CASTRO",
+      "reserved_student": "DIANA DE CASTRO BAHIENSE GUIMARÃES"
     },
     {
       "id": 1765391861,
@@ -20065,6 +20066,17 @@
       "class_name": "Matutino",
       "book_title": "O GIGANTE MAIS ELEGANTE MAIS ELEGANTE DA CIDADE  BRINQUE-BOOK  JULIA DONALDSON",
       "timestamp": "2025-12-18 18:16"
+    },
+    {
+      "reservation_id": 1766082152,
+      "book_id": 1765391860,
+      "category": "Livro",
+      "parent_name": "MARINA LEAL DE CASTRO",
+      "student_name": "DIANA DE CASTRO BAHIENSE GUIMARÃES",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "JOÃO ESPERTO LEVA O PRESENTE CERTO  FAROL  CANDACE FLEMING G. BRIAN KARAS",
+      "timestamp": "2025-12-18 18:22"
     }
   ],
   "students_db": [
