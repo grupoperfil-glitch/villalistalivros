@@ -18660,8 +18660,9 @@
       "title": "A ÁRVORE DO BETO\tRUTH ROCHA\tSALAMANDRA",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRESSA DA ANUNCIAÇÃO NELLI",
+      "reserved_student": "LORENZO NELLI DE OLIVEIRA"
     },
     {
       "id": 1765542334,
@@ -19774,6 +19775,17 @@
       "class_name": "Vespertino",
       "book_title": "MEMÓRIA – FRUTAS E HORTALIÇAS\tCARLU",
       "timestamp": "2025-12-18 15:40"
+    },
+    {
+      "reservation_id": 1766072486,
+      "book_id": 1765542333,
+      "category": "Livro",
+      "parent_name": "ANDRESSA DA ANUNCIAÇÃO NELLI",
+      "student_name": "LORENZO NELLI DE OLIVEIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "A ÁRVORE DO BETO\tRUTH ROCHA\tSALAMANDRA",
+      "timestamp": "2025-12-18 15:41"
     }
   ],
   "students_db": [
