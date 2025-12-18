@@ -8337,8 +8337,9 @@
       "title": "DIVERSIDADE  QUINTETO EDITORIAL  TATIANA BELINKY",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARINA LEAL DE CASTRO",
+      "reserved_student": "DIANA DE CASTRO BAHIENSE GUIMARÃES"
     },
     {
       "id": 1765391876,
@@ -20029,6 +20030,17 @@
       "class_name": "Matutino",
       "book_title": "QUANDO MAMÃE VIROU UM MONSTRO\tJOANNA HARRISON\tBRINQUE BOOK",
       "timestamp": "2025-12-18 20:11"
+    },
+    {
+      "reservation_id": 1766090628,
+      "book_id": 1765391875,
+      "category": "Livro",
+      "parent_name": "MARINA LEAL DE CASTRO",
+      "student_name": "DIANA DE CASTRO BAHIENSE GUIMARÃES",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "DIVERSIDADE  QUINTETO EDITORIAL  TATIANA BELINKY",
+      "timestamp": "2025-12-18 20:43"
     }
   ],
   "students_db": [
