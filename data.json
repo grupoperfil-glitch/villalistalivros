@@ -18205,8 +18205,9 @@
       "title": "O PEQUENO PRÍNCIPE\tANTOINE SAINT-EXUPÉRY\tAGIR",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RACHEL OLIVEIRA CARVALHO SANTOS",
+      "reserved_student": "CLARA CARVALHO BRAGA DE OLIVEIRA"
     },
     {
       "id": 1765542287,
@@ -19458,6 +19459,17 @@
       "grade": "4º Ano",
       "class_name": "Matutino",
       "book_title": "DIÁRIO DE PILAR NA ÁFRICA\tFLÁVIA LINS E SILVA\tPEQUENA ZAHAR",
+      "timestamp": "2025-12-18 11:25"
+    },
+    {
+      "reservation_id": 1766057151,
+      "book_id": 1765542286,
+      "category": "Livro",
+      "parent_name": "RACHEL OLIVEIRA CARVALHO SANTOS",
+      "student_name": "CLARA CARVALHO BRAGA DE OLIVEIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "O PEQUENO PRÍNCIPE\tANTOINE SAINT-EXUPÉRY\tAGIR",
       "timestamp": "2025-12-18 11:25"
     }
   ],
