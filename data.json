@@ -18524,9 +18524,9 @@
       "title": "VIAGEM AO CENTRO DA TERRA\tJÚLIO VERNER\tSCIPIONE",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "RONEI LIMA BADARO",
+      "reserved_student": "ALICE GONDIM BADARO"
     },
     {
       "id": 1765542330,
@@ -20041,6 +20041,17 @@
       "class_name": "Matutino",
       "book_title": "DIVERSIDADE  QUINTETO EDITORIAL  TATIANA BELINKY",
       "timestamp": "2025-12-18 20:43"
+    },
+    {
+      "reservation_id": 1766094285,
+      "book_id": 1765542329,
+      "category": "Livro",
+      "parent_name": "RONEI LIMA BADARO",
+      "student_name": "ALICE GONDIM BADARO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "VIAGEM AO CENTRO DA TERRA\tJÚLIO VERNER\tSCIPIONE",
+      "timestamp": "2025-12-18 21:44"
     }
   ],
   "students_db": [
