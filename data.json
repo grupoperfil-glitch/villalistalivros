@@ -721,8 +721,9 @@
       "title": "BRUXA, BRUXA VENHA À MINHA FESTA  ARDEN DUCEN  BRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PRISCILLA LOPES ARANTES",
+      "reserved_student": "ELLA ARANTES SANTOS BORGES"
     },
     {
       "id": 1765369039,
@@ -19857,6 +19858,17 @@
       "grade": "1º Ano",
       "class_name": "Vespertino",
       "book_title": "DONA BARATINHA  ANA MARIA MACHADO  FTD",
+      "timestamp": "2025-12-18 16:24"
+    },
+    {
+      "reservation_id": 1766075095,
+      "book_id": 1765369040,
+      "category": "Livro",
+      "parent_name": "PRISCILLA LOPES ARANTES",
+      "student_name": "ELLA ARANTES SANTOS BORGES",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "A MAIOR FLOR DO MUNDO  JOSÉ SARAMAGO  CIA DAS LETRINHAS",
       "timestamp": "2025-12-18 16:24"
     }
   ],
