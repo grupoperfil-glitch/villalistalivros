@@ -1392,8 +1392,9 @@
       "title": "MARIA SAPEBA  ANA MARIA MACHADO  ÁTICA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRE OLIVEIRA DOS SANTOS",
+      "reserved_student": "IAGO RODRIGUES OLIVEIRA"
     },
     {
       "id": 1765369353,
@@ -20089,6 +20090,17 @@
       "grade": "3º Ano",
       "class_name": "Matutino",
       "book_title": "VIAGENS DE GULLIVER JONATHAN SWIFT CIA DAS LETRINHAS",
+      "timestamp": "2025-12-18 18:52"
+    },
+    {
+      "reservation_id": 1766083979,
+      "book_id": 1765369352,
+      "category": "Livro",
+      "parent_name": "ANDRE OLIVEIRA DOS SANTOS",
+      "student_name": "IAGO RODRIGUES OLIVEIRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "MARIA SAPEBA  ANA MARIA MACHADO  ÁTICA",
       "timestamp": "2025-12-18 18:52"
     }
   ],
