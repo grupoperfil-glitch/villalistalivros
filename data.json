@@ -18168,9 +18168,9 @@
       "title": "O CAIXÃO RASTEJANTE E",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "VITOR CLEY PINTO DE CARVALHO",
-      "reserved_student": "JULIA GALVAO DE CARVALHO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765542279,
@@ -19682,17 +19682,6 @@
       "class_name": "Matutino",
       "book_title": "ISSO E AQUILO\tCECÍLIA MEIRELES\tGLOBAL",
       "timestamp": "2025-12-18 15:21"
-    },
-    {
-      "reservation_id": 1766071500,
-      "book_id": 1765542278,
-      "category": "Livro",
-      "parent_name": "VITOR CLEY PINTO DE CARVALHO",
-      "student_name": "JULIA GALVAO DE CARVALHO",
-      "grade": "4º Ano",
-      "class_name": "Matutino",
-      "book_title": "O CAIXÃO RASTEJANTE E",
-      "timestamp": "2025-12-18 15:25"
     },
     {
       "reservation_id": 1766072063,
