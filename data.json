@@ -7559,8 +7559,9 @@
       "title": "O OUTRO LADO DO MEDO  DEMÓCRITO ROCHA  KARLSON GRACIE",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDREA MIRANDA RAMOS",
+      "reserved_student": "MIGUEL RAMOS MOURA"
     },
     {
       "id": 1765391794,
@@ -19373,6 +19374,17 @@
       "class_name": "Matutino",
       "book_title": "A VELHINHA QUE DAVA NOME ÀS COISAS  BRINQUE BOOK  CYNTHIA RYLANT",
       "timestamp": "2025-12-18 02:56"
+    },
+    {
+      "reservation_id": 1766026626,
+      "book_id": 1765391793,
+      "category": "Livro",
+      "parent_name": "ANDREA MIRANDA RAMOS",
+      "student_name": "MIGUEL RAMOS MOURA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "O OUTRO LADO DO MEDO  DEMÓCRITO ROCHA  KARLSON GRACIE",
+      "timestamp": "2025-12-18 02:57"
     }
   ],
   "students_db": [
