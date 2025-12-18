@@ -18057,9 +18057,9 @@
       "title": "HISTÓRIAS DA PRETA\tHELOISA PIRES LIMA\tCIA DAS LETRINHAS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "LUANE RODOPIANO LIMA RODRIGUES",
+      "reserved_student": "IARA RODOPIANO RODRIGUES"
     },
     {
       "id": 1765542267,
@@ -19994,6 +19994,17 @@
       "class_name": "Matutino",
       "book_title": "ZUMBI, O MENINO QUE",
       "timestamp": "2025-12-18 17:36"
+    },
+    {
+      "reservation_id": 1766079421,
+      "book_id": 1765542266,
+      "category": "Livro",
+      "parent_name": "LUANE RODOPIANO LIMA RODRIGUES",
+      "student_name": "IARA RODOPIANO RODRIGUES",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "HISTÓRIAS DA PRETA\tHELOISA PIRES LIMA\tCIA DAS LETRINHAS",
+      "timestamp": "2025-12-18 17:37"
     }
   ],
   "students_db": [
