@@ -5612,8 +5612,9 @@
       "title": "POEMAS SAPECAS, RIMAS TRAQUINAS \tALMIR CORRÊA \tCIA DAS LETRINHAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MILENA OLIVEIRA SÁ",
+      "reserved_student": "LEVY LUCCA SÁ DE ALMEIDA"
     },
     {
       "id": 1765377388,
@@ -19313,6 +19314,17 @@
       "class_name": "Matutino",
       "book_title": "QUE TEM MEDO DE BRUXA?\tFANNY /JOLY\tSCIPIONE",
       "timestamp": "2025-12-18 00:58"
+    },
+    {
+      "reservation_id": 1766019620,
+      "book_id": 1765377387,
+      "category": "Livro",
+      "parent_name": "MILENA OLIVEIRA SÁ",
+      "student_name": "LEVY LUCCA SÁ DE ALMEIDA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "NO IMENSO MAR AZUL\tANA MARIA MACHADO \tSALAMANDRA",
+      "timestamp": "2025-12-18 01:00"
     }
   ],
   "students_db": [
