@@ -18071,8 +18071,9 @@
       "title": "MANIA DE EXPLICAÇÃO\tADRIANA FALCÃO\tSALAMANDRA",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRESSA DA ANUNCIAÇÃO NELLI",
+      "reserved_student": "LORENZO NELLI DE OLIVEIRA"
     },
     {
       "id": 1765542270,
@@ -19738,6 +19739,17 @@
       "grade": "Grupo 4",
       "class_name": "Vespertino",
       "book_title": "UMA COR DUAS CORES TODAS ELAS  LALAU E LAURABEATRIZ CIA DAS LETRINHAS",
+      "timestamp": "2025-12-18 15:38"
+    },
+    {
+      "reservation_id": 1766072320,
+      "book_id": 1765542269,
+      "category": "Livro",
+      "parent_name": "ANDRESSA DA ANUNCIAÇÃO NELLI",
+      "student_name": "LORENZO NELLI DE OLIVEIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "MANIA DE EXPLICAÇÃO\tADRIANA FALCÃO\tSALAMANDRA",
       "timestamp": "2025-12-18 15:38"
     }
   ],
