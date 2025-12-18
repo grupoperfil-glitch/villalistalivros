@@ -18597,8 +18597,9 @@
       "title": "VIAGEM AO CENTRO DA TERRA\tJÚLIO VERNER\tSCIPIONE",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RACHEL OLIVEIRA CARVALHO SANTOS",
+      "reserved_student": "CLARA CARVALHO BRAGA DE OLIVEIRA"
     },
     {
       "id": 1765542330,
@@ -19471,6 +19472,17 @@
       "class_name": "Matutino",
       "book_title": "O PEQUENO PRÍNCIPE\tANTOINE SAINT-EXUPÉRY\tAGIR",
       "timestamp": "2025-12-18 11:25"
+    },
+    {
+      "reservation_id": 1766057359,
+      "book_id": 1765542329,
+      "category": "Livro",
+      "parent_name": "RACHEL OLIVEIRA CARVALHO SANTOS",
+      "student_name": "CLARA CARVALHO BRAGA DE OLIVEIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "VIAGEM AO CENTRO DA TERRA\tJÚLIO VERNER\tSCIPIONE",
+      "timestamp": "2025-12-18 11:29"
     }
   ],
   "students_db": [
