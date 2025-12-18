@@ -7717,8 +7717,9 @@
       "title": "O ESCONDERIJO DAS VONTADES  CALLIS  JONAS RIBEIRO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA FERNANDES DA SILVA ANDRADE",
+      "reserved_student": "JULIA FERNANDES RODRIGUES"
     },
     {
       "id": 1765391811,
@@ -19435,6 +19436,17 @@
       "class_name": "Matutino",
       "book_title": "A FABULOSA MÁQUINA DE AMIGOS  BRINQUE  BOOK NICK BLAND",
       "timestamp": "2025-12-18 04:57"
+    },
+    {
+      "reservation_id": 1766039666,
+      "book_id": 1765391810,
+      "category": "Livro",
+      "parent_name": "FLAVIA FERNANDES DA SILVA ANDRADE",
+      "student_name": "JULIA FERNANDES RODRIGUES",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "O ESCONDERIJO DAS VONTADES  CALLIS  JONAS RIBEIRO",
+      "timestamp": "2025-12-18 06:34"
     }
   ],
   "students_db": [
