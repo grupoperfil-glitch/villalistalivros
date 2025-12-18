@@ -1467,8 +1467,9 @@
       "title": "MONSTROMÁTICA JON SCIESZKA/LANE SMITH CIA DAS LETRINHAS",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRE OLIVEIRA DOS SANTOS",
+      "reserved_student": "IAGO RODRIGUES OLIVEIRA"
     },
     {
       "id": 1765369361,
@@ -20098,6 +20099,17 @@
       "class_name": "Matutino",
       "book_title": "BRUNO E JOÃO JEAN-CLAUDE R. ALPHEN  JUJUBA",
       "timestamp": "2025-12-18 19:26"
+    },
+    {
+      "reservation_id": 1766086248,
+      "book_id": 1765369360,
+      "category": "Livro",
+      "parent_name": "ANDRE OLIVEIRA DOS SANTOS",
+      "student_name": "IAGO RODRIGUES OLIVEIRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "MONSTROMÁTICA JON SCIESZKA/LANE SMITH CIA DAS LETRINHAS",
+      "timestamp": "2025-12-18 19:30"
     }
   ],
   "students_db": [
