@@ -13168,8 +13168,9 @@
       "title": "SEQUÊNCIA LÓGICA -DERIVADOS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MILENA OLIVEIRA SÁ",
+      "reserved_student": "LEVY LUCCA SÁ DE ALMEIDA"
     },
     {
       "id": 1765459721,
@@ -19325,6 +19326,17 @@
       "class_name": "Matutino",
       "book_title": "NO IMENSO MAR AZUL\tANA MARIA MACHADO \tSALAMANDRA",
       "timestamp": "2025-12-18 01:00"
+    },
+    {
+      "reservation_id": 1766019661,
+      "book_id": 1765459720,
+      "category": "Jogo",
+      "parent_name": "MILENA OLIVEIRA SÁ",
+      "student_name": "LEVY LUCCA SÁ DE ALMEIDA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "JOGO DE PANELAS",
+      "timestamp": "2025-12-18 01:01"
     }
   ],
   "students_db": [
