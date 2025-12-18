@@ -16780,8 +16780,9 @@
       "title": "QUANDO MAMÃE VIROU UM MONSTRO\tJOANNA HARRISON\tBRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MANUEL ALVES DE SOUSA JUNIOR",
+      "reserved_student": "LUISA DE SOUSA GARGUR"
     },
     {
       "id": 1765541607,
@@ -20028,6 +20029,17 @@
       "class_name": "Vespertino",
       "book_title": "BLOCOS QUEBRA- CABEÇA (ZOOLÓGICO)\tYALINGO",
       "timestamp": "2025-12-18 19:34"
+    },
+    {
+      "reservation_id": 1766088717,
+      "book_id": 1765541606,
+      "category": "Livro",
+      "parent_name": "MANUEL ALVES DE SOUSA JUNIOR",
+      "student_name": "LUISA DE SOUSA GARGUR",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "QUANDO MAMÃE VIROU UM MONSTRO\tJOANNA HARRISON\tBRINQUE BOOK",
+      "timestamp": "2025-12-18 20:11"
     }
   ],
   "students_db": [
