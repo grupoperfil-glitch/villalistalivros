@@ -5822,8 +5822,9 @@
       "title": "ALÉM DO RIO\tZIRALDO\tMELHORAMENTOS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALINE CARLA REIS DA COSTA CARMO",
+      "reserved_student": "NANA CAROLINA DA COSTA CARMO"
     },
     {
       "id": 1765377410,
@@ -19821,6 +19822,17 @@
       "grade": "Grupo 4",
       "class_name": "Vespertino",
       "book_title": "UM SORRISO CHAMADO LUIZ\tZIRALDO\tMELHORAMENTOS",
+      "timestamp": "2025-12-18 15:59"
+    },
+    {
+      "reservation_id": 1766073556,
+      "book_id": 1765377409,
+      "category": "Livro",
+      "parent_name": "ALINE CARLA REIS DA COSTA CARMO",
+      "student_name": "NANA CAROLINA DA COSTA CARMO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "ALÉM DO RIO\tZIRALDO\tMELHORAMENTOS",
       "timestamp": "2025-12-18 15:59"
     }
   ],
