@@ -13774,8 +13774,9 @@
       "title": "KIT MÉDICO",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MILENA OLIVEIRA SÁ",
+      "reserved_student": "LEVY LUCCA SÁ DE ALMEIDA"
     },
     {
       "id": 1765460049,
@@ -19337,6 +19338,17 @@
       "class_name": "Matutino",
       "book_title": "JOGO DE PANELAS",
       "timestamp": "2025-12-18 01:01"
+    },
+    {
+      "reservation_id": 1766019891,
+      "book_id": 1765460048,
+      "category": "Brinquedo",
+      "parent_name": "MILENA OLIVEIRA SÁ",
+      "student_name": "LEVY LUCCA SÁ DE ALMEIDA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "KIT MÉDICO",
+      "timestamp": "2025-12-18 01:04"
     }
   ],
   "students_db": [
