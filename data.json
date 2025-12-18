@@ -5498,8 +5498,9 @@
       "title": "NÃO CONFUNDA \tEVA FUNNARI \tMODERNA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Carla da Cruz Ribeiro",
+      "reserved_student": "EDUARDO HENRIQUE RIBEIRO RAMOS"
     },
     {
       "id": 1765377375,
@@ -19521,6 +19522,17 @@
       "class_name": "Matutino",
       "book_title": "LILI INVENTA O MUNDO\tMÁRIO QUINTANA\tEDITORA GLOBAL",
       "timestamp": "2025-12-18 11:34"
+    },
+    {
+      "reservation_id": 1766057963,
+      "book_id": 1765377374,
+      "category": "Livro",
+      "parent_name": "Carla da Cruz Ribeiro",
+      "student_name": "EDUARDO HENRIQUE RIBEIRO RAMOS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "NÃO CONFUNDA \tEVA FUNNARI \tMODERNA",
+      "timestamp": "2025-12-18 11:39"
     }
   ],
   "students_db": [
