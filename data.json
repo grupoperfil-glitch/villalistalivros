@@ -18168,8 +18168,9 @@
       "title": "DIÁRIO DE PILAR NA ÁFRICA\tFLÁVIA LINS E SILVA\tPEQUENA ZAHAR",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RACHEL OLIVEIRA CARVALHO SANTOS",
+      "reserved_student": "CLARA CARVALHO BRAGA DE OLIVEIRA"
     },
     {
       "id": 1765542283,
@@ -19447,6 +19448,17 @@
       "class_name": "Matutino",
       "book_title": "O ESCONDERIJO DAS VONTADES  CALLIS  JONAS RIBEIRO",
       "timestamp": "2025-12-18 06:34"
+    },
+    {
+      "reservation_id": 1766057142,
+      "book_id": 1765542282,
+      "category": "Livro",
+      "parent_name": "RACHEL OLIVEIRA CARVALHO SANTOS",
+      "student_name": "CLARA CARVALHO BRAGA DE OLIVEIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "DIÁRIO DE PILAR NA ÁFRICA\tFLÁVIA LINS E SILVA\tPEQUENA ZAHAR",
+      "timestamp": "2025-12-18 11:25"
     }
   ],
   "students_db": [
