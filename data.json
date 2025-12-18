@@ -17930,8 +17930,9 @@
       "title": "A MENINA DA CABEÇA QUADRADA\tEMÍLIA NUNES  TIBI",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JANAINA A C TELES",
+      "reserved_student": "FRANCISCO DE CERQUEIRA TELES"
     },
     {
       "id": 1765542071,
@@ -19630,6 +19631,17 @@
       "grade": "3º Ano",
       "class_name": "Matutino",
       "book_title": "CHUPIM  ITAMAR VIEIRA JUNIOR  BAIÃO",
+      "timestamp": "2025-12-18 15:18"
+    },
+    {
+      "reservation_id": 1766071119,
+      "book_id": 1765542070,
+      "category": "Livro",
+      "parent_name": "JANAINA A C TELES",
+      "student_name": "FRANCISCO DE CERQUEIRA TELES",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "A MENINA DA CABEÇA QUADRADA\tEMÍLIA NUNES  TIBI",
       "timestamp": "2025-12-18 15:18"
     }
   ],
