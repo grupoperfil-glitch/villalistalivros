@@ -6107,8 +6107,9 @@
       "title": "ÁGUA: BICHOS QUE GOSTAM DE NADAR!  GUTO LINS AMARILYS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL DAMASCENA FERREIRA",
+      "reserved_student": "SAMUEL GOMES FERREIRA"
     },
     {
       "id": 1765377440,
@@ -20115,6 +20116,17 @@
       "class_name": "Vespertino",
       "book_title": "O GRÚFALO \tJULIA DONALDSON \tBRINQUE BOOK",
       "timestamp": "2025-12-18 19:17"
+    },
+    {
+      "reservation_id": 1766085540,
+      "book_id": 1765377439,
+      "category": "Livro",
+      "parent_name": "RAFAEL DAMASCENA FERREIRA",
+      "student_name": "SAMUEL GOMES FERREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "ÁGUA: BICHOS QUE GOSTAM DE NADAR!  GUTO LINS AMARILYS",
+      "timestamp": "2025-12-18 19:19"
     }
   ],
   "students_db": [
