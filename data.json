@@ -5568,8 +5568,9 @@
       "title": "O GRÚFALO \tJULIA DONALDSON \tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL DAMASCENA FERREIRA",
+      "reserved_student": "SAMUEL GOMES FERREIRA"
     },
     {
       "id": 1765377381,
@@ -20103,6 +20104,17 @@
       "class_name": "Vespertino",
       "book_title": "ÁGUA NOSSA DE CADA DIA\tZIRALDO\tMELHORAMENTOS",
       "timestamp": "2025-12-18 19:15"
+    },
+    {
+      "reservation_id": 1766085475,
+      "book_id": 1765377380,
+      "category": "Livro",
+      "parent_name": "RAFAEL DAMASCENA FERREIRA",
+      "student_name": "SAMUEL GOMES FERREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "O GRÚFALO \tJULIA DONALDSON \tBRINQUE BOOK",
+      "timestamp": "2025-12-18 19:17"
     }
   ],
   "students_db": [
