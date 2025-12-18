@@ -18040,8 +18040,9 @@
       "title": "HISTÓRIAS DA PRETA\tHELOISA PIRES LIMA\tCIA DAS LETRINHAS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VITOR CLEY PINTO DE CARVALHO",
+      "reserved_student": "JULIA GALVAO DE CARVALHO"
     },
     {
       "id": 1765542267,
@@ -19666,6 +19667,17 @@
       "grade": "4º Ano",
       "class_name": "Matutino",
       "book_title": "SACUDIR O ESQUELETO\tANGELA LAGO\tCIA DAS LETRINHAS",
+      "timestamp": "2025-12-18 15:24"
+    },
+    {
+      "reservation_id": 1766071484,
+      "book_id": 1765542266,
+      "category": "Livro",
+      "parent_name": "VITOR CLEY PINTO DE CARVALHO",
+      "student_name": "JULIA GALVAO DE CARVALHO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "HISTÓRIAS DA PRETA\tHELOISA PIRES LIMA\tCIA DAS LETRINHAS",
       "timestamp": "2025-12-18 15:24"
     }
   ],
