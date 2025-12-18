@@ -5842,8 +5842,9 @@
       "title": "ÁGUA NOSSA DE CADA DIA\tZIRALDO\tMELHORAMENTOS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL DAMASCENA FERREIRA",
+      "reserved_student": "SAMUEL GOMES FERREIRA"
     },
     {
       "id": 1765377411,
@@ -20091,6 +20092,17 @@
       "class_name": "Matutino",
       "book_title": "MARIA SAPEBA  ANA MARIA MACHADO  ÁTICA",
       "timestamp": "2025-12-18 18:52"
+    },
+    {
+      "reservation_id": 1766085320,
+      "book_id": 1765377410,
+      "category": "Livro",
+      "parent_name": "RAFAEL DAMASCENA FERREIRA",
+      "student_name": "SAMUEL GOMES FERREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "ÁGUA NOSSA DE CADA DIA\tZIRALDO\tMELHORAMENTOS",
+      "timestamp": "2025-12-18 19:15"
     }
   ],
   "students_db": [
