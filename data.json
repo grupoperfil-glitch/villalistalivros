@@ -344,8 +344,9 @@
       "title": "UMA LAGARTA MUITO COMILONA  ERIC CARLE  CALLIS",
       "grade": "Grupo 1",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRE OLIVEIRA DOS SANTOS",
+      "reserved_student": "AYANNA RODRIGUES OLIVEIRA"
     },
     {
       "id": 1765212967,
@@ -19946,6 +19947,17 @@
       "class_name": "Vespertino",
       "book_title": "ANIMAIS DA SELVA  CIRANDA CULTURAL  CIRANDA CULTURAL",
       "timestamp": "2025-12-18 17:27"
+    },
+    {
+      "reservation_id": 1766078918,
+      "book_id": 1765212966,
+      "category": "Livro",
+      "parent_name": "ANDRE OLIVEIRA DOS SANTOS",
+      "student_name": "AYANNA RODRIGUES OLIVEIRA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "book_title": "UMA LAGARTA MUITO COMILONA  ERIC CARLE  CALLIS",
+      "timestamp": "2025-12-18 17:28"
     }
   ],
   "students_db": [
