@@ -14959,8 +14959,9 @@
       "title": "XADREZ",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARINA LEAL DE CASTRO",
+      "reserved_student": "DIANA DE CASTRO BAHIENSE GUIMARÃES"
     },
     {
       "id": 1765460386,
@@ -20029,6 +20030,17 @@
       "class_name": "Matutino",
       "book_title": "PETECA",
       "timestamp": "2025-12-18 18:03"
+    },
+    {
+      "reservation_id": 1766081413,
+      "book_id": 1765460385,
+      "category": "Jogo",
+      "parent_name": "MARINA LEAL DE CASTRO",
+      "student_name": "DIANA DE CASTRO BAHIENSE GUIMARÃES",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "XADREZ",
+      "timestamp": "2025-12-18 18:10"
     }
   ],
   "students_db": [
