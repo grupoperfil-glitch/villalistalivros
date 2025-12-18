@@ -100,8 +100,9 @@
       "title": "ANIMAIS DA SELVA  CIRANDA CULTURAL  CIRANDA CULTURAL",
       "grade": "Grupo 1",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRE OLIVEIRA DOS SANTOS",
+      "reserved_student": "AYANNA RODRIGUES OLIVEIRA"
     },
     {
       "id": 1765212940,
@@ -19978,6 +19979,17 @@
       "class_name": "Vespertino",
       "book_title": "OS TRÊS PORQUINHOS  CIRANDA CULTURAL  CIRANDA CULTURAL",
       "timestamp": "2025-12-18 17:26"
+    },
+    {
+      "reservation_id": 1766078845,
+      "book_id": 1765212939,
+      "category": "Livro",
+      "parent_name": "ANDRE OLIVEIRA DOS SANTOS",
+      "student_name": "AYANNA RODRIGUES OLIVEIRA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "book_title": "ANIMAIS DA SELVA  CIRANDA CULTURAL  CIRANDA CULTURAL",
+      "timestamp": "2025-12-18 17:27"
     }
   ],
   "students_db": [
