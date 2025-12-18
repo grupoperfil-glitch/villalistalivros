@@ -14301,8 +14301,9 @@
       "title": "1 CHALEIRA DE ALUMÍNIO TAMANHO MÉDIO",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "KEINA MACIELE CAMPOS DOURADO",
+      "reserved_student": "SOFIA CAMPOS MUCCINI COSTA"
     },
     {
       "id": 1765460068,
@@ -19798,6 +19799,17 @@
       "class_name": "Matutino",
       "book_title": "UMA PALAVRA SÓ\tANGELA LAGO\tEDITORA MODERNA",
       "timestamp": "2025-12-18 15:41"
+    },
+    {
+      "reservation_id": 1766072715,
+      "book_id": 1765460067,
+      "category": "Brinquedo",
+      "parent_name": "KEINA MACIELE CAMPOS DOURADO",
+      "student_name": "SOFIA CAMPOS MUCCINI COSTA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "1 CHALEIRA DE ALUMÍNIO TAMANHO MÉDIO",
+      "timestamp": "2025-12-18 15:45"
     }
   ],
   "students_db": [
