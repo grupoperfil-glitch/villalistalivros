@@ -1785,8 +1785,9 @@
       "title": "CHUPIM  ITAMAR VIEIRA JUNIOR  BAIÃO",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JANAINA A C TELES",
+      "reserved_student": "FRANCISCO DE CERQUEIRA TELES"
     },
     {
       "id": 1765376527,
@@ -19619,6 +19620,17 @@
       "class_name": "Matutino",
       "book_title": "FELPO FILVA  EVA FURNARI  MODERNA",
       "timestamp": "2025-12-18 15:16"
+    },
+    {
+      "reservation_id": 1766071082,
+      "book_id": 1765370074,
+      "category": "Livro",
+      "parent_name": "JANAINA A C TELES",
+      "student_name": "FRANCISCO DE CERQUEIRA TELES",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "CHUPIM  ITAMAR VIEIRA JUNIOR  BAIÃO",
+      "timestamp": "2025-12-18 15:18"
     }
   ],
   "students_db": [
