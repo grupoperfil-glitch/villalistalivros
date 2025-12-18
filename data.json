@@ -8322,8 +8322,9 @@
       "title": "AMORAS  EMICIDA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDREA MIRANDA RAMOS",
+      "reserved_student": "MIGUEL RAMOS MOURA"
     },
     {
       "id": 1765391878,
@@ -19386,6 +19387,17 @@
       "class_name": "Matutino",
       "book_title": "SOLTEI O PUM NA ESCOLA  COMPANHIA DAS LETRAS  BLANDINA FRANCO E JOSÉ CARLOS LOLLO",
       "timestamp": "2025-12-18 02:57"
+    },
+    {
+      "reservation_id": 1766026949,
+      "book_id": 1765391877,
+      "category": "Livro",
+      "parent_name": "ANDREA MIRANDA RAMOS",
+      "student_name": "MIGUEL RAMOS MOURA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "AMORAS  EMICIDA",
+      "timestamp": "2025-12-18 03:02"
     }
   ],
   "students_db": [
