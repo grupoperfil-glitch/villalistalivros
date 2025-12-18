@@ -18633,8 +18633,9 @@
       "title": "UMA PALAVRA SÓ\tANGELA LAGO\tEDITORA MODERNA",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRESSA DA ANUNCIAÇÃO NELLI",
+      "reserved_student": "LORENZO NELLI DE OLIVEIRA"
     },
     {
       "id": 1765542331,
@@ -19785,6 +19786,17 @@
       "grade": "4º Ano",
       "class_name": "Matutino",
       "book_title": "A ÁRVORE DO BETO\tRUTH ROCHA\tSALAMANDRA",
+      "timestamp": "2025-12-18 15:41"
+    },
+    {
+      "reservation_id": 1766072496,
+      "book_id": 1765542330,
+      "category": "Livro",
+      "parent_name": "ANDRESSA DA ANUNCIAÇÃO NELLI",
+      "student_name": "LORENZO NELLI DE OLIVEIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "UMA PALAVRA SÓ\tANGELA LAGO\tEDITORA MODERNA",
       "timestamp": "2025-12-18 15:41"
     }
   ],
