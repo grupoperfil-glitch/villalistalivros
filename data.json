@@ -7540,8 +7540,9 @@
       "title": "A VELHINHA QUE DAVA NOME ÀS COISAS  BRINQUE BOOK  CYNTHIA RYLANT",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDREA MIRANDA RAMOS",
+      "reserved_student": "MIGUEL RAMOS MOURA"
     },
     {
       "id": 1765391792,
@@ -19361,6 +19362,17 @@
       "class_name": "Vespertino",
       "book_title": "A FABULOSA MÁQUINA DE AMIGOS  BRINQUE  BOOK NICK BLAND",
       "timestamp": "2025-12-18 01:24"
+    },
+    {
+      "reservation_id": 1766026617,
+      "book_id": 1765391791,
+      "category": "Livro",
+      "parent_name": "ANDREA MIRANDA RAMOS",
+      "student_name": "MIGUEL RAMOS MOURA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "A VELHINHA QUE DAVA NOME ÀS COISAS  BRINQUE BOOK  CYNTHIA RYLANT",
+      "timestamp": "2025-12-18 02:56"
     }
   ],
   "students_db": [
