@@ -838,8 +838,9 @@
       "title": "PEDRO E TINA – UMA AMIZADE",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARCOS ALEXANDRE",
+      "reserved_student": "BENJAMIN SEIPPEL LIMA M. DOS S"
     },
     {
       "id": 1765369051,
@@ -20184,6 +20185,17 @@
       "class_name": "Matutino",
       "book_title": "PEDRO E O LOBO  HELOISA PRIETO  ÁTICA",
       "timestamp": "2025-12-19 12:53"
+    },
+    {
+      "reservation_id": 1766165993,
+      "book_id": 1765369050,
+      "category": "Livro",
+      "parent_name": "MARCOS ALEXANDRE",
+      "student_name": "BENJAMIN SEIPPEL LIMA M. DOS S",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "PEDRO E TINA – UMA AMIZADE",
+      "timestamp": "2025-12-19 17:39"
     }
   ],
   "students_db": [
