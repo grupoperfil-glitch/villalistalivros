@@ -803,8 +803,9 @@
       "title": "AS AVENTURAS DO BONEQUINHO DO BANHEIRO   ZIRALDO  MELHORAMENTO",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARCOS ALEXANDRE",
+      "reserved_student": "BENJAMIN SEIPPEL LIMA M. DOS S"
     },
     {
       "id": 1765369047,
@@ -20208,6 +20209,17 @@
       "class_name": "Vespertino",
       "book_title": "CURRUPACO PAPACO –  COL.",
       "timestamp": "2025-12-19 20:55"
+    },
+    {
+      "reservation_id": 1766177972,
+      "book_id": 1765369046,
+      "category": "Livro",
+      "parent_name": "MARCOS ALEXANDRE",
+      "student_name": "BENJAMIN SEIPPEL LIMA M. DOS S",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "AS AVENTURAS DO BONEQUINHO DO BANHEIRO   ZIRALDO  MELHORAMENTO",
+      "timestamp": "2025-12-19 20:59"
     }
   ],
   "students_db": [
