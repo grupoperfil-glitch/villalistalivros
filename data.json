@@ -527,8 +527,9 @@
       "title": "AS CONFUSÕES DE ANINHA   STELLA CAR  MODERNA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LEA CLARISSA FLORES DANTAS PINA",
+      "reserved_student": "LEANDRO DANTAS PINA MARTINEZ"
     },
     {
       "id": 1765369019,
@@ -20148,6 +20149,17 @@
       "class_name": "Matutino",
       "book_title": "CURRUPACO PAPACO –  COL.",
       "timestamp": "2025-12-19 12:03"
+    },
+    {
+      "reservation_id": 1766145873,
+      "book_id": 1765369018,
+      "category": "Livro",
+      "parent_name": "LEA CLARISSA FLORES DANTAS PINA",
+      "student_name": "LEANDRO DANTAS PINA MARTINEZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "AS CONFUSÕES DE ANINHA   STELLA CAR  MODERNA",
+      "timestamp": "2025-12-19 12:04"
     }
   ],
   "students_db": [
