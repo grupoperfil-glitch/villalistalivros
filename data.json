@@ -471,8 +471,9 @@
       "title": "OU ISTO OU AQUILO   CECÍLIA MEIRELES  NOVA FRONTEIRA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LEA CLARISSA FLORES DANTAS PINA",
+      "reserved_student": "LEANDRO DANTAS PINA MARTINEZ"
     },
     {
       "id": 1765369013,
@@ -20124,6 +20125,17 @@
       "class_name": "Matutino",
       "book_title": "SÓ UM PULINHO DE GATO\tHENS JONISH \tBRINQUE BOOK",
       "timestamp": "2025-12-19 10:48"
+    },
+    {
+      "reservation_id": 1766145722,
+      "book_id": 1765369012,
+      "category": "Livro",
+      "parent_name": "LEA CLARISSA FLORES DANTAS PINA",
+      "student_name": "LEANDRO DANTAS PINA MARTINEZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "OU ISTO OU AQUILO   CECÍLIA MEIRELES  NOVA FRONTEIRA",
+      "timestamp": "2025-12-19 12:02"
     }
   ],
   "students_db": [
