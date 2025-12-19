@@ -14612,8 +14612,9 @@
       "title": "PEGA-PEIXE (JOGO DE PESCARIA)",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PRISCILA MIRANDA  PEDREIRA",
+      "reserved_student": "GAEL MIRANDA PEDREIRA"
     },
     {
       "id": 1765460365,
@@ -20100,6 +20101,17 @@
       "class_name": "Vespertino",
       "book_title": "BOLA",
       "timestamp": "2025-12-19 02:08"
+    },
+    {
+      "reservation_id": 1766110332,
+      "book_id": 1765460364,
+      "category": "Jogo",
+      "parent_name": "PRISCILA MIRANDA  PEDREIRA",
+      "student_name": "GAEL MIRANDA PEDREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "PEGA-PEIXE (JOGO DE PESCARIA)",
+      "timestamp": "2025-12-19 02:12"
     }
   ],
   "students_db": [
