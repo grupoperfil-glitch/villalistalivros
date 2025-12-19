@@ -7601,8 +7601,9 @@
       "title": "O MENINO E O TEMPO  MANATI  BIA HETZEL",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PRISCILA MIRANDA  PEDREIRA",
+      "reserved_student": "GAEL MIRANDA PEDREIRA"
     },
     {
       "id": 1765391795,
@@ -20064,6 +20065,17 @@
       "class_name": "Vespertino",
       "book_title": "UMA GIRAFA E TANTO CIA DAS LETRINHAS SHEL SILVERSTEIN",
       "timestamp": "2025-12-19 02:03"
+    },
+    {
+      "reservation_id": 1766109855,
+      "book_id": 1765391794,
+      "category": "Livro",
+      "parent_name": "PRISCILA MIRANDA  PEDREIRA",
+      "student_name": "GAEL MIRANDA PEDREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "O LIVRO PREFERIDO DE UM GAROTO SABIDO  JULIA DONALDSON  BRINQUE-BOOK",
+      "timestamp": "2025-12-19 02:04"
     }
   ],
   "students_db": [
