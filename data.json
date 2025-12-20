@@ -1063,8 +1063,9 @@
       "title": "AMIGO DO REI (COLEÇÃO SAMBALELÊ) RUTH ROCHA  ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CHRISTIANE ANDRADE ALVES",
+      "reserved_student": "GOYA ANDRADE FERNANDEZ"
     },
     {
       "id": 1765369189,
@@ -20268,6 +20269,17 @@
       "class_name": "Matutino",
       "book_title": "TUDO BEM SER DIFERENTE\tTOOD PARR\tPANDA BOOK",
       "timestamp": "2025-12-20 02:33"
+    },
+    {
+      "reservation_id": 1766244770,
+      "book_id": 1765369188,
+      "category": "Livro",
+      "parent_name": "CHRISTIANE ANDRADE ALVES",
+      "student_name": "GOYA ANDRADE FERNANDEZ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "AMIGO DO REI (COLEÇÃO SAMBALELÊ) RUTH ROCHA  ÁTICA",
+      "timestamp": "2025-12-20 15:32"
     }
   ],
   "students_db": [
