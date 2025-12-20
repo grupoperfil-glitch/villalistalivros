@@ -6112,8 +6112,9 @@
       "title": "NAS PROFUNDEZAS  DO OCEANO\tANNA MILBOURNE",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VANESSA VIEIRA PESSANHA",
+      "reserved_student": "LARA PESSANHA COSTA"
     },
     {
       "id": 1765377439,
@@ -20256,6 +20257,17 @@
       "class_name": "Matutino",
       "book_title": "CHAPEUZINHO NO PELÔ \tPALMIRA MEIRE\tEVAFURNARY",
       "timestamp": "2025-12-20 02:32"
+    },
+    {
+      "reservation_id": 1766198005,
+      "book_id": 1765377438,
+      "category": "Livro",
+      "parent_name": "VANESSA VIEIRA PESSANHA",
+      "student_name": "LARA PESSANHA COSTA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "TUDO BEM SER DIFERENTE\tTOOD PARR\tPANDA BOOK",
+      "timestamp": "2025-12-20 02:33"
     }
   ],
   "students_db": [
