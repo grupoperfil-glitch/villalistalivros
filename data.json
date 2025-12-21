@@ -5681,8 +5681,9 @@
       "title": "A PRINCESA SEM NOME\tALESSANDRA DE PAULA \tCALIIS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALLAN SILVA PIAUHY FALCÃO",
+      "reserved_student": "SOPHIE PAIXAO PIAUHY"
     },
     {
       "id": 1765377392,
@@ -20280,6 +20281,17 @@
       "class_name": "Matutino",
       "book_title": "AMIGO DO REI (COLEÇÃO SAMBALELÊ) RUTH ROCHA  ÁTICA",
       "timestamp": "2025-12-20 15:32"
+    },
+    {
+      "reservation_id": 1766311633,
+      "book_id": 1765377391,
+      "category": "Livro",
+      "parent_name": "ALLAN SILVA PIAUHY FALCÃO",
+      "student_name": "SOPHIE PAIXAO PIAUHY",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "O GRÚFALO \tJULIA DONALDSON \tBRINQUE BOOK",
+      "timestamp": "2025-12-21 10:07"
     }
   ],
   "students_db": [
