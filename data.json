@@ -5984,8 +5984,9 @@
       "title": "AMORAS \tEMICIDA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALLAN SILVA PIAUHY FALCÃO",
+      "reserved_student": "SOPHIE PAIXAO PIAUHY"
     },
     {
       "id": 1765377425,
@@ -20292,6 +20293,17 @@
       "class_name": "Matutino",
       "book_title": "O GRÚFALO \tJULIA DONALDSON \tBRINQUE BOOK",
       "timestamp": "2025-12-21 10:07"
+    },
+    {
+      "reservation_id": 1766311946,
+      "book_id": 1765377424,
+      "category": "Livro",
+      "parent_name": "ALLAN SILVA PIAUHY FALCÃO",
+      "student_name": "SOPHIE PAIXAO PIAUHY",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "A LAGARTIXA COM CARA DE SALSICHA\tRENATA FERNANDES\tLETRA A",
+      "timestamp": "2025-12-21 10:12"
     }
   ],
   "students_db": [
