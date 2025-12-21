@@ -13513,8 +13513,9 @@
       "title": "DOMINÓS – NUMERAIS E QUANTIDADES\tCARLU",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALLAN SILVA PIAUHY FALCÃO",
+      "reserved_student": "SOPHIE PAIXAO PIAUHY"
     },
     {
       "id": 1765460013,
@@ -20304,6 +20305,17 @@
       "class_name": "Matutino",
       "book_title": "A LAGARTIXA COM CARA DE SALSICHA\tRENATA FERNANDES\tLETRA A",
       "timestamp": "2025-12-21 10:12"
+    },
+    {
+      "reservation_id": 1766321402,
+      "book_id": 1765459921,
+      "category": "Jogo",
+      "parent_name": "ALLAN SILVA PIAUHY FALCÃO",
+      "student_name": "SOPHIE PAIXAO PIAUHY",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "DOMINÓS – NUMERAIS E QUANTIDADES\tCARLU",
+      "timestamp": "2025-12-21 12:50"
     }
   ],
   "students_db": [
