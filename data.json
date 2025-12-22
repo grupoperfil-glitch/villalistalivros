@@ -16256,8 +16256,9 @@
       "title": "O LIVRO DE RECEITAS DO MENINO MALUQUINHO ZIRALDO L&PM",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CHRISTIANE ANDRADE ALVES",
+      "reserved_student": "GOYA ANDRADE FERNANDEZ"
     },
     {
       "id": 1765483514,
@@ -20340,6 +20341,17 @@
       "grade": "2º Ano",
       "class_name": "Matutino",
       "book_title": "BRINCADEIRA DE TODOS OS TEMPOS ANA CLAUDIA RAMOS  ESCALA EDUCACIONAL",
+      "timestamp": "2025-12-22 12:08"
+    },
+    {
+      "reservation_id": 1766405313,
+      "book_id": 1765483513,
+      "category": "Livro",
+      "parent_name": "CHRISTIANE ANDRADE ALVES",
+      "student_name": "GOYA ANDRADE FERNANDEZ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "O LIVRO DE RECEITAS DO MENINO MALUQUINHO ZIRALDO L&PM",
       "timestamp": "2025-12-22 12:08"
     }
   ],
