@@ -917,9 +917,9 @@
       "title": "A CASA SONOLENTA  AUDREY WOOD ÁTICA",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "LUIZ EDUARDO DA SILVA DIAS",
-      "reserved_student": "JOÃO BERNARDO FARIAS MELO DIAS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765369059,
@@ -20474,17 +20474,6 @@
       "class_name": "Vespertino",
       "book_title": "QUANDO MAMÃE VIROU UM MONSTRO JOANNA  HARRISON BRINQUE BOOK",
       "timestamp": "2025-12-22 15:06"
-    },
-    {
-      "reservation_id": 1766430102,
-      "book_id": 1765369058,
-      "category": "Livro",
-      "parent_name": "LUIZ EDUARDO DA SILVA DIAS",
-      "student_name": "JOÃO BERNARDO FARIAS MELO DIAS",
-      "grade": "1º Ano",
-      "class_name": "Vespertino",
-      "book_title": "A CASA SONOLENTA  AUDREY WOOD ÁTICA",
-      "timestamp": "2025-12-22 19:01"
     }
   ],
   "students_db": [
