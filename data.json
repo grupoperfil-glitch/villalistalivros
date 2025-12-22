@@ -756,8 +756,9 @@
       "title": "A BRUXA SALOMÉ   AUDREY WOOD  ÁTICA",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "reserved_student": "DIAMOND FERNANDES EVANGELISTA DOS SANTOS"
     },
     {
       "id": 1765369042,
@@ -20449,6 +20450,17 @@
       "class_name": "Matutino",
       "book_title": "SOMOS TODOS EXTRAORDINÁRIOS\tR.J. PALÁCIO\tSARAIVA",
       "timestamp": "2025-12-22 14:31"
+    },
+    {
+      "reservation_id": 1766415952,
+      "book_id": 1765369041,
+      "category": "Livro",
+      "parent_name": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "student_name": "DIAMOND FERNANDES EVANGELISTA DOS SANTOS",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "A BRUXA SALOMÉ   AUDREY WOOD  ÁTICA",
+      "timestamp": "2025-12-22 15:05"
     }
   ],
   "students_db": [
