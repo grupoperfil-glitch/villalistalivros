@@ -18643,8 +18643,9 @@
       "title": "SOMOS TODOS EXTRAORDINÁRIOS\tR.J. PALÁCIO\tSARAIVA",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TASSIO DIAS MOREIRA DE SOUZA",
+      "reserved_student": "ALICIA VITORIA PINHO MOREIRA"
     },
     {
       "id": 1765542339,
@@ -20436,6 +20437,17 @@
       "grade": "4º Ano",
       "class_name": "Matutino",
       "book_title": "OS DIREITOS DAS CRIANÇAS\tRUTH ROCHA  SALAMANDRA",
+      "timestamp": "2025-12-22 14:31"
+    },
+    {
+      "reservation_id": 1766413897,
+      "book_id": 1765542338,
+      "category": "Livro",
+      "parent_name": "TASSIO DIAS MOREIRA DE SOUZA",
+      "student_name": "ALICIA VITORIA PINHO MOREIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "SOMOS TODOS EXTRAORDINÁRIOS\tR.J. PALÁCIO\tSARAIVA",
       "timestamp": "2025-12-22 14:31"
     }
   ],
