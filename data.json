@@ -814,8 +814,9 @@
       "title": "QUANDO MAMÃE VIROU UM MONSTRO JOANNA  HARRISON BRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "reserved_student": "DIAMOND FERNANDES EVANGELISTA DOS SANTOS"
     },
     {
       "id": 1765369048,
@@ -20461,6 +20462,17 @@
       "class_name": "Vespertino",
       "book_title": "A BRUXA SALOMÉ   AUDREY WOOD  ÁTICA",
       "timestamp": "2025-12-22 15:05"
+    },
+    {
+      "reservation_id": 1766415972,
+      "book_id": 1765369047,
+      "category": "Livro",
+      "parent_name": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "student_name": "DIAMOND FERNANDES EVANGELISTA DOS SANTOS",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "QUANDO MAMÃE VIROU UM MONSTRO JOANNA  HARRISON BRINQUE BOOK",
+      "timestamp": "2025-12-22 15:06"
     }
   ],
   "students_db": [
