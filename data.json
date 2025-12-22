@@ -11066,8 +11066,9 @@
       "title": "DA CABEÇA ATÉ O PÉ \tTOYSTER",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUAN RIBEIRO DE SANTANA",
+      "reserved_student": "LARA RIBEIRO FREITAS SANTANA"
     },
     {
       "id": 1765458287,
@@ -20389,6 +20390,17 @@
       "class_name": "Matutino",
       "book_title": "QUEM TEM MEDO DE DIZER NÃO?\tRUTH ROCHA\tGLOBAL",
       "timestamp": "2025-12-22 13:47"
+    },
+    {
+      "reservation_id": 1766411566,
+      "book_id": 1765458286,
+      "category": "Jogo",
+      "parent_name": "LUAN RIBEIRO DE SANTANA",
+      "student_name": "LARA RIBEIRO FREITAS SANTANA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "DA CABEÇA ATÉ O PÉ \tTOYSTER",
+      "timestamp": "2025-12-22 13:52"
     }
   ],
   "students_db": [
