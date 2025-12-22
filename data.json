@@ -18624,8 +18624,9 @@
       "title": "OS DIREITOS DAS CRIANÇAS\tRUTH ROCHA  SALAMANDRA",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TASSIO DIAS MOREIRA DE SOUZA",
+      "reserved_student": "ALICIA VITORIA PINHO MOREIRA"
     },
     {
       "id": 1765542337,
@@ -20425,6 +20426,17 @@
       "class_name": "Matutino",
       "book_title": "VERSOS DE CORDEL\tMAURÍCIO DE SOUZA E",
       "timestamp": "2025-12-22 14:30"
+    },
+    {
+      "reservation_id": 1766413869,
+      "book_id": 1765542336,
+      "category": "Livro",
+      "parent_name": "TASSIO DIAS MOREIRA DE SOUZA",
+      "student_name": "ALICIA VITORIA PINHO MOREIRA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "OS DIREITOS DAS CRIANÇAS\tRUTH ROCHA  SALAMANDRA",
+      "timestamp": "2025-12-22 14:31"
     }
   ],
   "students_db": [
