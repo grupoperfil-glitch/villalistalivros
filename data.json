@@ -2694,8 +2694,9 @@
       "title": "EU NÃO QUERO DORMIR AGORA \tLAUREM CHILD \tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUAN RIBEIRO DE SANTANA",
+      "reserved_student": "LARA RIBEIRO FREITAS SANTANA"
     },
     {
       "id": 1765376924,
@@ -20365,6 +20366,17 @@
       "class_name": "Matutino",
       "book_title": "ASSIM ASSADO \tEVA FURNARI\tEDITORA MODERNA",
       "timestamp": "2025-12-22 13:46"
+    },
+    {
+      "reservation_id": 1766411224,
+      "book_id": 1765376923,
+      "category": "Livro",
+      "parent_name": "LUAN RIBEIRO DE SANTANA",
+      "student_name": "LARA RIBEIRO FREITAS SANTANA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "EU NÃO QUERO DORMIR AGORA \tLAUREM CHILD \tÁTICA",
+      "timestamp": "2025-12-22 13:47"
     }
   ],
   "students_db": [
