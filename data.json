@@ -2840,8 +2840,9 @@
       "title": "QUEM TEM MEDO DE DIZER NÃO?\tRUTH ROCHA\tGLOBAL",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUAN RIBEIRO DE SANTANA",
+      "reserved_student": "LARA RIBEIRO FREITAS SANTANA"
     },
     {
       "id": 1765376940,
@@ -20376,6 +20377,17 @@
       "grade": "Grupo 3",
       "class_name": "Matutino",
       "book_title": "EU NÃO QUERO DORMIR AGORA \tLAUREM CHILD \tÁTICA",
+      "timestamp": "2025-12-22 13:47"
+    },
+    {
+      "reservation_id": 1766411237,
+      "book_id": 1765376939,
+      "category": "Livro",
+      "parent_name": "LUAN RIBEIRO DE SANTANA",
+      "student_name": "LARA RIBEIRO FREITAS SANTANA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "QUEM TEM MEDO DE DIZER NÃO?\tRUTH ROCHA\tGLOBAL",
       "timestamp": "2025-12-22 13:47"
     }
   ],
