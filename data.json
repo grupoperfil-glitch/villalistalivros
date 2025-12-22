@@ -1311,8 +1311,9 @@
       "title": "DIVERSIDADE  TATIANA BELINKY  FTD",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CHRISTIANE ANDRADE ALVES",
+      "reserved_student": "GOYA ANDRADE FERNANDEZ"
     },
     {
       "id": 1765369216,
@@ -20317,6 +20318,17 @@
       "class_name": "Matutino",
       "book_title": "DOMINÓS – NUMERAIS E QUANTIDADES\tCARLU",
       "timestamp": "2025-12-21 12:50"
+    },
+    {
+      "reservation_id": 1766405241,
+      "book_id": 1765369215,
+      "category": "Livro",
+      "parent_name": "CHRISTIANE ANDRADE ALVES",
+      "student_name": "GOYA ANDRADE FERNANDEZ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "DIVERSIDADE  TATIANA BELINKY  FTD",
+      "timestamp": "2025-12-22 12:07"
     }
   ],
   "students_db": [
