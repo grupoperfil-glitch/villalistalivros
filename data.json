@@ -11311,8 +11311,9 @@
       "title": "KIT MÉDICO",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUAN RIBEIRO DE SANTANA",
+      "reserved_student": "LARA RIBEIRO FREITAS SANTANA"
     },
     {
       "id": 1765458389,
@@ -20401,6 +20402,17 @@
       "class_name": "Matutino",
       "book_title": "DA CABEÇA ATÉ O PÉ \tTOYSTER",
       "timestamp": "2025-12-22 13:52"
+    },
+    {
+      "reservation_id": 1766412667,
+      "book_id": 1765458388,
+      "category": "Brinquedo",
+      "parent_name": "LUAN RIBEIRO DE SANTANA",
+      "student_name": "LARA RIBEIRO FREITAS SANTANA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "KIT MÉDICO",
+      "timestamp": "2025-12-22 14:11"
     }
   ],
   "students_db": [
