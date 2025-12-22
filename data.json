@@ -15722,8 +15722,9 @@
       "title": "AMIGO DO REI (COLEÇÃO SAMBALELÊ) RUTH ROCHA ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CHRISTIANE ANDRADE ALVES",
+      "reserved_student": "GOYA ANDRADE FERNANDEZ"
     },
     {
       "id": 1765483455,
@@ -20316,6 +20317,17 @@
       "class_name": "Matutino",
       "book_title": "DOMINÓS – NUMERAIS E QUANTIDADES\tCARLU",
       "timestamp": "2025-12-21 12:50"
+    },
+    {
+      "reservation_id": 1766404150,
+      "book_id": 1765483454,
+      "category": "Livro",
+      "parent_name": "CHRISTIANE ANDRADE ALVES",
+      "student_name": "GOYA ANDRADE FERNANDEZ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "AMIGO DO REI (COLEÇÃO SAMBALELÊ) RUTH ROCHA ÁTICA",
+      "timestamp": "2025-12-22 11:49"
     }
   ],
   "students_db": [
