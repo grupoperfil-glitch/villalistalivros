@@ -6218,8 +6218,9 @@
       "title": "CHORAR É COMO CHOVER \tEMÍLIA NUNEZ\tTIBI EDITORA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THAIS NASCIMENTO LIMA",
+      "reserved_student": "LIZZ NASCIMENTO LIMA"
     },
     {
       "id": 1765377449,
@@ -20548,6 +20549,17 @@
       "class_name": "Matutino",
       "book_title": "O GIGANTE MAIS ELEGANTE DA CIDADE \tJULIA DONALDSON \tBRINQUE-BOOK",
       "timestamp": "2025-12-23 03:54"
+    },
+    {
+      "reservation_id": 1766462489,
+      "book_id": 1765377448,
+      "category": "Livro",
+      "parent_name": "THAIS NASCIMENTO LIMA",
+      "student_name": "LIZZ NASCIMENTO LIMA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "O GUARDA CHUVA AZUL\tEMILY ANN DAVISON\tMELHORAMENTOS",
+      "timestamp": "2025-12-23 04:01"
     }
   ],
   "students_db": [
