@@ -15916,8 +15916,9 @@
       "title": "TENHO MEDO, MAS DOU UM JEITO RUTH ROCHA/DORA LORCH ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THAIS NASCIMENTO LIMA",
+      "reserved_student": "MELL NASCIMENTO LIMA"
     },
     {
       "id": 1765483475,
@@ -20512,6 +20513,17 @@
       "class_name": "Matutino",
       "book_title": "MARIA VAI COM AS OUTRAS  SYLVIA  ORTHOF  ÁTICA",
       "timestamp": "2025-12-23 02:49"
+    },
+    {
+      "reservation_id": 1766459058,
+      "book_id": 1765483474,
+      "category": "Livro",
+      "parent_name": "THAIS NASCIMENTO LIMA",
+      "student_name": "MELL NASCIMENTO LIMA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "TENHO MEDO, MAS DOU UM JEITO RUTH ROCHA/DORA LORCH ÁTICA",
+      "timestamp": "2025-12-23 03:04"
     }
   ],
   "students_db": [
