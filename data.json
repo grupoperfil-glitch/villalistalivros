@@ -7174,8 +7174,9 @@
       "title": "O GIGANTE MAIS ELEGANTE DA CIDADE \tJULIA DONALDSON \tBRINQUE-BOOK",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THAIS NASCIMENTO LIMA",
+      "reserved_student": "LIZZ NASCIMENTO LIMA"
     },
     {
       "id": 1765377455,
@@ -20536,6 +20537,17 @@
       "class_name": "Matutino",
       "book_title": "VIAGEM ÀS TERRAS DE PORTUGAL \tJOSÉ SANTOS\tEDITORA PEIRÓPOLIS",
       "timestamp": "2025-12-23 03:53"
+    },
+    {
+      "reservation_id": 1766462073,
+      "book_id": 1765377454,
+      "category": "Livro",
+      "parent_name": "THAIS NASCIMENTO LIMA",
+      "student_name": "LIZZ NASCIMENTO LIMA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "O GIGANTE MAIS ELEGANTE DA CIDADE \tJULIA DONALDSON \tBRINQUE-BOOK",
+      "timestamp": "2025-12-23 03:54"
     }
   ],
   "students_db": [
