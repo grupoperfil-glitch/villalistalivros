@@ -15995,9 +15995,9 @@
       "title": "A VERDADEIRA HISTÓRIA DECHAPEUZINHO  VERMELHO AGNES BARUZZI E SANDRO NATALINI BRINQUE BOOK",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "THAIS NASCIMENTO LIMA",
-      "reserved_student": "MELL NASCIMENTO LIMA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765483484,
@@ -20486,17 +20486,6 @@
       "grade": "2º Ano",
       "class_name": "Matutino",
       "book_title": "DIVERSIDADE TATIANA BELINKY FTD",
-      "timestamp": "2025-12-23 02:40"
-    },
-    {
-      "reservation_id": 1766457636,
-      "book_id": 1765483483,
-      "category": "Livro",
-      "parent_name": "THAIS NASCIMENTO LIMA",
-      "student_name": "MELL NASCIMENTO LIMA",
-      "grade": "2º Ano",
-      "class_name": "Matutino",
-      "book_title": "A VERDADEIRA HISTÓRIA DECHAPEUZINHO  VERMELHO AGNES BARUZZI E SANDRO NATALINI BRINQUE BOOK",
       "timestamp": "2025-12-23 02:40"
     }
   ],
