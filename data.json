@@ -15985,8 +15985,9 @@
       "title": "DIVERSIDADE TATIANA BELINKY FTD",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THAIS NASCIMENTO LIMA",
+      "reserved_student": "MELL NASCIMENTO LIMA"
     },
     {
       "id": 1765483483,
@@ -20474,6 +20475,17 @@
       "class_name": "Vespertino",
       "book_title": "QUANDO MAMÃE VIROU UM MONSTRO JOANNA  HARRISON BRINQUE BOOK",
       "timestamp": "2025-12-22 15:06"
+    },
+    {
+      "reservation_id": 1766457628,
+      "book_id": 1765483482,
+      "category": "Livro",
+      "parent_name": "THAIS NASCIMENTO LIMA",
+      "student_name": "MELL NASCIMENTO LIMA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "DIVERSIDADE TATIANA BELINKY FTD",
+      "timestamp": "2025-12-23 02:40"
     }
   ],
   "students_db": [
