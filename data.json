@@ -6255,8 +6255,9 @@
       "title": "O MENINO COM FLORES NO CABELO \tPEQUENA ZAHAR \tJARVIS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THAIS NASCIMENTO LIMA",
+      "reserved_student": "LIZZ NASCIMENTO LIMA"
     },
     {
       "id": 1765377453,
@@ -20524,6 +20525,17 @@
       "class_name": "Matutino",
       "book_title": "TENHO MEDO, MAS DOU UM JEITO RUTH ROCHA/DORA LORCH ÁTICA",
       "timestamp": "2025-12-23 03:04"
+    },
+    {
+      "reservation_id": 1766462003,
+      "book_id": 1765377452,
+      "category": "Livro",
+      "parent_name": "THAIS NASCIMENTO LIMA",
+      "student_name": "LIZZ NASCIMENTO LIMA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "VIAGEM ÀS TERRAS DE PORTUGAL \tJOSÉ SANTOS\tEDITORA PEIRÓPOLIS",
+      "timestamp": "2025-12-23 03:53"
     }
   ],
   "students_db": [
