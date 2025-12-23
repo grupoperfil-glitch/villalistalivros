@@ -15750,8 +15750,9 @@
       "title": "AS MENTIRAS DE PAULINHO FERNANDO LOPES DE ALMEIDA  ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THAIS NASCIMENTO LIMA",
+      "reserved_student": "MELL NASCIMENTO LIMA"
     },
     {
       "id": 1765483457,
@@ -20487,6 +20488,17 @@
       "class_name": "Matutino",
       "book_title": "DIVERSIDADE TATIANA BELINKY FTD",
       "timestamp": "2025-12-23 02:40"
+    },
+    {
+      "reservation_id": 1766457796,
+      "book_id": 1765483456,
+      "category": "Livro",
+      "parent_name": "THAIS NASCIMENTO LIMA",
+      "student_name": "MELL NASCIMENTO LIMA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "AS MENTIRAS DE PAULINHO FERNANDO LOPES DE ALMEIDA  ÁTICA",
+      "timestamp": "2025-12-23 02:43"
     }
   ],
   "students_db": [
