@@ -6086,8 +6086,9 @@
       "title": "QUE TEM MEDO DE MAR?\tFANNY /JOLY\tSCIPIONE",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Karine de Jesus Silva",
+      "reserved_student": "Thandiwe Ayodele Silva dos Santos"
     },
     {
       "id": 1765377435,
@@ -20572,6 +20573,17 @@
       "class_name": "Matutino",
       "book_title": "O GRITO DO RIO TIETÊ\tAMIR PIEDADE\tELEMENTAR",
       "timestamp": "2025-12-25 16:09"
+    },
+    {
+      "reservation_id": 1766679156,
+      "book_id": 1765377434,
+      "category": "Livro",
+      "parent_name": "Karine de Jesus Silva",
+      "student_name": "Thandiwe Ayodele Silva dos Santos",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "FOI VOVÓ QUE DISSE \tDANIEL MUNDURUKU \tEDELBRA",
+      "timestamp": "2025-12-25 16:12"
     }
   ],
   "students_db": [
