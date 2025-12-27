@@ -15794,9 +15794,9 @@
       "title": "BRINCADEIRA DE TODOS OS TEMPOS ANA CLAUDIA RAMOS  ESCALA EDUCACIONAL",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "CHRISTIANE ANDRADE ALVES",
-      "reserved_student": "GOYA ANDRADE FERNANDEZ"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765483461,
@@ -20354,17 +20354,6 @@
       "class_name": "Matutino",
       "book_title": "DIVERSIDADE  TATIANA BELINKY  FTD",
       "timestamp": "2025-12-22 12:07"
-    },
-    {
-      "reservation_id": 1766405290,
-      "book_id": 1765483460,
-      "category": "Livro",
-      "parent_name": "CHRISTIANE ANDRADE ALVES",
-      "student_name": "GOYA ANDRADE FERNANDEZ",
-      "grade": "2º Ano",
-      "class_name": "Matutino",
-      "book_title": "BRINCADEIRA DE TODOS OS TEMPOS ANA CLAUDIA RAMOS  ESCALA EDUCACIONAL",
-      "timestamp": "2025-12-22 12:08"
     },
     {
       "reservation_id": 1766405313,
