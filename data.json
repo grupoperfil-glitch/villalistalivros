@@ -17060,8 +17060,9 @@
       "title": "O PROBLEMA DO CLÓVIS\tEVA FURNARI GLOBAL",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RODRIGO ATHAYDE LEITE",
+      "reserved_student": "ENRICO PINHEIRO LEITE"
     },
     {
       "id": 1765541632,
@@ -20635,6 +20636,17 @@
       "class_name": "Matutino",
       "book_title": "A CASA SONOLENTA\tAUDREY WOOD\tÁTICA",
       "timestamp": "2025-12-28 00:06"
+    },
+    {
+      "reservation_id": 1766880433,
+      "book_id": 1765541631,
+      "category": "Livro",
+      "parent_name": "RODRIGO ATHAYDE LEITE",
+      "student_name": "ENRICO PINHEIRO LEITE",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O PROBLEMA DO CLÓVIS\tEVA FURNARI GLOBAL",
+      "timestamp": "2025-12-28 00:07"
     }
   ],
   "students_db": [
