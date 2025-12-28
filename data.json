@@ -17014,9 +17014,9 @@
       "title": "UM CALDEIRÃO DE POEMAS\tTATIANA BELINKY\tCIA DAS LETRINHAS",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "MANUEL ALVES DE SOUSA JUNIOR",
-      "reserved_student": "LUISA DE SOUSA GARGUR"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765541627,
@@ -19514,17 +19514,6 @@
       "class_name": "Matutino",
       "book_title": "A MAIOR FLOR DO MUNDO\tJOSE SARAMAGO\tCIA DAS LETRINHAS",
       "timestamp": "2025-12-18 13:52"
-    },
-    {
-      "reservation_id": 1766065990,
-      "book_id": 1765541626,
-      "category": "Livro",
-      "parent_name": "MANUEL ALVES DE SOUSA JUNIOR",
-      "student_name": "LUISA DE SOUSA GARGUR",
-      "grade": "1º Ano",
-      "class_name": "Matutino",
-      "book_title": "UM CALDEIRÃO DE POEMAS\tTATIANA BELINKY\tCIA DAS LETRINHAS",
-      "timestamp": "2025-12-18 13:53"
     },
     {
       "reservation_id": 1766066170,
