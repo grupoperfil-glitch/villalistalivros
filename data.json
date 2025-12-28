@@ -16877,8 +16877,9 @@
       "title": "NO TEMPO EM QUE A TELEVISÃO MANDAVA NO  CARLINHOS… RUTH ROCHA FTD",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RODRIGO ATHAYDE LEITE",
+      "reserved_student": "ENRICO PINHEIRO LEITE"
     },
     {
       "id": 1765541612,
@@ -20611,6 +20612,17 @@
       "class_name": "Matutino",
       "book_title": "O CALCANHAR DE AQUILES  ZIRALDO MELHORAMENTOS",
       "timestamp": "2025-12-28 00:05"
+    },
+    {
+      "reservation_id": 1766880389,
+      "book_id": 1765541611,
+      "category": "Livro",
+      "parent_name": "RODRIGO ATHAYDE LEITE",
+      "student_name": "ENRICO PINHEIRO LEITE",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "NO TEMPO EM QUE A TELEVISÃO MANDAVA NO  CARLINHOS… RUTH ROCHA FTD",
+      "timestamp": "2025-12-28 00:06"
     }
   ],
   "students_db": [
