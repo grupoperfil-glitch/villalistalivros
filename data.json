@@ -610,8 +610,9 @@
       "title": "O CALCANHAR DE AQUILES  ZIRALDO MELHORAMENTOS",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RODRIGO ATHAYDE LEITE",
+      "reserved_student": "ENRICO PINHEIRO LEITE"
     },
     {
       "id": 1765369028,
@@ -20599,6 +20600,17 @@
       "class_name": "Matutino",
       "book_title": "A CESTA DE DONA MARICOTA\tTATIANA BERLINK",
       "timestamp": "2025-12-27 23:49"
+    },
+    {
+      "reservation_id": 1766880330,
+      "book_id": 1765369027,
+      "category": "Livro",
+      "parent_name": "RODRIGO ATHAYDE LEITE",
+      "student_name": "ENRICO PINHEIRO LEITE",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O CALCANHAR DE AQUILES  ZIRALDO MELHORAMENTOS",
+      "timestamp": "2025-12-28 00:05"
     }
   ],
   "students_db": [
