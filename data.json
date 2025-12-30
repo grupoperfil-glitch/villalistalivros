@@ -15054,8 +15054,9 @@
       "title": "DOMINÓ JÁ SEI LER\tGROW",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "KAREN RAMOS PEREIRA FILGUEIRAS",
+      "reserved_student": "MARIA LUIZA RAMOS FILGUEIRAS"
     },
     {
       "id": 1765460532,
@@ -20685,6 +20686,17 @@
       "class_name": "Matutino",
       "book_title": "O LIVRO DOS SENTIMENTOS  PANDA BOOKS  TODD PARR",
       "timestamp": "2025-12-30 17:10"
+    },
+    {
+      "reservation_id": 1767114976,
+      "book_id": 1765460531,
+      "category": "Brinquedo",
+      "parent_name": "KAREN RAMOS PEREIRA FILGUEIRAS",
+      "student_name": "MARIA LUIZA RAMOS FILGUEIRAS",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "DOMINÓ JÁ SEI LER\tGROW",
+      "timestamp": "2025-12-30 17:16"
     }
   ],
   "students_db": [
