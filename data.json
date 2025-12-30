@@ -14708,8 +14708,9 @@
       "title": "XADREZ",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "KAREN RAMOS PEREIRA FILGUEIRAS",
+      "reserved_student": "MARIA LUIZA RAMOS FILGUEIRAS"
     },
     {
       "id": 1765460371,
@@ -20697,6 +20698,17 @@
       "class_name": "Matutino",
       "book_title": "DOMINÓ JÁ SEI LER\tGROW",
       "timestamp": "2025-12-30 17:16"
+    },
+    {
+      "reservation_id": 1767116085,
+      "book_id": 1765460370,
+      "category": "Jogo",
+      "parent_name": "KAREN RAMOS PEREIRA FILGUEIRAS",
+      "student_name": "MARIA LUIZA RAMOS FILGUEIRAS",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "NUMERAIS E QUANTIDADES\tCARLU",
+      "timestamp": "2025-12-30 17:34"
     }
   ],
   "students_db": [
