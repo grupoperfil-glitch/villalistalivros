@@ -7501,8 +7501,9 @@
       "title": "QUEM TEM MEDO DE DIZER NÃO?  GLOBAL  RUTH ROCHA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "KAREN RAMOS PEREIRA FILGUEIRAS",
+      "reserved_student": "MARIA LUIZA RAMOS FILGUEIRAS"
     },
     {
       "id": 1765391781,
@@ -20660,6 +20661,17 @@
       "class_name": "Matutino",
       "book_title": "MEU CRESPO É DE RAINHA  BOITATÁ  BELL HOOKS",
       "timestamp": "2025-12-30 17:06"
+    },
+    {
+      "reservation_id": 1767114472,
+      "book_id": 1765391780,
+      "category": "Livro",
+      "parent_name": "KAREN RAMOS PEREIRA FILGUEIRAS",
+      "student_name": "MARIA LUIZA RAMOS FILGUEIRAS",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "QUEM TEM MEDO DE DIZER NÃO?  GLOBAL  RUTH ROCHA",
+      "timestamp": "2025-12-30 17:07"
     }
   ],
   "students_db": [
