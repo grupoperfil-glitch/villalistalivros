@@ -1299,8 +1299,9 @@
       "title": "HISTÓRIA MEIO AO CONTRÁRIO ANA MARIA MACHADO  ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FABIANA CHAGAS OLIVEIRA DE FRANÇA",
+      "reserved_student": "ALICE CHAGAS OLIVEIRA DE JESUS"
     },
     {
       "id": 1765369214,
@@ -20709,6 +20710,17 @@
       "class_name": "Matutino",
       "book_title": "NUMERAIS E QUANTIDADES\tCARLU",
       "timestamp": "2025-12-30 17:34"
+    },
+    {
+      "reservation_id": 1767390101,
+      "book_id": 1765369213,
+      "category": "Livro",
+      "parent_name": "FABIANA CHAGAS OLIVEIRA DE FRANÇA",
+      "student_name": "ALICE CHAGAS OLIVEIRA DE JESUS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "HISTÓRIA MEIO AO CONTRÁRIO ANA MARIA MACHADO  ÁTICA",
+      "timestamp": "2026-01-02 21:41"
     }
   ],
   "students_db": [
