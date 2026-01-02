@@ -1031,8 +1031,9 @@
       "title": "A CASA SONOLENTA    AUDREY WOOD        ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "NARA MARTINS FERRAZ TEIXEIRA",
+      "reserved_student": "MARIA LUISA MARTINS SOUTO"
     },
     {
       "id": 1765369185,
@@ -20757,6 +20758,17 @@
       "class_name": "Matutino",
       "book_title": "AMORAS EMICIDA CIA DAS LETRINHAS",
       "timestamp": "2026-01-02 21:43"
+    },
+    {
+      "reservation_id": 1767397131,
+      "book_id": 1765369184,
+      "category": "Livro",
+      "parent_name": "NARA MARTINS FERRAZ TEIXEIRA",
+      "student_name": "MARIA LUISA MARTINS SOUTO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "A CASA SONOLENTA    AUDREY WOOD        ÁTICA",
+      "timestamp": "2026-01-02 23:38"
     }
   ],
   "students_db": [
