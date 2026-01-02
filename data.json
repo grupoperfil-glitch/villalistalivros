@@ -16451,8 +16451,9 @@
       "title": "A REVOLTA DAS PRINCESAS CELNE LAMOUR CROCHET EDITORA SABER E LER",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FABIANA CHAGAS OLIVEIRA DE FRANÇA",
+      "reserved_student": "ALICE CHAGAS OLIVEIRA DE JESUS"
     },
     {
       "id": 1765483532,
@@ -20733,6 +20734,17 @@
       "class_name": "Matutino",
       "book_title": "OBAX  ANDRÉ NEVES  BRINQUE BOOK",
       "timestamp": "2026-01-02 21:41"
+    },
+    {
+      "reservation_id": 1767390201,
+      "book_id": 1765483531,
+      "category": "Livro",
+      "parent_name": "FABIANA CHAGAS OLIVEIRA DE FRANÇA",
+      "student_name": "ALICE CHAGAS OLIVEIRA DE JESUS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "A REVOLTA DAS PRINCESAS CELNE LAMOUR CROCHET EDITORA SABER E LER",
+      "timestamp": "2026-01-02 21:43"
     }
   ],
   "students_db": [
