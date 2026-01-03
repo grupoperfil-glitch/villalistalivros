@@ -622,8 +622,9 @@
       "title": "BRUXA ONILDA E A MACACA  LARREULA E R.CAPDEVILA SCIPIONE",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MIRIA DE AMORIM BASTIANELLO",
+      "reserved_student": "MARIAH LIZ DE AMORIM BASTIANELLO"
     },
     {
       "id": 1765369029,
@@ -20854,6 +20855,17 @@
       "class_name": "Matutino",
       "book_title": "DONA BARATINHA E OUTRAS HISTÓRIAS FRANCISCO GREGÓRIO FILHO  ROCCO",
       "timestamp": "2026-01-03 11:55"
+    },
+    {
+      "reservation_id": 1767441486,
+      "book_id": 1765369028,
+      "category": "Livro",
+      "parent_name": "MIRIA DE AMORIM BASTIANELLO",
+      "student_name": "MARIAH LIZ DE AMORIM BASTIANELLO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "BRUXA ONILDA E A MACACA  LARREULA E R.CAPDEVILA SCIPIONE",
+      "timestamp": "2026-01-03 11:58"
     }
   ],
   "students_db": [
