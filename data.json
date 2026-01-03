@@ -2108,8 +2108,9 @@
       "title": "BOM DIA CORES   RUTE ROCHA",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MIRIA DE AMORIM BASTIANELLO",
+      "reserved_student": "HELENA DE AMORIM BASTIANELLO"
     },
     {
       "id": 1765376559,
@@ -20805,6 +20806,17 @@
       "class_name": "Matutino",
       "book_title": "TUDO BEM SER DIFERENTE  TOD PARR",
       "timestamp": "2026-01-03 11:38"
+    },
+    {
+      "reservation_id": 1767440373,
+      "book_id": 1765376558,
+      "category": "Livro",
+      "parent_name": "MIRIA DE AMORIM BASTIANELLO",
+      "student_name": "HELENA DE AMORIM BASTIANELLO",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "BOM DIA CORES   RUTE ROCHA",
+      "timestamp": "2026-01-03 11:39"
     }
   ],
   "students_db": [
