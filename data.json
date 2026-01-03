@@ -2978,9 +2978,9 @@
       "title": "POESIA NA VARANDA \tSÔNIA JUNQUEIRA \tAUTENTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "ALEXEI ESTEVEZ DE CARVALHO",
+      "reserved_student": "EDUARDO LIMA ESTEVEZ"
     },
     {
       "id": 1765376953,
@@ -20866,6 +20866,17 @@
       "class_name": "Matutino",
       "book_title": "BRUXA ONILDA E A MACACA  LARREULA E R.CAPDEVILA SCIPIONE",
       "timestamp": "2026-01-03 11:58"
+    },
+    {
+      "reservation_id": 1767445069,
+      "book_id": 1765376952,
+      "category": "Livro",
+      "parent_name": "ALEXEI ESTEVEZ DE CARVALHO",
+      "student_name": "EDUARDO LIMA ESTEVEZ",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "POESIA NA VARANDA \tSÔNIA JUNQUEIRA \tAUTENTICA",
+      "timestamp": "2026-01-03 12:57"
     }
   ],
   "students_db": [
