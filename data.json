@@ -11919,8 +11919,9 @@
       "title": "SUPER MARKET\tPLAYSET ( 20 PEÇAS)",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MIRIA DE AMORIM BASTIANELLO",
+      "reserved_student": "HELENA DE AMORIM BASTIANELLO"
     },
     {
       "id": 1765459204,
@@ -20769,6 +20770,17 @@
       "class_name": "Matutino",
       "book_title": "A CASA SONOLENTA    AUDREY WOOD        ÁTICA",
       "timestamp": "2026-01-02 23:38"
+    },
+    {
+      "reservation_id": 1767440155,
+      "book_id": 1765459203,
+      "category": "Jogo",
+      "parent_name": "MIRIA DE AMORIM BASTIANELLO",
+      "student_name": "HELENA DE AMORIM BASTIANELLO",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "QUEBRA CABEÇA DE MADEIRA",
+      "timestamp": "2026-01-03 11:35"
     }
   ],
   "students_db": [
