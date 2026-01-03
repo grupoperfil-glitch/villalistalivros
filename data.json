@@ -712,8 +712,9 @@
       "title": "DONA BARATINHA E OUTRAS HISTÓRIAS FRANCISCO GREGÓRIO FILHO  ROCCO",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MIRIA DE AMORIM BASTIANELLO",
+      "reserved_student": "MARIAH LIZ DE AMORIM BASTIANELLO"
     },
     {
       "id": 1765369039,
@@ -20853,6 +20854,17 @@
       "class_name": "Matutino",
       "book_title": "A BRUXA SALOMÉ\tAUREY WOOD\tÁTICA",
       "timestamp": "2026-01-03 11:54"
+    },
+    {
+      "reservation_id": 1767441318,
+      "book_id": 1765369038,
+      "category": "Livro",
+      "parent_name": "MIRIA DE AMORIM BASTIANELLO",
+      "student_name": "MARIAH LIZ DE AMORIM BASTIANELLO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "DONA BARATINHA E OUTRAS HISTÓRIAS FRANCISCO GREGÓRIO FILHO  ROCCO",
+      "timestamp": "2026-01-03 11:55"
     }
   ],
   "students_db": [
