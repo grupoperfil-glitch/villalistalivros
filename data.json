@@ -1835,8 +1835,9 @@
       "title": "O RATINHO, O MORANGO VERMELHO E O GRANDE URSO ESFOMEADO DON E AUDREY WOOD\tBRINQUE BOOK",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MIRIA DE AMORIM BASTIANELLO",
+      "reserved_student": "HELENA DE AMORIM BASTIANELLO"
     },
     {
       "id": 1765376529,
@@ -20781,6 +20782,17 @@
       "class_name": "Matutino",
       "book_title": "QUEBRA CABEÇA DE MADEIRA",
       "timestamp": "2026-01-03 11:35"
+    },
+    {
+      "reservation_id": 1767440241,
+      "book_id": 1765376528,
+      "category": "Livro",
+      "parent_name": "MIRIA DE AMORIM BASTIANELLO",
+      "student_name": "HELENA DE AMORIM BASTIANELLO",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "O RATINHO, O MORANGO VERMELHO E O GRANDE URSO ESFOMEADO DON E AUDREY WOOD\tBRINQUE BOOK",
+      "timestamp": "2026-01-03 11:37"
     }
   ],
   "students_db": [
