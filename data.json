@@ -490,8 +490,9 @@
       "title": "A BRUXA SALOMÉ   AUDREY WOOD  ÁTICA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MIRIA DE AMORIM BASTIANELLO",
+      "reserved_student": "MARIAH LIZ DE AMORIM BASTIANELLO"
     },
     {
       "id": 1765369015,
@@ -20817,6 +20818,17 @@
       "class_name": "Matutino",
       "book_title": "BOM DIA CORES   RUTE ROCHA",
       "timestamp": "2026-01-03 11:39"
+    },
+    {
+      "reservation_id": 1767441201,
+      "book_id": 1765369014,
+      "category": "Livro",
+      "parent_name": "MIRIA DE AMORIM BASTIANELLO",
+      "student_name": "MARIAH LIZ DE AMORIM BASTIANELLO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "A BRUXA SALOMÉ   AUDREY WOOD  ÁTICA",
+      "timestamp": "2026-01-03 11:53"
     }
   ],
   "students_db": [
