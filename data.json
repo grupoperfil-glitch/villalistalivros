@@ -1185,8 +1185,9 @@
       "title": "O FRIO PODE SER QUENTE  JANDIRA MANSUR  ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALEXEI ESTEVEZ DE CARVALHO",
+      "reserved_student": "FERNANDA LIMA ESTEVEZ"
     },
     {
       "id": 1765369201,
@@ -20889,6 +20890,17 @@
       "class_name": "Matutino",
       "book_title": "BRUXA SALOMÉ  AUDREY E BOM WOOD  ÁTICA",
       "timestamp": "2026-01-03 13:17"
+    },
+    {
+      "reservation_id": 1767446977,
+      "book_id": 1765369200,
+      "category": "Livro",
+      "parent_name": "ALEXEI ESTEVEZ DE CARVALHO",
+      "student_name": "FERNANDA LIMA ESTEVEZ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "O FRIO PODE SER QUENTE  JANDIRA MANSUR  ÁTICA",
+      "timestamp": "2026-01-03 13:29"
     }
   ],
   "students_db": [
