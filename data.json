@@ -1130,8 +1130,9 @@
       "title": "BRUXA SALOMÉ  AUDREY E BOM WOOD  ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALEXEI ESTEVEZ DE CARVALHO",
+      "reserved_student": "FERNANDA LIMA ESTEVEZ"
     },
     {
       "id": 1765369195,
@@ -20877,6 +20878,17 @@
       "class_name": "Matutino",
       "book_title": "POESIA NA VARANDA \tSÔNIA JUNQUEIRA \tAUTENTICA",
       "timestamp": "2026-01-03 12:57"
+    },
+    {
+      "reservation_id": 1767446267,
+      "book_id": 1765369194,
+      "category": "Livro",
+      "parent_name": "ALEXEI ESTEVEZ DE CARVALHO",
+      "student_name": "FERNANDA LIMA ESTEVEZ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "BRUXA SALOMÉ  AUDREY E BOM WOOD  ÁTICA",
+      "timestamp": "2026-01-03 13:17"
     }
   ],
   "students_db": [
