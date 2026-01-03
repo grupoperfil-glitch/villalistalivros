@@ -16803,8 +16803,9 @@
       "title": "A BRUXA SALOMÉ\tAUREY WOOD\tÁTICA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MIRIA DE AMORIM BASTIANELLO",
+      "reserved_student": "MARIAH LIZ DE AMORIM BASTIANELLO"
     },
     {
       "id": 1765541602,
@@ -20841,6 +20842,17 @@
       "class_name": "Matutino",
       "book_title": "NO TEMPO EM QUE A TELEVISÃO MANDAVA NO CARLINHOS  RUTH ROCHA FTD",
       "timestamp": "2026-01-03 11:53"
+    },
+    {
+      "reservation_id": 1767441291,
+      "book_id": 1765541601,
+      "category": "Livro",
+      "parent_name": "MIRIA DE AMORIM BASTIANELLO",
+      "student_name": "MARIAH LIZ DE AMORIM BASTIANELLO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "A BRUXA SALOMÉ\tAUREY WOOD\tÁTICA",
+      "timestamp": "2026-01-03 11:54"
     }
   ],
   "students_db": [
