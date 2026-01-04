@@ -16829,8 +16829,9 @@
       "title": "O HOMEM QUE AMAVA CAIXAS\tSTEPHEN MICHAEL KING\tBRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA TORRES DIAS",
+      "reserved_student": "SOFIA DIAS DA PAZ MARTINS"
     },
     {
       "id": 1765541604,
@@ -20937,6 +20938,17 @@
       "class_name": "Matutino",
       "book_title": "O GRÚFALO  JULIA DONALDSON  BRINQUE BOOK",
       "timestamp": "2026-01-04 14:02"
+    },
+    {
+      "reservation_id": 1767535416,
+      "book_id": 1765541603,
+      "category": "Livro",
+      "parent_name": "CAROLINA TORRES DIAS",
+      "student_name": "SOFIA DIAS DA PAZ MARTINS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O HOMEM QUE AMAVA CAIXAS\tSTEPHEN MICHAEL KING\tBRINQUE BOOK",
+      "timestamp": "2026-01-04 14:03"
     }
   ],
   "students_db": [
