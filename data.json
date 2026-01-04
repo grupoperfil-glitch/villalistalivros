@@ -519,8 +519,9 @@
       "title": "O HOMEM QUE AMAVA CAIXAS   STEPHEN MICHAEL KING  BRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA TORRES DIAS",
+      "reserved_student": "SOFIA DIAS DA PAZ MARTINS"
     },
     {
       "id": 1765369018,
@@ -20901,6 +20902,17 @@
       "class_name": "Matutino",
       "book_title": "O FRIO PODE SER QUENTE  JANDIRA MANSUR  ÁTICA",
       "timestamp": "2026-01-03 13:29"
+    },
+    {
+      "reservation_id": 1767535315,
+      "book_id": 1765369017,
+      "category": "Livro",
+      "parent_name": "CAROLINA TORRES DIAS",
+      "student_name": "SOFIA DIAS DA PAZ MARTINS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O HOMEM QUE AMAVA CAIXAS   STEPHEN MICHAEL KING  BRINQUE BOOK",
+      "timestamp": "2026-01-04 14:01"
     }
   ],
   "students_db": [
