@@ -651,8 +651,9 @@
       "title": "A CASA SONOLENTA  AUDREY WOOD ÁTICA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA TORRES DIAS",
+      "reserved_student": "SOFIA DIAS DA PAZ MARTINS"
     },
     {
       "id": 1765369032,
@@ -20913,6 +20914,17 @@
       "class_name": "Matutino",
       "book_title": "O HOMEM QUE AMAVA CAIXAS   STEPHEN MICHAEL KING  BRINQUE BOOK",
       "timestamp": "2026-01-04 14:01"
+    },
+    {
+      "reservation_id": 1767535365,
+      "book_id": 1765369031,
+      "category": "Livro",
+      "parent_name": "CAROLINA TORRES DIAS",
+      "student_name": "SOFIA DIAS DA PAZ MARTINS",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "A CASA SONOLENTA  AUDREY WOOD ÁTICA",
+      "timestamp": "2026-01-04 14:02"
     }
   ],
   "students_db": [
