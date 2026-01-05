@@ -2980,8 +2980,9 @@
       "title": "UM PASSARINHO ME CONTOU \tJOSÉ PAULO PAES \tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUANA FERRAZ FONSECA SALMON",
+      "reserved_student": "HEITOR FERRAZ SALMON"
     },
     {
       "id": 1765376952,
@@ -21096,6 +21097,17 @@
       "class_name": "Vespertino",
       "book_title": "EU NÃO QUERO DORMIR AGORA \tLAUREM CHILD \tÁTICA",
       "timestamp": "2026-01-05 14:49"
+    },
+    {
+      "reservation_id": 1767624799,
+      "book_id": 1765376951,
+      "category": "Livro",
+      "parent_name": "LUANA FERRAZ FONSECA SALMON",
+      "student_name": "HEITOR FERRAZ SALMON",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "QUANDO EU SINTO MEDO \tJAMES MISSE \tPÉ DA LETRA",
+      "timestamp": "2026-01-05 14:53"
     }
   ],
   "students_db": [
