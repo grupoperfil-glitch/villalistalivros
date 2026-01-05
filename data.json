@@ -2737,8 +2737,9 @@
       "title": "MANECO CANECO CHAPÉU DE FUNIL\tLUIS CAMARGO \tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUANA FERRAZ FONSECA SALMON",
+      "reserved_student": "HEITOR FERRAZ SALMON"
     },
     {
       "id": 1765376926,
@@ -21071,6 +21072,17 @@
       "class_name": "Vespertino",
       "book_title": "O HIPOPÓTAMO QUE USAVA FRALDAS\tEMILIA NUNEZ",
       "timestamp": "2026-01-05 01:55"
+    },
+    {
+      "reservation_id": 1767624531,
+      "book_id": 1765376925,
+      "category": "Livro",
+      "parent_name": "LUANA FERRAZ FONSECA SALMON",
+      "student_name": "HEITOR FERRAZ SALMON",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "A CALIGRAFIA DE DONA SOFIA \tANDRE NEVES\tPAULINAS",
+      "timestamp": "2026-01-05 14:48"
     }
   ],
   "students_db": [
