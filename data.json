@@ -8497,8 +8497,9 @@
       "title": "NELSON MANDELA  COLEÇÃO GENTE PEQUENA GRANDES SONHOS  CATAPULTAS   M. ISABEL SÁNCHEZ VEGARA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TIAGO FONSECA ALCANTARA",
+      "reserved_student": "LIZ ALCANTARA BORBOREMA"
     },
     {
       "id": 1765391887,
@@ -21022,6 +21023,17 @@
       "class_name": "Matutino",
       "book_title": "DA RAIZ DO CABELO ATÉ A PONTA DO PÉ  TIBI  EMÍLIA NUNEZ",
       "timestamp": "2026-01-05 01:15"
+    },
+    {
+      "reservation_id": 1767575802,
+      "book_id": 1765391886,
+      "category": "Livro",
+      "parent_name": "TIAGO FONSECA ALCANTARA",
+      "student_name": "LIZ ALCANTARA BORBOREMA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "NELSON MANDELA  COLEÇÃO GENTE PEQUENA GRANDES SONHOS  CATAPULTAS   M. ISABEL SÁNCHEZ VEGARA",
+      "timestamp": "2026-01-05 01:16"
     }
   ],
   "students_db": [
