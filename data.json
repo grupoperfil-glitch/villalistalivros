@@ -8230,8 +8230,9 @@
       "title": "O PLANETA LILÁS  MELHORAMENTO  ZIRALDO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TIAGO FONSECA ALCANTARA",
+      "reserved_student": "LIZ ALCANTARA BORBOREMA"
     },
     {
       "id": 1765391858,
@@ -20998,6 +20999,17 @@
       "class_name": "Matutino",
       "book_title": "BOLICHE",
       "timestamp": "2026-01-05 01:00"
+    },
+    {
+      "reservation_id": 1767575464,
+      "book_id": 1765391857,
+      "category": "Livro",
+      "parent_name": "TIAGO FONSECA ALCANTARA",
+      "student_name": "LIZ ALCANTARA BORBOREMA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "O PLANETA LILÁS  MELHORAMENTO  ZIRALDO",
+      "timestamp": "2026-01-05 01:11"
     }
   ],
   "students_db": [
