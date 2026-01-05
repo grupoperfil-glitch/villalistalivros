@@ -12401,8 +12401,9 @@
       "title": "1 FANTASIA (SUGESTÃO: BORBOLETA, JOANINHA..)",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "NARA DE BORBOREMA GOIS",
+      "reserved_student": "RAVI ALCANTARA BORBOREMA"
     },
     {
       "id": 1765459305,
@@ -20961,6 +20962,17 @@
       "class_name": "Vespertino",
       "book_title": "CONJUNTO CUBOS CONSTRUÇÃO COLORIDOS EM MADEIRA",
       "timestamp": "2026-01-05 00:23"
+    },
+    {
+      "reservation_id": 1767572752,
+      "book_id": 1765459304,
+      "category": "Brinquedo",
+      "parent_name": "NARA DE BORBOREMA GOIS",
+      "student_name": "RAVI ALCANTARA BORBOREMA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "2  CESTOS DE PALHA PEQUENOS",
+      "timestamp": "2026-01-05 00:25"
     }
   ],
   "students_db": [
