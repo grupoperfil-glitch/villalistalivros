@@ -11723,8 +11723,9 @@
       "title": "CONJUNTO CUBOS CONSTRUÇÃO COLORIDOS EM MADEIRA",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "NARA DE BORBOREMA GOIS",
+      "reserved_student": "RAVI ALCANTARA BORBOREMA"
     },
     {
       "id": 1765459181,
@@ -20949,6 +20950,17 @@
       "class_name": "Matutino",
       "book_title": "O HOMEM QUE AMAVA CAIXAS\tSTEPHEN MICHAEL KING\tBRINQUE BOOK",
       "timestamp": "2026-01-04 14:03"
+    },
+    {
+      "reservation_id": 1767572602,
+      "book_id": 1765459180,
+      "category": "Jogo",
+      "parent_name": "NARA DE BORBOREMA GOIS",
+      "student_name": "RAVI ALCANTARA BORBOREMA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "CONJUNTO CUBOS CONSTRUÇÃO COLORIDOS EM MADEIRA",
+      "timestamp": "2026-01-05 00:23"
     }
   ],
   "students_db": [
