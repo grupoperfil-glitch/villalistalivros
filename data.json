@@ -2756,8 +2756,9 @@
       "title": "NÃO CONFUNDA \tEVA FURNARI \tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUANA FERRAZ FONSECA SALMON",
+      "reserved_student": "HEITOR FERRAZ SALMON"
     },
     {
       "id": 1765376928,
@@ -21083,6 +21084,17 @@
       "class_name": "Vespertino",
       "book_title": "A CALIGRAFIA DE DONA SOFIA \tANDRE NEVES\tPAULINAS",
       "timestamp": "2026-01-05 14:48"
+    },
+    {
+      "reservation_id": 1767624549,
+      "book_id": 1765376927,
+      "category": "Livro",
+      "parent_name": "LUANA FERRAZ FONSECA SALMON",
+      "student_name": "HEITOR FERRAZ SALMON",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "A JACAREZINHA QUE MORDIA\tEMÍLIA NUNEZ",
+      "timestamp": "2026-01-05 14:49"
     }
   ],
   "students_db": [
