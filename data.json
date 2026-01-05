@@ -5544,8 +5544,9 @@
       "title": "MEU AVÔ PORTUGUÊS \tMANUEL FILHO \tBUSCAPÉ",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL DAMASCENA FERREIRA",
+      "reserved_student": "SAMUEL GOMES FERREIRA"
     },
     {
       "id": 1765377374,
@@ -20962,6 +20963,17 @@
       "class_name": "Vespertino",
       "book_title": "2  CESTOS DE PALHA PEQUENOS",
       "timestamp": "2026-01-05 00:25"
+    },
+    {
+      "reservation_id": 1767574127,
+      "book_id": 1765377373,
+      "category": "Livro",
+      "parent_name": "RAFAEL DAMASCENA FERREIRA",
+      "student_name": "SAMUEL GOMES FERREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "MEU AVÔ PORTUGUÊS \tMANUEL FILHO \tBUSCAPÉ",
+      "timestamp": "2026-01-05 00:48"
     }
   ],
   "students_db": [
