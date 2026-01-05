@@ -11346,8 +11346,9 @@
       "title": "KIT OFICINA DE CARROS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUANA FERRAZ FONSECA SALMON",
+      "reserved_student": "HEITOR FERRAZ SALMON"
     },
     {
       "id": 1765458388,
@@ -21120,6 +21121,17 @@
       "class_name": "Vespertino",
       "book_title": "APRENDENDO OS OPOSTOS REF. 18152\tTOYSTER",
       "timestamp": "2026-01-05 14:57"
+    },
+    {
+      "reservation_id": 1767625125,
+      "book_id": 1765458387,
+      "category": "Brinquedo",
+      "parent_name": "LUANA FERRAZ FONSECA SALMON",
+      "student_name": "HEITOR FERRAZ SALMON",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "FANTOCHES (CHAPEUZINHO, LOBO E VOVÓ)",
+      "timestamp": "2026-01-05 14:58"
     }
   ],
   "students_db": [
