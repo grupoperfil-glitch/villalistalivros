@@ -10749,8 +10749,9 @@
       "title": "APRENDENDO OS OPOSTOS REF. 18152\tTOYSTER",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUANA FERRAZ FONSECA SALMON",
+      "reserved_student": "HEITOR FERRAZ SALMON"
     },
     {
       "id": 1765458260,
@@ -21108,6 +21109,17 @@
       "class_name": "Vespertino",
       "book_title": "QUANDO EU SINTO MEDO \tJAMES MISSE \tPÉ DA LETRA",
       "timestamp": "2026-01-05 14:53"
+    },
+    {
+      "reservation_id": 1767625037,
+      "book_id": 1765458259,
+      "category": "Jogo",
+      "parent_name": "LUANA FERRAZ FONSECA SALMON",
+      "student_name": "HEITOR FERRAZ SALMON",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "APRENDENDO OS OPOSTOS REF. 18152\tTOYSTER",
+      "timestamp": "2026-01-05 14:57"
     }
   ],
   "students_db": [
