@@ -2545,8 +2545,9 @@
       "title": "O HIPOPÓTAMO QUE USAVA FRALDAS\tEMILIA NUNEZ",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TIAGO FONSECA ALCANTARA",
+      "reserved_student": "RAVI ALCANTARA BORBOREMA"
     },
     {
       "id": 1765376578,
@@ -21059,6 +21060,17 @@
       "class_name": "Vespertino",
       "book_title": "BALEIA NA BANHEIRA\tSUSANE STRASSER",
       "timestamp": "2026-01-05 01:49"
+    },
+    {
+      "reservation_id": 1767578147,
+      "book_id": 1765376577,
+      "category": "Livro",
+      "parent_name": "TIAGO FONSECA ALCANTARA",
+      "student_name": "RAVI ALCANTARA BORBOREMA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "O HIPOPÓTAMO QUE USAVA FRALDAS\tEMILIA NUNEZ",
+      "timestamp": "2026-01-05 01:55"
     }
   ],
   "students_db": [
