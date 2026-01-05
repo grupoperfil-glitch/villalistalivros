@@ -2191,8 +2191,9 @@
       "title": "QUERO COLO! \tSTELA BARBIERI E FERNANDO VILELA \tEDIÇÕES SM",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TIAGO FONSECA ALCANTARA",
+      "reserved_student": "RAVI ALCANTARA BORBOREMA"
     },
     {
       "id": 1765376567,
@@ -21047,6 +21048,17 @@
       "class_name": "Vespertino",
       "book_title": "O RATINHO, O MORANGO VERMELHO E O GRANDE URSO ESFOMEADO DON E AUDREY WOOD\tBRINQUE BOOK",
       "timestamp": "2026-01-05 01:43"
+    },
+    {
+      "reservation_id": 1767577779,
+      "book_id": 1765376566,
+      "category": "Livro",
+      "parent_name": "TIAGO FONSECA ALCANTARA",
+      "student_name": "RAVI ALCANTARA BORBOREMA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "BALEIA NA BANHEIRA\tSUSANE STRASSER",
+      "timestamp": "2026-01-05 01:49"
     }
   ],
   "students_db": [
