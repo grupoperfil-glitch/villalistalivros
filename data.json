@@ -15186,8 +15186,9 @@
       "title": "BOLICHE",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TIAGO FONSECA ALCANTARA",
+      "reserved_student": "LIZ ALCANTARA BORBOREMA"
     },
     {
       "id": 1765460544,
@@ -20986,6 +20987,17 @@
       "class_name": "Matutino",
       "book_title": "LUDO",
       "timestamp": "2026-01-05 00:57"
+    },
+    {
+      "reservation_id": 1767574828,
+      "book_id": 1765460543,
+      "category": "Brinquedo",
+      "parent_name": "TIAGO FONSECA ALCANTARA",
+      "student_name": "LIZ ALCANTARA BORBOREMA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "BOLICHE",
+      "timestamp": "2026-01-05 01:00"
     }
   ],
   "students_db": [
