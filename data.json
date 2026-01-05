@@ -14684,8 +14684,9 @@
       "title": "DOMINÓ",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TIAGO FONSECA ALCANTARA",
+      "reserved_student": "LIZ ALCANTARA BORBOREMA"
     },
     {
       "id": 1765460366,
@@ -21023,6 +21024,17 @@
       "class_name": "Matutino",
       "book_title": "NELSON MANDELA  COLEÇÃO GENTE PEQUENA GRANDES SONHOS  CATAPULTAS   M. ISABEL SÁNCHEZ VEGARA",
       "timestamp": "2026-01-05 01:16"
+    },
+    {
+      "reservation_id": 1767577215,
+      "book_id": 1765460365,
+      "category": "Jogo",
+      "parent_name": "TIAGO FONSECA ALCANTARA",
+      "student_name": "LIZ ALCANTARA BORBOREMA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "CRUZA LETRAS\tGROW",
+      "timestamp": "2026-01-05 01:40"
     }
   ],
   "students_db": [
