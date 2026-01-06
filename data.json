@@ -1807,8 +1807,9 @@
       "title": "A CENTOPEIA SEM PÉS  ERALDO MIRANDA  CORTEZ",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MAURICIO MENDES DO NASCIMENTO GUIMARÃES",
+      "reserved_student": "WENDY FREIRE GUIMARÃES"
     },
     {
       "id": 1765370025,
@@ -21132,6 +21133,17 @@
       "class_name": "Vespertino",
       "book_title": "FANTOCHES (CHAPEUZINHO, LOBO E VOVÓ)",
       "timestamp": "2026-01-05 14:58"
+    },
+    {
+      "reservation_id": 1767661755,
+      "book_id": 1765369394,
+      "category": "Livro",
+      "parent_name": "MAURICIO MENDES DO NASCIMENTO GUIMARÃES",
+      "student_name": "WENDY FREIRE GUIMARÃES",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "A CENTOPEIA SEM PÉS  ERALDO MIRANDA  CORTEZ",
+      "timestamp": "2026-01-06 01:09"
     }
   ],
   "students_db": [
