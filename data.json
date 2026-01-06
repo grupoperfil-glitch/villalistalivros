@@ -11314,8 +11314,9 @@
       "title": "INSTRUMENTOS MUSICAIS: VIOLÃO, PANDEIRO",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUIS TEIXEIRA DA FONSECA",
+      "reserved_student": "AYLLA BORGES DE BARROS FONSECA"
     },
     {
       "id": 1765458384,
@@ -21191,6 +21192,17 @@
       "class_name": "Matutino",
       "book_title": "QUEBRA CABEÇA DIVERSOS",
       "timestamp": "2026-01-06 11:57"
+    },
+    {
+      "reservation_id": 1767700895,
+      "book_id": 1765458383,
+      "category": "Brinquedo",
+      "parent_name": "LUIS TEIXEIRA DA FONSECA",
+      "student_name": "AYLLA BORGES DE BARROS FONSECA",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "INSTRUMENTOS MUSICAIS: VIOLÃO, PANDEIRO",
+      "timestamp": "2026-01-06 12:01"
     }
   ],
   "students_db": [
