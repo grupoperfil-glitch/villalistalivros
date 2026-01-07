@@ -6282,8 +6282,9 @@
       "title": "SEMENTES DE AFETO\tSILVIA DELAZARI\tADONIS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUCIANA COSTA VALE / JOSE CLAUDIO SANTOS CAZUMBA",
+      "reserved_student": "AYANA MANUELA COSTA VALE CAZUMBA"
     },
     {
       "id": 1765377452,
@@ -21226,6 +21227,17 @@
       "grade": "Grupo 4",
       "class_name": "Vespertino",
       "book_title": "O LIVRO DA GENTILEZA\tTODD PARR\tPANDA BOOKS",
+      "timestamp": "2026-01-07 17:26"
+    },
+    {
+      "reservation_id": 1767806809,
+      "book_id": 1765377451,
+      "category": "Livro",
+      "parent_name": "LUCIANA COSTA VALE / JOSE CLAUDIO SANTOS CAZUMBA",
+      "student_name": "AYANA MANUELA COSTA VALE CAZUMBA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "SEMENTES DE AFETO\tSILVIA DELAZARI\tADONIS",
       "timestamp": "2026-01-07 17:26"
     }
   ],
