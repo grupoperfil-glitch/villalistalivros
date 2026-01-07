@@ -7639,9 +7639,9 @@
       "title": "A VELHINHA QUE DAVA NOME ÀS COISAS  BRINQUE BOOK  CYNTHIA RYLANT",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "reserved_student": "MAITE DE ASSIS BEZERRA"
     },
     {
       "id": 1765391792,
@@ -21336,6 +21336,17 @@
       "class_name": "Matutino",
       "book_title": "UMA CARTA PARA O PIRATA  COMPANHIA DAS LETRINHAS  MARI BIGIO",
       "timestamp": "2026-01-07 18:30"
+    },
+    {
+      "reservation_id": 1767810833,
+      "book_id": 1765391791,
+      "category": "Livro",
+      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "student_name": "MAITE DE ASSIS BEZERRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "A VELHINHA QUE DAVA NOME ÀS COISAS  BRINQUE BOOK  CYNTHIA RYLANT",
+      "timestamp": "2026-01-07 18:33"
     }
   ],
   "students_db": [
