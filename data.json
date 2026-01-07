@@ -17887,9 +17887,9 @@
       "title": "OS 33 PORQUINHOS JOSÉ ROBERTO TORERO/MARCUS AURELIUS PIMENTA\tALFAGUARA/ OBJETIVA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
-      "reserved_student": "APOLO DE ASSIS BEZERRA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765542050,
@@ -21300,17 +21300,6 @@
       "class_name": "Matutino",
       "book_title": "MARIA SAPEBA  ANA MARIA MACHADO  ÁTICA",
       "timestamp": "2026-01-07 18:06"
-    },
-    {
-      "reservation_id": 1767809236,
-      "book_id": 1765542049,
-      "category": "Livro",
-      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
-      "student_name": "APOLO DE ASSIS BEZERRA",
-      "grade": "3º Ano",
-      "class_name": "Matutino",
-      "book_title": "OS 33 PORQUINHOS JOSÉ ROBERTO TORERO/MARCUS AURELIUS PIMENTA\tALFAGUARA/ OBJETIVA",
-      "timestamp": "2026-01-07 18:07"
     }
   ],
   "students_db": [
