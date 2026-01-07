@@ -1552,8 +1552,9 @@
       "title": "MARIA SAPEBA  ANA MARIA MACHADO  ÁTICA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "reserved_student": "APOLO DE ASSIS BEZERRA"
     },
     {
       "id": 1765369367,
@@ -21286,6 +21287,17 @@
       "grade": "3º Ano",
       "class_name": "Matutino",
       "book_title": "OS 33 PORQUINHOS JOSÉ ROBERTO TORERO / MARCUS AURELIUS PIMENTA",
+      "timestamp": "2026-01-07 18:06"
+    },
+    {
+      "reservation_id": 1767809204,
+      "book_id": 1765369366,
+      "category": "Livro",
+      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "student_name": "APOLO DE ASSIS BEZERRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "MARIA SAPEBA  ANA MARIA MACHADO  ÁTICA",
       "timestamp": "2026-01-07 18:06"
     }
   ],
