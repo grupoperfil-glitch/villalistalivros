@@ -6272,8 +6272,9 @@
       "title": "O LIVRO DA GENTILEZA\tTODD PARR\tPANDA BOOKS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUCIANA COSTA VALE / JOSE CLAUDIO SANTOS CAZUMBA",
+      "reserved_student": "AYANA MANUELA COSTA VALE CAZUMBA"
     },
     {
       "id": 1765377451,
@@ -21215,6 +21216,17 @@
       "class_name": "Vespertino",
       "book_title": "MINHA FAMILIA É COLORIDA\tSM\tGEORGINA MARTIN",
       "timestamp": "2026-01-07 17:25"
+    },
+    {
+      "reservation_id": 1767806775,
+      "book_id": 1765377450,
+      "category": "Livro",
+      "parent_name": "LUCIANA COSTA VALE / JOSE CLAUDIO SANTOS CAZUMBA",
+      "student_name": "AYANA MANUELA COSTA VALE CAZUMBA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "O LIVRO DA GENTILEZA\tTODD PARR\tPANDA BOOKS",
+      "timestamp": "2026-01-07 17:26"
     }
   ],
   "students_db": [
