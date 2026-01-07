@@ -6034,8 +6034,9 @@
       "title": "MINHA FAMILIA É COLORIDA\tSM\tGEORGINA MARTIN",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUCIANA COSTA VALE / JOSE CLAUDIO SANTOS CAZUMBA",
+      "reserved_student": "AYANA MANUELA COSTA VALE CAZUMBA"
     },
     {
       "id": 1765377426,
@@ -21203,6 +21204,17 @@
       "class_name": "Matutino",
       "book_title": "INSTRUMENTOS MUSICAIS: VIOLÃO, PANDEIRO",
       "timestamp": "2026-01-06 12:01"
+    },
+    {
+      "reservation_id": 1767806733,
+      "book_id": 1765377425,
+      "category": "Livro",
+      "parent_name": "LUCIANA COSTA VALE / JOSE CLAUDIO SANTOS CAZUMBA",
+      "student_name": "AYANA MANUELA COSTA VALE CAZUMBA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "MINHA FAMILIA É COLORIDA\tSM\tGEORGINA MARTIN",
+      "timestamp": "2026-01-07 17:25"
     }
   ],
   "students_db": [
