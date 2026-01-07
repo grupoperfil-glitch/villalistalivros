@@ -13694,8 +13694,9 @@
       "title": "BRINCANDO COM ALFABETO\tTOYSTER",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUCIANA COSTA VALE / JOSE CLAUDIO SANTOS CAZUMBA",
+      "reserved_student": "AYANA MANUELA COSTA VALE CAZUMBA"
     },
     {
       "id": 1765460026,
@@ -21250,6 +21251,17 @@
       "grade": "Grupo 4",
       "class_name": "Vespertino",
       "book_title": "QUEBRA-CABEÇA PIRÂMIDE DE SAÚDE ALIMENTAR (P/CRIANÇA)\tCARLU",
+      "timestamp": "2026-01-07 17:30"
+    },
+    {
+      "reservation_id": 1767807036,
+      "book_id": 1765460025,
+      "category": "Brinquedo",
+      "parent_name": "LUCIANA COSTA VALE / JOSE CLAUDIO SANTOS CAZUMBA",
+      "student_name": "AYANA MANUELA COSTA VALE CAZUMBA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "A B C FORMA PALAVRAS\tBRINCADEIRAS DE CRIANÇA",
       "timestamp": "2026-01-07 17:30"
     }
   ],
