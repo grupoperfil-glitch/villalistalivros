@@ -7413,8 +7413,9 @@
       "title": "UMA IDEIA AMALUCADA  RENATA FERNANDES  RENATA FERNANDES",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL SOUZA ALVES DOS SANTOS",
+      "reserved_student": "GUILHERME ALVES PEREIRA"
     },
     {
       "id": 1765391768,
@@ -21347,6 +21348,17 @@
       "class_name": "Matutino",
       "book_title": "A VELHINHA QUE DAVA NOME ÀS COISAS  BRINQUE BOOK  CYNTHIA RYLANT",
       "timestamp": "2026-01-07 18:33"
+    },
+    {
+      "reservation_id": 1767832697,
+      "book_id": 1765391767,
+      "category": "Livro",
+      "parent_name": "RAFAEL SOUZA ALVES DOS SANTOS",
+      "student_name": "GUILHERME ALVES PEREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "UMA IDEIA AMALUCADA  RENATA FERNANDES  RENATA FERNANDES",
+      "timestamp": "2026-01-08 00:38"
     }
   ],
   "students_db": [
