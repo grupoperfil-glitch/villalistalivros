@@ -8545,8 +8545,9 @@
       "title": "O ESCONDERIJO DAS VONTADES  Callis  JONAS RIBEIRO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL SOUZA ALVES DOS SANTOS",
+      "reserved_student": "GUILHERME ALVES PEREIRA"
     },
     {
       "id": 1765391890,
@@ -21383,6 +21384,17 @@
       "class_name": "Matutino",
       "book_title": "O QUE OS OLHOS NÃO VÊEM  RUTH ROCHA  SALAMANDRA",
       "timestamp": "2026-01-08 00:45"
+    },
+    {
+      "reservation_id": 1767833521,
+      "book_id": 1765391889,
+      "category": "Livro",
+      "parent_name": "RAFAEL SOUZA ALVES DOS SANTOS",
+      "student_name": "GUILHERME ALVES PEREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "O ESCONDERIJO DAS VONTADES  Callis  JONAS RIBEIRO",
+      "timestamp": "2026-01-08 00:52"
     }
   ],
   "students_db": [
