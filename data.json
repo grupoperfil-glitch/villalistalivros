@@ -15193,8 +15193,9 @@
       "title": "CILADA\tESTRELA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL SOUZA ALVES DOS SANTOS",
+      "reserved_student": "GUILHERME ALVES PEREIRA"
     },
     {
       "id": 1765460541,
@@ -21431,6 +21432,17 @@
       "class_name": "Matutino",
       "book_title": "EXPLORANDO O CORPO HUMANO\tTOYSTER",
       "timestamp": "2026-01-08 00:57"
+    },
+    {
+      "reservation_id": 1767834034,
+      "book_id": 1765460540,
+      "category": "Brinquedo",
+      "parent_name": "RAFAEL SOUZA ALVES DOS SANTOS",
+      "student_name": "GUILHERME ALVES PEREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "CILADA\tESTRELA",
+      "timestamp": "2026-01-08 01:00"
     }
   ],
   "students_db": [
