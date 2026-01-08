@@ -8406,8 +8406,9 @@
       "title": "DORA E O SOL   EDITORA 34    VERONICA STIGGER",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL SOUZA ALVES DOS SANTOS",
+      "reserved_student": "GUILHERME ALVES PEREIRA"
     },
     {
       "id": 1765391875,
@@ -21407,6 +21408,17 @@
       "class_name": "Matutino",
       "book_title": "ISSO E AQUILO   CECÍLIA MEIRELES   GLOBAL",
       "timestamp": "2026-01-08 00:52"
+    },
+    {
+      "reservation_id": 1767833605,
+      "book_id": 1765391874,
+      "category": "Livro",
+      "parent_name": "RAFAEL SOUZA ALVES DOS SANTOS",
+      "student_name": "GUILHERME ALVES PEREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "DORA E O SOL   EDITORA 34    VERONICA STIGGER",
+      "timestamp": "2026-01-08 00:53"
     }
   ],
   "students_db": [
