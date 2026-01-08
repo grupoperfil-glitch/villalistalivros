@@ -14667,8 +14667,9 @@
       "title": "A B C FORMA PALAVRAS\tBRINCADEIRA DE CRIANÇA",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL SOUZA ALVES DOS SANTOS",
+      "reserved_student": "GUILHERME ALVES PEREIRA"
     },
     {
       "id": 1765460361,
@@ -21419,6 +21420,17 @@
       "class_name": "Matutino",
       "book_title": "DORA E O SOL   EDITORA 34    VERONICA STIGGER",
       "timestamp": "2026-01-08 00:53"
+    },
+    {
+      "reservation_id": 1767833864,
+      "book_id": 1765460360,
+      "category": "Jogo",
+      "parent_name": "RAFAEL SOUZA ALVES DOS SANTOS",
+      "student_name": "GUILHERME ALVES PEREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "EXPLORANDO O CORPO HUMANO\tTOYSTER",
+      "timestamp": "2026-01-08 00:57"
     }
   ],
   "students_db": [
