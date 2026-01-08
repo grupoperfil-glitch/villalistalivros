@@ -1468,8 +1468,9 @@
       "title": "O QUE OS OLHOS NÃO VÊEM  RUTH ROCHA  SALAMANDRA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MAURICIO MENDES DO NASCIMENTO GUIMARÃES",
+      "reserved_student": "WENDY FREIRE GUIMARÃES"
     },
     {
       "id": 1765369358,
@@ -21371,6 +21372,17 @@
       "class_name": "Matutino",
       "book_title": "NA BEIRA DA ESTRADA JULES FEIFFER CIA DAS LETRINHAS",
       "timestamp": "2026-01-08 00:42"
+    },
+    {
+      "reservation_id": 1767833155,
+      "book_id": 1765369357,
+      "category": "Livro",
+      "parent_name": "MAURICIO MENDES DO NASCIMENTO GUIMARÃES",
+      "student_name": "WENDY FREIRE GUIMARÃES",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "O QUE OS OLHOS NÃO VÊEM  RUTH ROCHA  SALAMANDRA",
+      "timestamp": "2026-01-08 00:45"
     }
   ],
   "students_db": [
