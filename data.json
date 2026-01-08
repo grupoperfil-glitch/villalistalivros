@@ -1515,8 +1515,9 @@
       "title": "NA BEIRA DA ESTRADA JULES FEIFFER CIA DAS LETRINHAS",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MAURICIO MENDES DO NASCIMENTO GUIMARÃES",
+      "reserved_student": "WENDY FREIRE GUIMARÃES"
     },
     {
       "id": 1765369363,
@@ -21359,6 +21360,17 @@
       "class_name": "Matutino",
       "book_title": "UMA IDEIA AMALUCADA  RENATA FERNANDES  RENATA FERNANDES",
       "timestamp": "2026-01-08 00:38"
+    },
+    {
+      "reservation_id": 1767832960,
+      "book_id": 1765369362,
+      "category": "Livro",
+      "parent_name": "MAURICIO MENDES DO NASCIMENTO GUIMARÃES",
+      "student_name": "WENDY FREIRE GUIMARÃES",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "NA BEIRA DA ESTRADA JULES FEIFFER CIA DAS LETRINHAS",
+      "timestamp": "2026-01-08 00:42"
     }
   ],
   "students_db": [
