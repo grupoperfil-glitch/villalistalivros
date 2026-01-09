@@ -634,8 +634,9 @@
       "title": "SOPA DE BOTÃO DE OSSO  AUBREY DAVIS BRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FABIANA ARAUJO DE MELO GOMES",
+      "reserved_student": "LARA ARAUJO MENEZES"
     },
     {
       "id": 1765369030,
@@ -21454,6 +21455,17 @@
       "grade": "1º Ano",
       "class_name": "Matutino",
       "book_title": "QUANDO MAMÃE VIROU UM MONSTRO JOANNA  HARRISON BRINQUE BOOK",
+      "timestamp": "2026-01-09 13:28"
+    },
+    {
+      "reservation_id": 1767965329,
+      "book_id": 1765369029,
+      "category": "Livro",
+      "parent_name": "FABIANA ARAUJO DE MELO GOMES",
+      "student_name": "LARA ARAUJO MENEZES",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "SOPA DE BOTÃO DE OSSO  AUBREY DAVIS BRINQUE BOOK",
       "timestamp": "2026-01-09 13:28"
     }
   ],
