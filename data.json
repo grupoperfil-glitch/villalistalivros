@@ -6081,9 +6081,9 @@
       "title": "LÁ E AQUI \tCAROLINA MOREYRA E ODILON MORAES PEQUENAZAHAR",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "VANESSA VIEIRA PESSANHA",
-      "reserved_student": "LARA PESSANHA COSTA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377430,
@@ -20304,17 +20304,6 @@
       "class_name": "Vespertino",
       "book_title": "FESTA NO CÉU  ANA MARIA MACHADO  FTD",
       "timestamp": "2025-12-19 21:02"
-    },
-    {
-      "reservation_id": 1766197769,
-      "book_id": 1765377429,
-      "category": "Livro",
-      "parent_name": "VANESSA VIEIRA PESSANHA",
-      "student_name": "LARA PESSANHA COSTA",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "MARÉ BAIXA, MARÉ ALTA\tANA MARIA MACHADO\tGLOBAL",
-      "timestamp": "2025-12-20 02:29"
     },
     {
       "reservation_id": 1766197943,
