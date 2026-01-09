@@ -5489,8 +5489,9 @@
       "title": "DA PEQUENA TOUPEIRA\tWERNWE HOLZWARTH \tCIA DAS LETRINHAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Carla da Cruz Ribeiro",
+      "reserved_student": "EDUARDO HENRIQUE RIBEIRO RAMOS"
     },
     {
       "id": 1765377366,
@@ -21482,6 +21483,17 @@
       "class_name": "Matutino",
       "book_title": "APERTADO E SEM ESPAÇO\tJULIA DONALDSON\tBRINQUE-BOOK",
       "timestamp": "2026-01-09 17:13"
+    },
+    {
+      "reservation_id": 1767982735,
+      "book_id": 1765377365,
+      "category": "Livro",
+      "parent_name": "Carla da Cruz Ribeiro",
+      "student_name": "EDUARDO HENRIQUE RIBEIRO RAMOS",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "DA PEQUENA TOUPEIRA\tWERNWE HOLZWARTH \tCIA DAS LETRINHAS",
+      "timestamp": "2026-01-09 18:18"
     }
   ],
   "students_db": [
