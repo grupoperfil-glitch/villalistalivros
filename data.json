@@ -548,8 +548,9 @@
       "title": "QUANDO MAMÃE VIROU UM MONSTRO JOANNA  HARRISON BRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FABIANA ARAUJO DE MELO GOMES",
+      "reserved_student": "LARA ARAUJO MENEZES"
     },
     {
       "id": 1765369021,
@@ -21443,6 +21444,17 @@
       "class_name": "Matutino",
       "book_title": "CILADA\tESTRELA",
       "timestamp": "2026-01-08 01:00"
+    },
+    {
+      "reservation_id": 1767965303,
+      "book_id": 1765369020,
+      "category": "Livro",
+      "parent_name": "FABIANA ARAUJO DE MELO GOMES",
+      "student_name": "LARA ARAUJO MENEZES",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "QUANDO MAMÃE VIROU UM MONSTRO JOANNA  HARRISON BRINQUE BOOK",
+      "timestamp": "2026-01-09 13:28"
     }
   ],
   "students_db": [
