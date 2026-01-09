@@ -16863,8 +16863,9 @@
       "title": "CURRUPACO PAPACO – COL.  BATUTINHA ANA MARIA MACHADO\tSALAMANDRA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FABIANA ARAUJO DE MELO GOMES",
+      "reserved_student": "LARA ARAUJO MENEZES"
     },
     {
       "id": 1765541603,
@@ -21478,6 +21479,17 @@
       "grade": "1º Ano",
       "class_name": "Matutino",
       "book_title": "DONA BARATINHA  ANA MARIA MACHADO  FTD",
+      "timestamp": "2026-01-09 13:29"
+    },
+    {
+      "reservation_id": 1767965366,
+      "book_id": 1765541602,
+      "category": "Livro",
+      "parent_name": "FABIANA ARAUJO DE MELO GOMES",
+      "student_name": "LARA ARAUJO MENEZES",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "CURRUPACO PAPACO – COL.  BATUTINHA ANA MARIA MACHADO\tSALAMANDRA",
       "timestamp": "2026-01-09 13:29"
     }
   ],
