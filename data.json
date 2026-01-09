@@ -7230,8 +7230,9 @@
       "title": "APERTADO E SEM ESPAÇO\tJULIA DONALDSON\tBRINQUE-BOOK",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VANESSA VIEIRA PESSANHA",
+      "reserved_student": "LARA PESSANHA COSTA"
     },
     {
       "id": 1765377456,
@@ -21481,6 +21482,17 @@
       "class_name": "Matutino",
       "book_title": "A CHUVARADA \tISABELA CARPONEDA \tFTD",
       "timestamp": "2026-01-09 14:19"
+    },
+    {
+      "reservation_id": 1767978816,
+      "book_id": 1765377455,
+      "category": "Livro",
+      "parent_name": "VANESSA VIEIRA PESSANHA",
+      "student_name": "LARA PESSANHA COSTA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "APERTADO E SEM ESPAÇO\tJULIA DONALDSON\tBRINQUE-BOOK",
+      "timestamp": "2026-01-09 17:13"
     }
   ],
   "students_db": [
