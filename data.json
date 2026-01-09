@@ -5377,9 +5377,9 @@
       "title": "QUEM SOU EU?\tSILVIA ZATZ \tCIA DAS LETRINHAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "Carla da Cruz Ribeiro",
-      "reserved_student": "EDUARDO HENRIQUE RIBEIRO RAMOS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377354,
@@ -19546,17 +19546,6 @@
       "class_name": "Vespertino",
       "book_title": "O LIVRO DOS SENTIMENTOS\tTOOD PARR\tPANDA BOOK",
       "timestamp": "2025-12-18 11:43"
-    },
-    {
-      "reservation_id": 1766059023,
-      "book_id": 1765377353,
-      "category": "Livro",
-      "parent_name": "Carla da Cruz Ribeiro",
-      "student_name": "EDUARDO HENRIQUE RIBEIRO RAMOS",
-      "grade": "Grupo 4",
-      "class_name": "Vespertino",
-      "book_title": "QUEM SOU EU?\tSILVIA ZATZ \tCIA DAS LETRINHAS",
-      "timestamp": "2025-12-18 11:57"
     },
     {
       "reservation_id": 1766059482,
