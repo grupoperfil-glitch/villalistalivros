@@ -16962,8 +16962,9 @@
       "title": "O CALCANHAR DE AQUILES\tZIRALDO\tMELHORAMENTOS",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LORENA PAIM MOURA / BRAIAN VARJÃO GAMA BISPO",
+      "reserved_student": "LARA PAIM VARJÃO"
     },
     {
       "id": 1765541613,
@@ -21530,6 +21531,17 @@
       "class_name": "Matutino",
       "book_title": "A GALINHA RUIVA  PILAR MARTÍNEZ MARCO SOMÁ MODERNA",
       "timestamp": "2026-01-10 15:45"
+    },
+    {
+      "reservation_id": 1768060167,
+      "book_id": 1765541612,
+      "category": "Livro",
+      "parent_name": "LORENA PAIM MOURA / BRAIAN VARJÃO GAMA BISPO",
+      "student_name": "LARA PAIM VARJÃO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O CALCANHAR DE AQUILES\tZIRALDO\tMELHORAMENTOS",
+      "timestamp": "2026-01-10 15:49"
     }
   ],
   "students_db": [
