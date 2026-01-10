@@ -17424,8 +17424,9 @@
       "title": "SOPA DE BRUXAS\tHAE WANG\tCALLIS",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LORENA PAIM MOURA / BRAIAN VARJÃO GAMA BISPO",
+      "reserved_student": "LARA PAIM VARJÃO"
     },
     {
       "id": 1765541664,
@@ -21506,6 +21507,17 @@
       "class_name": "Matutino",
       "book_title": "PEDRO E TINA – UMA AMIZADE",
       "timestamp": "2026-01-10 15:32"
+    },
+    {
+      "reservation_id": 1768059304,
+      "book_id": 1765541663,
+      "category": "Livro",
+      "parent_name": "LORENA PAIM MOURA / BRAIAN VARJÃO GAMA BISPO",
+      "student_name": "LARA PAIM VARJÃO",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "SOPA DE BRUXAS\tHAE WANG\tCALLIS",
+      "timestamp": "2026-01-10 15:35"
     }
   ],
   "students_db": [
