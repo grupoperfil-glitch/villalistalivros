@@ -10783,8 +10783,9 @@
       "title": "BINGO DOS BICHOS (DE MADEIRA)",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FABIO NASCIMENTO CORREA",
+      "reserved_student": "MARIA CECILIA RODRIGUES CORREA"
     },
     {
       "id": 1765458261,
@@ -21543,6 +21544,17 @@
       "class_name": "Matutino",
       "book_title": "EM ANGOLA TEM?  NO BRASIL TAMBÉM\tROGÉRIO ANDRADE",
       "timestamp": "2026-01-10 15:51"
+    },
+    {
+      "reservation_id": 1768069334,
+      "book_id": 1765458260,
+      "category": "Jogo",
+      "parent_name": "FABIO NASCIMENTO CORREA",
+      "student_name": "MARIA CECILIA RODRIGUES CORREA",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "BINGO DOS BICHOS (DE MADEIRA)",
+      "timestamp": "2026-01-10 18:22"
     }
   ],
   "students_db": [
