@@ -3031,8 +3031,9 @@
       "title": "DA PEQUENA TOUPEIRA QUE QUERIA SABER QUEM TINHA FEITO COCO NA CABEÇA DELA\tWERNER HOLZWARTH\tCIA DAS LETRINHAS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FABIO NASCIMENTO CORREA",
+      "reserved_student": "MARIA CECILIA RODRIGUES CORREA"
     },
     {
       "id": 1765376956,
@@ -21579,6 +21580,17 @@
       "class_name": "Vespertino",
       "book_title": "CHAPEUZINHO NO PELÔ \tPALMIRA MEIRE",
       "timestamp": "2026-01-10 18:57"
+    },
+    {
+      "reservation_id": 1768071777,
+      "book_id": 1765376955,
+      "category": "Livro",
+      "parent_name": "FABIO NASCIMENTO CORREA",
+      "student_name": "MARIA CECILIA RODRIGUES CORREA",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "QUANDO ME SINTO TRISTE \tJAMES MISSE \tPÉ DA LETRA",
+      "timestamp": "2026-01-10 19:02"
     }
   ],
   "students_db": [
