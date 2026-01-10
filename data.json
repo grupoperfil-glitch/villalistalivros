@@ -3402,8 +3402,9 @@
       "title": "LÚCIA JÁ VOU INDO\tMARIA HELOISA PENTEADO\tEDITORA ÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FABIO NASCIMENTO CORREA",
+      "reserved_student": "MARIA CECILIA RODRIGUES CORREA"
     },
     {
       "id": 1765376997,
@@ -21567,6 +21568,17 @@
       "class_name": "Vespertino",
       "book_title": "JOGO PANELINHAS",
       "timestamp": "2026-01-10 18:43"
+    },
+    {
+      "reservation_id": 1768071437,
+      "book_id": 1765376996,
+      "category": "Livro",
+      "parent_name": "FABIO NASCIMENTO CORREA",
+      "student_name": "MARIA CECILIA RODRIGUES CORREA",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "CHAPEUZINHO NO PELÔ \tPALMIRA MEIRE",
+      "timestamp": "2026-01-10 18:57"
     }
   ],
   "students_db": [
