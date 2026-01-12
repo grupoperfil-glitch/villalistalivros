@@ -3380,9 +3380,9 @@
       "title": "OS TRÊS PORQUINHOS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "LUIS TEIXEIRA DA FONSECA",
-      "reserved_student": "AYLLA BORGES DE BARROS FONSECA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765376994,
@@ -21716,17 +21716,6 @@
       "class_name": "Matutino",
       "book_title": "A VERDADEIRA HISTÓRIA DE CHAPEUZINHO VERMELHO AGNESE BARUZZI E SANDRO NATALINI  BRINQUE BOOK",
       "timestamp": "2026-01-12 16:08"
-    },
-    {
-      "reservation_id": 1768236346,
-      "book_id": 1765376993,
-      "category": "Livro",
-      "parent_name": "LUIS TEIXEIRA DA FONSECA",
-      "student_name": "AYLLA BORGES DE BARROS FONSECA",
-      "grade": "Grupo 3",
-      "class_name": "Matutino",
-      "book_title": "OS TRÊS PORQUINHOS",
-      "timestamp": "2026-01-12 16:45"
     }
   ],
   "students_db": [
