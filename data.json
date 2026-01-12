@@ -7510,8 +7510,9 @@
       "title": "O LIVRO PREFERIDO DE UM GAROTO SABIDO  JULIA DONALDSON  BRINQUE-BOOK",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "reserved_student": "MAITE DE ASSIS BEZERRA"
     },
     {
       "id": 1765391777,
@@ -21630,6 +21631,17 @@
       "class_name": "Matutino",
       "book_title": "TODO DIA É DIA DE MALALA\tROSEMARY MCCARNEY\tMELHORAMENTOS",
       "timestamp": "2026-01-12 11:31"
+    },
+    {
+      "reservation_id": 1768224081,
+      "book_id": 1765391776,
+      "category": "Livro",
+      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "student_name": "MAITE DE ASSIS BEZERRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "O LIVRO PREFERIDO DE UM GAROTO SABIDO  JULIA DONALDSON  BRINQUE-BOOK",
+      "timestamp": "2026-01-12 13:21"
     }
   ],
   "students_db": [
