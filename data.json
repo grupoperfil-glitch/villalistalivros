@@ -18688,9 +18688,9 @@
       "title": "ANTES QUE A TERRA FUJA JULIETA GODOY\tEDITORA MODERNA",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "KLAUS INGOLF JOHAN GLAESER",
+      "reserved_student": "KADU AMORIM GLAESER"
     },
     {
       "id": 1765542332,
@@ -21618,6 +21618,17 @@
       "class_name": "Matutino",
       "book_title": "CELULAR, O TELEFONE DA PESSOA\tLUIZ ZICO ROCHA SOARES\tMELHORAMENTOS",
       "timestamp": "2026-01-12 11:26"
+    },
+    {
+      "reservation_id": 1768217449,
+      "book_id": 1765542331,
+      "category": "Livro",
+      "parent_name": "KLAUS INGOLF JOHAN GLAESER",
+      "student_name": "KADU AMORIM GLAESER",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "ANTES QUE A TERRA FUJA JULIETA GODOY\tEDITORA MODERNA",
+      "timestamp": "2026-01-12 11:30"
     }
   ],
   "students_db": [
