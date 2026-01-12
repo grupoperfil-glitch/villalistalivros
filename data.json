@@ -16417,8 +16417,9 @@
       "title": "AS CONFUSÕES DE ANINHA STELLA CARR MODERNA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "HELENA RUDGE DE MORAES BARROS",
+      "reserved_student": "MAITE RUDGE PINHEIRO"
     },
     {
       "id": 1765483519,
@@ -21825,6 +21826,17 @@
       "class_name": "Matutino",
       "book_title": "O JOELHO JUVENAL ZIRALDO MELHORAMENTOS",
       "timestamp": "2026-01-12 23:14"
+    },
+    {
+      "reservation_id": 1768259730,
+      "book_id": 1765483518,
+      "category": "Livro",
+      "parent_name": "HELENA RUDGE DE MORAES BARROS",
+      "student_name": "MAITE RUDGE PINHEIRO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "AS CONFUSÕES DE ANINHA STELLA CARR MODERNA",
+      "timestamp": "2026-01-12 23:15"
     }
   ],
   "students_db": [
