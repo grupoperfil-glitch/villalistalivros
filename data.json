@@ -16167,8 +16167,9 @@
       "title": "BRANCA DE NEVE E AS SETE VERSÕES JOSÉ ROBERTO TORERO E MARCUS AURELIUS CIA DAS LETRINHAS",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "OTO CARVALHO DOS SANTOS SEGUNDO",
+      "reserved_student": "MALU CARVALHO COELHO DOS SANTOS"
     },
     {
       "id": 1765483493,
@@ -21642,6 +21643,17 @@
       "class_name": "Matutino",
       "book_title": "O LIVRO PREFERIDO DE UM GAROTO SABIDO  JULIA DONALDSON  BRINQUE-BOOK",
       "timestamp": "2026-01-12 13:21"
+    },
+    {
+      "reservation_id": 1768232500,
+      "book_id": 1765483492,
+      "category": "Livro",
+      "parent_name": "OTO CARVALHO DOS SANTOS SEGUNDO",
+      "student_name": "MALU CARVALHO COELHO DOS SANTOS",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "BRANCA DE NEVE E AS SETE VERSÕES JOSÉ ROBERTO TORERO E MARCUS AURELIUS CIA DAS LETRINHAS",
+      "timestamp": "2026-01-12 15:41"
     }
   ],
   "students_db": [
