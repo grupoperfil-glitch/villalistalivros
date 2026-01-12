@@ -18576,9 +18576,9 @@
       "title": "QUEM É DEUS\tPATRÍCIA ENGEL SECCO\tMELHORAMENTOS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "KLAUS INGOLF JOHAN GLAESER",
-      "reserved_student": "KADU AMORIM GLAESER"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765542319,
@@ -21607,17 +21607,6 @@
       "class_name": "Vespertino",
       "book_title": "INFÂNCIA NA ALDEIA\tMÁRCIA WAYANA KAMBEBA CIRANDA NA ESCOLA",
       "timestamp": "2026-01-10 19:10"
-    },
-    {
-      "reservation_id": 1768217059,
-      "book_id": 1765542318,
-      "category": "Livro",
-      "parent_name": "KLAUS INGOLF JOHAN GLAESER",
-      "student_name": "KADU AMORIM GLAESER",
-      "grade": "4º Ano",
-      "class_name": "Matutino",
-      "book_title": "QUEM É DEUS\tPATRÍCIA ENGEL SECCO\tMELHORAMENTOS",
-      "timestamp": "2026-01-12 11:24"
     },
     {
       "reservation_id": 1768217177,
