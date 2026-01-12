@@ -1175,8 +1175,9 @@
       "title": "O CASO DOS OVOS  LUIS CAMARGO  ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARCELA ARAUJO DE ANDRADE / RAPHAEL PITOMBO DE CRISTO",
+      "reserved_student": "MARCELA ARAUJO DE ANDRADE"
     },
     {
       "id": 1765369199,
@@ -21678,6 +21679,17 @@
       "class_name": "Matutino",
       "book_title": "O HOMEM QUE AMAVA CAIXAS STEPHEN MICHAEL KING BRINQUE BOOK",
       "timestamp": "2026-01-12 15:44"
+    },
+    {
+      "reservation_id": 1768233633,
+      "book_id": 1765369198,
+      "category": "Livro",
+      "parent_name": "MARCELA ARAUJO DE ANDRADE / RAPHAEL PITOMBO DE CRISTO",
+      "student_name": "MARCELA ARAUJO DE ANDRADE",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "O CASO DOS OVOS  LUIS CAMARGO  ÁTICA",
+      "timestamp": "2026-01-12 16:00"
     }
   ],
   "students_db": [
