@@ -7904,9 +7904,9 @@
       "title": "PRINCESA ARABELA, MIMADA QUE SÓ ELA  ÁTICA  MYLO FREEMAN",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
-      "reserved_student": "MAITE DE ASSIS BEZERRA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765391819,
@@ -21311,17 +21311,6 @@
       "class_name": "Matutino",
       "book_title": "CHAPEUZINHOS COLORIDOS\tJOSÉ ROBERTO TORERO/MARCOS",
       "timestamp": "2026-01-07 18:09"
-    },
-    {
-      "reservation_id": 1767810578,
-      "book_id": 1765391818,
-      "category": "Livro",
-      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
-      "student_name": "MAITE DE ASSIS BEZERRA",
-      "grade": "Grupo 5",
-      "class_name": "Matutino",
-      "book_title": "PRINCESA ARABELA, MIMADA QUE SÓ ELA  ÁTICA  MYLO FREEMAN",
-      "timestamp": "2026-01-07 18:29"
     },
     {
       "reservation_id": 1767810656,
