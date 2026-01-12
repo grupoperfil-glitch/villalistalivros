@@ -18434,8 +18434,9 @@
       "title": "CELULAR, O TELEFONE DA PESSOA\tLUIZ ZICO ROCHA SOARES\tMELHORAMENTOS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "KLAUS INGOLF JOHAN GLAESER",
+      "reserved_student": "KADU AMORIM GLAESER"
     },
     {
       "id": 1765542296,
@@ -21627,6 +21628,17 @@
       "class_name": "Matutino",
       "book_title": "QUEM É DEUS\tPATRÍCIA ENGEL SECCO\tMELHORAMENTOS",
       "timestamp": "2026-01-12 11:24"
+    },
+    {
+      "reservation_id": 1768217177,
+      "book_id": 1765542294,
+      "category": "Livro",
+      "parent_name": "KLAUS INGOLF JOHAN GLAESER",
+      "student_name": "KADU AMORIM GLAESER",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "CELULAR, O TELEFONE DA PESSOA\tLUIZ ZICO ROCHA SOARES\tMELHORAMENTOS",
+      "timestamp": "2026-01-12 11:26"
     }
   ],
   "students_db": [
