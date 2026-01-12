@@ -1346,8 +1346,9 @@
       "title": "A VERDADEIRA HISTÓRIA DE CHAPEUZINHO VERMELHO AGNESE BARUZZI E SANDRO NATALINI  BRINQUE BOOK",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARCELA ARAUJO DE ANDRADE / RAPHAEL PITOMBO DE CRISTO",
+      "reserved_student": "MARCELA ARAUJO DE ANDRADE"
     },
     {
       "id": 1765369217,
@@ -21713,6 +21714,17 @@
       "grade": "2º Ano",
       "class_name": "Matutino",
       "book_title": "CURIOSIDADE PREMIADA  FERNANDA LOPES DE ALMEIDA / ALCY LINHARES  ÁTICA",
+      "timestamp": "2026-01-12 16:08"
+    },
+    {
+      "reservation_id": 1768234123,
+      "book_id": 1765369216,
+      "category": "Livro",
+      "parent_name": "MARCELA ARAUJO DE ANDRADE / RAPHAEL PITOMBO DE CRISTO",
+      "student_name": "MARCELA ARAUJO DE ANDRADE",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "A VERDADEIRA HISTÓRIA DE CHAPEUZINHO VERMELHO AGNESE BARUZZI E SANDRO NATALINI  BRINQUE BOOK",
       "timestamp": "2026-01-12 16:08"
     }
   ],
