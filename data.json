@@ -1546,9 +1546,9 @@
       "title": "OS 33 PORQUINHOS JOSÉ ROBERTO TORERO / MARCUS AURELIUS PIMENTA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
-      "reserved_student": "APOLO DE ASSIS BEZERRA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765369365,
@@ -21270,17 +21270,6 @@
       "class_name": "Vespertino",
       "book_title": "A B C FORMA PALAVRAS\tBRINCADEIRAS DE CRIANÇA",
       "timestamp": "2026-01-07 17:30"
-    },
-    {
-      "reservation_id": 1767809195,
-      "book_id": 1765369364,
-      "category": "Livro",
-      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
-      "student_name": "APOLO DE ASSIS BEZERRA",
-      "grade": "3º Ano",
-      "class_name": "Matutino",
-      "book_title": "OS 33 PORQUINHOS JOSÉ ROBERTO TORERO / MARCUS AURELIUS PIMENTA",
-      "timestamp": "2026-01-07 18:06"
     },
     {
       "reservation_id": 1767809204,
