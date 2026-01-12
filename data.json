@@ -14810,8 +14810,9 @@
       "title": "QUEBRA CABEÇA EDUCATIVO MAPA DO BRASIL REGIÕES E ESTADOS E CAPITAIS",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "reserved_student": "MAITE DE ASSIS BEZERRA"
     },
     {
       "id": 1765460355,
@@ -21775,6 +21776,17 @@
       "class_name": "Matutino",
       "book_title": "O QUE LEVAR PARA UMA ILHA DESERTA LALAU LEYA",
       "timestamp": "2026-01-12 17:30"
+    },
+    {
+      "reservation_id": 1768244792,
+      "book_id": 1765460373,
+      "category": "Jogo",
+      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "student_name": "MAITE DE ASSIS BEZERRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "PEQUENO ENGENHEIRO",
+      "timestamp": "2026-01-12 19:06"
     }
   ],
   "students_db": [
