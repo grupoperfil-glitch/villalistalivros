@@ -8723,8 +8723,9 @@
       "title": "SOMOS UM DO OUTRO: UM LIVRO SOBRE ADOÇÃO E FAMÍLIAS  PANDA BOOKS  TODD PARR",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ENZO LIMONGI CHAVES",
+      "reserved_student": "ENRICO COSTA LIMONGI"
     },
     {
       "id": 1765391907,
@@ -21801,6 +21802,17 @@
       "class_name": "Matutino",
       "book_title": "CADERNO SEM RIMAS DA MARIA  EDITORA SEXTANTE  LÁZARO RAMOS",
       "timestamp": "2026-01-12 20:27"
+    },
+    {
+      "reservation_id": 1768250491,
+      "book_id": 1765391906,
+      "category": "Livro",
+      "parent_name": "ENZO LIMONGI CHAVES",
+      "student_name": "ENRICO COSTA LIMONGI",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "SOMOS UM DO OUTRO: UM LIVRO SOBRE ADOÇÃO E FAMÍLIAS  PANDA BOOKS  TODD PARR",
+      "timestamp": "2026-01-12 20:41"
     }
   ],
   "students_db": [
