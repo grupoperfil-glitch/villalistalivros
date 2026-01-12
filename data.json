@@ -18685,8 +18685,9 @@
       "title": "ANTES QUE A TERRA FUJA JULIETA GODOY\tEDITORA MODERNA",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "KLAUS INGOLF JOHAN GLAESER",
+      "reserved_student": "KADU AMORIM GLAESER"
     },
     {
       "id": 1765542332,
@@ -21603,6 +21604,17 @@
       "class_name": "Vespertino",
       "book_title": "INFÂNCIA NA ALDEIA\tMÁRCIA WAYANA KAMBEBA CIRANDA NA ESCOLA",
       "timestamp": "2026-01-10 19:10"
+    },
+    {
+      "reservation_id": 1768216925,
+      "book_id": 1765542331,
+      "category": "Livro",
+      "parent_name": "KLAUS INGOLF JOHAN GLAESER",
+      "student_name": "KADU AMORIM GLAESER",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "ANTES QUE A TERRA FUJA JULIETA GODOY\tEDITORA MODERNA",
+      "timestamp": "2026-01-12 11:22"
     }
   ],
   "students_db": [
