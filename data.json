@@ -15937,8 +15937,9 @@
       "title": "MANECO CANECO CHAPÉU DE FUNIL LUÍS CAMARGO ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA DE SOUZA PINTO",
+      "reserved_student": "LUIZA PINTO RIBEIRO"
     },
     {
       "id": 1765483467,
@@ -21762,6 +21763,17 @@
       "class_name": "Matutino",
       "book_title": "AMIGO DO REI (COLEÇÃO SAMBALELÊ) RUTH ROCHA ÁTICA",
       "timestamp": "2026-01-12 17:27"
+    },
+    {
+      "reservation_id": 1768238903,
+      "book_id": 1765483466,
+      "category": "Livro",
+      "parent_name": "FLAVIA DE SOUZA PINTO",
+      "student_name": "LUIZA PINTO RIBEIRO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "MANECO CANECO CHAPÉU DE FUNIL LUÍS CAMARGO ÁTICA",
+      "timestamp": "2026-01-12 17:28"
     }
   ],
   "students_db": [
