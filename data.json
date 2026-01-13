@@ -14994,8 +14994,9 @@
       "title": "MEMÓRIA ANIMAIS E NOMES 1037\tCARLU",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARINA LEAL DE CASTRO",
+      "reserved_student": "DIANA DE CASTRO BAHIENSE GUIMARÃES"
     },
     {
       "id": 1765460375,
@@ -21873,6 +21874,17 @@
       "class_name": "Matutino",
       "book_title": "HISTÓRIAS MARAVILHOSAS DE ANDERSEN HANS CHRISTIAN ANDERSEN CIA DAS",
       "timestamp": "2026-01-13 00:41"
+    },
+    {
+      "reservation_id": 1768320903,
+      "book_id": 1765460374,
+      "category": "Jogo",
+      "parent_name": "MARINA LEAL DE CASTRO",
+      "student_name": "DIANA DE CASTRO BAHIENSE GUIMARÃES",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "MEMÓRIA ANIMAIS E NOMES 1037\tCARLU",
+      "timestamp": "2026-01-13 16:15"
     }
   ],
   "students_db": [
