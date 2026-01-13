@@ -15162,8 +15162,9 @@
       "title": "DOMINÓ DE LETRAS",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ENZO LIMONGI CHAVES",
+      "reserved_student": "ENRICO COSTA LIMONGI"
     },
     {
       "id": 1765460534,
@@ -21959,6 +21960,17 @@
       "class_name": "Vespertino",
       "book_title": "FEIRINHA LEGAL\tBIG STAR",
       "timestamp": "2026-01-13 19:22"
+    },
+    {
+      "reservation_id": 1768343381,
+      "book_id": 1765460533,
+      "category": "Brinquedo",
+      "parent_name": "ENZO LIMONGI CHAVES",
+      "student_name": "ENRICO COSTA LIMONGI",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "DOMINÓ DE LETRAS",
+      "timestamp": "2026-01-13 22:29"
     }
   ],
   "students_db": [
