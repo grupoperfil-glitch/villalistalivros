@@ -14713,8 +14713,9 @@
       "title": "2 PEGAVARETAS",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ENZO LIMONGI CHAVES",
+      "reserved_student": "ENRICO COSTA LIMONGI"
     },
     {
       "id": 1765460363,
@@ -21899,6 +21900,17 @@
       "class_name": "Matutino",
       "book_title": "O MENINO COM FLORES NO CABELO  PEQUENA ZAHAR  JARVIS",
       "timestamp": "2026-01-13 18:32"
+    },
+    {
+      "reservation_id": 1768329430,
+      "book_id": 1765460362,
+      "category": "Jogo",
+      "parent_name": "ENZO LIMONGI CHAVES",
+      "student_name": "ENRICO COSTA LIMONGI",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "ALFABETO MÓVEL DE MADEIRA",
+      "timestamp": "2026-01-13 18:37"
     }
   ],
   "students_db": [
