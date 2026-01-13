@@ -15941,9 +15941,9 @@
       "title": "MANECO CANECO CHAPÉU DE FUNIL LUÍS CAMARGO ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "GUILHERME BAZILIO DOMINGUES",
+      "reserved_student": "CLARICE LIMA VIANA BAZILIO DOMINGUES"
     },
     {
       "id": 1765483467,
@@ -21837,6 +21837,17 @@
       "class_name": "Matutino",
       "book_title": "AS CONFUSÕES DE ANINHA STELLA CARR MODERNA",
       "timestamp": "2026-01-12 23:15"
+    },
+    {
+      "reservation_id": 1768263604,
+      "book_id": 1765483466,
+      "category": "Livro",
+      "parent_name": "GUILHERME BAZILIO DOMINGUES",
+      "student_name": "CLARICE LIMA VIANA BAZILIO DOMINGUES",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "MANECO CANECO CHAPÉU DE FUNIL LUÍS CAMARGO ÁTICA",
+      "timestamp": "2026-01-13 00:20"
     }
   ],
   "students_db": [
