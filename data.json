@@ -15366,8 +15366,9 @@
       "title": "CAIXA REGISTRADORA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TATIANA CAMPOS GARCEZ DE SENA",
+      "reserved_student": "NOAH GARCEZ BARBOSA PAULO"
     },
     {
       "id": 1765460556,
@@ -21982,6 +21983,17 @@
       "class_name": "Matutino",
       "book_title": "LUDO",
       "timestamp": "2026-01-13 22:48"
+    },
+    {
+      "reservation_id": 1768344889,
+      "book_id": 1765460555,
+      "category": "Brinquedo",
+      "parent_name": "TATIANA CAMPOS GARCEZ DE SENA",
+      "student_name": "NOAH GARCEZ BARBOSA PAULO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "CAIXA REGISTRADORA",
+      "timestamp": "2026-01-13 22:54"
     }
   ],
   "students_db": [
