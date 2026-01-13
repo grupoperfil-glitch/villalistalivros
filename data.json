@@ -5652,8 +5652,9 @@
       "title": "O HOMEM QUE AMAVA CAIXAS \tSTEPBREN BRING \tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL DAMASCENA FERREIRA",
+      "reserved_student": "SAMUEL GOMES FERREIRA"
     },
     {
       "id": 1765377382,
@@ -21875,6 +21876,17 @@
       "class_name": "Vespertino",
       "book_title": "CONTANDO ATÉ 10\tGROW",
       "timestamp": "2026-01-13 17:07"
+    },
+    {
+      "reservation_id": 1768324766,
+      "book_id": 1765377381,
+      "category": "Livro",
+      "parent_name": "RAFAEL DAMASCENA FERREIRA",
+      "student_name": "SAMUEL GOMES FERREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "O HOMEM QUE AMAVA CAIXAS \tSTEPBREN BRING \tBRINQUE BOOK",
+      "timestamp": "2026-01-13 17:19"
     }
   ],
   "students_db": [
