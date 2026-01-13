@@ -16527,8 +16527,9 @@
       "title": "A VIDA ÍNTIMA DE LAURA CLARICE LISPECTOR ROCCO",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "GUILHERME BAZILIO DOMINGUES",
+      "reserved_student": "CLARICE LIMA VIANA BAZILIO DOMINGUES"
     },
     {
       "id": 1765483531,
@@ -21848,6 +21849,17 @@
       "class_name": "Matutino",
       "book_title": "MANECO CANECO CHAPÉU DE FUNIL LUÍS CAMARGO ÁTICA",
       "timestamp": "2026-01-13 00:20"
+    },
+    {
+      "reservation_id": 1768264798,
+      "book_id": 1765483530,
+      "category": "Livro",
+      "parent_name": "GUILHERME BAZILIO DOMINGUES",
+      "student_name": "CLARICE LIMA VIANA BAZILIO DOMINGUES",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "A VIDA ÍNTIMA DE LAURA CLARICE LISPECTOR ROCCO",
+      "timestamp": "2026-01-13 00:39"
     }
   ],
   "students_db": [
