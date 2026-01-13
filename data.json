@@ -8762,8 +8762,9 @@
       "title": "O MENINO COM FLORES NO CABELO  PEQUENA ZAHAR  JARVIS",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ENZO LIMONGI CHAVES",
+      "reserved_student": "ENRICO COSTA LIMONGI"
     },
     {
       "id": 1765391911,
@@ -21887,6 +21888,17 @@
       "class_name": "Vespertino",
       "book_title": "O HOMEM QUE AMAVA CAIXAS \tSTEPBREN BRING \tBRINQUE BOOK",
       "timestamp": "2026-01-13 17:19"
+    },
+    {
+      "reservation_id": 1768329159,
+      "book_id": 1765391910,
+      "category": "Livro",
+      "parent_name": "ENZO LIMONGI CHAVES",
+      "student_name": "ENRICO COSTA LIMONGI",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "O MENINO COM FLORES NO CABELO  PEQUENA ZAHAR  JARVIS",
+      "timestamp": "2026-01-13 18:32"
     }
   ],
   "students_db": [
