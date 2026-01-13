@@ -15566,8 +15566,9 @@
       "title": "FEIRINHA LEGAL\tBIG STAR",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MAIANE DA SILVA PEREIRA",
+      "reserved_student": "ALICE DA SILVA LIMA SANTOS"
     },
     {
       "id": 1765460577,
@@ -21947,6 +21948,17 @@
       "class_name": "Vespertino",
       "book_title": "UM PORCO VEM MORAR AQUI  BRINQUE BOOK  CLAUDIA FRIES",
       "timestamp": "2026-01-13 19:09"
+    },
+    {
+      "reservation_id": 1768332159,
+      "book_id": 1765460576,
+      "category": "Brinquedo",
+      "parent_name": "MAIANE DA SILVA PEREIRA",
+      "student_name": "ALICE DA SILVA LIMA SANTOS",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "FEIRINHA LEGAL\tBIG STAR",
+      "timestamp": "2026-01-13 19:22"
     }
   ],
   "students_db": [
