@@ -7954,8 +7954,9 @@
       "title": "UMA HISTÓRIA ATRAPALHADA  BIRUTA  GIANNI RODARI",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MAIANE DA SILVA PEREIRA",
+      "reserved_student": "ALICE DA SILVA LIMA SANTOS"
     },
     {
       "id": 1765391823,
@@ -21922,6 +21923,17 @@
       "grade": "Grupo 5",
       "class_name": "Vespertino",
       "book_title": "O AMIGO DO REI  SALAMANDRA  RUTH ROCHA",
+      "timestamp": "2026-01-13 19:08"
+    },
+    {
+      "reservation_id": 1768331330,
+      "book_id": 1765391822,
+      "category": "Livro",
+      "parent_name": "MAIANE DA SILVA PEREIRA",
+      "student_name": "ALICE DA SILVA LIMA SANTOS",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "QUANDO MAMÃE ERA PEQUENA  CALLIS  HYE OK LEE",
       "timestamp": "2026-01-13 19:08"
     }
   ],
