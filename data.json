@@ -15068,9 +15068,9 @@
       "title": "LUDO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "TATIANA CAMPOS GARCEZ DE SENA",
+      "reserved_student": "NOAH GARCEZ BARBOSA PAULO"
     },
     {
       "id": 1765460382,
@@ -21971,6 +21971,17 @@
       "class_name": "Matutino",
       "book_title": "DOMINÓ DE LETRAS",
       "timestamp": "2026-01-13 22:29"
+    },
+    {
+      "reservation_id": 1768344492,
+      "book_id": 1765460381,
+      "category": "Jogo",
+      "parent_name": "TATIANA CAMPOS GARCEZ DE SENA",
+      "student_name": "NOAH GARCEZ BARBOSA PAULO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "LUDO",
+      "timestamp": "2026-01-13 22:48"
     }
   ],
   "students_db": [
