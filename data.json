@@ -7713,8 +7713,9 @@
       "title": "APOSTANDO COM O MONSTRO  CALLIS  KYOUNG HWA KIM       YOON CHUL JUNG",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MAIANE DA SILVA PEREIRA",
+      "reserved_student": "ALICE DA SILVA LIMA SANTOS"
     },
     {
       "id": 1765391797,
@@ -21911,6 +21912,17 @@
       "class_name": "Matutino",
       "book_title": "ALFABETO MÓVEL DE MADEIRA",
       "timestamp": "2026-01-13 18:37"
+    },
+    {
+      "reservation_id": 1768331280,
+      "book_id": 1765391796,
+      "category": "Livro",
+      "parent_name": "MAIANE DA SILVA PEREIRA",
+      "student_name": "ALICE DA SILVA LIMA SANTOS",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "O AMIGO DO REI  SALAMANDRA  RUTH ROCHA",
+      "timestamp": "2026-01-13 19:08"
     }
   ],
   "students_db": [
