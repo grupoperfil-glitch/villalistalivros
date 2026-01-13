@@ -13967,8 +13967,9 @@
       "title": "PRIMEIROS NÚMEROS \tGROW",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL DAMASCENA FERREIRA",
+      "reserved_student": "SAMUEL GOMES FERREIRA"
     },
     {
       "id": 1765460052,
@@ -21874,6 +21875,17 @@
       "class_name": "Matutino",
       "book_title": "MEMÓRIA ANIMAIS E NOMES 1037\tCARLU",
       "timestamp": "2026-01-13 16:15"
+    },
+    {
+      "reservation_id": 1768324039,
+      "book_id": 1765460051,
+      "category": "Brinquedo",
+      "parent_name": "RAFAEL DAMASCENA FERREIRA",
+      "student_name": "SAMUEL GOMES FERREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "CONTANDO ATÉ 10\tGROW",
+      "timestamp": "2026-01-13 17:07"
     }
   ],
   "students_db": [
