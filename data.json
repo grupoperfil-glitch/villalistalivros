@@ -1386,8 +1386,9 @@
       "title": "HISTÓRIAS MARAVILHOSAS DE ANDERSEN HANS CHRISTIAN ANDERSEN CIA DAS",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "GUILHERME BAZILIO DOMINGUES",
+      "reserved_student": "CLARICE LIMA VIANA BAZILIO DOMINGUES"
     },
     {
       "id": 1765369221,
@@ -21872,6 +21873,17 @@
       "class_name": "Matutino",
       "book_title": "O CASTELO DA BRUXA CONFUSA BO-GEUM, CHA E SUNG JILONG CALLIS",
       "timestamp": "2026-01-13 00:40"
+    },
+    {
+      "reservation_id": 1768264864,
+      "book_id": 1765369220,
+      "category": "Livro",
+      "parent_name": "GUILHERME BAZILIO DOMINGUES",
+      "student_name": "CLARICE LIMA VIANA BAZILIO DOMINGUES",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "HISTÓRIAS MARAVILHOSAS DE ANDERSEN HANS CHRISTIAN ANDERSEN CIA DAS",
+      "timestamp": "2026-01-13 00:41"
     }
   ],
   "students_db": [
