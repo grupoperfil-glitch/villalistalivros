@@ -1055,8 +1055,9 @@
       "title": "A FLAUTA MÁGICA  RUTH ROCHA  CALLIS",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LOUISE DJANE DE JESUS ARAUJO",
+      "reserved_student": "RAFAEL ARAUJO RODRIGUES"
     },
     {
       "id": 1765369186,
@@ -22064,6 +22065,17 @@
       "grade": "2º Ano",
       "class_name": "Matutino",
       "book_title": "CASA DO MEU AVÔ       RICARDO AZEVEDO    ÁTICA",
+      "timestamp": "2026-01-14 13:29"
+    },
+    {
+      "reservation_id": 1768397367,
+      "book_id": 1765369185,
+      "category": "Livro",
+      "parent_name": "LOUISE DJANE DE JESUS ARAUJO",
+      "student_name": "RAFAEL ARAUJO RODRIGUES",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "A FLAUTA MÁGICA  RUTH ROCHA  CALLIS",
       "timestamp": "2026-01-14 13:29"
     }
   ],
