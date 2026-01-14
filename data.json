@@ -15392,8 +15392,9 @@
       "title": "GUDE (30 BOLINHAS)",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "reserved_student": "MAITE DE ASSIS BEZERRA"
     },
     {
       "id": 1765460558,
@@ -22080,6 +22081,17 @@
       "grade": "Grupo 5",
       "class_name": "Matutino",
       "book_title": "QUEBRA CABEÇA EDUCATIVO MAPA DO BRASIL REGIÕES E ESTADOS E CAPITAIS",
+      "timestamp": "2026-01-14 14:24"
+    },
+    {
+      "reservation_id": 1768400663,
+      "book_id": 1765460557,
+      "category": "Brinquedo",
+      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "student_name": "MAITE DE ASSIS BEZERRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "GUDE (30 BOLINHAS)",
       "timestamp": "2026-01-14 14:24"
     }
   ],
