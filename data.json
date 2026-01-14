@@ -1728,8 +1728,9 @@
       "title": "EU, VOCÊ E TUDO QUE EXISTE LILIANA IACOCCA/SIRON FRANCO ÁTICA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "reserved_student": "APOLO DE ASSIS BEZERRA"
     },
     {
       "id": 1765369384,
@@ -22079,6 +22080,17 @@
       "class_name": "Matutino",
       "book_title": "O LIVRO DOS PONTOS DE VISTA  RICARDO AZEVEDO  ÁTICA",
       "timestamp": "2026-01-14 14:17"
+    },
+    {
+      "reservation_id": 1768400344,
+      "book_id": 1765369383,
+      "category": "Livro",
+      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "student_name": "APOLO DE ASSIS BEZERRA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "EU, VOCÊ E TUDO QUE EXISTE LILIANA IACOCCA/SIRON FRANCO ÁTICA",
+      "timestamp": "2026-01-14 14:19"
     }
   ],
   "students_db": [
