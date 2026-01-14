@@ -17120,8 +17120,9 @@
       "title": "A BRUXINHA ATRAPALHADA\tEVA FURNARI\tGLOBAL",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "reserved_student": "LEANDRO LUZ LIMA"
     },
     {
       "id": 1765541626,
@@ -22029,6 +22030,17 @@
       "class_name": "Matutino",
       "book_title": "DONA BARATINHA\tANA MARIA MACHADO\tFTD",
       "timestamp": "2026-01-14 00:33"
+    },
+    {
+      "reservation_id": 1768350848,
+      "book_id": 1765541625,
+      "category": "Livro",
+      "parent_name": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "student_name": "LEANDRO LUZ LIMA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "A BRUXINHA ATRAPALHADA\tEVA FURNARI\tGLOBAL",
+      "timestamp": "2026-01-14 00:34"
     }
   ],
   "students_db": [
