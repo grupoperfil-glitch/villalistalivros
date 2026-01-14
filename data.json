@@ -17000,9 +17000,9 @@
       "title": "O CALCANHAR DE AQUILES\tZIRALDO\tMELHORAMENTOS",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "reserved_student": "LEANDRO LUZ LIMA"
     },
     {
       "id": 1765541613,
@@ -22005,6 +22005,17 @@
       "grade": "1º Ano",
       "class_name": "Matutino",
       "book_title": "OU ISTO OU AQUILO   CECILIA MEIRELES\tNOVA FRONTEIRA",
+      "timestamp": "2026-01-14 00:32"
+    },
+    {
+      "reservation_id": 1768350773,
+      "book_id": 1765541612,
+      "category": "Livro",
+      "parent_name": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "student_name": "LEANDRO LUZ LIMA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O CALCANHAR DE AQUILES\tZIRALDO\tMELHORAMENTOS",
       "timestamp": "2026-01-14 00:32"
     }
   ],
