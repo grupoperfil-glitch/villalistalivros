@@ -1025,8 +1025,9 @@
       "title": "A ÁRVORE DO BETO   RUTH ROCHA  SALAMANDRA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LOUISE DJANE DE JESUS ARAUJO",
+      "reserved_student": "RAFAEL ARAUJO RODRIGUES"
     },
     {
       "id": 1765369183,
@@ -22041,6 +22042,17 @@
       "class_name": "Matutino",
       "book_title": "A BRUXINHA ATRAPALHADA\tEVA FURNARI\tGLOBAL",
       "timestamp": "2026-01-14 00:34"
+    },
+    {
+      "reservation_id": 1768397344,
+      "book_id": 1765369182,
+      "category": "Livro",
+      "parent_name": "LOUISE DJANE DE JESUS ARAUJO",
+      "student_name": "RAFAEL ARAUJO RODRIGUES",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "A ÁRVORE DO BETO   RUTH ROCHA  SALAMANDRA",
+      "timestamp": "2026-01-14 13:29"
     }
   ],
   "students_db": [
