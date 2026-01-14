@@ -1075,8 +1075,9 @@
       "title": "AMIGOS DO PEITO  CLÁUDIO THEBAS  FORMATO",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LOUISE DJANE DE JESUS ARAUJO",
+      "reserved_student": "RAFAEL ARAUJO RODRIGUES"
     },
     {
       "id": 1765369188,
@@ -22076,6 +22077,17 @@
       "grade": "2º Ano",
       "class_name": "Matutino",
       "book_title": "A FLAUTA MÁGICA  RUTH ROCHA  CALLIS",
+      "timestamp": "2026-01-14 13:29"
+    },
+    {
+      "reservation_id": 1768397376,
+      "book_id": 1765369187,
+      "category": "Livro",
+      "parent_name": "LOUISE DJANE DE JESUS ARAUJO",
+      "student_name": "RAFAEL ARAUJO RODRIGUES",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "AMIGOS DO PEITO  CLÁUDIO THEBAS  FORMATO",
       "timestamp": "2026-01-14 13:29"
     }
   ],
