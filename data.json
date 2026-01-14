@@ -1543,8 +1543,9 @@
       "title": "CHAPEUZINHOS COLORIDOS JOSÉ ROBERTO TORERO / MARCUS AURELIUS PIMENTA CIA DAS LETRINHAS",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DANIELA SANTOS TREVILATO",
+      "reserved_student": "MARIA VALENTINA SANTOS DE ALMEIDA GOUVEIA"
     },
     {
       "id": 1765369364,
@@ -22106,6 +22107,17 @@
       "class_name": "Matutino",
       "book_title": "NÃO DERRAME O LEITE ZAHAR  STEPHEN  DAVIES E CHRISTOPHER CORR",
       "timestamp": "2026-01-14 14:37"
+    },
+    {
+      "reservation_id": 1768409639,
+      "book_id": 1765369363,
+      "category": "Livro",
+      "parent_name": "DANIELA SANTOS TREVILATO",
+      "student_name": "MARIA VALENTINA SANTOS DE ALMEIDA GOUVEIA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "CHAPEUZINHOS COLORIDOS JOSÉ ROBERTO TORERO / MARCUS AURELIUS PIMENTA CIA DAS LETRINHAS",
+      "timestamp": "2026-01-14 16:53"
     }
   ],
   "students_db": [
