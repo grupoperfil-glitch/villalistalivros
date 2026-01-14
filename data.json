@@ -17807,8 +17807,9 @@
       "title": "FLORA\tBARTOLOMEU CAMPOS DE QUEIROZ",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUCAS PEREIRA DOS SANTOS",
+      "reserved_student": "MARIA JULIA PEREIRA SCHRAMM"
     },
     {
       "id": 1765541700,
@@ -22142,6 +22143,17 @@
       "class_name": "Matutino",
       "book_title": "AS CONFUSÕES DE ANINHA  STELLA CAR\tMODERNA",
       "timestamp": "2026-01-14 17:36"
+    },
+    {
+      "reservation_id": 1768412268,
+      "book_id": 1765541699,
+      "category": "Livro",
+      "parent_name": "LUCAS PEREIRA DOS SANTOS",
+      "student_name": "MARIA JULIA PEREIRA SCHRAMM",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "FLORA\tBARTOLOMEU CAMPOS DE QUEIROZ",
+      "timestamp": "2026-01-14 17:37"
     }
   ],
   "students_db": [
