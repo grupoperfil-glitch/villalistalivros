@@ -17974,9 +17974,9 @@
       "title": "PEDRO E O LOBO\tHELOÍSA PIETRO\tÁTICA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
-      "reserved_student": "APOLO DE ASSIS BEZERRA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765542052,
@@ -21748,17 +21748,6 @@
       "class_name": "Matutino",
       "book_title": "PEQUENO ENGENHEIRO",
       "timestamp": "2026-01-12 19:06"
-    },
-    {
-      "reservation_id": 1768247392,
-      "book_id": 1765542051,
-      "category": "Livro",
-      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
-      "student_name": "APOLO DE ASSIS BEZERRA",
-      "grade": "3º Ano",
-      "class_name": "Matutino",
-      "book_title": "PEDRO E O LOBO\tHELOÍSA PIETRO\tÁTICA",
-      "timestamp": "2026-01-12 19:49"
     },
     {
       "reservation_id": 1768247404,
