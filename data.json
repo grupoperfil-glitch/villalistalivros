@@ -17083,8 +17083,9 @@
       "title": "DONA BARATINHA\tANA MARIA MACHADO\tFTD",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "reserved_student": "LEANDRO LUZ LIMA"
     },
     {
       "id": 1765541622,
@@ -22017,6 +22018,17 @@
       "class_name": "Matutino",
       "book_title": "O CALCANHAR DE AQUILES\tZIRALDO\tMELHORAMENTOS",
       "timestamp": "2026-01-14 00:32"
+    },
+    {
+      "reservation_id": 1768350791,
+      "book_id": 1765541621,
+      "category": "Livro",
+      "parent_name": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "student_name": "LEANDRO LUZ LIMA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "DONA BARATINHA\tANA MARIA MACHADO\tFTD",
+      "timestamp": "2026-01-14 00:33"
     }
   ],
   "students_db": [
