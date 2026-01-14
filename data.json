@@ -17741,8 +17741,9 @@
       "title": "MEU PRIMEIRO BICHONÁRIO\tMARCO HAILER\tCAROCHINHA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUCAS PEREIRA DOS SANTOS",
+      "reserved_student": "MARIA JULIA PEREIRA SCHRAMM"
     },
     {
       "id": 1765541693,
@@ -22154,6 +22155,17 @@
       "class_name": "Matutino",
       "book_title": "FLORA\tBARTOLOMEU CAMPOS DE QUEIROZ",
       "timestamp": "2026-01-14 17:37"
+    },
+    {
+      "reservation_id": 1768412302,
+      "book_id": 1765541692,
+      "category": "Livro",
+      "parent_name": "LUCAS PEREIRA DOS SANTOS",
+      "student_name": "MARIA JULIA PEREIRA SCHRAMM",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "MEU PRIMEIRO BICHONÁRIO\tMARCO HAILER\tCAROCHINHA",
+      "timestamp": "2026-01-14 17:38"
     }
   ],
   "students_db": [
