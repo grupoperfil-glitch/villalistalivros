@@ -15017,8 +15017,9 @@
       "title": "A B C FORMA PALAVRAS\tBRINCADEIRA DE CRIANÇA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "reserved_student": "MAITE DE ASSIS BEZERRA"
     },
     {
       "id": 1765460376,
@@ -22082,6 +22083,17 @@
       "class_name": "Matutino",
       "book_title": "GUDE (30 BOLINHAS)",
       "timestamp": "2026-01-14 14:24"
+    },
+    {
+      "reservation_id": 1768401108,
+      "book_id": 1765460375,
+      "category": "Jogo",
+      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "student_name": "MAITE DE ASSIS BEZERRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "A B C FORMA PALAVRAS\tBRINCADEIRA DE CRIANÇA",
+      "timestamp": "2026-01-14 14:31"
     }
   ],
   "students_db": [
