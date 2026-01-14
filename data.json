@@ -7396,8 +7396,9 @@
       "title": "NÃO DERRAME O LEITE ZAHAR  STEPHEN  DAVIES E CHRISTOPHER CORR",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "reserved_student": "MAITE DE ASSIS BEZERRA"
     },
     {
       "id": 1765391763,
@@ -22094,6 +22095,17 @@
       "class_name": "Matutino",
       "book_title": "A B C FORMA PALAVRAS\tBRINCADEIRA DE CRIANÇA",
       "timestamp": "2026-01-14 14:31"
+    },
+    {
+      "reservation_id": 1768401476,
+      "book_id": 1765391762,
+      "category": "Livro",
+      "parent_name": "THIAGO BEZERRA DE DEUS DA SILVA",
+      "student_name": "MAITE DE ASSIS BEZERRA",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "NÃO DERRAME O LEITE ZAHAR  STEPHEN  DAVIES E CHRISTOPHER CORR",
+      "timestamp": "2026-01-14 14:37"
     }
   ],
   "students_db": [
