@@ -13597,8 +13597,9 @@
       "title": "DOMINÓS – ALIMENTAÇÃO SAUDÁVEL CARLU",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DUELO DE SOUZA SANTOS",
+      "reserved_student": "VICENZO MANTOVANI PEREIRA SANTOS"
     },
     {
       "id": 1765459887,
@@ -22178,6 +22179,17 @@
       "class_name": "Matutino",
       "book_title": "A B C FORMA PALAVRAS\tBRINCADEIRAS DE CRIANÇA",
       "timestamp": "2026-01-15 20:46"
+    },
+    {
+      "reservation_id": 1768510646,
+      "book_id": 1765459875,
+      "category": "Jogo",
+      "parent_name": "DUELO DE SOUZA SANTOS",
+      "student_name": "VICENZO MANTOVANI PEREIRA SANTOS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "DOMINÓS – ALIMENTAÇÃO SAUDÁVEL CARLU",
+      "timestamp": "2026-01-15 20:57"
     }
   ],
   "students_db": [
