@@ -13634,8 +13634,9 @@
       "title": "A B C FORMA PALAVRAS\tBRINCADEIRAS DE CRIANÇA",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DUELO DE SOUZA SANTOS",
+      "reserved_student": "VICENZO MANTOVANI PEREIRA SANTOS"
     },
     {
       "id": 1765460014,
@@ -22166,6 +22167,17 @@
       "class_name": "Matutino",
       "book_title": "MEU PRIMEIRO BICHONÁRIO\tMARCO HAILER\tCAROCHINHA",
       "timestamp": "2026-01-14 17:38"
+    },
+    {
+      "reservation_id": 1768510001,
+      "book_id": 1765460013,
+      "category": "Brinquedo",
+      "parent_name": "DUELO DE SOUZA SANTOS",
+      "student_name": "VICENZO MANTOVANI PEREIRA SANTOS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "A B C FORMA PALAVRAS\tBRINCADEIRAS DE CRIANÇA",
+      "timestamp": "2026-01-15 20:46"
     }
   ],
   "students_db": [
