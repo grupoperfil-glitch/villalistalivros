@@ -11327,8 +11327,9 @@
       "title": "CAMINHÃO",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALEXEI ESTEVEZ DE CARVALHO",
+      "reserved_student": "EDUARDO LIMA ESTEVEZ"
     },
     {
       "id": 1765458379,
@@ -22288,6 +22289,17 @@
       "class_name": "Matutino",
       "book_title": "INFÂNCIA NA ALDEIA\tMÁRCIA WAYANA KAMBEBA CIRANDA NA ESCOLA",
       "timestamp": "2026-01-16 23:22"
+    },
+    {
+      "reservation_id": 1768606368,
+      "book_id": 1765458378,
+      "category": "Brinquedo",
+      "parent_name": "ALEXEI ESTEVEZ DE CARVALHO",
+      "student_name": "EDUARDO LIMA ESTEVEZ",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "CAMINHÃO",
+      "timestamp": "2026-01-16 23:32"
     }
   ],
   "students_db": [
