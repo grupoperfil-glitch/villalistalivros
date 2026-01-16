@@ -1153,8 +1153,9 @@
       "title": "CACOETE  EVA FURNARI  ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALEXEI ESTEVEZ DE CARVALHO",
+      "reserved_student": "FERNANDA LIMA ESTEVEZ"
     },
     {
       "id": 1765369196,
@@ -22286,6 +22287,17 @@
       "class_name": "Matutino",
       "book_title": "CURIOSIDADE PREMIADA FERNANDA LOPES DE ALMEIDA / ALCY LINHARES  ÁTICA",
       "timestamp": "2026-01-16 21:27"
+    },
+    {
+      "reservation_id": 1768599050,
+      "book_id": 1765369195,
+      "category": "Livro",
+      "parent_name": "ALEXEI ESTEVEZ DE CARVALHO",
+      "student_name": "FERNANDA LIMA ESTEVEZ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "CACOETE  EVA FURNARI  ÁTICA",
+      "timestamp": "2026-01-16 21:30"
     }
   ],
   "students_db": [
