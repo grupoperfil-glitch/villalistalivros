@@ -15945,8 +15945,9 @@
       "title": "CURIOSIDADE PREMIADA FERNANDA LOPES DE ALMEIDA / ALCY LINHARES  ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALEXEI ESTEVEZ DE CARVALHO",
+      "reserved_student": "FERNANDA LIMA ESTEVEZ"
     },
     {
       "id": 1765483464,
@@ -22274,6 +22275,17 @@
       "class_name": "Matutino",
       "book_title": "O LIVRO DOS PONTOS DE VISTA\tRICARDO AZEVEDO\tÁTICA",
       "timestamp": "2026-01-16 20:10"
+    },
+    {
+      "reservation_id": 1768598849,
+      "book_id": 1765483463,
+      "category": "Livro",
+      "parent_name": "ALEXEI ESTEVEZ DE CARVALHO",
+      "student_name": "FERNANDA LIMA ESTEVEZ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "CURIOSIDADE PREMIADA FERNANDA LOPES DE ALMEIDA / ALCY LINHARES  ÁTICA",
+      "timestamp": "2026-01-16 21:27"
     }
   ],
   "students_db": [
