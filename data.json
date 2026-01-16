@@ -2740,9 +2740,9 @@
       "title": "EU NUNCA VOU COMER UM TOMATE\tLAUREM CHILD \tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "ALEXEI ESTEVEZ DE CARVALHO",
-      "reserved_student": "EDUARDO LIMA ESTEVEZ"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765376923,
@@ -22199,17 +22199,6 @@
       "class_name": "Matutino",
       "book_title": "DOMINÓS – ALIMENTAÇÃO SAUDÁVEL CARLU",
       "timestamp": "2026-01-15 20:57"
-    },
-    {
-      "reservation_id": 1768574614,
-      "book_id": 1765376922,
-      "category": "Livro",
-      "parent_name": "ALEXEI ESTEVEZ DE CARVALHO",
-      "student_name": "EDUARDO LIMA ESTEVEZ",
-      "grade": "Grupo 3",
-      "class_name": "Matutino",
-      "book_title": "EU NUNCA VOU COMER UM TOMATE\tLAUREM CHILD \tÁTICA",
-      "timestamp": "2026-01-16 14:43"
     },
     {
       "reservation_id": 1768574669,
