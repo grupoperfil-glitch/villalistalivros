@@ -2841,8 +2841,9 @@
       "title": "O MENINO QUE DESCOBRIU AS PALAVRAS \tCÍNEAS SANTOS \tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALEXEI ESTEVEZ DE CARVALHO",
+      "reserved_student": "EDUARDO LIMA ESTEVEZ"
     },
     {
       "id": 1765376934,
@@ -22202,6 +22203,17 @@
       "class_name": "Matutino",
       "book_title": "EU NUNCA VOU COMER UM TOMATE\tLAUREM CHILD \tÁTICA",
       "timestamp": "2026-01-16 14:43"
+    },
+    {
+      "reservation_id": 1768574669,
+      "book_id": 1765376933,
+      "category": "Livro",
+      "parent_name": "ALEXEI ESTEVEZ DE CARVALHO",
+      "student_name": "EDUARDO LIMA ESTEVEZ",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "O MENINO QUE DESCOBRIU AS PALAVRAS \tCÍNEAS SANTOS \tÁTICA",
+      "timestamp": "2026-01-16 14:44"
     }
   ],
   "students_db": [
