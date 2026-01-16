@@ -11184,8 +11184,9 @@
       "title": "JOGO CONSTRUTOR DE MADEIRA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALEXEI ESTEVEZ DE CARVALHO",
+      "reserved_student": "EDUARDO LIMA ESTEVEZ"
     },
     {
       "id": 1765458289,
@@ -22214,6 +22215,17 @@
       "class_name": "Matutino",
       "book_title": "O MENINO QUE DESCOBRIU AS PALAVRAS \tCÍNEAS SANTOS \tÁTICA",
       "timestamp": "2026-01-16 14:44"
+    },
+    {
+      "reservation_id": 1768586412,
+      "book_id": 1765458288,
+      "category": "Jogo",
+      "parent_name": "ALEXEI ESTEVEZ DE CARVALHO",
+      "student_name": "EDUARDO LIMA ESTEVEZ",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "JOGO CONSTRUTOR DE MADEIRA",
+      "timestamp": "2026-01-16 18:00"
     }
   ],
   "students_db": [
