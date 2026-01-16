@@ -11280,9 +11280,9 @@
       "title": "BEBÊ",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "ALEXEI ESTEVEZ DE CARVALHO",
-      "reserved_student": "EDUARDO LIMA ESTEVEZ"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765458374,
@@ -22232,17 +22232,6 @@
       "class_name": "Matutino",
       "book_title": "JOGO CONSTRUTOR DE MADEIRA",
       "timestamp": "2026-01-16 18:00"
-    },
-    {
-      "reservation_id": 1768586532,
-      "book_id": 1765458373,
-      "category": "Brinquedo",
-      "parent_name": "ALEXEI ESTEVEZ DE CARVALHO",
-      "student_name": "EDUARDO LIMA ESTEVEZ",
-      "grade": "Grupo 3",
-      "class_name": "Matutino",
-      "book_title": "BEBÊ",
-      "timestamp": "2026-01-16 18:02"
     },
     {
       "reservation_id": 1768594138,
