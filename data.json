@@ -1620,8 +1620,9 @@
       "title": "HISTÓRIAS À BRASILEIRA – A DONZELA GUERREIRA VOL. 4 ANA MARIA MACHADO CIA DAS LETRINHAS",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DANIELA SANTOS TREVILATO",
+      "reserved_student": "MARIA VALENTINA SANTOS DE ALMEIDA GOUVEIA"
     },
     {
       "id": 1765369372,
@@ -22250,6 +22251,17 @@
       "class_name": "Matutino",
       "book_title": "HISTÓRIAS À BRASILEIRA – O PAVÃO MISTERIOSO VOL. 3 ANA MARIA MACHADO CIA DAS LETRINHAS",
       "timestamp": "2026-01-16 20:08"
+    },
+    {
+      "reservation_id": 1768594163,
+      "book_id": 1765369371,
+      "category": "Livro",
+      "parent_name": "DANIELA SANTOS TREVILATO",
+      "student_name": "MARIA VALENTINA SANTOS DE ALMEIDA GOUVEIA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "HISTÓRIAS À BRASILEIRA – A DONZELA GUERREIRA VOL. 4 ANA MARIA MACHADO CIA DAS LETRINHAS",
+      "timestamp": "2026-01-16 20:09"
     }
   ],
   "students_db": [
