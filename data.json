@@ -1497,8 +1497,9 @@
       "title": "CIÊNCIA EM VERSO JON SCIESZKA CIA DAS LETRINHAS",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CINTIA DOS SANTOS CALMON",
+      "reserved_student": "PEDRO HENRIQUE BISPO CALMON"
     },
     {
       "id": 1765369359,
@@ -22300,6 +22301,17 @@
       "class_name": "Matutino",
       "book_title": "CAMINHÃO",
       "timestamp": "2026-01-16 23:32"
+    },
+    {
+      "reservation_id": 1768659271,
+      "book_id": 1765369358,
+      "category": "Livro",
+      "parent_name": "CINTIA DOS SANTOS CALMON",
+      "student_name": "PEDRO HENRIQUE BISPO CALMON",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "CIÊNCIA EM VERSO JON SCIESZKA CIA DAS LETRINHAS",
+      "timestamp": "2026-01-17 14:14"
     }
   ],
   "students_db": [
