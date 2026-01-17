@@ -1680,8 +1680,9 @@
       "title": "EU – DE CABEÇA PARA BAIXO  ROSANA RIOS  JUJUBA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CINTIA DOS SANTOS CALMON",
+      "reserved_student": "PEDRO HENRIQUE BISPO CALMON"
     },
     {
       "id": 1765369378,
@@ -22314,6 +22315,17 @@
       "class_name": "Matutino",
       "book_title": "JAKE CAKE E A PROFESSORA LOBISOMEM  MICHAEL BROAD  CIA DAS LETRINHAS",
       "timestamp": "2026-01-17 14:15"
+    },
+    {
+      "reservation_id": 1768660169,
+      "book_id": 1765369377,
+      "category": "Livro",
+      "parent_name": "CINTIA DOS SANTOS CALMON",
+      "student_name": "PEDRO HENRIQUE BISPO CALMON",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "EU – DE CABEÇA PARA BAIXO  ROSANA RIOS  JUJUBA",
+      "timestamp": "2026-01-17 14:29"
     }
   ],
   "students_db": [
