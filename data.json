@@ -1651,9 +1651,9 @@
       "title": "A HISTÓRIA DO PRÍNCIPE SABIDO E A PRINCESA DESLUMBRANTE LUCIANA SANDRONI MODERNA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "CINTIA DOS SANTOS CALMON",
-      "reserved_student": "PEDRO HENRIQUE BISPO CALMON"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765369375,
@@ -22314,17 +22314,6 @@
       "class_name": "Matutino",
       "book_title": "JAKE CAKE E A PROFESSORA LOBISOMEM  MICHAEL BROAD  CIA DAS LETRINHAS",
       "timestamp": "2026-01-17 14:15"
-    },
-    {
-      "reservation_id": 1768659642,
-      "book_id": 1765369374,
-      "category": "Livro",
-      "parent_name": "CINTIA DOS SANTOS CALMON",
-      "student_name": "PEDRO HENRIQUE BISPO CALMON",
-      "grade": "3º Ano",
-      "class_name": "Matutino",
-      "book_title": "A HISTÓRIA DO PRÍNCIPE SABIDO E A PRINCESA DESLUMBRANTE LUCIANA SANDRONI MODERNA",
-      "timestamp": "2026-01-17 14:20"
     }
   ],
   "students_db": [
