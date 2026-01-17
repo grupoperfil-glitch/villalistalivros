@@ -1718,8 +1718,9 @@
       "title": "O JABUTI, A BALEIA E A ANTA  STELA BARBIERI  JUJUBA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CINTIA DOS SANTOS CALMON",
+      "reserved_student": "PEDRO HENRIQUE BISPO CALMON"
     },
     {
       "id": 1765369382,
@@ -22327,6 +22328,17 @@
       "class_name": "Matutino",
       "book_title": "EU – DE CABEÇA PARA BAIXO  ROSANA RIOS  JUJUBA",
       "timestamp": "2026-01-17 14:29"
+    },
+    {
+      "reservation_id": 1768660382,
+      "book_id": 1765369381,
+      "category": "Livro",
+      "parent_name": "CINTIA DOS SANTOS CALMON",
+      "student_name": "PEDRO HENRIQUE BISPO CALMON",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "O JABUTI, A BALEIA E A ANTA  STELA BARBIERI  JUJUBA",
+      "timestamp": "2026-01-17 14:33"
     }
   ],
   "students_db": [
