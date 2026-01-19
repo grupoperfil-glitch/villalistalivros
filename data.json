@@ -23727,6 +23727,14 @@
       "grade": "Grupo 2",
       "class_name": "Matutino",
       "parent_csv": "ALAN MIRANDA DE LIMA / AMANDA SOARES ALELUIA"
+    },
+    {
+      "email": "",
+      "email2": "",
+      "name": "anthony",
+      "grade": "Grupo 1",
+      "class_name": "Matutino",
+      "parent_csv": ""
     }
   ]
 }
