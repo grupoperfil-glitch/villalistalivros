@@ -23711,6 +23711,14 @@
       "grade": "4º Ano",
       "class_name": "Matutino",
       "parent_csv": "LIVIA CRISTINA RIBEIRO LIMA"
+    },
+    {
+      "email": "alan_empresa@hotmail.com",
+      "email2": "amanda.saleluia@gmail.com",
+      "name": "ANNE SOARES MIRANDA DE LIMA",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "parent_csv": "ALAN MIRANDA DE LIMA / AMANDA SOARES ALELUIA"
     }
   ]
 }
