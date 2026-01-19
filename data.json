@@ -5419,8 +5419,9 @@
       "title": "GABRIEL, JÁ PRO BANHO? \tILAN BRENMAM\tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THIAGO SILVA CARNEIRO",
+      "reserved_student": "CAUE CARNEIRO SOBRAL"
     },
     {
       "id": 1765377355,
@@ -22339,6 +22340,17 @@
       "class_name": "Matutino",
       "book_title": "O JABUTI, A BALEIA E A ANTA  STELA BARBIERI  JUJUBA",
       "timestamp": "2026-01-17 14:33"
+    },
+    {
+      "reservation_id": 1768834029,
+      "book_id": 1765377354,
+      "category": "Livro",
+      "parent_name": "THIAGO SILVA CARNEIRO",
+      "student_name": "CAUE CARNEIRO SOBRAL",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "FORA DA GAIOLA \tLALAU LAURABEATRIZ\tCIA DAS LETRINHAS",
+      "timestamp": "2026-01-19 14:47"
     }
   ],
   "students_db": [
