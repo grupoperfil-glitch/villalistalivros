@@ -23735,6 +23735,14 @@
       "grade": "Grupo 1",
       "class_name": "Matutino",
       "parent_csv": ""
+    },
+    {
+      "email": "",
+      "email2": "",
+      "name": "anthony",
+      "grade": "Grupo 1",
+      "class_name": "Matutino",
+      "parent_csv": ""
     }
   ]
 }
