@@ -5439,8 +5439,9 @@
       "title": "BRUXA ONILDA E A MACACA \tROSER CAPDEVILA \tSCIPIONE",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THIAGO SILVA CARNEIRO",
+      "reserved_student": "CAUE CARNEIRO SOBRAL"
     },
     {
       "id": 1765377357,
@@ -22350,6 +22351,17 @@
       "grade": "Grupo 4",
       "class_name": "Matutino",
       "book_title": "FORA DA GAIOLA \tLALAU LAURABEATRIZ\tCIA DAS LETRINHAS",
+      "timestamp": "2026-01-19 14:47"
+    },
+    {
+      "reservation_id": 1768834039,
+      "book_id": 1765377356,
+      "category": "Livro",
+      "parent_name": "THIAGO SILVA CARNEIRO",
+      "student_name": "CAUE CARNEIRO SOBRAL",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "JOÃO E MARIA\tHERVÉ LE GOFF\tCIA DAS LETRINHAS",
       "timestamp": "2026-01-19 14:47"
     }
   ],
