@@ -839,8 +839,9 @@
       "title": "TIA ANACLETA E SUA DIETA  SYLVIA ORTHOF PAULINAS",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JORGE VICTORIO DE OLIVEIRA MATTEDI",
+      "reserved_student": "AURORA SOLON DE OLIVEIRA MATTEDI"
     },
     {
       "id": 1765369049,
@@ -22476,6 +22477,17 @@
       "class_name": "Vespertino",
       "book_title": "BRUXA ONILDA E A MACACA  LARREULA E R.CAPDEVILA SCIPIONE",
       "timestamp": "2026-01-20 15:14"
+    },
+    {
+      "reservation_id": 1768922188,
+      "book_id": 1765369048,
+      "category": "Livro",
+      "parent_name": "JORGE VICTORIO DE OLIVEIRA MATTEDI",
+      "student_name": "AURORA SOLON DE OLIVEIRA MATTEDI",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "TIA ANACLETA E SUA DIETA  SYLVIA ORTHOF PAULINAS",
+      "timestamp": "2026-01-20 15:16"
     }
   ],
   "students_db": [
