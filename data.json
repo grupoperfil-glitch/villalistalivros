@@ -969,8 +969,9 @@
       "title": "A FORMIGUINHA E A NEVE JOÃO DE BARRO BRAGUINHA MODERNA",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JORGE VICTORIO DE OLIVEIRA MATTEDI",
+      "reserved_student": "AURORA SOLON DE OLIVEIRA MATTEDI"
     },
     {
       "id": 1765369063,
@@ -22450,6 +22451,17 @@
       "class_name": "Vespertino",
       "book_title": "BRUXA, BRUXA VENHA À MINHA FESTA  ARDEN DUCEN  BRINQUE BOOK",
       "timestamp": "2026-01-20 14:59"
+    },
+    {
+      "reservation_id": 1768921397,
+      "book_id": 1765369062,
+      "category": "Livro",
+      "parent_name": "JORGE VICTORIO DE OLIVEIRA MATTEDI",
+      "student_name": "AURORA SOLON DE OLIVEIRA MATTEDI",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "A FORMIGUINHA E A NEVE JOÃO DE BARRO BRAGUINHA MODERNA",
+      "timestamp": "2026-01-20 15:03"
     }
   ],
   "students_db": [
