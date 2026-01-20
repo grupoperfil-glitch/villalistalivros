@@ -7279,8 +7279,9 @@
       "title": "O LIVRO PREFERIDO DE UM GAROTO SABIDO\tJULIA DONALDSON\tBRINQUE-BOOK",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DUELO DE SOUZA SANTOS",
+      "reserved_student": "VICENZO MANTOVANI PEREIRA SANTOS"
     },
     {
       "id": 1765377457,
@@ -22426,6 +22427,17 @@
       "class_name": "Matutino",
       "book_title": "O LIVRO DA GENTILEZA\tTODD PARR\tPANDA BOOKS",
       "timestamp": "2026-01-20 14:08"
+    },
+    {
+      "reservation_id": 1768918267,
+      "book_id": 1765377456,
+      "category": "Livro",
+      "parent_name": "DUELO DE SOUZA SANTOS",
+      "student_name": "VICENZO MANTOVANI PEREIRA SANTOS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "O LIVRO PREFERIDO DE UM GAROTO SABIDO\tJULIA DONALDSON\tBRINQUE-BOOK",
+      "timestamp": "2026-01-20 14:11"
     }
   ],
   "students_db": [
