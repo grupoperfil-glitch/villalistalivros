@@ -16136,8 +16136,9 @@
       "title": "HISTÓRIA MEIO AO CONTRÁRIO ANA MARIA MACHADO ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANA PAULA RODRIGUES ALVES DE MOURA",
+      "reserved_student": "MARIA EDUARDA DE MOURA SOFIATTI"
     },
     {
       "id": 1765483481,
@@ -22608,6 +22609,17 @@
       "class_name": "Matutino",
       "book_title": "A CASA DO MEU AVÔ RICARDO AZEVEDO ÁTICA",
       "timestamp": "2026-01-20 19:56"
+    },
+    {
+      "reservation_id": 1768939046,
+      "book_id": 1765483480,
+      "category": "Livro",
+      "parent_name": "ANA PAULA RODRIGUES ALVES DE MOURA",
+      "student_name": "MARIA EDUARDA DE MOURA SOFIATTI",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "HISTÓRIA MEIO AO CONTRÁRIO ANA MARIA MACHADO ÁTICA",
+      "timestamp": "2026-01-20 19:57"
     }
   ],
   "students_db": [
