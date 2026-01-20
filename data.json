@@ -23974,6 +23974,14 @@
       "grade": "Grupo 1",
       "class_name": "Matutino",
       "parent_csv": ""
+    },
+    {
+      "email": "terciaqueirozdeoliveira@gmail.com",
+      "email2": "JORGE VICTORIO DE OLIVEIRA MATTEDI",
+      "name": "LILA SOLON DE OLIVEIRA MATTEDI",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com"
     }
   ]
 }
