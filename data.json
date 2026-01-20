@@ -2136,8 +2136,9 @@
       "title": "OS DEZ AMIGOS\tZIRALDO",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com",
+      "reserved_student": "LILA SOLON DE OLIVEIRA MATTEDI"
     },
     {
       "id": 1765376556,
@@ -22681,6 +22682,17 @@
       "class_name": "Vespertino",
       "book_title": "A CESTA DE DONA MARICOTA\tTATIANA BELINKY\tPAULINAS",
       "timestamp": "2026-01-20 23:13"
+    },
+    {
+      "reservation_id": 1768951132,
+      "book_id": 1765376555,
+      "category": "Livro",
+      "parent_name": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com",
+      "student_name": "LILA SOLON DE OLIVEIRA MATTEDI",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "PERIGOSO!\tTIM WARNES",
+      "timestamp": "2026-01-20 23:18"
     }
   ],
   "students_db": [
