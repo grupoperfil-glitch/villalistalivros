@@ -5479,9 +5479,9 @@
       "title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "DUELO DE SOUZA SANTOS",
-      "reserved_student": "VICENZO MANTOVANI PEREIRA SANTOS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377361,
@@ -22378,17 +22378,6 @@
       "class_name": "Matutino",
       "book_title": "CARONA NA VASSOURA \tJULIA DONALDSON \tBRINQUE BOOK",
       "timestamp": "2026-01-19 14:48"
-    },
-    {
-      "reservation_id": 1768917374,
-      "book_id": 1765377360,
-      "category": "Livro",
-      "parent_name": "DUELO DE SOUZA SANTOS",
-      "student_name": "VICENZO MANTOVANI PEREIRA SANTOS",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "A PISCINA CRISTALINA DE MARIANA \tJONAS RIBEIRO \tELEMENTAR",
-      "timestamp": "2026-01-20 13:56"
     },
     {
       "reservation_id": 1768917535,
