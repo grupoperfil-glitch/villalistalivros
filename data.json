@@ -13716,8 +13716,9 @@
       "title": "BERÇO BONECA",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LAIONARA DE ARAUJO GONCALVES",
+      "reserved_student": "LUA ANTONELLA DE ARAUJO DANTAS VAZ"
     },
     {
       "id": 1765460019,
@@ -22560,6 +22561,17 @@
       "class_name": "Matutino",
       "book_title": "PESQUE E BRINQUE\tCARLU",
       "timestamp": "2026-01-20 19:26"
+    },
+    {
+      "reservation_id": 1768937224,
+      "book_id": 1765460018,
+      "category": "Brinquedo",
+      "parent_name": "LAIONARA DE ARAUJO GONCALVES",
+      "student_name": "LUA ANTONELLA DE ARAUJO DANTAS VAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "BERÇO BONECA",
+      "timestamp": "2026-01-20 19:27"
     }
   ],
   "students_db": [
