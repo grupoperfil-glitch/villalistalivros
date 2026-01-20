@@ -7351,9 +7351,9 @@
       "title": "A TURMA DOS 11\tTELOS\tROCIO BONILHA",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "DUELO DE SOUZA SANTOS",
-      "reserved_student": "VICENZO MANTOVANI PEREIRA SANTOS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765391756,
@@ -22402,17 +22402,6 @@
       "class_name": "Matutino",
       "book_title": "CACOETE EVA FURNARI ÁTICA",
       "timestamp": "2026-01-20 13:59"
-    },
-    {
-      "reservation_id": 1768917962,
-      "book_id": 1765377464,
-      "category": "Livro",
-      "parent_name": "DUELO DE SOUZA SANTOS",
-      "student_name": "VICENZO MANTOVANI PEREIRA SANTOS",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "A TURMA DOS 11\tTELOS\tROCIO BONILHA",
-      "timestamp": "2026-01-20 14:06"
     }
   ],
   "students_db": [
