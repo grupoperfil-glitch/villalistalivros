@@ -943,9 +943,9 @@
       "title": "O GRÚFALO  JULIA DONALDSON  BRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "JORGE VICTORIO DE OLIVEIRA MATTEDI",
-      "reserved_student": "AURORA SOLON DE OLIVEIRA MATTEDI"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765369060,
@@ -22454,17 +22454,6 @@
       "class_name": "Vespertino",
       "book_title": "A FORMIGUINHA E A NEVE JOÃO DE BARRO BRAGUINHA MODERNA",
       "timestamp": "2026-01-20 15:03"
-    },
-    {
-      "reservation_id": 1768921612,
-      "book_id": 1765369059,
-      "category": "Livro",
-      "parent_name": "JORGE VICTORIO DE OLIVEIRA MATTEDI",
-      "student_name": "AURORA SOLON DE OLIVEIRA MATTEDI",
-      "grade": "1º Ano",
-      "class_name": "Vespertino",
-      "book_title": "O GRÚFALO  JULIA DONALDSON  BRINQUE BOOK",
-      "timestamp": "2026-01-20 15:06"
     },
     {
       "reservation_id": 1768921923,
