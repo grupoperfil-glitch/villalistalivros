@@ -5469,9 +5469,9 @@
       "title": "CASINHA DE BICHOS \tHARDI FILHO \tÁTICA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "DUELO DE SOUZA SANTOS",
-      "reserved_student": "VICENZO MANTOVANI PEREIRA SANTOS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377360,
@@ -22377,17 +22377,6 @@
       "class_name": "Matutino",
       "book_title": "CARONA NA VASSOURA \tJULIA DONALDSON \tBRINQUE BOOK",
       "timestamp": "2026-01-19 14:48"
-    },
-    {
-      "reservation_id": 1768917365,
-      "book_id": 1765377359,
-      "category": "Livro",
-      "parent_name": "DUELO DE SOUZA SANTOS",
-      "student_name": "VICENZO MANTOVANI PEREIRA SANTOS",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "A MÃE DE JULIO ESPERA UM BEBÊ\tCHRISTIAN LAMBLIM \tÁTICA",
-      "timestamp": "2026-01-20 13:56"
     },
     {
       "reservation_id": 1768917374,
