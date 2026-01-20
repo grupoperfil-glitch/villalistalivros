@@ -2060,8 +2060,9 @@
       "title": "ZUM-ZUM-ZUM \tLALAU",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com",
+      "reserved_student": "LILA SOLON DE OLIVEIRA MATTEDI"
     },
     {
       "id": 1765376548,
@@ -22645,6 +22646,17 @@
       "class_name": "Matutino",
       "book_title": "BLOCOS QUEBRA- CABEÇA (ZOOLÓGICO)\tYALINGO",
       "timestamp": "2026-01-20 20:06"
+    },
+    {
+      "reservation_id": 1768941225,
+      "book_id": 1765376547,
+      "category": "Livro",
+      "parent_name": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com",
+      "student_name": "LILA SOLON DE OLIVEIRA MATTEDI",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "UM PRESENTE INCRÍVEL\tGUIDO V. GENECHTEN /CAMILA VERNER\tBRINQUE BOOKS",
+      "timestamp": "2026-01-20 20:33"
     }
   ],
   "students_db": [
