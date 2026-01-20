@@ -1020,9 +1020,9 @@
       "title": "BRUXA, BRUXA VENHA À MINHA FESTA  ARDEN DUCEN  BRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "JORGE VICTORIO DE OLIVEIRA MATTEDI",
-      "reserved_student": "AURORA SOLON DE OLIVEIRA MATTEDI"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765369182,
@@ -22442,17 +22442,6 @@
       "class_name": "Matutino",
       "book_title": "O LIVRO PREFERIDO DE UM GAROTO SABIDO\tJULIA DONALDSON\tBRINQUE-BOOK",
       "timestamp": "2026-01-20 14:11"
-    },
-    {
-      "reservation_id": 1768921196,
-      "book_id": 1765369067,
-      "category": "Livro",
-      "parent_name": "JORGE VICTORIO DE OLIVEIRA MATTEDI",
-      "student_name": "AURORA SOLON DE OLIVEIRA MATTEDI",
-      "grade": "1º Ano",
-      "class_name": "Vespertino",
-      "book_title": "BRUXA, BRUXA VENHA À MINHA FESTA  ARDEN DUCEN  BRINQUE BOOK",
-      "timestamp": "2026-01-20 14:59"
     },
     {
       "reservation_id": 1768921397,
