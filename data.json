@@ -7324,8 +7324,9 @@
       "title": "O LIVRO DA GENTILEZA\tTODD PARR\tPANDA BOOKS",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DUELO DE SOUZA SANTOS",
+      "reserved_student": "VICENZO MANTOVANI PEREIRA SANTOS"
     },
     {
       "id": 1765377462,
@@ -22414,6 +22415,17 @@
       "class_name": "Matutino",
       "book_title": "O MENINO COM FLORES NO CABELO \tPEQUENA ZAHAR \tJARVIS",
       "timestamp": "2026-01-20 14:07"
+    },
+    {
+      "reservation_id": 1768918135,
+      "book_id": 1765377461,
+      "category": "Livro",
+      "parent_name": "DUELO DE SOUZA SANTOS",
+      "student_name": "VICENZO MANTOVANI PEREIRA SANTOS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "O LIVRO DA GENTILEZA\tTODD PARR\tPANDA BOOKS",
+      "timestamp": "2026-01-20 14:08"
     }
   ],
   "students_db": [
