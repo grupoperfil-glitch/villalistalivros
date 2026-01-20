@@ -15819,8 +15819,9 @@
       "title": "A ÁRVORE DO BETO RUTH ROCHA SALAMANDRA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RENATA DE CASTRO LIMA",
+      "reserved_student": "MANUELA CAYMAN LIMA DE ALMEIDA"
     },
     {
       "id": 1765483449,
@@ -22388,6 +22389,17 @@
       "class_name": "Matutino",
       "book_title": "A PISCINA CRISTALINA DE MARIANA \tJONAS RIBEIRO \tELEMENTAR",
       "timestamp": "2026-01-20 13:56"
+    },
+    {
+      "reservation_id": 1768917535,
+      "book_id": 1765483448,
+      "category": "Livro",
+      "parent_name": "RENATA DE CASTRO LIMA",
+      "student_name": "MANUELA CAYMAN LIMA DE ALMEIDA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "A ÁRVORE DO BETO RUTH ROCHA SALAMANDRA",
+      "timestamp": "2026-01-20 13:58"
     }
   ],
   "students_db": [
