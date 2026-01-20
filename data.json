@@ -2048,8 +2048,9 @@
       "title": "GIRASSÓIS E OUTRAS POESIAS\tLALAU",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Naiana Cunha",
+      "reserved_student": "ISRAEL CUNHA DE SOUSA"
     },
     {
       "id": 1765376547,
@@ -22499,6 +22500,17 @@
       "grade": "Grupo 2",
       "class_name": "Vespertino",
       "book_title": "PATO! COELHO! AMY KROUSE E TOM LICHTENMELD",
+      "timestamp": "2026-01-20 16:31"
+    },
+    {
+      "reservation_id": 1768926698,
+      "book_id": 1765376546,
+      "category": "Livro",
+      "parent_name": "Naiana Cunha",
+      "student_name": "ISRAEL CUNHA DE SOUSA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "O SAPO BOCARRÃO\tKEITH FAULKNER\tCOMPANHIA DAS LETRINHAS",
       "timestamp": "2026-01-20 16:31"
     }
   ],
