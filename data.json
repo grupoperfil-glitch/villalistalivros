@@ -13531,8 +13531,9 @@
       "title": "PESQUE E BRINQUE\tCARLU",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LAIONARA DE ARAUJO GONCALVES",
+      "reserved_student": "LUA ANTONELLA DE ARAUJO DANTAS VAZ"
     },
     {
       "id": 1765459730,
@@ -22548,6 +22549,17 @@
       "class_name": "Vespertino",
       "book_title": "MUITO ESPECIAL STEPHEN MICHAEL KING BRINQUE BOOK",
       "timestamp": "2026-01-20 18:46"
+    },
+    {
+      "reservation_id": 1768937201,
+      "book_id": 1765459729,
+      "category": "Jogo",
+      "parent_name": "LAIONARA DE ARAUJO GONCALVES",
+      "student_name": "LUA ANTONELLA DE ARAUJO DANTAS VAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "PESQUE E BRINQUE\tCARLU",
+      "timestamp": "2026-01-20 19:26"
     }
   ],
   "students_db": [
