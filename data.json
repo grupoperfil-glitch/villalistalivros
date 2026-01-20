@@ -868,8 +868,9 @@
       "title": "MUITO ESPECIAL STEPHEN MICHAEL KING BRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JOSMARIO VERNE ANDRADE / KAROLLINE DE OLIVEIRA MACEDO ANDRADE",
+      "reserved_student": "ABRAHAM BENJAMIN DE OLIVEIRA VERNE ANDRADE"
     },
     {
       "id": 1765369052,
@@ -22536,6 +22537,17 @@
       "class_name": "Vespertino",
       "book_title": "PAINÉIS PSICOMOTORES",
       "timestamp": "2026-01-20 16:38"
+    },
+    {
+      "reservation_id": 1768934777,
+      "book_id": 1765369051,
+      "category": "Livro",
+      "parent_name": "JOSMARIO VERNE ANDRADE / KAROLLINE DE OLIVEIRA MACEDO ANDRADE",
+      "student_name": "ABRAHAM BENJAMIN DE OLIVEIRA VERNE ANDRADE",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "MUITO ESPECIAL STEPHEN MICHAEL KING BRINQUE BOOK",
+      "timestamp": "2026-01-20 18:46"
     }
   ],
   "students_db": [
