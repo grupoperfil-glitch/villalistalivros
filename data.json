@@ -11979,8 +11979,9 @@
       "title": "PAINÉIS PSICOMOTORES",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Naiana Cunha",
+      "reserved_student": "ISRAEL CUNHA DE SOUSA"
     },
     {
       "id": 1765459198,
@@ -22524,6 +22525,17 @@
       "class_name": "Vespertino",
       "book_title": "MINHA CHUPETA VIROU ESTRELA\tJANUÁRIA C. ALVES /TATE MOÉS\tLEYA",
       "timestamp": "2026-01-20 16:34"
+    },
+    {
+      "reservation_id": 1768927119,
+      "book_id": 1765459197,
+      "category": "Jogo",
+      "parent_name": "Naiana Cunha",
+      "student_name": "ISRAEL CUNHA DE SOUSA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "PAINÉIS PSICOMOTORES",
+      "timestamp": "2026-01-20 16:38"
     }
   ],
   "students_db": [
