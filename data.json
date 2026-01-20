@@ -18843,8 +18843,9 @@
       "title": "E SE EU FOSSE OUTROS?\tSIDNEY BRETANHA",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JOSMARIO VERNE ANDRADE / KAROLLINE DE OLIVEIRA MACEDO ANDRADE",
+      "reserved_student": "SARAH RADASSAH DE OLIVEIRA VERNE ANDRADE"
     },
     {
       "id": 1765542338,
@@ -22572,6 +22573,17 @@
       "class_name": "Matutino",
       "book_title": "BERÇO BONECA",
       "timestamp": "2026-01-20 19:27"
+    },
+    {
+      "reservation_id": 1768937492,
+      "book_id": 1765542337,
+      "category": "Livro",
+      "parent_name": "JOSMARIO VERNE ANDRADE / KAROLLINE DE OLIVEIRA MACEDO ANDRADE",
+      "student_name": "SARAH RADASSAH DE OLIVEIRA VERNE ANDRADE",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "E SE EU FOSSE OUTROS?\tSIDNEY BRETANHA",
+      "timestamp": "2026-01-20 19:31"
     }
   ],
   "students_db": [
