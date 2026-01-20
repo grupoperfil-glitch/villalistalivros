@@ -7342,8 +7342,9 @@
       "title": "O MENINO COM FLORES NO CABELO \tPEQUENA ZAHAR \tJARVIS",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DUELO DE SOUZA SANTOS",
+      "reserved_student": "VICENZO MANTOVANI PEREIRA SANTOS"
     },
     {
       "id": 1765377464,
@@ -22402,6 +22403,17 @@
       "class_name": "Matutino",
       "book_title": "CACOETE EVA FURNARI ÁTICA",
       "timestamp": "2026-01-20 13:59"
+    },
+    {
+      "reservation_id": 1768918026,
+      "book_id": 1765377463,
+      "category": "Livro",
+      "parent_name": "DUELO DE SOUZA SANTOS",
+      "student_name": "VICENZO MANTOVANI PEREIRA SANTOS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "O MENINO COM FLORES NO CABELO \tPEQUENA ZAHAR \tJARVIS",
+      "timestamp": "2026-01-20 14:07"
     }
   ],
   "students_db": [
