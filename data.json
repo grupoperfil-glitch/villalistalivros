@@ -2213,8 +2213,9 @@
       "title": "O CARACOL E A TARTARUGA EM DIAS CHUVOSOS \tSTEPHEN MICHAEL KING  \tBRINQUE BOOK",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Naiana Cunha",
+      "reserved_student": "ISRAEL CUNHA DE SOUSA"
     },
     {
       "id": 1765376565,
@@ -22488,6 +22489,17 @@
       "class_name": "Vespertino",
       "book_title": "TIA ANACLETA E SUA DIETA  SYLVIA ORTHOF PAULINAS",
       "timestamp": "2026-01-20 15:16"
+    },
+    {
+      "reservation_id": 1768926667,
+      "book_id": 1765376564,
+      "category": "Livro",
+      "parent_name": "Naiana Cunha",
+      "student_name": "ISRAEL CUNHA DE SOUSA",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "PATO! COELHO! AMY KROUSE E TOM LICHTENMELD",
+      "timestamp": "2026-01-20 16:31"
     }
   ],
   "students_db": [
