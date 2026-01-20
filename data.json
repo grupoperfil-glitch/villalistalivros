@@ -13754,8 +13754,9 @@
       "title": "BLOCOS QUEBRA- CABEÇA (ZOOLÓGICO)\tYALINGO",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALLAN SILVA PIAUHY FALCÃO",
+      "reserved_student": "SOPHIE PAIXAO PIAUHY"
     },
     {
       "id": 1765460023,
@@ -22644,6 +22645,17 @@
       "class_name": "Matutino",
       "book_title": "QUE HISTÓRIA É ESSA\tFLÁVIO DE SOUZA\tCIA DAS LETRINHAS",
       "timestamp": "2026-01-20 20:02"
+    },
+    {
+      "reservation_id": 1768939615,
+      "book_id": 1765460022,
+      "category": "Brinquedo",
+      "parent_name": "ALLAN SILVA PIAUHY FALCÃO",
+      "student_name": "SOPHIE PAIXAO PIAUHY",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "BLOCOS QUEBRA- CABEÇA (ZOOLÓGICO)\tYALINGO",
+      "timestamp": "2026-01-20 20:06"
     }
   ],
   "students_db": [
