@@ -14723,8 +14723,9 @@
       "title": "SEQUÊNCIA LÓGICA-TEMPO 1111\tCARLU",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARIVALDO  CERQUEIRA DE SANTANA JUNIOR",
+      "reserved_student": "MARIANA NASCIMENTO BOMFIM SANTANA"
     },
     {
       "id": 1765460357,
@@ -22782,6 +22783,17 @@
       "class_name": "Matutino",
       "book_title": "2 BONECAS BEBÊS",
       "timestamp": "2026-01-21 19:18"
+    },
+    {
+      "reservation_id": 1769023405,
+      "book_id": 1765460356,
+      "category": "Jogo",
+      "parent_name": "MARIVALDO  CERQUEIRA DE SANTANA JUNIOR",
+      "student_name": "MARIANA NASCIMENTO BOMFIM SANTANA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "SEQUÊNCIA LÓGICA-TEMPO 1111\tCARLU",
+      "timestamp": "2026-01-21 19:23"
     }
   ],
   "students_db": [
