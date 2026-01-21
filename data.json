@@ -8675,8 +8675,9 @@
       "title": "A FESTA DE ANIVERSÁRIO  DCL EDITORA  ILAN BRENMAN",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARIVALDO  CERQUEIRA DE SANTANA JUNIOR",
+      "reserved_student": "MARIANA NASCIMENTO BOMFIM SANTANA"
     },
     {
       "id": 1765391896,
@@ -22769,6 +22770,17 @@
       "class_name": "Vespertino",
       "book_title": "CADERNO SEM RIMAS DA MARIA  EDITORA SEXTANTE  LÁZARO RAMOS",
       "timestamp": "2026-01-21 19:07"
+    },
+    {
+      "reservation_id": 1769022612,
+      "book_id": 1765391895,
+      "category": "Livro",
+      "parent_name": "MARIVALDO  CERQUEIRA DE SANTANA JUNIOR",
+      "student_name": "MARIANA NASCIMENTO BOMFIM SANTANA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "AMORAS  EMICIDA",
+      "timestamp": "2026-01-21 19:10"
     }
   ],
   "students_db": [
