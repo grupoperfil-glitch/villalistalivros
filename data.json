@@ -6084,8 +6084,9 @@
       "title": "FOI VOVÓ QUE DISSE \tDANIEL MUNDURUKU \tEDELBRA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MAURICIO LERINA BONIFATI",
+      "reserved_student": "MARINA DE CARVALHO CESAR BONIFATI"
     },
     {
       "id": 1765377424,
@@ -22902,6 +22903,17 @@
       "class_name": "Matutino",
       "book_title": "TUDO BEM SER DIFERENTE\tTOOD PARR\tPANDA BOOK",
       "timestamp": "2026-01-21 20:39"
+    },
+    {
+      "reservation_id": 1769028595,
+      "book_id": 1765377423,
+      "category": "Livro",
+      "parent_name": "MAURICIO LERINA BONIFATI",
+      "student_name": "MARINA DE CARVALHO CESAR BONIFATI",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "A MENINA DA CABEÇA QUADRADA EMÍLIA NUÑEZ  TIBI",
+      "timestamp": "2026-01-21 20:49"
     }
   ],
   "students_db": [
