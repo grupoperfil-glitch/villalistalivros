@@ -8158,8 +8158,9 @@
       "title": "PONTO A PONTO  CIA DAS LETRAS  ANA MARIA MACHADO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARIVALDO  CERQUEIRA DE SANTANA JUNIOR",
+      "reserved_student": "MARIANA NASCIMENTO BOMFIM SANTANA"
     },
     {
       "id": 1765391840,
@@ -22745,6 +22746,17 @@
       "class_name": "Vespertino",
       "book_title": "MÃOS  COMPANHIA DAS LETRINHAS  KIUSAM DE OLIVEIRA",
       "timestamp": "2026-01-21 18:48"
+    },
+    {
+      "reservation_id": 1769022264,
+      "book_id": 1765391839,
+      "category": "Livro",
+      "parent_name": "MARIVALDO  CERQUEIRA DE SANTANA JUNIOR",
+      "student_name": "MARIANA NASCIMENTO BOMFIM SANTANA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "SINTO O QUE SINTO  EDITORA SEXTANTE  LÁZARO RAMOS",
+      "timestamp": "2026-01-21 19:04"
     }
   ],
   "students_db": [
