@@ -10875,8 +10875,9 @@
       "title": "PEQUENO ENGENHEIRO",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SHELDON NUNO ROCHA DE MATTOS",
+      "reserved_student": "MARINA NASCIMENTO FREIRE DE MATTOS"
     },
     {
       "id": 1765458264,
@@ -22696,6 +22697,17 @@
       "class_name": "Matutino",
       "book_title": "OBAX ANDRÉ NEVES BRINQUE BOOK",
       "timestamp": "2026-01-20 23:34"
+    },
+    {
+      "reservation_id": 1768963590,
+      "book_id": 1765458263,
+      "category": "Jogo",
+      "parent_name": "SHELDON NUNO ROCHA DE MATTOS",
+      "student_name": "MARINA NASCIMENTO FREIRE DE MATTOS",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "PEQUENO ENGENHEIRO",
+      "timestamp": "2026-01-21 02:46"
     }
   ],
   "students_db": [
