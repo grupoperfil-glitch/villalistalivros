@@ -675,8 +675,9 @@
       "title": "A VELHA MISTERIOSA  ANA MARIA MACHADO  SALAMANDRA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARIA DE LOURDES MOREIRA PONTES",
+      "reserved_student": "LIZ PONTES BORGES"
     },
     {
       "id": 1765369034,
@@ -22806,6 +22807,17 @@
       "class_name": "Vespertino",
       "book_title": "KIT DINHEIRINHO NOTAS E MOEDAS",
       "timestamp": "2026-01-21 19:23"
+    },
+    {
+      "reservation_id": 1769023540,
+      "book_id": 1765369033,
+      "category": "Livro",
+      "parent_name": "MARIA DE LOURDES MOREIRA PONTES",
+      "student_name": "LIZ PONTES BORGES",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "A VELHA MISTERIOSA  ANA MARIA MACHADO  SALAMANDRA",
+      "timestamp": "2026-01-21 19:25"
     }
   ],
   "students_db": [
