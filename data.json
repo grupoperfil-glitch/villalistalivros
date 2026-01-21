@@ -11825,8 +11825,9 @@
       "title": "12 POTES\tGROW",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com",
+      "reserved_student": "LILA SOLON DE OLIVEIRA MATTEDI"
     },
     {
       "id": 1765459180,
@@ -22721,6 +22722,17 @@
       "class_name": "Matutino",
       "book_title": "MINHA FAMILIA É COLORIDA\tSM\tGEORGINA MARTIN",
       "timestamp": "2026-01-21 17:34"
+    },
+    {
+      "reservation_id": 1769018115,
+      "book_id": 1765459179,
+      "category": "Jogo",
+      "parent_name": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com",
+      "student_name": "LILA SOLON DE OLIVEIRA MATTEDI",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "12 POTES\tGROW",
+      "timestamp": "2026-01-21 17:55"
     }
   ],
   "students_db": [
