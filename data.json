@@ -6227,9 +6227,9 @@
       "title": "NAS PROFUNDEZAS  DO OCEANO\tANNA MILBOURNE",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "MAURICIO LERINA BONIFATI",
+      "reserved_student": "MARINA DE CARVALHO CESAR BONIFATI"
     },
     {
       "id": 1765377439,
@@ -22891,6 +22891,17 @@
       "class_name": "Matutino",
       "book_title": "QUANDO MAMÃE VIROU UM MONSTRO\tJOANA HARRISON \tBRINQUE BOOK",
       "timestamp": "2026-01-21 20:38"
+    },
+    {
+      "reservation_id": 1769027997,
+      "book_id": 1765377438,
+      "category": "Livro",
+      "parent_name": "MAURICIO LERINA BONIFATI",
+      "student_name": "MARINA DE CARVALHO CESAR BONIFATI",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "TUDO BEM SER DIFERENTE\tTOOD PARR\tPANDA BOOK",
+      "timestamp": "2026-01-21 20:39"
     }
   ],
   "students_db": [
