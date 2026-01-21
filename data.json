@@ -5859,8 +5859,9 @@
       "title": "CLARA \tILAN BRENMAN E SILVANA RANDO\tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DULCIANE BARBOSA DOS SANTOS",
+      "reserved_student": ""
     },
     {
       "id": 1765377400,
@@ -22818,6 +22819,17 @@
       "class_name": "Matutino",
       "book_title": "A VELHA MISTERIOSA  ANA MARIA MACHADO  SALAMANDRA",
       "timestamp": "2026-01-21 19:25"
+    },
+    {
+      "reservation_id": 1769023742,
+      "book_id": 1765377399,
+      "category": "Livro",
+      "parent_name": "DULCIANE BARBOSA DOS SANTOS",
+      "student_name": "",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "QUEM TEM MEDO DE ESCURO?\tFANNY JOLI \tSC",
+      "timestamp": "2026-01-21 19:29"
     }
   ],
   "students_db": [
