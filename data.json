@@ -7328,9 +7328,9 @@
       "title": "CHORAR É COMO CHOVER \tEMÍLIA NUNEZ\tTIBI EDITORA",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "DULCIANE BARBOSA DOS SANTOS",
-      "reserved_student": ""
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377460,
@@ -22844,17 +22844,6 @@
       "class_name": "Matutino",
       "book_title": "COMO É QUE EU ERA COMO BEBÊ? \tTONY ROSS\tBRINQUE BOOK",
       "timestamp": "2026-01-21 19:40"
-    },
-    {
-      "reservation_id": 1769024932,
-      "book_id": 1765377459,
-      "category": "Livro",
-      "parent_name": "DULCIANE BARBOSA DOS SANTOS",
-      "student_name": "",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "CHORAR É COMO CHOVER \tEMÍLIA NUNEZ\tTIBI EDITORA",
-      "timestamp": "2026-01-21 19:48"
     },
     {
       "reservation_id": 1769025417,
