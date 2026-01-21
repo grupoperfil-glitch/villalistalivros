@@ -11432,8 +11432,9 @@
       "title": "BONECOS DIVERSOS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SHELDON NUNO ROCHA DE MATTOS",
+      "reserved_student": "MARINA NASCIMENTO FREIRE DE MATTOS"
     },
     {
       "id": 1765458387,
@@ -22708,6 +22709,17 @@
       "class_name": "Vespertino",
       "book_title": "PEQUENO ENGENHEIRO",
       "timestamp": "2026-01-21 02:46"
+    },
+    {
+      "reservation_id": 1768963708,
+      "book_id": 1765458386,
+      "category": "Brinquedo",
+      "parent_name": "SHELDON NUNO ROCHA DE MATTOS",
+      "student_name": "MARINA NASCIMENTO FREIRE DE MATTOS",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "CESTA DE FRUTAS SORTIDAS",
+      "timestamp": "2026-01-21 02:48"
     }
   ],
   "students_db": [
