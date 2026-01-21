@@ -5599,9 +5599,9 @@
       "title": "MANECO CANECO CHAPÉU DE FUNIL \tLUÍS CAMARGO \tÁTICA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "DULCIANE BARBOSA DOS SANTOS",
-      "reserved_student": ""
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377372,
@@ -22831,17 +22831,6 @@
       "class_name": "Matutino",
       "book_title": "QUEM TEM MEDO DE ESCURO?\tFANNY JOLI \tSC",
       "timestamp": "2026-01-21 19:29"
-    },
-    {
-      "reservation_id": 1769024303,
-      "book_id": 1765377371,
-      "category": "Livro",
-      "parent_name": "DULCIANE BARBOSA DOS SANTOS",
-      "student_name": "",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
-      "timestamp": "2026-01-21 19:38"
     },
     {
       "reservation_id": 1769024444,
