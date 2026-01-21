@@ -24166,6 +24166,14 @@
       "grade": "Grupo 2",
       "class_name": "Vespertino",
       "parent_csv": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com"
+    },
+    {
+      "email": "",
+      "email2": "",
+      "name": "davi",
+      "grade": "Grupo 1",
+      "class_name": "Matutino",
+      "parent_csv": ""
     }
   ]
 }
