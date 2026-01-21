@@ -5974,8 +5974,9 @@
       "title": "ESSA NÃO É MINHA CAUDA \tCARLA BAREDES \tCALLIS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MAURICIO LERINA BONIFATI",
+      "reserved_student": "MARINA DE CARVALHO CESAR BONIFATI"
     },
     {
       "id": 1765377412,
@@ -22879,6 +22880,17 @@
       "class_name": "Matutino",
       "book_title": "O ESCONDERIJO DAS VONTADES\tJONAS RIBEIRO\tCALLIS",
       "timestamp": "2026-01-21 20:13"
+    },
+    {
+      "reservation_id": 1769027911,
+      "book_id": 1765377411,
+      "category": "Livro",
+      "parent_name": "MAURICIO LERINA BONIFATI",
+      "student_name": "MARINA DE CARVALHO CESAR BONIFATI",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "QUANDO MAMÃE VIROU UM MONSTRO\tJOANA HARRISON \tBRINQUE BOOK",
+      "timestamp": "2026-01-21 20:38"
     }
   ],
   "students_db": [
