@@ -15835,8 +15835,9 @@
       "title": "KIT DINHEIRINHO NOTAS E MOEDAS",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARIVALDO  CERQUEIRA DE SANTANA JUNIOR",
+      "reserved_student": "MARIANA NASCIMENTO BOMFIM SANTANA"
     },
     {
       "id": 1765460599,
@@ -22793,6 +22794,17 @@
       "grade": "Grupo 5",
       "class_name": "Vespertino",
       "book_title": "SEQUÊNCIA LÓGICA-TEMPO 1111\tCARLU",
+      "timestamp": "2026-01-21 19:23"
+    },
+    {
+      "reservation_id": 1769023429,
+      "book_id": 1765460598,
+      "category": "Brinquedo",
+      "parent_name": "MARIVALDO  CERQUEIRA DE SANTANA JUNIOR",
+      "student_name": "MARIANA NASCIMENTO BOMFIM SANTANA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "KIT DINHEIRINHO NOTAS E MOEDAS",
       "timestamp": "2026-01-21 19:23"
     }
   ],
