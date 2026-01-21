@@ -24260,6 +24260,14 @@
       "grade": "Grupo 1",
       "class_name": "Matutino",
       "parent_csv": ""
+    },
+    {
+      "email": "gbbazilio@gmail.com",
+      "email2": "rraquelclvj@yahoo.com.br",
+      "name": "GUILHERME BAZILIO DOMINGUES",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "parent_csv": "GUILHERME BAZILIO DOMINGUES / RAQUEL CRISTINA DE LIMA VIANA"
     }
   ]
 }
