@@ -5619,9 +5619,9 @@
       "title": "MEU AVÔ PORTUGUÊS \tMANUEL FILHO \tBUSCAPÉ",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "DULCIANE BARBOSA DOS SANTOS",
+      "reserved_student": ""
     },
     {
       "id": 1765377374,
@@ -22842,6 +22842,17 @@
       "class_name": "Matutino",
       "book_title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
       "timestamp": "2026-01-21 19:38"
+    },
+    {
+      "reservation_id": 1769024444,
+      "book_id": 1765377373,
+      "category": "Livro",
+      "parent_name": "DULCIANE BARBOSA DOS SANTOS",
+      "student_name": "",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "COMO É QUE EU ERA COMO BEBÊ? \tTONY ROSS\tBRINQUE BOOK",
+      "timestamp": "2026-01-21 19:40"
     }
   ],
   "students_db": [
