@@ -10198,8 +10198,9 @@
       "title": "MÃOS  COMPANHIA DAS LETRINHAS  KIUSAM DE OLIVEIRA",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PRISCILA MIRANDA  PEDREIRA",
+      "reserved_student": "GAEL MIRANDA PEDREIRA"
     },
     {
       "id": 1765391927,
@@ -22733,6 +22734,17 @@
       "class_name": "Vespertino",
       "book_title": "12 POTES\tGROW",
       "timestamp": "2026-01-21 17:55"
+    },
+    {
+      "reservation_id": 1769021281,
+      "book_id": 1765391926,
+      "category": "Livro",
+      "parent_name": "PRISCILA MIRANDA  PEDREIRA",
+      "student_name": "GAEL MIRANDA PEDREIRA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "MÃOS  COMPANHIA DAS LETRINHAS  KIUSAM DE OLIVEIRA",
+      "timestamp": "2026-01-21 18:48"
     }
   ],
   "students_db": [
