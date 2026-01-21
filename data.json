@@ -6202,9 +6202,9 @@
       "title": "FILHA DE VÓ \tMARILIA PIRILLO\tWMF MARTINS FONTES",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "DULCIANE BARBOSA DOS SANTOS",
-      "reserved_student": ""
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377437,
@@ -22716,17 +22716,6 @@
       "class_name": "Vespertino",
       "book_title": "CESTA DE FRUTAS SORTIDAS",
       "timestamp": "2026-01-21 02:48"
-    },
-    {
-      "reservation_id": 1769016893,
-      "book_id": 1765377436,
-      "category": "Livro",
-      "parent_name": "DULCIANE BARBOSA DOS SANTOS",
-      "student_name": "",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "MINHA FAMILIA É COLORIDA\tSM\tGEORGINA MARTIN",
-      "timestamp": "2026-01-21 17:34"
     },
     {
       "reservation_id": 1769018115,
