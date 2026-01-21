@@ -12446,8 +12446,9 @@
       "title": "2 BONECAS BEBÊS",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALAN MIRANDA DE LIMA / AMANDA SOARES ALELUIA",
+      "reserved_student": "ANNE SOARES MIRANDA DE LIMA"
     },
     {
       "id": 1765459297,
@@ -22781,6 +22782,17 @@
       "class_name": "Vespertino",
       "book_title": "AMORAS  EMICIDA",
       "timestamp": "2026-01-21 19:10"
+    },
+    {
+      "reservation_id": 1769023122,
+      "book_id": 1765459296,
+      "category": "Brinquedo",
+      "parent_name": "ALAN MIRANDA DE LIMA / AMANDA SOARES ALELUIA",
+      "student_name": "ANNE SOARES MIRANDA DE LIMA",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "2 BONECAS BEBÊS",
+      "timestamp": "2026-01-21 19:18"
     }
   ],
   "students_db": [
