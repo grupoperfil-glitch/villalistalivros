@@ -540,8 +540,9 @@
       "title": "AS AVENTURAS DO BONEQUINHO DO BANHEIRO   ZIRALDO  MELHORAMENTO",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARIA DE LOURDES MOREIRA PONTES",
+      "reserved_student": "LIZ PONTES BORGES"
     },
     {
       "id": 1765369020,
@@ -22854,6 +22855,17 @@
       "class_name": "Matutino",
       "book_title": "CHORAR É COMO CHOVER \tEMÍLIA NUNEZ\tTIBI EDITORA",
       "timestamp": "2026-01-21 19:48"
+    },
+    {
+      "reservation_id": 1769025417,
+      "book_id": 1765369019,
+      "category": "Livro",
+      "parent_name": "MARIA DE LOURDES MOREIRA PONTES",
+      "student_name": "LIZ PONTES BORGES",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "AS AVENTURAS DO BONEQUINHO DO BANHEIRO   ZIRALDO  MELHORAMENTO",
+      "timestamp": "2026-01-21 19:56"
     }
   ],
   "students_db": [
