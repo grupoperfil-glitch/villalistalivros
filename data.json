@@ -8049,8 +8049,9 @@
       "title": "BRANCA DE NEVES E AS SETE VERSÕES  OBJETIVA  JOSÉ ALBERTO TORERO E MARCUS AURELIUS PIMENTA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARIVALDO  CERQUEIRA DE SANTANA JUNIOR",
+      "reserved_student": "MARIANA NASCIMENTO BOMFIM SANTANA"
     },
     {
       "id": 1765391828,
@@ -22757,6 +22758,17 @@
       "class_name": "Vespertino",
       "book_title": "SINTO O QUE SINTO  EDITORA SEXTANTE  LÁZARO RAMOS",
       "timestamp": "2026-01-21 19:04"
+    },
+    {
+      "reservation_id": 1769022448,
+      "book_id": 1765391827,
+      "category": "Livro",
+      "parent_name": "MARIVALDO  CERQUEIRA DE SANTANA JUNIOR",
+      "student_name": "MARIANA NASCIMENTO BOMFIM SANTANA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "CADERNO SEM RIMAS DA MARIA  EDITORA SEXTANTE  LÁZARO RAMOS",
+      "timestamp": "2026-01-21 19:07"
     }
   ],
   "students_db": [
