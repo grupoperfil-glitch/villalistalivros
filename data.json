@@ -18626,8 +18626,9 @@
       "title": "CINEMA EMOÇÕES EM MOVIMENTO\tHEIDI STRECKER\tMELHORAMENTOS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JOCASTA RABELO GONÇALVES",
+      "reserved_student": "JOSE JOAQUIM RABELO DA CONCEIÇÃO"
     },
     {
       "id": 1765542304,
@@ -22989,6 +22990,17 @@
       "class_name": "Matutino",
       "book_title": "ODISSÉIA\tRUTH ROCHA\tSALAMANDRA",
       "timestamp": "2026-01-22 23:31"
+    },
+    {
+      "reservation_id": 1769126016,
+      "book_id": 1765542302,
+      "category": "Livro",
+      "parent_name": "JOCASTA RABELO GONÇALVES",
+      "student_name": "JOSE JOAQUIM RABELO DA CONCEIÇÃO",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "CINEMA EMOÇÕES EM MOVIMENTO\tHEIDI STRECKER\tMELHORAMENTOS",
+      "timestamp": "2026-01-22 23:53"
     }
   ],
   "students_db": [
