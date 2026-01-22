@@ -8479,8 +8479,9 @@
       "title": "ACORDE O SOL, DON ADERBAL  AUTÊNTICA  JEAN CLAUDE ALPHEN",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TATIANA CAMPOS GARCEZ DE SENA",
+      "reserved_student": "NOAH GARCEZ BARBOSA PAULO"
     },
     {
       "id": 1765391874,
@@ -22928,6 +22929,17 @@
       "class_name": "Matutino",
       "book_title": "GENTE PEQUENA, GRANDES SONHOS. NELSON MANDELA  CATAPULTA  MARÍA ISABEL",
       "timestamp": "2026-01-22 15:27"
+    },
+    {
+      "reservation_id": 1769095766,
+      "book_id": 1765391873,
+      "category": "Livro",
+      "parent_name": "TATIANA CAMPOS GARCEZ DE SENA",
+      "student_name": "NOAH GARCEZ BARBOSA PAULO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "ACORDE O SOL, DON ADERBAL  AUTÊNTICA  JEAN CLAUDE ALPHEN",
+      "timestamp": "2026-01-22 15:29"
     }
   ],
   "students_db": [
