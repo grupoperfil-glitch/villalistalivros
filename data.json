@@ -8240,8 +8240,9 @@
       "title": "GENTE PEQUENA, GRANDES SONHOS. NELSON MANDELA  CATAPULTA  MARÍA ISABEL",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TATIANA CAMPOS GARCEZ DE SENA",
+      "reserved_student": "NOAH GARCEZ BARBOSA PAULO"
     },
     {
       "id": 1765391848,
@@ -22916,6 +22917,17 @@
       "class_name": "Vespertino",
       "book_title": "ROLA ROLA MINI",
       "timestamp": "2026-01-22 14:43"
+    },
+    {
+      "reservation_id": 1769095620,
+      "book_id": 1765391847,
+      "category": "Livro",
+      "parent_name": "TATIANA CAMPOS GARCEZ DE SENA",
+      "student_name": "NOAH GARCEZ BARBOSA PAULO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "GENTE PEQUENA, GRANDES SONHOS. NELSON MANDELA  CATAPULTA  MARÍA ISABEL",
+      "timestamp": "2026-01-22 15:27"
     }
   ],
   "students_db": [
