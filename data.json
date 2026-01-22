@@ -18833,8 +18833,9 @@
       "title": "A VELHINHA QUE DAVA NOMES AS COISAS CYNTIA RYLANT\tBRINQUE BOOK",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JAMILE CAMARA DE AQUINO",
+      "reserved_student": "TAYNA AQUINO SILVA"
     },
     {
       "id": 1765542333,
@@ -22964,6 +22965,17 @@
       "class_name": "Vespertino",
       "book_title": "KIT DE COZINHA",
       "timestamp": "2026-01-22 17:08"
+    },
+    {
+      "reservation_id": 1769120127,
+      "book_id": 1765542332,
+      "category": "Livro",
+      "parent_name": "JAMILE CAMARA DE AQUINO",
+      "student_name": "TAYNA AQUINO SILVA",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "A VELHINHA QUE DAVA NOMES AS COISAS CYNTIA RYLANT\tBRINQUE BOOK",
+      "timestamp": "2026-01-22 22:15"
     }
   ],
   "students_db": [
