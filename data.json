@@ -11837,9 +11837,9 @@
       "title": "12 POTES\tGROW",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com",
-      "reserved_student": "LILA SOLON DE OLIVEIRA MATTEDI"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765459180,
@@ -22728,17 +22728,6 @@
       "class_name": "Vespertino",
       "book_title": "CESTA DE FRUTAS SORTIDAS",
       "timestamp": "2026-01-21 02:48"
-    },
-    {
-      "reservation_id": 1769018115,
-      "book_id": 1765459179,
-      "category": "Jogo",
-      "parent_name": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com",
-      "student_name": "LILA SOLON DE OLIVEIRA MATTEDI",
-      "grade": "Grupo 2",
-      "class_name": "Vespertino",
-      "book_title": "12 POTES\tGROW",
-      "timestamp": "2026-01-21 17:55"
     },
     {
       "reservation_id": 1769021281,
