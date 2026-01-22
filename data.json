@@ -18330,9 +18330,9 @@
       "title": "QUE HISTÓRIA É ESSA\tFLÁVIO DE SOUZA\tCIA DAS LETRINHAS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "JOCASTA RABELO GONÇALVES",
-      "reserved_student": "JOSE JOAQUIM RABELO DA CONCEIÇÃO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765542265,
@@ -22624,17 +22624,6 @@
       "class_name": "Matutino",
       "book_title": "TEM CRIANÇA NA COZINHA- CULINÁRIA DIVERTIDA CIRANDA CULTURAL",
       "timestamp": "2026-01-20 19:58"
-    },
-    {
-      "reservation_id": 1768939334,
-      "book_id": 1765542264,
-      "category": "Livro",
-      "parent_name": "JOCASTA RABELO GONÇALVES",
-      "student_name": "JOSE JOAQUIM RABELO DA CONCEIÇÃO",
-      "grade": "4º Ano",
-      "class_name": "Matutino",
-      "book_title": "QUE HISTÓRIA É ESSA\tFLÁVIO DE SOUZA\tCIA DAS LETRINHAS",
-      "timestamp": "2026-01-20 20:02"
     },
     {
       "reservation_id": 1768939615,
