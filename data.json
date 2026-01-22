@@ -8797,8 +8797,9 @@
       "title": "O LIVRO DA GENTILEZA  PANDA BOOKS  TODD PARR",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TATIANA CAMPOS GARCEZ DE SENA",
+      "reserved_student": "NOAH GARCEZ BARBOSA PAULO"
     },
     {
       "id": 1765391908,
@@ -22940,6 +22941,17 @@
       "class_name": "Matutino",
       "book_title": "ACORDE O SOL, DON ADERBAL  AUTÊNTICA  JEAN CLAUDE ALPHEN",
       "timestamp": "2026-01-22 15:29"
+    },
+    {
+      "reservation_id": 1769096064,
+      "book_id": 1765391907,
+      "category": "Livro",
+      "parent_name": "TATIANA CAMPOS GARCEZ DE SENA",
+      "student_name": "NOAH GARCEZ BARBOSA PAULO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "O LIVRO DA GENTILEZA  PANDA BOOKS  TODD PARR",
+      "timestamp": "2026-01-22 15:34"
     }
   ],
   "students_db": [
