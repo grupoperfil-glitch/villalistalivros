@@ -18530,9 +18530,9 @@
       "title": "MONSTROS MITOLÓGICOS\tLUIZ ANTONIO AGUIAR\tFTD",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "JOCASTA RABELO GONÇALVES",
-      "reserved_student": "JOSE JOAQUIM RABELO DA CONCEIÇÃO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765542291,
@@ -22989,17 +22989,6 @@
       "class_name": "Matutino",
       "book_title": "ODISSÉIA\tRUTH ROCHA\tSALAMANDRA",
       "timestamp": "2026-01-22 23:31"
-    },
-    {
-      "reservation_id": 1769124896,
-      "book_id": 1765542290,
-      "category": "Livro",
-      "parent_name": "JOCASTA RABELO GONÇALVES",
-      "student_name": "JOSE JOAQUIM RABELO DA CONCEIÇÃO",
-      "grade": "4º Ano",
-      "class_name": "Matutino",
-      "book_title": "MONSTROS MITOLÓGICOS\tLUIZ ANTONIO AGUIAR\tFTD",
-      "timestamp": "2026-01-22 23:34"
     }
   ],
   "students_db": [
