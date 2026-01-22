@@ -5640,9 +5640,9 @@
       "title": "NO CORAÇÃO E NA BOLSA\tLAURENCE BOURGUIGNON E VAL’RIE D’HEUR\tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "FLAVIA RAMOS MOREIRA RIBEIRO",
-      "reserved_student": "ISABELLA MOREIRA RIBEIRO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377376,
@@ -22915,17 +22915,6 @@
       "class_name": "Matutino",
       "book_title": "A MENINA DA CABEÇA QUADRADA EMÍLIA NUÑEZ  TIBI",
       "timestamp": "2026-01-21 20:49"
-    },
-    {
-      "reservation_id": 1769091772,
-      "book_id": 1765377375,
-      "category": "Livro",
-      "parent_name": "FLAVIA RAMOS MOREIRA RIBEIRO",
-      "student_name": "ISABELLA MOREIRA RIBEIRO",
-      "grade": "Grupo 4",
-      "class_name": "Vespertino",
-      "book_title": "NO CORAÇÃO E NA BOLSA\tLAURENCE BOURGUIGNON E VAL’RIE D’HEUR\tBRINQUE BOOK",
-      "timestamp": "2026-01-22 14:22"
     }
   ],
   "students_db": [
