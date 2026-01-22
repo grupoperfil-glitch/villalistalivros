@@ -13177,8 +13177,9 @@
       "title": "ROLA ROLA MINI",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com",
+      "reserved_student": "LILA SOLON DE OLIVEIRA MATTEDI"
     },
     {
       "id": 1765459338,
@@ -22904,6 +22905,17 @@
       "class_name": "Matutino",
       "book_title": "A MENINA DA CABEÇA QUADRADA EMÍLIA NUÑEZ  TIBI",
       "timestamp": "2026-01-21 20:49"
+    },
+    {
+      "reservation_id": 1769092997,
+      "book_id": 1765459337,
+      "category": "Brinquedo",
+      "parent_name": "TERCIA QUEIROZ DE OLIVEIRA / jorgemattedi@gmail.com",
+      "student_name": "LILA SOLON DE OLIVEIRA MATTEDI",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "ROLA ROLA MINI",
+      "timestamp": "2026-01-22 14:43"
     }
   ],
   "students_db": [
