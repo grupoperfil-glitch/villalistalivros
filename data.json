@@ -13724,8 +13724,9 @@
       "title": "ALFABETO BINGO DE LETRAS  CARLU",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MAURICIO LERINA BONIFATI",
+      "reserved_student": "MARINA DE CARVALHO CESAR BONIFATI"
     },
     {
       "id": 1765460016,
@@ -23134,6 +23135,17 @@
       "class_name": "Matutino",
       "book_title": "JOGO DA PESCARIA \tGROW",
       "timestamp": "2026-01-23 14:53"
+    },
+    {
+      "reservation_id": 1769201674,
+      "book_id": 1765460015,
+      "category": "Brinquedo",
+      "parent_name": "MAURICIO LERINA BONIFATI",
+      "student_name": "MARINA DE CARVALHO CESAR BONIFATI",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "ALFABETO BINGO DE LETRAS  CARLU",
+      "timestamp": "2026-01-23 20:54"
     }
   ],
   "students_db": [
