@@ -5707,8 +5707,9 @@
       "title": "O MONSTRUOSO SEGREDO DE LILI \tANGELIKA GLITZ E ANETTE SWOBODA\tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA ALVES DE ARGOLO",
+      "reserved_student": "GUILHERME ARGOLO DE MENDONÇA"
     },
     {
       "id": 1765377383,
@@ -23050,6 +23051,17 @@
       "class_name": "Matutino",
       "book_title": "VIAGEM PELO BRASIL EM 52 HISTÓRIAS\t  SILVANA SALERNO\tCIA DAS LETRINHAS",
       "timestamp": "2026-01-23 12:30"
+    },
+    {
+      "reservation_id": 1769171673,
+      "book_id": 1765377382,
+      "category": "Livro",
+      "parent_name": "CAROLINA ALVES DE ARGOLO",
+      "student_name": "GUILHERME ARGOLO DE MENDONÇA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "MANECO CANECO CHAPÉU DE FUNIL \tLUÍS CAMARGO \tÁTICA",
+      "timestamp": "2026-01-23 12:34"
     }
   ],
   "students_db": [
