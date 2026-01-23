@@ -17026,9 +17026,9 @@
       "title": "AS AVENTURAS DO  BONEQUINHO DO BANHEIRO\tZIRALDO  MELHORAMENTO",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "CAROLINA ALVES DE ARGOLO",
-      "reserved_student": "TIAGO ARGOLO DE MENDONÇA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765541606,
@@ -23015,17 +23015,6 @@
       "grade": "1º Ano",
       "class_name": "Matutino",
       "book_title": "BATUTINHA   ANA MARIA MACHADO  SALAMANDRA",
-      "timestamp": "2026-01-23 12:24"
-    },
-    {
-      "reservation_id": 1769171088,
-      "book_id": 1765541605,
-      "category": "Livro",
-      "parent_name": "CAROLINA ALVES DE ARGOLO",
-      "student_name": "TIAGO ARGOLO DE MENDONÇA",
-      "grade": "1º Ano",
-      "class_name": "Matutino",
-      "book_title": "AS AVENTURAS DO  BONEQUINHO DO BANHEIRO\tZIRALDO  MELHORAMENTO",
       "timestamp": "2026-01-23 12:24"
     },
     {
