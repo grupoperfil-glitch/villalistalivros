@@ -2896,9 +2896,9 @@
       "title": "POSSO IR TAMBÉM?\tLÚCIA PIMENTEL GÓES \tSCIPIONE",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "ALEXANDRE DA CONCEIÇÃO GUALBERTO",
+      "reserved_student": "AIME DAS NEVES GUALBERTO"
     },
     {
       "id": 1765376937,
@@ -23169,6 +23169,17 @@
       "grade": "Grupo 3",
       "class_name": "Matutino",
       "book_title": "O CASO DO BOLINHO \tTATIANA BELINKY\tMODERNA",
+      "timestamp": "2026-01-23 21:32"
+    },
+    {
+      "reservation_id": 1769203953,
+      "book_id": 1765376936,
+      "category": "Livro",
+      "parent_name": "ALEXANDRE DA CONCEIÇÃO GUALBERTO",
+      "student_name": "AIME DAS NEVES GUALBERTO",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "POSSO IR TAMBÉM?\tLÚCIA PIMENTEL GÓES \tSCIPIONE",
       "timestamp": "2026-01-23 21:32"
     }
   ],
