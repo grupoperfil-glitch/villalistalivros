@@ -6052,8 +6052,9 @@
       "title": "REI BIGODEIRA E SUA BANHEIRA\tAUDREY WOOD\tÁTICA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA ALVES DE ARGOLO",
+      "reserved_student": "GUILHERME ARGOLO DE MENDONÇA"
     },
     {
       "id": 1765377420,
@@ -23074,6 +23075,17 @@
       "class_name": "Matutino",
       "book_title": "NÃO CONFUNDA \tEVA FUNNARI \tMODERNA",
       "timestamp": "2026-01-23 12:34"
+    },
+    {
+      "reservation_id": 1769171909,
+      "book_id": 1765377419,
+      "category": "Livro",
+      "parent_name": "CAROLINA ALVES DE ARGOLO",
+      "student_name": "GUILHERME ARGOLO DE MENDONÇA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "UM SORRISO CHAMADO LUIZ\tZIRALDO\tMELHORAMENTOS",
+      "timestamp": "2026-01-23 12:38"
     }
   ],
   "students_db": [
