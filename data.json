@@ -17571,8 +17571,9 @@
       "title": "O HOMEN QUE ROUBAVA HORAS\tDANIEL MUNDURUKU\tBRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA ALVES DE ARGOLO",
+      "reserved_student": "TIAGO ARGOLO DE MENDONÇA"
     },
     {
       "id": 1765541665,
@@ -23037,6 +23038,17 @@
       "class_name": "Matutino",
       "book_title": "DONA BARATINHA E OUTRAS HISTÓRIAS FRANCISCO GREGÓRIO  FILHO\tROCCO  FESTA NO CÉU\tANA MARIA MACHADO\tFTD",
       "timestamp": "2026-01-23 12:25"
+    },
+    {
+      "reservation_id": 1769171254,
+      "book_id": 1765541664,
+      "category": "Livro",
+      "parent_name": "CAROLINA ALVES DE ARGOLO",
+      "student_name": "TIAGO ARGOLO DE MENDONÇA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O HOMEN QUE ROUBAVA HORAS\tDANIEL MUNDURUKU\tBRINQUE BOOK",
+      "timestamp": "2026-01-23 12:27"
     }
   ],
   "students_db": [
