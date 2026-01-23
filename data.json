@@ -13713,8 +13713,9 @@
       "title": "ALFABETO MÓVEL DE MADEIRA",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA ALVES DE ARGOLO",
+      "reserved_student": "GUILHERME ARGOLO DE MENDONÇA"
     },
     {
       "id": 1765460015,
@@ -23098,6 +23099,17 @@
       "class_name": "Matutino",
       "book_title": "PEQUENO CONSTRUTOR",
       "timestamp": "2026-01-23 12:44"
+    },
+    {
+      "reservation_id": 1769172449,
+      "book_id": 1765460014,
+      "category": "Brinquedo",
+      "parent_name": "CAROLINA ALVES DE ARGOLO",
+      "student_name": "GUILHERME ARGOLO DE MENDONÇA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "ALFABETO MÓVEL DE MADEIRA",
+      "timestamp": "2026-01-23 12:47"
     }
   ],
   "students_db": [
