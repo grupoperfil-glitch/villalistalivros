@@ -24621,6 +24621,14 @@
       "grade": "Grupo 1",
       "class_name": "Matutino",
       "parent_csv": ""
+    },
+    {
+      "email": "izabelabzr@hotmail.com",
+      "email2": "",
+      "name": "Malu freitas",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "parent_csv": ""
     }
   ]
 }
