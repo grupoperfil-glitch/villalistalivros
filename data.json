@@ -17195,8 +17195,9 @@
       "title": "DONA BARATINHA E OUTRAS HISTÓRIAS FRANCISCO GREGÓRIO  FILHO\tROCCO  FESTA NO CÉU\tANA MARIA MACHADO\tFTD",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA ALVES DE ARGOLO",
+      "reserved_student": "TIAGO ARGOLO DE MENDONÇA"
     },
     {
       "id": 1765541624,
@@ -23025,6 +23026,17 @@
       "class_name": "Matutino",
       "book_title": "AS AVENTURAS DO  BONEQUINHO DO BANHEIRO\tZIRALDO  MELHORAMENTO",
       "timestamp": "2026-01-23 12:24"
+    },
+    {
+      "reservation_id": 1769171134,
+      "book_id": 1765541623,
+      "category": "Livro",
+      "parent_name": "CAROLINA ALVES DE ARGOLO",
+      "student_name": "TIAGO ARGOLO DE MENDONÇA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "DONA BARATINHA E OUTRAS HISTÓRIAS FRANCISCO GREGÓRIO  FILHO\tROCCO  FESTA NO CÉU\tANA MARIA MACHADO\tFTD",
+      "timestamp": "2026-01-23 12:25"
     }
   ],
   "students_db": [
