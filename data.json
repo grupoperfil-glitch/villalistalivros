@@ -17644,8 +17644,9 @@
       "title": "O SACI E O CURUPIRA\tJOEL RUFINO SANTOS\tÁTICA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA ALVES DE ARGOLO",
+      "reserved_student": "TIAGO ARGOLO DE MENDONÇA"
     },
     {
       "id": 1765541673,
@@ -23038,6 +23039,17 @@
       "class_name": "Matutino",
       "book_title": "O HOMEN QUE ROUBAVA HORAS\tDANIEL MUNDURUKU\tBRINQUE BOOK",
       "timestamp": "2026-01-23 12:27"
+    },
+    {
+      "reservation_id": 1769171389,
+      "book_id": 1765541672,
+      "category": "Livro",
+      "parent_name": "CAROLINA ALVES DE ARGOLO",
+      "student_name": "TIAGO ARGOLO DE MENDONÇA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O SACI E O CURUPIRA\tJOEL RUFINO SANTOS\tÁTICA",
+      "timestamp": "2026-01-23 12:29"
     }
   ],
   "students_db": [
