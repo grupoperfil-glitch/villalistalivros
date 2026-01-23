@@ -11418,8 +11418,9 @@
       "title": "TELEFONE \tESTRELA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALEXANDRE DA CONCEIÇÃO GUALBERTO",
+      "reserved_student": "AIME DAS NEVES GUALBERTO"
     },
     {
       "id": 1765458383,
@@ -23193,6 +23194,17 @@
       "class_name": "Matutino",
       "book_title": "CHAPEUZINHO VERMELHO",
       "timestamp": "2026-01-23 21:33"
+    },
+    {
+      "reservation_id": 1769204680,
+      "book_id": 1765458382,
+      "category": "Brinquedo",
+      "parent_name": "ALEXANDRE DA CONCEIÇÃO GUALBERTO",
+      "student_name": "AIME DAS NEVES GUALBERTO",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "TELEFONE \tESTRELA",
+      "timestamp": "2026-01-23 21:44"
     }
   ],
   "students_db": [
