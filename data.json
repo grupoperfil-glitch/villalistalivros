@@ -17844,9 +17844,9 @@
       "title": "VIAGEM PELO BRASIL EM 52 HISTÓRIAS\t  SILVANA SALERNO\tCIA DAS LETRINHAS",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "CAROLINA ALVES DE ARGOLO",
+      "reserved_student": "TIAGO ARGOLO DE MENDONÇA"
     },
     {
       "id": 1765541695,
@@ -23039,6 +23039,17 @@
       "class_name": "Matutino",
       "book_title": "O SACI E O CURUPIRA\tJOEL RUFINO SANTOS\tÁTICA",
       "timestamp": "2026-01-23 12:29"
+    },
+    {
+      "reservation_id": 1769171446,
+      "book_id": 1765541694,
+      "category": "Livro",
+      "parent_name": "CAROLINA ALVES DE ARGOLO",
+      "student_name": "TIAGO ARGOLO DE MENDONÇA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "VIAGEM PELO BRASIL EM 52 HISTÓRIAS\t  SILVANA SALERNO\tCIA DAS LETRINHAS",
+      "timestamp": "2026-01-23 12:30"
     }
   ],
   "students_db": [
