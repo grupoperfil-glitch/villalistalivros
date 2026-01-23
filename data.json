@@ -10995,8 +10995,9 @@
       "title": "DA CABEÇA ATÉ O PÉ \tTOYSTER",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALEXANDRE DA CONCEIÇÃO GUALBERTO",
+      "reserved_student": "AIME DAS NEVES GUALBERTO"
     },
     {
       "id": 1765458275,
@@ -23146,6 +23147,17 @@
       "class_name": "Matutino",
       "book_title": "ALFABETO BINGO DE LETRAS  CARLU",
       "timestamp": "2026-01-23 20:54"
+    },
+    {
+      "reservation_id": 1769203667,
+      "book_id": 1765458274,
+      "category": "Jogo",
+      "parent_name": "ALEXANDRE DA CONCEIÇÃO GUALBERTO",
+      "student_name": "AIME DAS NEVES GUALBERTO",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "BLOCOS DE ENCAIXE FORMAS GEOMÉTRICAS",
+      "timestamp": "2026-01-23 21:27"
     }
   ],
   "students_db": [
