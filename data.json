@@ -2840,8 +2840,9 @@
       "title": "O JOELHO JUVENAL \tZIRALDO \tMELHORAMENTOS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SERGIO AUGUSTO TORRES SILVA JUNIOR",
+      "reserved_student": "DAVI CURVELO TORRES"
     },
     {
       "id": 1765376931,
@@ -23206,6 +23207,17 @@
       "class_name": "Matutino",
       "book_title": "TELEFONE \tESTRELA",
       "timestamp": "2026-01-23 21:44"
+    },
+    {
+      "reservation_id": 1769250855,
+      "book_id": 1765376930,
+      "category": "Livro",
+      "parent_name": "SERGIO AUGUSTO TORRES SILVA JUNIOR",
+      "student_name": "DAVI CURVELO TORRES",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "O JOELHO JUVENAL \tZIRALDO \tMELHORAMENTOS",
+      "timestamp": "2026-01-24 10:34"
     }
   ],
   "students_db": [
