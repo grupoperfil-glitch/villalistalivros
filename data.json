@@ -3331,8 +3331,9 @@
       "title": "TUDO BEM SER DIFERENTE\t\tTODD PARR",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SERGIO AUGUSTO TORRES SILVA JUNIOR",
+      "reserved_student": "DAVI CURVELO TORRES"
     },
     {
       "id": 1765376984,
@@ -23218,6 +23219,17 @@
       "class_name": "Matutino",
       "book_title": "O JOELHO JUVENAL \tZIRALDO \tMELHORAMENTOS",
       "timestamp": "2026-01-24 10:34"
+    },
+    {
+      "reservation_id": 1769250941,
+      "book_id": 1765376983,
+      "category": "Livro",
+      "parent_name": "SERGIO AUGUSTO TORRES SILVA JUNIOR",
+      "student_name": "DAVI CURVELO TORRES",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "TUDO BEM SER DIFERENTE\t\tTODD PARR",
+      "timestamp": "2026-01-24 10:35"
     }
   ],
   "students_db": [
