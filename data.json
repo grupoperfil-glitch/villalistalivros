@@ -16675,8 +16675,9 @@
       "title": "A VERDADEIRA HISTÓRIAS DOS TRÊS PORQUINHOS JON SCIESZKA CIA DAS LETRINHAS",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CHRISTIANE ANDRADE ALVES",
+      "reserved_student": "GOYA ANDRADE FERNANDEZ"
     },
     {
       "id": 1765483534,
@@ -23231,6 +23232,17 @@
       "class_name": "Matutino",
       "book_title": "SEQUÊNCIA LÓGICA -DESPERDÍCIO",
       "timestamp": "2026-01-24 13:41"
+    },
+    {
+      "reservation_id": 1769276263,
+      "book_id": 1765483533,
+      "category": "Livro",
+      "parent_name": "CHRISTIANE ANDRADE ALVES",
+      "student_name": "GOYA ANDRADE FERNANDEZ",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "A VERDADEIRA HISTÓRIAS DOS TRÊS PORQUINHOS JON SCIESZKA CIA DAS LETRINHAS",
+      "timestamp": "2026-01-24 17:37"
     }
   ],
   "students_db": [
