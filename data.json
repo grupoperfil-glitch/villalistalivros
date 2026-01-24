@@ -13627,8 +13627,9 @@
       "title": "SEQUÊNCIA LÓGICA -DESPERDÍCIO",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MAURICIO LERINA BONIFATI",
+      "reserved_student": "MARINA DE CARVALHO CESAR BONIFATI"
     },
     {
       "id": 1765459736,
@@ -23230,6 +23231,17 @@
       "class_name": "Matutino",
       "book_title": "TUDO BEM SER DIFERENTE\t\tTODD PARR",
       "timestamp": "2026-01-24 10:35"
+    },
+    {
+      "reservation_id": 1769262062,
+      "book_id": 1765459735,
+      "category": "Jogo",
+      "parent_name": "MAURICIO LERINA BONIFATI",
+      "student_name": "MARINA DE CARVALHO CESAR BONIFATI",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "SEQUÊNCIA LÓGICA -DESPERDÍCIO",
+      "timestamp": "2026-01-24 13:41"
     }
   ],
   "students_db": [
