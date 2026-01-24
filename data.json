@@ -11205,9 +11205,9 @@
       "title": "CONHECENDO AS PROFISSÕES\tCARIMBRAS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "LUCIANA CALDAS",
-      "reserved_student": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765458285,
@@ -23206,17 +23206,6 @@
       "class_name": "Matutino",
       "book_title": "TELEFONE \tESTRELA",
       "timestamp": "2026-01-23 21:44"
-    },
-    {
-      "reservation_id": 1769248303,
-      "book_id": 1765458284,
-      "category": "Jogo",
-      "parent_name": "LUCIANA CALDAS",
-      "student_name": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO",
-      "grade": "Grupo 3",
-      "class_name": "Matutino",
-      "book_title": "CONHECENDO AS PROFISSÕES\tCARIMBRAS",
-      "timestamp": "2026-01-24 09:51"
     }
   ],
   "students_db": [
