@@ -1076,9 +1076,9 @@
       "title": "A MENINA QUE PROCURAVA ALEXANDRE RAMPAZO LAROUSSE",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "CHRISTIANE ANDRADE ALVES",
-      "reserved_student": "GOYA ANDRADE FERNANDEZ"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765369187,
@@ -20712,17 +20712,6 @@
       "class_name": "Matutino",
       "book_title": "O LIVRO DOS TRAVA–LÍNGUAS\tANTÔNIO MOTA\tLEYA",
       "timestamp": "2025-12-25 16:15"
-    },
-    {
-      "reservation_id": 1766857825,
-      "book_id": 1765369186,
-      "category": "Livro",
-      "parent_name": "CHRISTIANE ANDRADE ALVES",
-      "student_name": "GOYA ANDRADE FERNANDEZ",
-      "grade": "2º Ano",
-      "class_name": "Matutino",
-      "book_title": "A MENINA QUE PROCURAVA ALEXANDRE RAMPAZO LAROUSSE",
-      "timestamp": "2025-12-27 17:50"
     },
     {
       "reservation_id": 1766879358,
