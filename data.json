@@ -12420,8 +12420,9 @@
       "title": "4 COLHERES DE PAU",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Izabela Cidade",
+      "reserved_student": "Malu freitas"
     },
     {
       "id": 1765459291,
@@ -23351,6 +23352,17 @@
       "class_name": "Matutino",
       "book_title": "O PIQUINIQUE DO GILDO \tSILVANA RANDO\tBRINQUE BOOK",
       "timestamp": "2026-01-26 15:57"
+    },
+    {
+      "reservation_id": 1769443299,
+      "book_id": 1765459290,
+      "category": "Brinquedo",
+      "parent_name": "Izabela Cidade",
+      "student_name": "Malu freitas",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "4 COLHERES DE PAU",
+      "timestamp": "2026-01-26 16:01"
     }
   ],
   "students_db": [
