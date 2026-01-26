@@ -10629,8 +10629,9 @@
       "title": "1 BONECA NEGRA\tCALESITA",
       "grade": "Grupo 1",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRE OLIVEIRA DOS SANTOS",
+      "reserved_student": "AYANNA RODRIGUES OLIVEIRA"
     },
     {
       "id": 1765457468,
@@ -23403,6 +23404,17 @@
       "class_name": "Vespertino",
       "book_title": "KIT MÉDICO",
       "timestamp": "2026-01-26 16:40"
+    },
+    {
+      "reservation_id": 1769445705,
+      "book_id": 1765457467,
+      "category": "Brinquedo",
+      "parent_name": "ANDRE OLIVEIRA DOS SANTOS",
+      "student_name": "AYANNA RODRIGUES OLIVEIRA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "book_title": "1 BONECA NEGRA\tCALESITA",
+      "timestamp": "2026-01-26 16:41"
     }
   ],
   "students_db": [
