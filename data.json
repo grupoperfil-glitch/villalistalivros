@@ -5491,9 +5491,9 @@
       "title": "CASINHA DE BICHOS \tHARDI FILHO \tÁTICA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "Izabela Cidade",
-      "reserved_student": "Flor Freitas Cidade"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377360,
@@ -23279,17 +23279,6 @@
       "class_name": "Matutino",
       "book_title": "CHAPEUZINHOS COLORIDOS JOSÉ ROBERTO TORERO MARCUS AURÉLIO PIMENTA CIA DAS LETRINHAS",
       "timestamp": "2026-01-26 14:50"
-    },
-    {
-      "reservation_id": 1769441408,
-      "book_id": 1765377359,
-      "category": "Livro",
-      "parent_name": "Izabela Cidade",
-      "student_name": "Flor Freitas Cidade",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "A MÃE DE JULIO ESPERA UM BEBÊ\tCHRISTIAN LAMBLIM \tÁTICA",
-      "timestamp": "2026-01-26 15:30"
     },
     {
       "reservation_id": 1769441525,
