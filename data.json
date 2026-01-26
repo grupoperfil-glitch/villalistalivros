@@ -18705,9 +18705,9 @@
       "title": "MAURÍCIO DE SOUZA\tMELHORAMENTOS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "LUANE RODOPIANO LIMA RODRIGUES",
+      "reserved_student": "IARA RODOPIANO RODRIGUES"
     },
     {
       "id": 1765542316,
@@ -23243,6 +23243,17 @@
       "class_name": "Matutino",
       "book_title": "A VERDADEIRA HISTÓRIAS DOS TRÊS PORQUINHOS JON SCIESZKA CIA DAS LETRINHAS",
       "timestamp": "2026-01-24 17:37"
+    },
+    {
+      "reservation_id": 1769390830,
+      "book_id": 1765542315,
+      "category": "Livro",
+      "parent_name": "LUANE RODOPIANO LIMA RODRIGUES",
+      "student_name": "IARA RODOPIANO RODRIGUES",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "MAURÍCIO DE SOUZA\tMELHORAMENTOS",
+      "timestamp": "2026-01-26 01:27"
     }
   ],
   "students_db": [
