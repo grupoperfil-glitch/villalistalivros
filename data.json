@@ -5792,8 +5792,9 @@
       "title": "TATUS TRANQUILOS\tFLORENCE BREKEN \tCIA DAS LETRINHAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Izabela Cidade",
+      "reserved_student": "Flor Freitas Cidade"
     },
     {
       "id": 1765377391,
@@ -23388,6 +23389,17 @@
       "class_name": "Matutino",
       "book_title": "KIT LIMPEZA",
       "timestamp": "2026-01-26 16:11"
+    },
+    {
+      "reservation_id": 1769444152,
+      "book_id": 1765377390,
+      "category": "Livro",
+      "parent_name": "Izabela Cidade",
+      "student_name": "Flor Freitas Cidade",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "O DUENDE DA PONTE \tPATRÍCIA ERA WOLFF\tBRINQUE BOOK",
+      "timestamp": "2026-01-26 16:15"
     }
   ],
   "students_db": [
