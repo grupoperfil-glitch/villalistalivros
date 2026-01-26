@@ -2124,8 +2124,9 @@
       "title": "OTTO VAI Á PRAIA \tTODD PARR",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Izabela Cidade",
+      "reserved_student": "Malu Freitas Cidade"
     },
     {
       "id": 1765376554,
@@ -23375,6 +23376,17 @@
       "class_name": "Matutino",
       "book_title": "ABIGAIL\tCATHERINE RAYNER\tCIRANDA CULTURAL",
       "timestamp": "2026-01-26 16:05"
+    },
+    {
+      "reservation_id": 1769443577,
+      "book_id": 1765376553,
+      "category": "Livro",
+      "parent_name": "Izabela Cidade",
+      "student_name": "Malu Freitas Cidade",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "OTTO VAI Á PRAIA \tTODD PARR",
+      "timestamp": "2026-01-26 16:06"
     }
   ],
   "students_db": [
