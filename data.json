@@ -13602,9 +13602,9 @@
       "title": "QUEBRA-CABEÇA PIRÂMIDE DE SAÚDE ALIMENTAR (P/CRIANÇA)\tCARLU",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "Izabela Cidade",
-      "reserved_student": "Flor Freitas Cidade"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765459733,
@@ -23314,17 +23314,6 @@
       "class_name": "Matutino",
       "book_title": "FILHA DE VÓ \tMARILIA PIRILLO\tWMF MARTINS FONTES",
       "timestamp": "2026-01-26 15:43"
-    },
-    {
-      "reservation_id": 1769442378,
-      "book_id": 1765459732,
-      "category": "Jogo",
-      "parent_name": "Izabela Cidade",
-      "student_name": "Flor Freitas Cidade",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "QUEBRA-CABEÇA PIRÂMIDE DE SAÚDE ALIMENTAR (P/CRIANÇA)\tCARLU",
-      "timestamp": "2026-01-26 15:46"
     }
   ],
   "students_db": [
