@@ -2028,8 +2028,9 @@
       "title": "ABIGAIL\tCATHERINE RAYNER\tCIRANDA CULTURAL",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Izabela Cidade",
+      "reserved_student": "Malu Freitas Cidade"
     },
     {
       "id": 1765376544,
@@ -23363,6 +23364,17 @@
       "class_name": "Matutino",
       "book_title": "4 COLHERES DE PAU",
       "timestamp": "2026-01-26 16:01"
+    },
+    {
+      "reservation_id": 1769443515,
+      "book_id": 1765376543,
+      "category": "Livro",
+      "parent_name": "Izabela Cidade",
+      "student_name": "Malu Freitas Cidade",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "ABIGAIL\tCATHERINE RAYNER\tCIRANDA CULTURAL",
+      "timestamp": "2026-01-26 16:05"
     }
   ],
   "students_db": [
