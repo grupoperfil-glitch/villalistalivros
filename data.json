@@ -16268,8 +16268,9 @@
       "title": "MEU PRIMEIRO LIVRO DE CONTOS DE FADAS MARY HOFFMANCIA DAS LETRINHAS",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANA PAULA RODRIGUES PRADO",
+      "reserved_student": "ANA CLARA RODRIGUES DE ALMEIDA SOUZA"
     },
     {
       "id": 1765483490,
@@ -23254,6 +23255,17 @@
       "class_name": "Matutino",
       "book_title": "MAURÍCIO DE SOUZA\tMELHORAMENTOS",
       "timestamp": "2026-01-26 01:27"
+    },
+    {
+      "reservation_id": 1769438994,
+      "book_id": 1765483489,
+      "category": "Livro",
+      "parent_name": "ANA PAULA RODRIGUES PRADO",
+      "student_name": "ANA CLARA RODRIGUES DE ALMEIDA SOUZA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "MEU PRIMEIRO LIVRO DE CONTOS DE FADAS MARY HOFFMANCIA DAS LETRINHAS",
+      "timestamp": "2026-01-26 14:49"
     }
   ],
   "students_db": [
