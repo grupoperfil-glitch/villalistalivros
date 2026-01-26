@@ -5506,9 +5506,9 @@
       "title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "Izabela Cidade",
-      "reserved_student": "Flor Freitas Cidade"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377361,
@@ -23289,17 +23289,6 @@
       "class_name": "Matutino",
       "book_title": "CHAPEUZINHOS COLORIDOS JOSÉ ROBERTO TORERO MARCUS AURÉLIO PIMENTA CIA DAS LETRINHAS",
       "timestamp": "2026-01-26 14:50"
-    },
-    {
-      "reservation_id": 1769441525,
-      "book_id": 1765377360,
-      "category": "Livro",
-      "parent_name": "Izabela Cidade",
-      "student_name": "Flor Freitas Cidade",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "A PISCINA CRISTALINA DE MARIANA \tJONAS RIBEIRO \tELEMENTAR",
-      "timestamp": "2026-01-26 15:32"
     },
     {
       "reservation_id": 1769441936,
