@@ -10266,8 +10266,9 @@
       "title": "MERCADINHO DELÍCIA",
       "grade": "Grupo 1",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRE OLIVEIRA DOS SANTOS",
+      "reserved_student": "AYANNA RODRIGUES OLIVEIRA"
     },
     {
       "id": 1765457424,
@@ -23390,6 +23391,17 @@
       "class_name": "Matutino",
       "book_title": "O HOMEM QUE AMAVA CAIXAS \tSTEPBREN BRING \tBRINQUE BOOK",
       "timestamp": "2026-01-26 16:18"
+    },
+    {
+      "reservation_id": 1769445549,
+      "book_id": 1765457423,
+      "category": "Jogo",
+      "parent_name": "ANDRE OLIVEIRA DOS SANTOS",
+      "student_name": "AYANNA RODRIGUES OLIVEIRA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "book_title": "MERCADINHO DELÍCIA",
+      "timestamp": "2026-01-26 16:39"
     }
   ],
   "students_db": [
