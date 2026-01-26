@@ -12650,8 +12650,9 @@
       "title": "KIT LIMPEZA",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Izabela Cidade",
+      "reserved_student": "Malu Freitas Cidade"
     },
     {
       "id": 1765459316,
@@ -23387,6 +23388,17 @@
       "class_name": "Matutino",
       "book_title": "OTTO VAI Á PRAIA \tTODD PARR",
       "timestamp": "2026-01-26 16:06"
+    },
+    {
+      "reservation_id": 1769443881,
+      "book_id": 1765459315,
+      "category": "Brinquedo",
+      "parent_name": "Izabela Cidade",
+      "student_name": "Malu Freitas Cidade",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "KIT LIMPEZA",
+      "timestamp": "2026-01-26 16:11"
     }
   ],
   "students_db": [
