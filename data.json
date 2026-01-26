@@ -5730,8 +5730,9 @@
       "title": "ORELHA DE LIMÃO \tKATJA REIDER \tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Izabela Cidade",
+      "reserved_student": "Flor Freitas Cidade"
     },
     {
       "id": 1765377385,
@@ -23300,6 +23301,17 @@
       "class_name": "Matutino",
       "book_title": "A PISCINA CRISTALINA DE MARIANA \tJONAS RIBEIRO \tELEMENTAR",
       "timestamp": "2026-01-26 15:32"
+    },
+    {
+      "reservation_id": 1769441936,
+      "book_id": 1765377384,
+      "category": "Livro",
+      "parent_name": "Izabela Cidade",
+      "student_name": "Flor Freitas Cidade",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "MEU AVÔ PORTUGUÊS \tMANUEL FILHO \tBUSCAPÉ",
+      "timestamp": "2026-01-26 15:38"
     }
   ],
   "students_db": [
