@@ -13754,8 +13754,9 @@
       "title": "BANHEIRA PLÁSTICA",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Izabela Cidade",
+      "reserved_student": "Flor Freitas Cidade"
     },
     {
       "id": 1765460018,
@@ -23314,6 +23315,17 @@
       "class_name": "Matutino",
       "book_title": "FILHA DE VÓ \tMARILIA PIRILLO\tWMF MARTINS FONTES",
       "timestamp": "2026-01-26 15:43"
+    },
+    {
+      "reservation_id": 1769442697,
+      "book_id": 1765460017,
+      "category": "Brinquedo",
+      "parent_name": "Izabela Cidade",
+      "student_name": "Flor Freitas Cidade",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "BANHEIRA PLÁSTICA",
+      "timestamp": "2026-01-26 15:51"
     }
   ],
   "students_db": [
