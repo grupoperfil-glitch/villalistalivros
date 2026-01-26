@@ -10339,8 +10339,9 @@
       "title": "KIT MÉDICO",
       "grade": "Grupo 1",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRE OLIVEIRA DOS SANTOS",
+      "reserved_student": "AYANNA RODRIGUES OLIVEIRA"
     },
     {
       "id": 1765457432,
@@ -23391,6 +23392,17 @@
       "class_name": "Matutino",
       "book_title": "O HOMEM QUE AMAVA CAIXAS \tSTEPBREN BRING \tBRINQUE BOOK",
       "timestamp": "2026-01-26 16:18"
+    },
+    {
+      "reservation_id": 1769445613,
+      "book_id": 1765457431,
+      "category": "Jogo",
+      "parent_name": "ANDRE OLIVEIRA DOS SANTOS",
+      "student_name": "AYANNA RODRIGUES OLIVEIRA",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "book_title": "KIT MÉDICO",
+      "timestamp": "2026-01-26 16:40"
     }
   ],
   "students_db": [
