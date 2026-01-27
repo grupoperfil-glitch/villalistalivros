@@ -5592,8 +5592,9 @@
       "title": "GUILHERME AUGUSTO ARAUJO FERNANDES \tMEN FOX \tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LAIONARA DE ARAUJO GONCALVES",
+      "reserved_student": "LUA ANTONELLA DE ARAUJO DANTAS VAZ"
     },
     {
       "id": 1765377370,
@@ -23415,6 +23416,17 @@
       "class_name": "Vespertino",
       "book_title": "1 BONECA NEGRA\tCALESITA",
       "timestamp": "2026-01-26 16:41"
+    },
+    {
+      "reservation_id": 1769518424,
+      "book_id": 1765377369,
+      "category": "Livro",
+      "parent_name": "LAIONARA DE ARAUJO GONCALVES",
+      "student_name": "LUA ANTONELLA DE ARAUJO DANTAS VAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "CADÊ  MEU TRAVESSEIRO? \tANA MARIA MACHADO\tSALAMANDRA",
+      "timestamp": "2026-01-27 12:53"
     }
   ],
   "students_db": [
