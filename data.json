@@ -6133,8 +6133,9 @@
       "title": "CHAPEUZINHO NO PELÔ \tPALMIRA MEIRE\tEVAFURNARY",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FELIPPE CALAZANS THOMAZ",
+      "reserved_student": "INACIO MACEDO THOMAZ"
     },
     {
       "id": 1765377427,
@@ -23485,6 +23486,17 @@
       "class_name": "Matutino",
       "book_title": "FELICIDADE BICICLETA\tEMÍLIA NUNEZ\tTIBI EDITORA",
       "timestamp": "2026-01-27 17:59"
+    },
+    {
+      "reservation_id": 1769537066,
+      "book_id": 1765377426,
+      "category": "Livro",
+      "parent_name": "FELIPPE CALAZANS THOMAZ",
+      "student_name": "INACIO MACEDO THOMAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "DA RAIZ DO CABELO ATÉ A PONTA DO PÉ\tEMÍLIA NUNEZ\tCARAMURÊ",
+      "timestamp": "2026-01-27 18:04"
     }
   ],
   "students_db": [
