@@ -5621,9 +5621,9 @@
       "title": "BRUXA, BRUXA VENHA À MINHA FESTA \tARDEN DRUCE \tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "LAIONARA DE ARAUJO GONCALVES",
+      "reserved_student": "LUA ANTONELLA DE ARAUJO DANTAS VAZ"
     },
     {
       "id": 1765377373,
@@ -23427,6 +23427,17 @@
       "class_name": "Matutino",
       "book_title": "CADÊ  MEU TRAVESSEIRO? \tANA MARIA MACHADO\tSALAMANDRA",
       "timestamp": "2026-01-27 12:53"
+    },
+    {
+      "reservation_id": 1769518573,
+      "book_id": 1765377372,
+      "category": "Livro",
+      "parent_name": "LAIONARA DE ARAUJO GONCALVES",
+      "student_name": "LUA ANTONELLA DE ARAUJO DANTAS VAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "COCÔ DE PASSARINHO \tEVA FURNARI \tCIA DAS LETRINHAS",
+      "timestamp": "2026-01-27 12:56"
     }
   ],
   "students_db": [
