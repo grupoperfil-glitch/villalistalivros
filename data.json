@@ -7341,8 +7341,9 @@
       "title": "FELICIDADE BICICLETA\tEMÍLIA NUNEZ\tTIBI EDITORA",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FELIPPE CALAZANS THOMAZ",
+      "reserved_student": "INACIO MACEDO THOMAZ"
     },
     {
       "id": 1765377459,
@@ -23473,6 +23474,17 @@
       "class_name": "Matutino",
       "book_title": "3 COLHERES DE PAU",
       "timestamp": "2026-01-27 15:36"
+    },
+    {
+      "reservation_id": 1769536784,
+      "book_id": 1765377458,
+      "category": "Livro",
+      "parent_name": "FELIPPE CALAZANS THOMAZ",
+      "student_name": "INACIO MACEDO THOMAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "FELICIDADE BICICLETA\tEMÍLIA NUNEZ\tTIBI EDITORA",
+      "timestamp": "2026-01-27 17:59"
     }
   ],
   "students_db": [
