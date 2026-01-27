@@ -14129,8 +14129,9 @@
       "title": "3 COLHERES DE PAU",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FELIPPE CALAZANS THOMAZ",
+      "reserved_student": "INACIO MACEDO THOMAZ"
     },
     {
       "id": 1765460057,
@@ -23461,6 +23462,17 @@
       "class_name": "Vespertino",
       "book_title": "PERIGOSO! ESTE LIVRO CONTÉM COELHOS! TIM WARNES\t CIRANDA CULTURAL",
       "timestamp": "2026-01-27 13:29"
+    },
+    {
+      "reservation_id": 1769528172,
+      "book_id": 1765460056,
+      "category": "Brinquedo",
+      "parent_name": "FELIPPE CALAZANS THOMAZ",
+      "student_name": "INACIO MACEDO THOMAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "3 COLHERES DE PAU",
+      "timestamp": "2026-01-27 15:36"
     }
   ],
   "students_db": [
