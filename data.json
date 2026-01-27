@@ -5651,9 +5651,9 @@
       "title": "NO CORAÇÃO E NA BOLSA\tLAURENCE BOURGUIGNON E VAL’RIE D’HEUR\tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "LAIONARA DE ARAUJO GONCALVES",
+      "reserved_student": "LUA ANTONELLA DE ARAUJO DANTAS VAZ"
     },
     {
       "id": 1765377376,
@@ -23437,6 +23437,17 @@
       "grade": "Grupo 4",
       "class_name": "Matutino",
       "book_title": "COCÔ DE PASSARINHO \tEVA FURNARI \tCIA DAS LETRINHAS",
+      "timestamp": "2026-01-27 12:56"
+    },
+    {
+      "reservation_id": 1769518607,
+      "book_id": 1765377375,
+      "category": "Livro",
+      "parent_name": "LAIONARA DE ARAUJO GONCALVES",
+      "student_name": "LUA ANTONELLA DE ARAUJO DANTAS VAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "CHAPEUZINHO VERMELHO\tROSINHA \tCALLIS",
       "timestamp": "2026-01-27 12:56"
     }
   ],
