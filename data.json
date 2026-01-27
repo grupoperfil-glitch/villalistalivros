@@ -2048,8 +2048,9 @@
       "title": "BRUXA BRUXA VENHA A MINHA FESTA\tARDEN DRUCE",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAMILA SANTOS SARRAF CASSILLO",
+      "reserved_student": "EVA SARRAF CASSILLO"
     },
     {
       "id": 1765376546,
@@ -23449,6 +23450,17 @@
       "class_name": "Matutino",
       "book_title": "CHAPEUZINHO VERMELHO\tROSINHA \tCALLIS",
       "timestamp": "2026-01-27 12:56"
+    },
+    {
+      "reservation_id": 1769520544,
+      "book_id": 1765376545,
+      "category": "Livro",
+      "parent_name": "CAMILA SANTOS SARRAF CASSILLO",
+      "student_name": "EVA SARRAF CASSILLO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "PERIGOSO! ESTE LIVRO CONTÉM COELHOS! TIM WARNES\t CIRANDA CULTURAL",
+      "timestamp": "2026-01-27 13:29"
     }
   ],
   "students_db": [
