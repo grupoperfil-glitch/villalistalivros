@@ -7866,8 +7866,9 @@
       "title": "QUANDO MAMÃE ERA PEQUENA  CALLIS  HYE OK LEE",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
+      "reserved_student": "GUSTAVO CARNEIRO DE ARAUJO MACHADO"
     },
     {
       "id": 1765391805,
@@ -23550,6 +23551,17 @@
       "class_name": "Vespertino",
       "book_title": "A VERDADEIRA HISTÓRIA DOS TRÊS PORQUINHOS  CIA DAS LETRINHAS  JON SCIESZKA",
       "timestamp": "2026-01-28 16:31"
+    },
+    {
+      "reservation_id": 1769617986,
+      "book_id": 1765391804,
+      "category": "Livro",
+      "parent_name": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
+      "student_name": "GUSTAVO CARNEIRO DE ARAUJO MACHADO",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "O GIGANTE MAIS ELEGANTE MAIS ELEGANTE DA CIDADE  BRINQUE-BOOK  JULIA DONALDSON",
+      "timestamp": "2026-01-28 16:33"
     }
   ],
   "students_db": [
