@@ -15864,9 +15864,9 @@
       "title": "CARRINHO",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
-      "reserved_student": "GUSTAVO CARNEIRO DE ARAUJO MACHADO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765460595,
@@ -23589,17 +23589,6 @@
       "class_name": "Vespertino",
       "book_title": "EXPLORANDO O CORPO HUMANO\tTOYSTER",
       "timestamp": "2026-01-28 17:13"
-    },
-    {
-      "reservation_id": 1769621357,
-      "book_id": 1765460594,
-      "category": "Brinquedo",
-      "parent_name": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
-      "student_name": "GUSTAVO CARNEIRO DE ARAUJO MACHADO",
-      "grade": "Grupo 5",
-      "class_name": "Vespertino",
-      "book_title": "CARRINHO",
-      "timestamp": "2026-01-28 17:29"
     }
   ],
   "students_db": [
