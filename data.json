@@ -15609,9 +15609,9 @@
       "title": "DOMINÓ JÁ SEI CONTAR\tGROW",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
-      "reserved_student": "GUSTAVO CARNEIRO DE ARAUJO MACHADO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765460567,
@@ -23588,17 +23588,6 @@
       "class_name": "Vespertino",
       "book_title": "EXPLORANDO O CORPO HUMANO\tTOYSTER",
       "timestamp": "2026-01-28 17:13"
-    },
-    {
-      "reservation_id": 1769620807,
-      "book_id": 1765460566,
-      "category": "Brinquedo",
-      "parent_name": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
-      "student_name": "GUSTAVO CARNEIRO DE ARAUJO MACHADO",
-      "grade": "Grupo 5",
-      "class_name": "Vespertino",
-      "book_title": "DOMINÓ JÁ SEI CONTAR\tGROW",
-      "timestamp": "2026-01-28 17:20"
     }
   ],
   "students_db": [
