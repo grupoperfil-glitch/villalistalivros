@@ -25028,6 +25028,14 @@
       "grade": "Grupo 4",
       "class_name": "Matutino",
       "parent_csv": ""
+    },
+    {
+      "email": "manuelasena@yahoo.com.br",
+      "email2": "",
+      "name": "Theo de Carvalho Sena ",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "parent_csv": "Manuela Priscila "
     }
   ]
 }
