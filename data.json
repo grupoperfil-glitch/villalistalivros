@@ -14687,8 +14687,9 @@
       "title": "EXPLORANDO O CORPO HUMANO\tTOYSTER",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
+      "reserved_student": "GUSTAVO CARNEIRO DE ARAUJO MACHADO"
     },
     {
       "id": 1765460346,
@@ -23575,6 +23576,17 @@
       "class_name": "Vespertino",
       "book_title": "O GIGANTE MAIS ELEGANTE MAIS ELEGANTE DA CIDADE  BRINQUE-BOOK  JULIA DONALDSON",
       "timestamp": "2026-01-28 17:04"
+    },
+    {
+      "reservation_id": 1769620381,
+      "book_id": 1765460345,
+      "category": "Jogo",
+      "parent_name": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
+      "student_name": "GUSTAVO CARNEIRO DE ARAUJO MACHADO",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "EXPLORANDO O CORPO HUMANO\tTOYSTER",
+      "timestamp": "2026-01-28 17:13"
     }
   ],
   "students_db": [
