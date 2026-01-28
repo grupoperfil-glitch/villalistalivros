@@ -5680,8 +5680,9 @@
       "title": "O CASO DA LAGARTA QUE TOMOU CHÁ DE SUMIÇO \tMILTON CÉLIO DE O. FILHO E ANDRÉ NEVES\tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Karine de Jesus Silva",
+      "reserved_student": "Thandiwe Ayodele Silva dos Santos"
     },
     {
       "id": 1765377379,
@@ -23477,6 +23478,17 @@
       "class_name": "Matutino",
       "book_title": "BLOCOS QUEBRA- CABEÇA (SITIO ALEGRE)\tYALINGO",
       "timestamp": "2026-01-28 01:17"
+    },
+    {
+      "reservation_id": 1769566116,
+      "book_id": 1765377378,
+      "category": "Livro",
+      "parent_name": "Karine de Jesus Silva",
+      "student_name": "Thandiwe Ayodele Silva dos Santos",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "EU NUNCA VOU COMER TOMATE\tLAUREN CHILD \tÁTICA",
+      "timestamp": "2026-01-28 02:08"
     }
   ],
   "students_db": [
