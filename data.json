@@ -6286,8 +6286,9 @@
       "title": "A HISTÓRIA DA GOTA D´ÁGUA\tDOMINGOS PELLEGRIN\tGERAÇÃOZINHA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Karine de Jesus Silva",
+      "reserved_student": "Thandiwe Ayodele Silva dos Santos"
     },
     {
       "id": 1765377443,
@@ -23476,6 +23477,17 @@
       "class_name": "Matutino",
       "book_title": "BLOCOS QUEBRA- CABEÇA (SITIO ALEGRE)\tYALINGO",
       "timestamp": "2026-01-28 01:17"
+    },
+    {
+      "reservation_id": 1769565525,
+      "book_id": 1765377442,
+      "category": "Livro",
+      "parent_name": "Karine de Jesus Silva",
+      "student_name": "Thandiwe Ayodele Silva dos Santos",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "MEU CORPO, MEU CORPINHO ROSELI MENDONÇA / SIDINEY MEIRELES\tMATRESCÊNCIA",
+      "timestamp": "2026-01-28 01:58"
     }
   ],
   "students_db": [
