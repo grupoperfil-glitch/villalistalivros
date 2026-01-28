@@ -12592,8 +12592,9 @@
       "title": "FANTOCHE – 3 PORQUINHOS",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL LEIRO DOMINGUEZ",
+      "reserved_student": "MATEUS TAUBERT GOMES DOMINGUEZ"
     },
     {
       "id": 1765459308,
@@ -23514,6 +23515,17 @@
       "class_name": "Matutino",
       "book_title": "ENCAIXE MAMÃE E FILHOTE\tGROW",
       "timestamp": "2026-01-28 15:24"
+    },
+    {
+      "reservation_id": 1769614163,
+      "book_id": 1765459307,
+      "category": "Brinquedo",
+      "parent_name": "RAFAEL LEIRO DOMINGUEZ",
+      "student_name": "MATEUS TAUBERT GOMES DOMINGUEZ",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "FANTOCHE – 3 PORQUINHOS",
+      "timestamp": "2026-01-28 15:29"
     }
   ],
   "students_db": [
