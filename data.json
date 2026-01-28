@@ -12000,8 +12000,9 @@
       "title": "JOGO DE JANTAR",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL LEIRO DOMINGUEZ",
+      "reserved_student": "JOAO TAUBERT GOMES DOMINGUEZ"
     },
     {
       "id": 1765459194,
@@ -23526,6 +23527,17 @@
       "class_name": "Matutino",
       "book_title": "FANTOCHE – 3 PORQUINHOS",
       "timestamp": "2026-01-28 15:29"
+    },
+    {
+      "reservation_id": 1769614836,
+      "book_id": 1765459193,
+      "category": "Jogo",
+      "parent_name": "RAFAEL LEIRO DOMINGUEZ",
+      "student_name": "JOAO TAUBERT GOMES DOMINGUEZ",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "CONJUNTO CUBOS CONSTRUÇÃO COLORIDOS EM MADEIRA",
+      "timestamp": "2026-01-28 15:40"
     }
   ],
   "students_db": [
