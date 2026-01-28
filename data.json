@@ -2614,8 +2614,9 @@
       "title": "NHAC!\tCAROLINA RABEL",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAMILA SANTOS SARRAF CASSILLO",
+      "reserved_student": "EVA SARRAF CASSILLO"
     },
     {
       "id": 1765376579,
@@ -23612,6 +23613,17 @@
       "class_name": "Vespertino",
       "book_title": "O PIQUINIQUE DO GILDO \tSILVANA RANDO\tBRINQUE BOOK",
       "timestamp": "2026-01-28 17:49"
+    },
+    {
+      "reservation_id": 1769622803,
+      "book_id": 1765376578,
+      "category": "Livro",
+      "parent_name": "CAMILA SANTOS SARRAF CASSILLO",
+      "student_name": "EVA SARRAF CASSILLO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "NHAC!\tCAROLINA RABEL",
+      "timestamp": "2026-01-28 17:53"
     }
   ],
   "students_db": [
