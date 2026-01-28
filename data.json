@@ -8619,9 +8619,9 @@
       "title": "O QUE HÁ DA ÁFRICA EM NÓS  MODERNA  WALTER FRAGA, WLAMYRA R. DE ALBUQUERQUE",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
-      "reserved_student": "GUSTAVO CARNEIRO DE ARAUJO MACHADO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765391886,
@@ -23564,17 +23564,6 @@
       "class_name": "Vespertino",
       "book_title": "PERIGOSO!  CIRANDA CULTURAL  TIM WARNES",
       "timestamp": "2026-01-28 16:42"
-    },
-    {
-      "reservation_id": 1769618657,
-      "book_id": 1765391885,
-      "category": "Livro",
-      "parent_name": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
-      "student_name": "GUSTAVO CARNEIRO DE ARAUJO MACHADO",
-      "grade": "Grupo 5",
-      "class_name": "Vespertino",
-      "book_title": "BOA NOITE URSINHO  CIRANDA CULTURAL  CIRANDA CULTURAL",
-      "timestamp": "2026-01-28 16:44"
     }
   ],
   "students_db": [
