@@ -12553,8 +12553,9 @@
       "title": "CARRO AMBULÂNCIA PLÁSTICO",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAMILA SANTOS SARRAF CASSILLO",
+      "reserved_student": "EVA SARRAF CASSILLO"
     },
     {
       "id": 1765459303,
@@ -23624,6 +23625,17 @@
       "class_name": "Vespertino",
       "book_title": "NHAC!\tCAROLINA RABEL",
       "timestamp": "2026-01-28 17:53"
+    },
+    {
+      "reservation_id": 1769623030,
+      "book_id": 1765459302,
+      "category": "Brinquedo",
+      "parent_name": "CAMILA SANTOS SARRAF CASSILLO",
+      "student_name": "EVA SARRAF CASSILLO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "4 COLHERES DE PAU",
+      "timestamp": "2026-01-28 17:57"
     }
   ],
   "students_db": [
