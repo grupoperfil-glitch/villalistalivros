@@ -5507,9 +5507,9 @@
       "title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "FELIPPE CALAZANS THOMAZ",
+      "reserved_student": "INACIO MACEDO THOMAZ"
     },
     {
       "id": 1765377361,
@@ -23488,6 +23488,17 @@
       "class_name": "Matutino",
       "book_title": "MEU CORPO, MEU CORPINHO ROSELI MENDONÇA / SIDINEY MEIRELES\tMATRESCÊNCIA",
       "timestamp": "2026-01-28 01:58"
+    },
+    {
+      "reservation_id": 1769565602,
+      "book_id": 1765377360,
+      "category": "Livro",
+      "parent_name": "FELIPPE CALAZANS THOMAZ",
+      "student_name": "INACIO MACEDO THOMAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "A PISCINA CRISTALINA DE MARIANA \tJONAS RIBEIRO \tELEMENTAR",
+      "timestamp": "2026-01-28 02:00"
     }
   ],
   "students_db": [
