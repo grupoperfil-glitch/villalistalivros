@@ -8757,8 +8757,9 @@
       "title": "VOCÊ E O UNIVERSO   Harper Kids  STEPHEN HAWKING",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
+      "reserved_student": "GUSTAVO CARNEIRO DE ARAUJO MACHADO"
     },
     {
       "id": 1765391901,
@@ -23562,6 +23563,17 @@
       "class_name": "Vespertino",
       "book_title": "O GIGANTE MAIS ELEGANTE MAIS ELEGANTE DA CIDADE  BRINQUE-BOOK  JULIA DONALDSON",
       "timestamp": "2026-01-28 16:33"
+    },
+    {
+      "reservation_id": 1769618563,
+      "book_id": 1765391900,
+      "category": "Livro",
+      "parent_name": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
+      "student_name": "GUSTAVO CARNEIRO DE ARAUJO MACHADO",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "PERIGOSO!  CIRANDA CULTURAL  TIM WARNES",
+      "timestamp": "2026-01-28 16:42"
     }
   ],
   "students_db": [
