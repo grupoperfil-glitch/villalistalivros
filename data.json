@@ -11933,8 +11933,9 @@
       "title": "QUEBRA CABEÇA 3D DE ANIMAIS \tFUTURA BRINQUEDOS EDUCATIVOS",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAMILA SANTOS SARRAF CASSILLO",
+      "reserved_student": "EVA SARRAF CASSILLO"
     },
     {
       "id": 1765459186,
@@ -23636,6 +23637,17 @@
       "class_name": "Vespertino",
       "book_title": "4 COLHERES DE PAU",
       "timestamp": "2026-01-28 17:57"
+    },
+    {
+      "reservation_id": 1769623540,
+      "book_id": 1765459185,
+      "category": "Jogo",
+      "parent_name": "CAMILA SANTOS SARRAF CASSILLO",
+      "student_name": "EVA SARRAF CASSILLO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "QUEBRA CABEÇA 3D DE ANIMAIS \tFUTURA BRINQUEDOS EDUCATIVOS",
+      "timestamp": "2026-01-28 18:05"
     }
   ],
   "students_db": [
