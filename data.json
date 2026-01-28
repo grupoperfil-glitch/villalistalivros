@@ -14029,9 +14029,9 @@
       "title": "FANTOCHES- FAMÍLIA NEGRA\tCARLU",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "Karine de Jesus Silva",
-      "reserved_student": "Thandiwe Ayodele Silva dos Santos"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765460046,
@@ -23123,17 +23123,6 @@
       "class_name": "Matutino",
       "book_title": "ALFABETO MÓVEL DE MADEIRA",
       "timestamp": "2026-01-23 12:47"
-    },
-    {
-      "reservation_id": 1769179981,
-      "book_id": 1765460045,
-      "category": "Brinquedo",
-      "parent_name": "Karine de Jesus Silva",
-      "student_name": "Thandiwe Ayodele Silva dos Santos",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "FANTOCHES- FAMÍLIA NEGRA\tCARLU",
-      "timestamp": "2026-01-23 14:53"
     },
     {
       "reservation_id": 1769180005,
