@@ -24143,7 +24143,8 @@
     },
     {
       "email": "luiz.dev.melo@gmail.com",
-      "name": "LUIS CARLOS FARIAS MELO DIAS",
+      "email2": "",
+      "name": "LUIZ CARLOS FARIAS MELO DIAS",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
       "parent_csv": "LUIZ EDUARDO DA SILVA DIAS"
