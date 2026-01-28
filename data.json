@@ -6222,9 +6222,9 @@
       "title": "A VELHINHA QUE DAVA NOMES ÀS COISAS CYNTHIA RYLANT BRINQUE - BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "MILENA OLIVEIRA SÁ",
+      "reserved_student": "LEVY LUCCA SÁ DE ALMEIDA"
     },
     {
       "id": 1765377436,
@@ -23627,6 +23627,17 @@
       "class_name": "Matutino",
       "book_title": "O DOMADOR DE MONTROS\tANA MARIA MACHADO \tFTD EDUCAÇÃO",
       "timestamp": "2026-01-28 19:20"
+    },
+    {
+      "reservation_id": 1769628732,
+      "book_id": 1765377435,
+      "category": "Livro",
+      "parent_name": "MILENA OLIVEIRA SÁ",
+      "student_name": "LEVY LUCCA SÁ DE ALMEIDA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "AMORAS \tEMICIDA",
+      "timestamp": "2026-01-28 19:32"
     }
   ],
   "students_db": [
