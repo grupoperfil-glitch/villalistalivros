@@ -6222,9 +6222,9 @@
       "title": "A VELHINHA QUE DAVA NOMES ÀS COISAS CYNTHIA RYLANT BRINQUE - BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "MILENA OLIVEIRA SÁ",
-      "reserved_student": "LEVY LUCCA SÁ DE ALMEIDA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377436,
@@ -19556,17 +19556,6 @@
       "class_name": "Matutino",
       "book_title": "O LIVRO DA FAMÍLIA  PANDA BOOKS  TODD PARR",
       "timestamp": "2025-12-17 23:53"
-    },
-    {
-      "reservation_id": 1766019458,
-      "book_id": 1765377435,
-      "category": "Livro",
-      "parent_name": "MILENA OLIVEIRA SÁ",
-      "student_name": "LEVY LUCCA SÁ DE ALMEIDA",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "AMORAS \tEMICIDA",
-      "timestamp": "2025-12-18 00:57"
     },
     {
       "reservation_id": 1766019531,
