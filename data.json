@@ -12102,8 +12102,9 @@
       "title": "TORRE DE HANÓI\tCARIMBRAS",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAFAEL LEIRO DOMINGUEZ",
+      "reserved_student": "MATEUS TAUBERT GOMES DOMINGUEZ"
     },
     {
       "id": 1765459205,
@@ -23502,6 +23503,17 @@
       "class_name": "Vespertino",
       "book_title": "SEQUÊNCIA LÓGICA TRÂNSITO  STAR PLIC\tESTRELA",
       "timestamp": "2026-01-28 14:47"
+    },
+    {
+      "reservation_id": 1769613883,
+      "book_id": 1765459204,
+      "category": "Jogo",
+      "parent_name": "RAFAEL LEIRO DOMINGUEZ",
+      "student_name": "MATEUS TAUBERT GOMES DOMINGUEZ",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "ENCAIXE MAMÃE E FILHOTE\tGROW",
+      "timestamp": "2026-01-28 15:24"
     }
   ],
   "students_db": [
