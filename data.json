@@ -6047,9 +6047,9 @@
       "title": "QUEM VEM LÁ? \tRENATA FERNANDES\tRENATA FERNANDES",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "Karine de Jesus Silva",
-      "reserved_student": "Thandiwe Ayodele Silva dos Santos"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377418,
@@ -20715,17 +20715,6 @@
       "class_name": "Matutino",
       "book_title": "FOI VOVÓ QUE DISSE \tDANIEL MUNDURUKU \tEDELBRA",
       "timestamp": "2025-12-25 16:12"
-    },
-    {
-      "reservation_id": 1766679302,
-      "book_id": 1765377417,
-      "category": "Livro",
-      "parent_name": "Karine de Jesus Silva",
-      "student_name": "Thandiwe Ayodele Silva dos Santos",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "O LIVRO DOS TRAVA–LÍNGUAS\tANTÔNIO MOTA\tLEYA",
-      "timestamp": "2025-12-25 16:15"
     },
     {
       "reservation_id": 1766879358,
