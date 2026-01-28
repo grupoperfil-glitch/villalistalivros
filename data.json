@@ -7866,9 +7866,9 @@
       "title": "QUANDO MAMÃE ERA PEQUENA  CALLIS  HYE OK LEE",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
+      "reserved_student": "GUSTAVO CARNEIRO DE ARAUJO MACHADO"
     },
     {
       "id": 1765391805,
@@ -23564,6 +23564,17 @@
       "class_name": "Vespertino",
       "book_title": "PERIGOSO!  CIRANDA CULTURAL  TIM WARNES",
       "timestamp": "2026-01-28 16:42"
+    },
+    {
+      "reservation_id": 1769619886,
+      "book_id": 1765391804,
+      "category": "Livro",
+      "parent_name": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
+      "student_name": "GUSTAVO CARNEIRO DE ARAUJO MACHADO",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "O GIGANTE MAIS ELEGANTE MAIS ELEGANTE DA CIDADE  BRINQUE-BOOK  JULIA DONALDSON",
+      "timestamp": "2026-01-28 17:04"
     }
   ],
   "students_db": [
