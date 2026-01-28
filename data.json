@@ -5507,9 +5507,9 @@
       "title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "Karine de Jesus Silva",
-      "reserved_student": "Thandiwe Ayodele Silva dos Santos"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377361,
@@ -23477,17 +23477,6 @@
       "class_name": "Matutino",
       "book_title": "BLOCOS QUEBRA- CABEÇA (SITIO ALEGRE)\tYALINGO",
       "timestamp": "2026-01-28 01:17"
-    },
-    {
-      "reservation_id": 1769565954,
-      "book_id": 1765377360,
-      "category": "Livro",
-      "parent_name": "Karine de Jesus Silva",
-      "student_name": "Thandiwe Ayodele Silva dos Santos",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "A PISCINA CRISTALINA DE MARIANA \tJONAS RIBEIRO \tELEMENTAR",
-      "timestamp": "2026-01-28 02:05"
     }
   ],
   "students_db": [
