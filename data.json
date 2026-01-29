@@ -1827,8 +1827,9 @@
       "title": "POR QUE O SUBAÉ NÃO MOLHA O MAPA  JORGE PORTUGAL  CARAMURÊ",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARIANA CRISTINA SANTOS MOREIRA",
+      "reserved_student": "MARIA FLOR MOREIRA SILVA"
     },
     {
       "id": 1765369392,
@@ -23881,6 +23882,17 @@
       "grade": "3º Ano",
       "class_name": "Matutino",
       "book_title": "MULHERES POETAS E BAIANAS  COL. 20 AUTORAS  CARAMURÊ",
+      "timestamp": "2026-01-29 19:31"
+    },
+    {
+      "reservation_id": 1769715095,
+      "book_id": 1765369391,
+      "category": "Livro",
+      "parent_name": "MARIANA CRISTINA SANTOS MOREIRA",
+      "student_name": "MARIA FLOR MOREIRA SILVA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "POR QUE O SUBAÉ NÃO MOLHA O MAPA  JORGE PORTUGAL  CARAMURÊ",
       "timestamp": "2026-01-29 19:31"
     }
   ],
