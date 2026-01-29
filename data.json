@@ -3527,8 +3527,9 @@
       "title": "UM CURUMIM, UMA CANOA\tYAMÃ YAGUARE\tZIT",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ISAQUE MENEZES DA SILVA BENJAMIN",
+      "reserved_student": "ISABELA MENEZES BENJAMIN"
     },
     {
       "id": 1765377003,
@@ -23772,6 +23773,17 @@
       "class_name": "Vespertino",
       "book_title": "JOÃO E O PÉ DE FEIJÃO",
       "timestamp": "2026-01-29 14:50"
+    },
+    {
+      "reservation_id": 1769698791,
+      "book_id": 1765377002,
+      "category": "Livro",
+      "parent_name": "ISAQUE MENEZES DA SILVA BENJAMIN",
+      "student_name": "ISABELA MENEZES BENJAMIN",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "OS TRÊS PORQUINHOS",
+      "timestamp": "2026-01-29 14:59"
     }
   ],
   "students_db": [
