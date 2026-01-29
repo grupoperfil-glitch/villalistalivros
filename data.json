@@ -3004,9 +3004,9 @@
       "title": "QUANDO ME SINTO TRISTE \tJAMES MISSE \tPÉ DA LETRA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "CRISTINA DA COSTA PERES",
+      "reserved_student": "LEO PERES KENNEDY"
     },
     {
       "id": 1765376947,
@@ -23701,6 +23701,17 @@
       "class_name": "Vespertino",
       "book_title": "POSSO IR TAMBÉM?\tLÚCIA PIMENTEL GÓES \tSCIPIONE",
       "timestamp": "2026-01-29 11:42"
+    },
+    {
+      "reservation_id": 1769686989,
+      "book_id": 1765376946,
+      "category": "Livro",
+      "parent_name": "CRISTINA DA COSTA PERES",
+      "student_name": "LEO PERES KENNEDY",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "QUAL É A COR DO AMOR  \t    LINDA STACHON\tBRINQUE BOOK",
+      "timestamp": "2026-01-29 11:43"
     }
   ],
   "students_db": [
