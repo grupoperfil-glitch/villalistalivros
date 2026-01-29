@@ -7446,8 +7446,9 @@
       "title": "O QUE É? ADIVINHAS  SALAMANDRA  ANA MARIA MACHADO E CLAUDIUS",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FRANCISCO CARLOS RIBEIRO DOS SANTOS",
+      "reserved_student": "FLORA DANDARA SANTANA RIBEIRO DOS SANTOS"
     },
     {
       "id": 1765391759,
@@ -23798,6 +23799,17 @@
       "class_name": "Vespertino",
       "book_title": "KIT MÉDICO",
       "timestamp": "2026-01-29 15:33"
+    },
+    {
+      "reservation_id": 1769709155,
+      "book_id": 1765391758,
+      "category": "Livro",
+      "parent_name": "FRANCISCO CARLOS RIBEIRO DOS SANTOS",
+      "student_name": "FLORA DANDARA SANTANA RIBEIRO DOS SANTOS",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "O QUE É? ADIVINHAS  SALAMANDRA  ANA MARIA MACHADO E CLAUDIUS",
+      "timestamp": "2026-01-29 17:52"
     }
   ],
   "students_db": [
