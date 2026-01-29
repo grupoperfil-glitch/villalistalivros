@@ -2975,9 +2975,9 @@
       "title": "QUEM TEM MEDO DE LOBO?\tFANNY JOLLY\tSCIPIONE",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "CRISTINA DA COSTA PERES",
+      "reserved_student": "LEO PERES KENNEDY"
     },
     {
       "id": 1765376944,
@@ -23678,6 +23678,17 @@
       "class_name": "Matutino",
       "book_title": "APRENDENDO OS OPOSTOS REF. 18152\tTOYSTER",
       "timestamp": "2026-01-29 00:54"
+    },
+    {
+      "reservation_id": 1769686875,
+      "book_id": 1765376943,
+      "category": "Livro",
+      "parent_name": "CRISTINA DA COSTA PERES",
+      "student_name": "LEO PERES KENNEDY",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "OS DEZ AMIGOS \tZIRALDO \tMELHORAMENTOS",
+      "timestamp": "2026-01-29 11:41"
     }
   ],
   "students_db": [
