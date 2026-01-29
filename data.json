@@ -7641,9 +7641,9 @@
       "title": "A PRIMAVERA DA LAGARTA  SALAMANDRA  RUTH ROCHA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "FRANCISCO CARLOS RIBEIRO DOS SANTOS",
+      "reserved_student": "FLORA DANDARA SANTANA RIBEIRO DOS SANTOS"
     },
     {
       "id": 1765391780,
@@ -23810,6 +23810,17 @@
       "class_name": "Matutino",
       "book_title": "O QUE É? ADIVINHAS  SALAMANDRA  ANA MARIA MACHADO E CLAUDIUS",
       "timestamp": "2026-01-29 17:52"
+    },
+    {
+      "reservation_id": 1769712909,
+      "book_id": 1765391779,
+      "category": "Livro",
+      "parent_name": "FRANCISCO CARLOS RIBEIRO DOS SANTOS",
+      "student_name": "FLORA DANDARA SANTANA RIBEIRO DOS SANTOS",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "A PRIMAVERA DA LAGARTA  SALAMANDRA  RUTH ROCHA",
+      "timestamp": "2026-01-29 18:55"
     }
   ],
   "students_db": [
