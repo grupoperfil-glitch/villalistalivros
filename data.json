@@ -11595,9 +11595,9 @@
       "title": "1 KIT PRAIA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "CRISTINA DA COSTA PERES",
-      "reserved_student": "LEO PERES KENNEDY"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765458398,
@@ -22952,17 +22952,6 @@
       "class_name": "Matutino",
       "book_title": "O LIVRO DA GENTILEZA  PANDA BOOKS  TODD PARR",
       "timestamp": "2026-01-22 15:34"
-    },
-    {
-      "reservation_id": 1769101706,
-      "book_id": 1765458397,
-      "category": "Brinquedo",
-      "parent_name": "CRISTINA DA COSTA PERES",
-      "student_name": "LEO PERES KENNEDY",
-      "grade": "Grupo 3",
-      "class_name": "Vespertino",
-      "book_title": "KIT DE COZINHA",
-      "timestamp": "2026-01-22 17:08"
     },
     {
       "reservation_id": 1769124218,
