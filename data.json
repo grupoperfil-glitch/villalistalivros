@@ -11949,8 +11949,9 @@
       "title": "CUBOS DE ENCAIXE MADEIRA",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Manuela Priscila ",
+      "reserved_student": "Theo de Carvalho Sena "
     },
     {
       "id": 1765459187,
@@ -23665,6 +23666,17 @@
       "class_name": "Vespertino",
       "book_title": "OTTO VAI Á PRAIA \tTODD PARR",
       "timestamp": "2026-01-29 00:40"
+    },
+    {
+      "reservation_id": 1769647502,
+      "book_id": 1765459186,
+      "category": "Jogo",
+      "parent_name": "Manuela Priscila ",
+      "student_name": "Theo de Carvalho Sena ",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "CUBOS DE ENCAIXE MADEIRA",
+      "timestamp": "2026-01-29 00:45"
     }
   ],
   "students_db": [
