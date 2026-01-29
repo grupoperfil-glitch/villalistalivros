@@ -11586,8 +11586,9 @@
       "title": "3 PENEIRAS DE INOX",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ISAQUE MENEZES DA SILVA BENJAMIN",
+      "reserved_student": "ISABELA MENEZES BENJAMIN"
     },
     {
       "id": 1765458396,
@@ -23786,6 +23787,17 @@
       "class_name": "Vespertino",
       "book_title": "QUEBRA CABEÇA DIVERSOS",
       "timestamp": "2026-01-29 15:26"
+    },
+    {
+      "reservation_id": 1769700799,
+      "book_id": 1765458395,
+      "category": "Brinquedo",
+      "parent_name": "ISAQUE MENEZES DA SILVA BENJAMIN",
+      "student_name": "ISABELA MENEZES BENJAMIN",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "KIT MÉDICO",
+      "timestamp": "2026-01-29 15:33"
     }
   ],
   "students_db": [
