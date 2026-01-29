@@ -12092,9 +12092,9 @@
       "title": "SEQUÊNCIA LÓGICA TRÂNSITO  STAR PLIC\tESTRELA",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "Manuela Priscila ",
-      "reserved_student": "Theo de Carvalho Sena "
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765459203,
@@ -23463,17 +23463,6 @@
       "class_name": "Matutino",
       "book_title": "BRUXA, BRUXA VENHA À MINHA FESTA \tARDEN DRUCE \tBRINQUE BOOK",
       "timestamp": "2026-01-28 02:10"
-    },
-    {
-      "reservation_id": 1769611676,
-      "book_id": 1765459202,
-      "category": "Jogo",
-      "parent_name": "Manuela Priscila ",
-      "student_name": "Theo de Carvalho Sena ",
-      "grade": "Grupo 2",
-      "class_name": "Vespertino",
-      "book_title": "SEQUÊNCIA LÓGICA TRÂNSITO  STAR PLIC\tESTRELA",
-      "timestamp": "2026-01-28 14:47"
     },
     {
       "reservation_id": 1769613883,
