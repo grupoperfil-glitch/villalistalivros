@@ -2078,8 +2078,9 @@
       "title": "PATO! COELHO! AMY KROUSE E TOM LICHTENMELD",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Manuela Priscila ",
+      "reserved_student": "Theo de Carvalho Sena "
     },
     {
       "id": 1765376549,
@@ -23628,6 +23629,17 @@
       "grade": "Grupo 3",
       "class_name": "Matutino",
       "book_title": "O GRÚFALO\tJÚLIA DONALDSON / AKEL SCHEFFLOR\tBRINQUE BOOK",
+      "timestamp": "2026-01-29 00:39"
+    },
+    {
+      "reservation_id": 1769647195,
+      "book_id": 1765376548,
+      "category": "Livro",
+      "parent_name": "Manuela Priscila ",
+      "student_name": "Theo de Carvalho Sena ",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "O CASO DO BOLINHO\tTATIANA BELINKY\tMODERNA",
       "timestamp": "2026-01-29 00:39"
     }
   ],
