@@ -2956,9 +2956,9 @@
       "title": "RIMAS DE NINAR \tTATIANA BELINKY\tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "ISAQUE MENEZES DA SILVA BENJAMIN",
-      "reserved_student": "ISABELA MENEZES BENJAMIN"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765376942,
@@ -23751,17 +23751,6 @@
       "class_name": "Vespertino",
       "book_title": "O GATO XADREZ\tBIA VILELA\tMODERNA",
       "timestamp": "2026-01-29 12:02"
-    },
-    {
-      "reservation_id": 1769698036,
-      "book_id": 1765376941,
-      "category": "Livro",
-      "parent_name": "ISAQUE MENEZES DA SILVA BENJAMIN",
-      "student_name": "ISABELA MENEZES BENJAMIN",
-      "grade": "Grupo 3",
-      "class_name": "Vespertino",
-      "book_title": "PRINCESA ARABELA, MIMADA QUE SÓ ELA.\tMYLO FREEMAN \tÁTICA",
-      "timestamp": "2026-01-29 14:47"
     },
     {
       "reservation_id": 1769698207,
