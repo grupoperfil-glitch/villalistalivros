@@ -8219,8 +8219,9 @@
       "title": "NEGUINHA, SIM!  COMPANHIA DAS LETRINHAS  RENATO GAMA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FRANCISCO CARLOS RIBEIRO DOS SANTOS",
+      "reserved_student": "FLORA DANDARA SANTANA RIBEIRO DOS SANTOS"
     },
     {
       "id": 1765391841,
@@ -23821,6 +23822,17 @@
       "class_name": "Matutino",
       "book_title": "A PRIMAVERA DA LAGARTA  SALAMANDRA  RUTH ROCHA",
       "timestamp": "2026-01-29 18:55"
+    },
+    {
+      "reservation_id": 1769713735,
+      "book_id": 1765391840,
+      "category": "Livro",
+      "parent_name": "FRANCISCO CARLOS RIBEIRO DOS SANTOS",
+      "student_name": "FLORA DANDARA SANTANA RIBEIRO DOS SANTOS",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "NEGUINHA, SIM!  COMPANHIA DAS LETRINHAS  RENATO GAMA",
+      "timestamp": "2026-01-29 19:08"
     }
   ],
   "students_db": [
