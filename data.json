@@ -11883,9 +11883,9 @@
       "title": "12 POTES\tGROW",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "Manuela Priscila ",
-      "reserved_student": "Theo de Carvalho Sena "
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765459180,
@@ -23665,17 +23665,6 @@
       "class_name": "Vespertino",
       "book_title": "OTTO VAI Á PRAIA \tTODD PARR",
       "timestamp": "2026-01-29 00:40"
-    },
-    {
-      "reservation_id": 1769647417,
-      "book_id": 1765459179,
-      "category": "Jogo",
-      "parent_name": "Manuela Priscila ",
-      "student_name": "Theo de Carvalho Sena ",
-      "grade": "Grupo 2",
-      "class_name": "Vespertino",
-      "book_title": "12 POTES\tGROW",
-      "timestamp": "2026-01-29 00:43"
     }
   ],
   "students_db": [
