@@ -2280,8 +2280,9 @@
       "title": "É UM GATO?\tGUIDO VAN GENECHTEN\tGAUDÍ EDITORIAL",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Manuela Priscila ",
+      "reserved_student": "Theo de Carvalho Sena "
     },
     {
       "id": 1765376570,
@@ -23652,6 +23653,17 @@
       "grade": "Grupo 2",
       "class_name": "Vespertino",
       "book_title": "BRUXA BRUXA VENHA A MINHA FESTA\tARDEN DRUCE",
+      "timestamp": "2026-01-29 00:40"
+    },
+    {
+      "reservation_id": 1769647235,
+      "book_id": 1765376569,
+      "category": "Livro",
+      "parent_name": "Manuela Priscila ",
+      "student_name": "Theo de Carvalho Sena ",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "OTTO VAI Á PRAIA \tTODD PARR",
       "timestamp": "2026-01-29 00:40"
     }
   ],
