@@ -1807,8 +1807,9 @@
       "title": "EU E MEU LUGAR   VÂNIA ABREU  CARAMURÊ",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARIANA CRISTINA SANTOS MOREIRA",
+      "reserved_student": "MARIA FLOR MOREIRA SILVA"
     },
     {
       "id": 1765369390,
@@ -23857,6 +23858,17 @@
       "grade": "3º Ano",
       "class_name": "Matutino",
       "book_title": "POEMAS LAMBUZADOS  LÉO CUNHA  SARAIVA",
+      "timestamp": "2026-01-29 19:30"
+    },
+    {
+      "reservation_id": 1769715041,
+      "book_id": 1765369389,
+      "category": "Livro",
+      "parent_name": "MARIANA CRISTINA SANTOS MOREIRA",
+      "student_name": "MARIA FLOR MOREIRA SILVA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "EU E MEU LUGAR   VÂNIA ABREU  CARAMURÊ",
       "timestamp": "2026-01-29 19:30"
     }
   ],
