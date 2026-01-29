@@ -3190,8 +3190,9 @@
       "title": "ZUM-ZUM-ZUM \tLALAU\tCIA DAS LETRINHAS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "GUILHERME BAZILIO DOMINGUES / RAQUEL CRISTINA DE LIMA VIANA",
+      "reserved_student": "ESTER LIMA VIANA BAZILIO DOMINGUES"
     },
     {
       "id": 1765376967,
@@ -23724,6 +23725,17 @@
       "class_name": "Vespertino",
       "book_title": "QUEM TEM MEDO DE TEMPESTADE?\tFANNY JOLLY\tSCIPIONE",
       "timestamp": "2026-01-29 11:59"
+    },
+    {
+      "reservation_id": 1769688005,
+      "book_id": 1765376966,
+      "category": "Livro",
+      "parent_name": "GUILHERME BAZILIO DOMINGUES / RAQUEL CRISTINA DE LIMA VIANA",
+      "student_name": "ESTER LIMA VIANA BAZILIO DOMINGUES",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "BRUXA, BRUXA VENHA À MINHA FESTA!\tARDEN DRUCE \tBRINQUE BOOK",
+      "timestamp": "2026-01-29 12:00"
     }
   ],
   "students_db": [
