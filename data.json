@@ -2887,8 +2887,9 @@
       "title": "OS DEZ AMIGOS \tZIRALDO \tMELHORAMENTOS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SERGIO AUGUSTO TORRES SILVA JUNIOR",
+      "reserved_student": "DAVI CURVELO TORRES"
     },
     {
       "id": 1765376935,
@@ -23616,6 +23617,17 @@
       "class_name": "Matutino",
       "book_title": "AMORAS \tEMICIDA",
       "timestamp": "2026-01-28 19:32"
+    },
+    {
+      "reservation_id": 1769646793,
+      "book_id": 1765376934,
+      "category": "Livro",
+      "parent_name": "SERGIO AUGUSTO TORRES SILVA JUNIOR",
+      "student_name": "DAVI CURVELO TORRES",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "OS DEZ AMIGOS \tZIRALDO \tMELHORAMENTOS",
+      "timestamp": "2026-01-29 00:33"
     }
   ],
   "students_db": [
