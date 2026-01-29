@@ -1817,8 +1817,9 @@
       "title": "MULHERES POETAS E BAIANAS  COL. 20 AUTORAS  CARAMURÊ",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARIANA CRISTINA SANTOS MOREIRA",
+      "reserved_student": "MARIA FLOR MOREIRA SILVA"
     },
     {
       "id": 1765369391,
@@ -23870,6 +23871,17 @@
       "class_name": "Matutino",
       "book_title": "EU E MEU LUGAR   VÂNIA ABREU  CARAMURÊ",
       "timestamp": "2026-01-29 19:30"
+    },
+    {
+      "reservation_id": 1769715082,
+      "book_id": 1765369390,
+      "category": "Livro",
+      "parent_name": "MARIANA CRISTINA SANTOS MOREIRA",
+      "student_name": "MARIA FLOR MOREIRA SILVA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "MULHERES POETAS E BAIANAS  COL. 20 AUTORAS  CARAMURÊ",
+      "timestamp": "2026-01-29 19:31"
     }
   ],
   "students_db": [
