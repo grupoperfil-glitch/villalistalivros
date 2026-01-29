@@ -3581,8 +3581,9 @@
       "title": "O MENINO COM FLORES NO CABELO\tPEQUENA ZAHAR\tJARVIS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "GUILHERME BAZILIO DOMINGUES / RAQUEL CRISTINA DE LIMA VIANA",
+      "reserved_student": "ESTER LIMA VIANA BAZILIO DOMINGUES"
     },
     {
       "id": 1765377009,
@@ -23736,6 +23737,17 @@
       "class_name": "Vespertino",
       "book_title": "BRUXA, BRUXA VENHA À MINHA FESTA!\tARDEN DRUCE \tBRINQUE BOOK",
       "timestamp": "2026-01-29 12:00"
+    },
+    {
+      "reservation_id": 1769688158,
+      "book_id": 1765377008,
+      "category": "Livro",
+      "parent_name": "GUILHERME BAZILIO DOMINGUES / RAQUEL CRISTINA DE LIMA VIANA",
+      "student_name": "ESTER LIMA VIANA BAZILIO DOMINGUES",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "O GATO XADREZ\tBIA VILELA\tMODERNA",
+      "timestamp": "2026-01-29 12:02"
     }
   ],
   "students_db": [
