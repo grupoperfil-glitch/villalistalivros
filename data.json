@@ -3545,8 +3545,9 @@
       "title": "APERTADO E SEM ESPAÇO \tJULIA DONALDSON\t      BRINQUE-BOOK",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ISAQUE MENEZES DA SILVA BENJAMIN",
+      "reserved_student": "ISABELA MENEZES BENJAMIN"
     },
     {
       "id": 1765377005,
@@ -23760,6 +23761,17 @@
       "class_name": "Vespertino",
       "book_title": "PRINCESA ARABELA, MIMADA QUE SÓ ELA.\tMYLO FREEMAN \tÁTICA",
       "timestamp": "2026-01-29 14:47"
+    },
+    {
+      "reservation_id": 1769698207,
+      "book_id": 1765377004,
+      "category": "Livro",
+      "parent_name": "ISAQUE MENEZES DA SILVA BENJAMIN",
+      "student_name": "ISABELA MENEZES BENJAMIN",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "JOÃO E O PÉ DE FEIJÃO",
+      "timestamp": "2026-01-29 14:50"
     }
   ],
   "students_db": [
