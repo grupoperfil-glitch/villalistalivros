@@ -3387,8 +3387,9 @@
       "title": "O GRÚFALO\tJÚLIA DONALDSON / AKEL SCHEFFLOR\tBRINQUE BOOK",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SERGIO AUGUSTO TORRES SILVA JUNIOR",
+      "reserved_student": "DAVI CURVELO TORRES"
     },
     {
       "id": 1765376989,
@@ -23617,6 +23618,17 @@
       "class_name": "Matutino",
       "book_title": "OS DEZ AMIGOS \tZIRALDO \tMELHORAMENTOS",
       "timestamp": "2026-01-29 00:33"
+    },
+    {
+      "reservation_id": 1769647142,
+      "book_id": 1765376988,
+      "category": "Livro",
+      "parent_name": "SERGIO AUGUSTO TORRES SILVA JUNIOR",
+      "student_name": "DAVI CURVELO TORRES",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "O GRÚFALO\tJÚLIA DONALDSON / AKEL SCHEFFLOR\tBRINQUE BOOK",
+      "timestamp": "2026-01-29 00:39"
     }
   ],
   "students_db": [
