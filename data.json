@@ -3014,8 +3014,9 @@
       "title": "KABÁ DAREBU\tDANIEL MUNDURUKU \tBRINQUE-BOOK",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "GUILHERME BAZILIO DOMINGUES / RAQUEL CRISTINA DE LIMA VIANA",
+      "reserved_student": "ESTER LIMA VIANA BAZILIO DOMINGUES"
     },
     {
       "id": 1765376948,
@@ -23712,6 +23713,17 @@
       "class_name": "Vespertino",
       "book_title": "QUAL É A COR DO AMOR  \t    LINDA STACHON\tBRINQUE BOOK",
       "timestamp": "2026-01-29 11:43"
+    },
+    {
+      "reservation_id": 1769687985,
+      "book_id": 1765376947,
+      "category": "Livro",
+      "parent_name": "GUILHERME BAZILIO DOMINGUES / RAQUEL CRISTINA DE LIMA VIANA",
+      "student_name": "ESTER LIMA VIANA BAZILIO DOMINGUES",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "QUEM TEM MEDO DE TEMPESTADE?\tFANNY JOLLY\tSCIPIONE",
+      "timestamp": "2026-01-29 11:59"
     }
   ],
   "students_db": [
