@@ -13953,8 +13953,9 @@
       "title": "CARAS E CARETAS\tBATE BUMBO",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "reserved_student": "ISABELLA MOREIRA RIBEIRO"
     },
     {
       "id": 1765460032,
@@ -24118,6 +24119,17 @@
       "class_name": "Vespertino",
       "book_title": "JÁ SEI CONTAR\tGROW",
       "timestamp": "2026-01-30 19:02"
+    },
+    {
+      "reservation_id": 1769800121,
+      "book_id": 1765460031,
+      "category": "Brinquedo",
+      "parent_name": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "student_name": "ISABELLA MOREIRA RIBEIRO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "BINGO DE LETRAS\tGROW",
+      "timestamp": "2026-01-30 19:08"
     }
   ],
   "students_db": [
