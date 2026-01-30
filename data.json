@@ -8777,8 +8777,9 @@
       "title": "E A LUA SUMIU  BRINQUE-BOOK  MILTON CÉLIO DE OLIVEIRA FILHO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RODRIGO MARTINEZ HAGGE ESPER",
+      "reserved_student": "MIGUEL PENA HAGGE ESPER"
     },
     {
       "id": 1765391900,
@@ -24047,6 +24048,17 @@
       "class_name": "Vespertino",
       "book_title": "DE ONDE VÊM OS PINICOS?\tGUIDO VAN GENECHTEN",
       "timestamp": "2026-01-30 15:16"
+    },
+    {
+      "reservation_id": 1769786232,
+      "book_id": 1765391899,
+      "category": "Livro",
+      "parent_name": "RODRIGO MARTINEZ HAGGE ESPER",
+      "student_name": "MIGUEL PENA HAGGE ESPER",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "E A LUA SUMIU  BRINQUE-BOOK  MILTON CÉLIO DE OLIVEIRA FILHO",
+      "timestamp": "2026-01-30 15:17"
     }
   ],
   "students_db": [
