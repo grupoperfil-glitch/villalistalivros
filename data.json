@@ -8190,8 +8190,9 @@
       "title": "O MENINO QUE SABIA COLECIONAR  PANDA BOOKS  EDISON VEIGA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VANESSA BITTENCOURT GUIMARÃES",
+      "reserved_student": "MARIA TEREZA GUIMARÃES BALDO"
     },
     {
       "id": 1765391837,
@@ -23988,6 +23989,17 @@
       "class_name": "Matutino",
       "book_title": "ABC DO CONTINENTE AFRICANO  SM EDITORA  ROGÉRIO ANDRADE BARBOSA",
       "timestamp": "2026-01-30 12:12"
+    },
+    {
+      "reservation_id": 1769777012,
+      "book_id": 1765391836,
+      "category": "Livro",
+      "parent_name": "VANESSA BITTENCOURT GUIMARÃES",
+      "student_name": "MARIA TEREZA GUIMARÃES BALDO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "O MENINO QUE SABIA COLECIONAR  PANDA BOOKS  EDISON VEIGA",
+      "timestamp": "2026-01-30 12:43"
     }
   ],
   "students_db": [
