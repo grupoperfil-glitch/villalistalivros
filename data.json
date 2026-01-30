@@ -2276,8 +2276,9 @@
       "title": "O CARACOL E A TARTARUGA SÃO AMIGOS\tSTEPHEN MICHAEL KING\tBRINQUE BOOK",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUCAS RAFAEL ESTEVES CATTONY",
+      "reserved_student": "MARIANA CAVALCANTE CATTONY"
     },
     {
       "id": 1765376569,
@@ -24035,6 +24036,17 @@
       "class_name": "Vespertino",
       "book_title": "ABIGAIL\tCATHERINE RAYNER\tCIRANDA CULTURAL",
       "timestamp": "2026-01-30 14:24"
+    },
+    {
+      "reservation_id": 1769786162,
+      "book_id": 1765376568,
+      "category": "Livro",
+      "parent_name": "LUCAS RAFAEL ESTEVES CATTONY",
+      "student_name": "MARIANA CAVALCANTE CATTONY",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "DE ONDE VÊM OS PINICOS?\tGUIDO VAN GENECHTEN",
+      "timestamp": "2026-01-30 15:16"
     }
   ],
   "students_db": [
