@@ -15616,8 +15616,9 @@
       "title": "KIT DINHEIRINHO NOTAS E MOEDAS",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VANESSA BITTENCOURT GUIMARÃES",
+      "reserved_student": "MARIA TEREZA GUIMARÃES BALDO"
     },
     {
       "id": 1765460565,
@@ -24000,6 +24001,17 @@
       "class_name": "Matutino",
       "book_title": "O MENINO QUE SABIA COLECIONAR  PANDA BOOKS  EDISON VEIGA",
       "timestamp": "2026-01-30 12:43"
+    },
+    {
+      "reservation_id": 1769777144,
+      "book_id": 1765460564,
+      "category": "Brinquedo",
+      "parent_name": "VANESSA BITTENCOURT GUIMARÃES",
+      "student_name": "MARIA TEREZA GUIMARÃES BALDO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "KIT DINHEIRINHO NOTAS E MOEDAS",
+      "timestamp": "2026-01-30 12:45"
     }
   ],
   "students_db": [
