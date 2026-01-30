@@ -6168,8 +6168,9 @@
       "title": "TUDO BEM SER DIFERENTE\tTOOD PARR\tPANDA BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "reserved_student": "ISABELLA MOREIRA RIBEIRO"
     },
     {
       "id": 1765377428,
@@ -24095,6 +24096,17 @@
       "class_name": "Vespertino",
       "book_title": "VIAGEM ÀS TERRAS DE PORTUGAL \tJOSÉ SANTOS\tEDITORA PEIRÓPOLIS",
       "timestamp": "2026-01-30 18:43"
+    },
+    {
+      "reservation_id": 1769798744,
+      "book_id": 1765377427,
+      "category": "Livro",
+      "parent_name": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "student_name": "ISABELLA MOREIRA RIBEIRO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "TUDO BEM SER DIFERENTE\tTOOD PARR\tPANDA BOOK",
+      "timestamp": "2026-01-30 18:45"
     }
   ],
   "students_db": [
