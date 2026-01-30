@@ -7927,8 +7927,9 @@
       "title": "ABC DO CONTINENTE AFRICANO  SM EDITORA  ROGÉRIO ANDRADE BARBOSA",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VANESSA BITTENCOURT GUIMARÃES",
+      "reserved_student": "MARIA TEREZA GUIMARÃES BALDO"
     },
     {
       "id": 1765391809,
@@ -23976,6 +23977,17 @@
       "class_name": "Matutino",
       "book_title": "AQUI ESTAMOS NÓS  SALAMANDRA  OLIVER JEFFERS",
       "timestamp": "2026-01-30 12:10"
+    },
+    {
+      "reservation_id": 1769775163,
+      "book_id": 1765391808,
+      "category": "Livro",
+      "parent_name": "VANESSA BITTENCOURT GUIMARÃES",
+      "student_name": "MARIA TEREZA GUIMARÃES BALDO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "ABC DO CONTINENTE AFRICANO  SM EDITORA  ROGÉRIO ANDRADE BARBOSA",
+      "timestamp": "2026-01-30 12:12"
     }
   ],
   "students_db": [
