@@ -14009,8 +14009,9 @@
       "title": "CONHECENDO O CORPO HUMANO\tCARLU",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "reserved_student": "ISABELLA MOREIRA RIBEIRO"
     },
     {
       "id": 1765460038,
@@ -24108,6 +24109,17 @@
       "class_name": "Vespertino",
       "book_title": "TUDO BEM SER DIFERENTE\tTOOD PARR\tPANDA BOOK",
       "timestamp": "2026-01-30 18:45"
+    },
+    {
+      "reservation_id": 1769800664,
+      "book_id": 1765460037,
+      "category": "Brinquedo",
+      "parent_name": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "student_name": "ISABELLA MOREIRA RIBEIRO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "BRINCANDO COM ALFABETO\tTOYSTER",
+      "timestamp": "2026-01-30 19:17"
     }
   ],
   "students_db": [
