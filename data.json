@@ -13532,8 +13532,9 @@
       "title": "JOGO CAIU PERDEU \tPAIS E FILHOS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "reserved_student": "ISABELLA MOREIRA RIBEIRO"
     },
     {
       "id": 1765459718,
@@ -24120,6 +24121,17 @@
       "class_name": "Vespertino",
       "book_title": "BRINCANDO COM ALFABETO\tTOYSTER",
       "timestamp": "2026-01-30 19:17"
+    },
+    {
+      "reservation_id": 1769800798,
+      "book_id": 1765459725,
+      "category": "Jogo",
+      "parent_name": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "student_name": "ISABELLA MOREIRA RIBEIRO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "JOGO CAIU PERDEU \tPAIS E FILHOS",
+      "timestamp": "2026-01-30 19:19"
     }
   ],
   "students_db": [
