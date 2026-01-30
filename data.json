@@ -11993,8 +11993,9 @@
       "title": "DOMINÓ DE ANIMAIS SELVAGENS\tCARLU",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUCAS RAFAEL ESTEVES CATTONY",
+      "reserved_student": "MARIANA CAVALCANTE CATTONY"
     },
     {
       "id": 1765459189,
@@ -24059,6 +24060,17 @@
       "class_name": "Matutino",
       "book_title": "E A LUA SUMIU  BRINQUE-BOOK  MILTON CÉLIO DE OLIVEIRA FILHO",
       "timestamp": "2026-01-30 15:17"
+    },
+    {
+      "reservation_id": 1769788292,
+      "book_id": 1765459188,
+      "category": "Jogo",
+      "parent_name": "LUCAS RAFAEL ESTEVES CATTONY",
+      "student_name": "MARIANA CAVALCANTE CATTONY",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "DOMINÓ DE ANIMAIS SELVAGENS\tCARLU",
+      "timestamp": "2026-01-30 15:51"
     }
   ],
   "students_db": [
