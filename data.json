@@ -4417,8 +4417,9 @@
       "title": "CARONA NA VASSOURA\tJULIA DONALDSON\tBRINQUE- BOOK",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SHELDON NUNO ROCHA DE MATTOS",
+      "reserved_student": "MARINA NASCIMENTO FREIRE DE MATTOS"
     },
     {
       "id": 1765377013,
@@ -23894,6 +23895,17 @@
       "class_name": "Matutino",
       "book_title": "POR QUE O SUBAÉ NÃO MOLHA O MAPA  JORGE PORTUGAL  CARAMURÊ",
       "timestamp": "2026-01-29 19:31"
+    },
+    {
+      "reservation_id": 1769737603,
+      "book_id": 1765377012,
+      "category": "Livro",
+      "parent_name": "SHELDON NUNO ROCHA DE MATTOS",
+      "student_name": "MARINA NASCIMENTO FREIRE DE MATTOS",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "CARONA NA VASSOURA\tJULIA DONALDSON\tBRINQUE- BOOK",
+      "timestamp": "2026-01-30 01:46"
     }
   ],
   "students_db": [
