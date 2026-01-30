@@ -6302,8 +6302,9 @@
       "title": "VIAGEM ÀS TERRAS DE PORTUGAL \tJOSÉ SANTOS\tEDITORA PEIRÓPOLIS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "reserved_student": "ISABELLA MOREIRA RIBEIRO"
     },
     {
       "id": 1765377442,
@@ -24083,6 +24084,17 @@
       "class_name": "Vespertino",
       "book_title": "UM NÚMERO DEPOIS DO OUTRO\tJOSÉ PAULO PAES \tCIA DAS LK",
       "timestamp": "2026-01-30 18:41"
+    },
+    {
+      "reservation_id": 1769798608,
+      "book_id": 1765377441,
+      "category": "Livro",
+      "parent_name": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "student_name": "ISABELLA MOREIRA RIBEIRO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "VIAGEM ÀS TERRAS DE PORTUGAL \tJOSÉ SANTOS\tEDITORA PEIRÓPOLIS",
+      "timestamp": "2026-01-30 18:43"
     }
   ],
   "students_db": [
