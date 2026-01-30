@@ -18422,9 +18422,9 @@
       "title": "QUE HISTÓRIA É ESSA\tFLÁVIO DE SOUZA\tCIA DAS LETRINHAS",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "OTAVIO AUGUSTO REIS DA CRUZ / LIVIA CRISTINA RIBEIRO LIMA",
+      "reserved_student": "Enzo Ribeiro Reis"
     },
     {
       "id": 1765542265,
@@ -23952,6 +23952,17 @@
       "grade": "4º Ano",
       "class_name": "Matutino",
       "book_title": "SETE HISTÓRIAS PARA SACUDIR O ESQUELETO\tANGELA LAGO\tCIA DAS LETRINHAS",
+      "timestamp": "2026-01-30 04:17"
+    },
+    {
+      "reservation_id": 1769746677,
+      "book_id": 1765542264,
+      "category": "Livro",
+      "parent_name": "OTAVIO AUGUSTO REIS DA CRUZ / LIVIA CRISTINA RIBEIRO LIMA",
+      "student_name": "Enzo Ribeiro Reis",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "QUE HISTÓRIA É ESSA\tFLÁVIO DE SOUZA\tCIA DAS LETRINHAS",
       "timestamp": "2026-01-30 04:17"
     }
   ],
