@@ -18997,8 +18997,9 @@
       "title": "DANIEL NO MUNDO DO SILÊNCIO\tWALCYR CARRASCO\tÁTICA",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "OTAVIO AUGUSTO REIS DA CRUZ / LIVIA CRISTINA RIBEIRO LIMA",
+      "reserved_student": "Enzo Ribeiro Reis"
     },
     {
       "id": 1765542340,
@@ -23928,6 +23929,17 @@
       "grade": "4º Ano",
       "class_name": "Matutino",
       "book_title": "A VELHINHA QUE DAVA NOMES AS COISAS CYNTIA RYLANT\tBRINQUE BOOK",
+      "timestamp": "2026-01-30 04:17"
+    },
+    {
+      "reservation_id": 1769746644,
+      "book_id": 1765542339,
+      "category": "Livro",
+      "parent_name": "OTAVIO AUGUSTO REIS DA CRUZ / LIVIA CRISTINA RIBEIRO LIMA",
+      "student_name": "Enzo Ribeiro Reis",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "DANIEL NO MUNDO DO SILÊNCIO\tWALCYR CARRASCO\tÁTICA",
       "timestamp": "2026-01-30 04:17"
     }
   ],
