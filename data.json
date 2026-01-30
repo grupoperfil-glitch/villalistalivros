@@ -13334,9 +13334,9 @@
       "title": "JÁ SEI CONTAR\tGROW",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "reserved_student": "ISABELLA MOREIRA RIBEIRO"
     },
     {
       "id": 1765459705,
@@ -24107,6 +24107,17 @@
       "class_name": "Vespertino",
       "book_title": "TUDO BEM SER DIFERENTE\tTOOD PARR\tPANDA BOOK",
       "timestamp": "2026-01-30 18:45"
+    },
+    {
+      "reservation_id": 1769799756,
+      "book_id": 1765459704,
+      "category": "Jogo",
+      "parent_name": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "student_name": "ISABELLA MOREIRA RIBEIRO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "JÁ SEI CONTAR\tGROW",
+      "timestamp": "2026-01-30 19:02"
     }
   ],
   "students_db": [
