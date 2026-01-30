@@ -5559,8 +5559,9 @@
       "title": "UM NÚMERO DEPOIS DO OUTRO\tJOSÉ PAULO PAES \tCIA DAS LK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "reserved_student": "ISABELLA MOREIRA RIBEIRO"
     },
     {
       "id": 1765377364,
@@ -24071,6 +24072,17 @@
       "class_name": "Vespertino",
       "book_title": "DOMINÓ DE ANIMAIS SELVAGENS\tCARLU",
       "timestamp": "2026-01-30 15:51"
+    },
+    {
+      "reservation_id": 1769798497,
+      "book_id": 1765377363,
+      "category": "Livro",
+      "parent_name": "FLAVIA RAMOS MOREIRA RIBEIRO",
+      "student_name": "ISABELLA MOREIRA RIBEIRO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "UM NÚMERO DEPOIS DO OUTRO\tJOSÉ PAULO PAES \tCIA DAS LK",
+      "timestamp": "2026-01-30 18:41"
     }
   ],
   "students_db": [
