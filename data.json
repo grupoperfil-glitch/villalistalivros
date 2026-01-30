@@ -13953,9 +13953,9 @@
       "title": "CARAS E CARETAS\tBATE BUMBO",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "FLAVIA RAMOS MOREIRA RIBEIRO",
-      "reserved_student": "ISABELLA MOREIRA RIBEIRO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765460032,
@@ -24108,17 +24108,6 @@
       "class_name": "Vespertino",
       "book_title": "TUDO BEM SER DIFERENTE\tTOOD PARR\tPANDA BOOK",
       "timestamp": "2026-01-30 18:45"
-    },
-    {
-      "reservation_id": 1769800121,
-      "book_id": 1765460031,
-      "category": "Brinquedo",
-      "parent_name": "FLAVIA RAMOS MOREIRA RIBEIRO",
-      "student_name": "ISABELLA MOREIRA RIBEIRO",
-      "grade": "Grupo 4",
-      "class_name": "Vespertino",
-      "book_title": "BINGO DE LETRAS\tGROW",
-      "timestamp": "2026-01-30 19:08"
     }
   ],
   "students_db": [
