@@ -7471,8 +7471,9 @@
       "title": "AQUI ESTAMOS NÓS  SALAMANDRA  OLIVER JEFFERS",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VANESSA BITTENCOURT GUIMARÃES",
+      "reserved_student": "MARIA TEREZA GUIMARÃES BALDO"
     },
     {
       "id": 1765391761,
@@ -23964,6 +23965,17 @@
       "class_name": "Matutino",
       "book_title": "QUE HISTÓRIA É ESSA\tFLÁVIO DE SOUZA\tCIA DAS LETRINHAS",
       "timestamp": "2026-01-30 04:17"
+    },
+    {
+      "reservation_id": 1769775037,
+      "book_id": 1765391760,
+      "category": "Livro",
+      "parent_name": "VANESSA BITTENCOURT GUIMARÃES",
+      "student_name": "MARIA TEREZA GUIMARÃES BALDO",
+      "grade": "Grupo 5",
+      "class_name": "Matutino",
+      "book_title": "AQUI ESTAMOS NÓS  SALAMANDRA  OLIVER JEFFERS",
+      "timestamp": "2026-01-30 12:10"
     }
   ],
   "students_db": [
