@@ -2151,9 +2151,9 @@
       "title": "OS DEZ AMIGOS\tZIRALDO",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "LUCAS RAFAEL ESTEVES CATTONY",
+      "reserved_student": "MARIANA CAVALCANTE CATTONY"
     },
     {
       "id": 1765376556,
@@ -24012,6 +24012,17 @@
       "class_name": "Matutino",
       "book_title": "KIT DINHEIRINHO NOTAS E MOEDAS",
       "timestamp": "2026-01-30 12:45"
+    },
+    {
+      "reservation_id": 1769782418,
+      "book_id": 1765376555,
+      "category": "Livro",
+      "parent_name": "LUCAS RAFAEL ESTEVES CATTONY",
+      "student_name": "MARIANA CAVALCANTE CATTONY",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "PERIGOSO!\tTIM WARNES",
+      "timestamp": "2026-01-30 14:13"
     }
   ],
   "students_db": [
