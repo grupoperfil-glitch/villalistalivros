@@ -3408,8 +3408,9 @@
       "title": "O REI BIGODEIRA E SUA BANHEIRA\tAUDREY WOOD\tEDITORA ÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SHELDON NUNO ROCHA DE MATTOS",
+      "reserved_student": "MARINA NASCIMENTO FREIRE DE MATTOS"
     },
     {
       "id": 1765376990,
@@ -23906,6 +23907,17 @@
       "class_name": "Vespertino",
       "book_title": "CARONA NA VASSOURA\tJULIA DONALDSON\tBRINQUE- BOOK",
       "timestamp": "2026-01-30 01:46"
+    },
+    {
+      "reservation_id": 1769737825,
+      "book_id": 1765376989,
+      "category": "Livro",
+      "parent_name": "SHELDON NUNO ROCHA DE MATTOS",
+      "student_name": "MARINA NASCIMENTO FREIRE DE MATTOS",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "A ESCOLINHA DO MAR \tRUTH ROCHA\tSALAMANDRA",
+      "timestamp": "2026-01-30 01:50"
     }
   ],
   "students_db": [
