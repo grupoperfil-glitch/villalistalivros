@@ -18927,9 +18927,9 @@
       "title": "A VELHINHA QUE DAVA NOMES AS COISAS CYNTIA RYLANT\tBRINQUE BOOK",
       "grade": "4º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "OTAVIO AUGUSTO REIS DA CRUZ / LIVIA CRISTINA RIBEIRO LIMA",
+      "reserved_student": "Enzo Ribeiro Reis"
     },
     {
       "id": 1765542333,
@@ -23918,6 +23918,17 @@
       "class_name": "Vespertino",
       "book_title": "A ESCOLINHA DO MAR \tRUTH ROCHA\tSALAMANDRA",
       "timestamp": "2026-01-30 01:50"
+    },
+    {
+      "reservation_id": 1769746625,
+      "book_id": 1765542332,
+      "category": "Livro",
+      "parent_name": "OTAVIO AUGUSTO REIS DA CRUZ / LIVIA CRISTINA RIBEIRO LIMA",
+      "student_name": "Enzo Ribeiro Reis",
+      "grade": "4º Ano",
+      "class_name": "Matutino",
+      "book_title": "A VELHINHA QUE DAVA NOMES AS COISAS CYNTIA RYLANT\tBRINQUE BOOK",
+      "timestamp": "2026-01-30 04:17"
     }
   ],
   "students_db": [
