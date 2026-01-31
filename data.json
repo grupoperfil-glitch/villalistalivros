@@ -11613,8 +11613,9 @@
       "title": "1 KIT PRAIA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SERGIO AUGUSTO TORRES SILVA JUNIOR",
+      "reserved_student": "DAVI CURVELO TORRES"
     },
     {
       "id": 1765458397,
@@ -24132,6 +24133,17 @@
       "class_name": "Matutino",
       "book_title": "SÓ UM PULINHO DE GATO\tHENS JONISH \tBRINQUE BOOK",
       "timestamp": "2026-01-31 03:08"
+    },
+    {
+      "reservation_id": 1769889442,
+      "book_id": 1765458396,
+      "category": "Brinquedo",
+      "parent_name": "SERGIO AUGUSTO TORRES SILVA JUNIOR",
+      "student_name": "DAVI CURVELO TORRES",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "1 KIT PRAIA",
+      "timestamp": "2026-01-31 19:57"
     }
   ],
   "students_db": [
