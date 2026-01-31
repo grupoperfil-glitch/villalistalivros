@@ -5914,9 +5914,9 @@
       "title": "QUANDO MAMÃE VIROU UM MONSTRO\tJOANA HARRISON \tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "ALLAN SILVA PIAUHY FALCÃO",
-      "reserved_student": "SOPHIE PAIXAO PIAUHY"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377401,
@@ -24121,17 +24121,6 @@
       "class_name": "Vespertino",
       "book_title": "JOGO CAIU PERDEU \tPAIS E FILHOS",
       "timestamp": "2026-01-30 19:19"
-    },
-    {
-      "reservation_id": 1769825335,
-      "book_id": 1765377400,
-      "category": "Livro",
-      "parent_name": "ALLAN SILVA PIAUHY FALCÃO",
-      "student_name": "SOPHIE PAIXAO PIAUHY",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "SÓ UM PULINHO DE GATO\tHENS JONISH \tBRINQUE BOOK",
-      "timestamp": "2026-01-31 02:08"
     }
   ],
   "students_db": [
