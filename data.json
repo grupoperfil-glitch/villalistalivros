@@ -8316,8 +8316,9 @@
       "title": "O ALVO  ÁTICA  ILAN BRENMAN",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SUZANE CARLOS EGIDIO CERQUEIRA",
+      "reserved_student": "PAULO VICTOR EGIDIO CERQUEIRA"
     },
     {
       "id": 1765391850,
@@ -24144,6 +24145,17 @@
       "class_name": "Matutino",
       "book_title": "1 KIT PRAIA",
       "timestamp": "2026-01-31 19:57"
+    },
+    {
+      "reservation_id": 1769889855,
+      "book_id": 1765391849,
+      "category": "Livro",
+      "parent_name": "SUZANE CARLOS EGIDIO CERQUEIRA",
+      "student_name": "PAULO VICTOR EGIDIO CERQUEIRA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "LINO  CALLIS  ANDRÉ NEVES",
+      "timestamp": "2026-01-31 20:04"
     }
   ],
   "students_db": [
