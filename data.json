@@ -481,9 +481,9 @@
       "title": "A MAIOR FLOR DO MUNDO  JOSÉ SARAMAGO  CIA DAS LETRINHAS",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "LUCAS PEREIRA DOS SANTOS",
-      "reserved_student": "MARIA JULIA PEREIRA SCHRAMM"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765369014,
@@ -22203,17 +22203,6 @@
       "class_name": "Matutino",
       "book_title": "CHAPEUZINHOS COLORIDOS JOSÉ ROBERTO TORERO / MARCUS AURELIUS PIMENTA CIA DAS LETRINHAS",
       "timestamp": "2026-01-14 16:53"
-    },
-    {
-      "reservation_id": 1768412119,
-      "book_id": 1765369013,
-      "category": "Livro",
-      "parent_name": "LUCAS PEREIRA DOS SANTOS",
-      "student_name": "MARIA JULIA PEREIRA SCHRAMM",
-      "grade": "1º Ano",
-      "class_name": "Matutino",
-      "book_title": "A MAIOR FLOR DO MUNDO  JOSÉ SARAMAGO  CIA DAS LETRINHAS",
-      "timestamp": "2026-01-14 17:35"
     },
     {
       "reservation_id": 1768412181,
