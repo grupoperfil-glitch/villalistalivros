@@ -14997,9 +14997,9 @@
       "title": "QUEBRA CABEÇA EDUCATIVO MAPA DO BRASIL REGIÕES E ESTADOS E CAPITAIS",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "SUZANE CARLOS EGIDIO CERQUEIRA",
+      "reserved_student": "PAULO VICTOR EGIDIO CERQUEIRA"
     },
     {
       "id": 1765460355,
@@ -24169,6 +24169,17 @@
       "class_name": "Vespertino",
       "book_title": "A LAGARTIXA COM CARA DE SALSICHA\tPATRICK GEORGE",
       "timestamp": "2026-02-01 00:52"
+    },
+    {
+      "reservation_id": 1769939147,
+      "book_id": 1765460373,
+      "category": "Jogo",
+      "parent_name": "SUZANE CARLOS EGIDIO CERQUEIRA",
+      "student_name": "PAULO VICTOR EGIDIO CERQUEIRA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "QUEBRA CABEÇA EDUCATIVO MAPA DO BRASIL REGIÕES E ESTADOS E CAPITAIS",
+      "timestamp": "2026-02-01 09:45"
     }
   ],
   "students_db": [
