@@ -2171,8 +2171,9 @@
       "title": "ROLIM\tZIRALDO",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "reserved_student": "YANNA BARRETO MONTEIRO"
     },
     {
       "id": 1765376558,
@@ -24157,6 +24158,17 @@
       "class_name": "Vespertino",
       "book_title": "A PRIMAVERA DA LAGARTA  SALAMANDRA  RUTH ROCHA",
       "timestamp": "2026-01-31 20:24"
+    },
+    {
+      "reservation_id": 1769907121,
+      "book_id": 1765376557,
+      "category": "Livro",
+      "parent_name": "FLAVIA GIOVANA BARRETO DE FREITAS",
+      "student_name": "YANNA BARRETO MONTEIRO",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "A LAGARTIXA COM CARA DE SALSICHA\tPATRICK GEORGE",
+      "timestamp": "2026-02-01 00:52"
     }
   ],
   "students_db": [
