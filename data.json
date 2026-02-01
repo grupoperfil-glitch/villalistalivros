@@ -10303,8 +10303,9 @@
       "title": "A TURMA DOS 11 TELOS  OCIO BONILHA",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SUZANE CARLOS EGIDIO CERQUEIRA",
+      "reserved_student": "PAULO VICTOR EGIDIO CERQUEIRA"
     },
     {
       "id": 1765457423,
@@ -24192,6 +24193,17 @@
       "class_name": "Vespertino",
       "book_title": "BOLICHE",
       "timestamp": "2026-02-01 09:48"
+    },
+    {
+      "reservation_id": 1769941584,
+      "book_id": 1765391929,
+      "category": "Livro",
+      "parent_name": "SUZANE CARLOS EGIDIO CERQUEIRA",
+      "student_name": "PAULO VICTOR EGIDIO CERQUEIRA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "A TURMA DOS 11 TELOS  OCIO BONILHA",
+      "timestamp": "2026-02-01 10:26"
     }
   ],
   "students_db": [
