@@ -17124,9 +17124,9 @@
       "title": "AS CONFUSÕES DE ANINHA  STELLA CAR\tMODERNA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "LUCAS PEREIRA DOS SANTOS",
-      "reserved_student": "MARIA JULIA PEREIRA SCHRAMM"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765541605,
@@ -22203,17 +22203,6 @@
       "class_name": "Matutino",
       "book_title": "CHAPEUZINHOS COLORIDOS JOSÉ ROBERTO TORERO / MARCUS AURELIUS PIMENTA CIA DAS LETRINHAS",
       "timestamp": "2026-01-14 16:53"
-    },
-    {
-      "reservation_id": 1768412181,
-      "book_id": 1765541604,
-      "category": "Livro",
-      "parent_name": "LUCAS PEREIRA DOS SANTOS",
-      "student_name": "MARIA JULIA PEREIRA SCHRAMM",
-      "grade": "1º Ano",
-      "class_name": "Matutino",
-      "book_title": "AS CONFUSÕES DE ANINHA  STELLA CAR\tMODERNA",
-      "timestamp": "2026-01-14 17:36"
     },
     {
       "reservation_id": 1768412268,
