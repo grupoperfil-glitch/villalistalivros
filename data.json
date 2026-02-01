@@ -8402,8 +8402,9 @@
       "title": "AS AVENTURAS DO BONEQUINHO DO BANHEIRO  MELHORAMENTO  ZIRALDO",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "SUZANE CARLOS EGIDIO CERQUEIRA",
+      "reserved_student": "PAULO VICTOR EGIDIO CERQUEIRA"
     },
     {
       "id": 1765391859,
@@ -24193,6 +24194,17 @@
       "class_name": "Vespertino",
       "book_title": "BOLICHE",
       "timestamp": "2026-02-01 09:48"
+    },
+    {
+      "reservation_id": 1769944226,
+      "book_id": 1765391858,
+      "category": "Livro",
+      "parent_name": "SUZANE CARLOS EGIDIO CERQUEIRA",
+      "student_name": "PAULO VICTOR EGIDIO CERQUEIRA",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "NEGUINHA, SIM!  COMPANHIA DAS LETRINHAS  RENATO GAMA",
+      "timestamp": "2026-02-01 11:10"
     }
   ],
   "students_db": [
