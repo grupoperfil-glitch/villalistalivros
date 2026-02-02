@@ -6354,8 +6354,9 @@
       "title": "A ÚLTIMA GOTA \tEMÍLIA NUNEZ\tTIBI EDITORA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JULIO CEZAR LEITE DE BARROS",
+      "reserved_student": "ISABELLA SAUCEDO LEITE DE BARROS"
     },
     {
       "id": 1765377447,
@@ -24183,6 +24184,17 @@
       "class_name": "Vespertino",
       "book_title": "NEGUINHA, SIM!  COMPANHIA DAS LETRINHAS  RENATO GAMA",
       "timestamp": "2026-02-01 11:10"
+    },
+    {
+      "reservation_id": 1770036325,
+      "book_id": 1765377446,
+      "category": "Livro",
+      "parent_name": "JULIO CEZAR LEITE DE BARROS",
+      "student_name": "ISABELLA SAUCEDO LEITE DE BARROS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "A VELHINHA QUE DAVA NOMES ÀS COISAS CYNTHIA RYLANT BRINQUE - BOOK",
+      "timestamp": "2026-02-02 12:45"
     }
   ],
   "students_db": [
