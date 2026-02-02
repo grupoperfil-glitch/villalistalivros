@@ -25783,6 +25783,14 @@
       "grade": "Grupo 5",
       "class_name": "Matutino",
       "parent_csv": ""
+    },
+    {
+      "email": "contato@thaizavitoria.com.br",
+      "email2": "wilsoneduardoadvogado@gmail.com",
+      "name": "MARIA ISABEL VINHAS NOGUEIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "THAIZA VITORIA VINHAS NOGUEIRA / WILSON EDUARDO NOGUEIRA SANTOS"
     }
   ]
 }
