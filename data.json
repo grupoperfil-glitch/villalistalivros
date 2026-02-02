@@ -13956,8 +13956,9 @@
       "title": "QUEBRA CABEÇA CORPO HUMANO \tPAIS E FILHOS",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ALLAN SILVA PIAUHY FALCÃO",
+      "reserved_student": "SOPHIE PAIXAO PIAUHY"
     },
     {
       "id": 1765460031,
@@ -24232,6 +24233,17 @@
       "class_name": "Vespertino",
       "book_title": "LIGUE E BRINQUE\tCARLU",
       "timestamp": "2026-02-02 20:02"
+    },
+    {
+      "reservation_id": 1770063886,
+      "book_id": 1765460030,
+      "category": "Brinquedo",
+      "parent_name": "ALLAN SILVA PIAUHY FALCÃO",
+      "student_name": "SOPHIE PAIXAO PIAUHY",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "QUEBRA CABEÇA CORPO HUMANO \tPAIS E FILHOS",
+      "timestamp": "2026-02-02 20:24"
     }
   ],
   "students_db": [
