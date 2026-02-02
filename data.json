@@ -13881,9 +13881,9 @@
       "title": "BLOCOS QUEBRA- CABEÇA (ZOOLÓGICO)\tYALINGO",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "ALLAN SILVA PIAUHY FALCÃO",
-      "reserved_student": "SOPHIE PAIXAO PIAUHY"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765460023,
@@ -22637,17 +22637,6 @@
       "class_name": "Matutino",
       "book_title": "TEM CRIANÇA NA COZINHA- CULINÁRIA DIVERTIDA CIRANDA CULTURAL",
       "timestamp": "2026-01-20 19:58"
-    },
-    {
-      "reservation_id": 1768939615,
-      "book_id": 1765460022,
-      "category": "Brinquedo",
-      "parent_name": "ALLAN SILVA PIAUHY FALCÃO",
-      "student_name": "SOPHIE PAIXAO PIAUHY",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "BLOCOS QUEBRA- CABEÇA (ZOOLÓGICO)\tYALINGO",
-      "timestamp": "2026-01-20 20:06"
     },
     {
       "reservation_id": 1768941225,
