@@ -5377,8 +5377,9 @@
       "title": "O GRITO DO RIO TIETÊ\tAMIR PIEDADE\tELEMENTAR",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THAIZA VITORIA VINHAS NOGUEIRA / WILSON EDUARDO NOGUEIRA SANTOS",
+      "reserved_student": "MARIA ISABEL VINHAS NOGUEIRA"
     },
     {
       "id": 1765377345,
@@ -24195,6 +24196,17 @@
       "class_name": "Matutino",
       "book_title": "A VELHINHA QUE DAVA NOMES ÀS COISAS CYNTHIA RYLANT BRINQUE - BOOK",
       "timestamp": "2026-02-02 12:45"
+    },
+    {
+      "reservation_id": 1770062400,
+      "book_id": 1765377344,
+      "category": "Livro",
+      "parent_name": "THAIZA VITORIA VINHAS NOGUEIRA / WILSON EDUARDO NOGUEIRA SANTOS",
+      "student_name": "MARIA ISABEL VINHAS NOGUEIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "O GRITO DO RIO TIETÊ\tAMIR PIEDADE\tELEMENTAR",
+      "timestamp": "2026-02-02 20:00"
     }
   ],
   "students_db": [
