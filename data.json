@@ -17366,8 +17366,9 @@
       "title": "O MAIS FANTÁSTICO OVO DO MUNDO\tHELME HEINE TRADUÇÃO GIAN CALVI GLOBAL",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FELIPPE CALAZANS THOMAZ",
+      "reserved_student": "CAETANO MACEDO THOMAZ"
     },
     {
       "id": 1765541630,
@@ -24244,6 +24245,17 @@
       "class_name": "Matutino",
       "book_title": "QUEBRA CABEÇA CORPO HUMANO \tPAIS E FILHOS",
       "timestamp": "2026-02-02 20:24"
+    },
+    {
+      "reservation_id": 1770123880,
+      "book_id": 1765541629,
+      "category": "Livro",
+      "parent_name": "FELIPPE CALAZANS THOMAZ",
+      "student_name": "CAETANO MACEDO THOMAZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O MAIS FANTÁSTICO OVO DO MUNDO\tHELME HEINE TRADUÇÃO GIAN CALVI GLOBAL",
+      "timestamp": "2026-02-03 13:04"
     }
   ],
   "students_db": [
