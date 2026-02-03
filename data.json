@@ -5900,8 +5900,9 @@
       "title": "POR QUE EU EXISTO?\tOSCAR BRENIFIER\tPANDA BOOKS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FELIPPE CALAZANS THOMAZ",
+      "reserved_student": "INACIO MACEDO THOMAZ"
     },
     {
       "id": 1765377399,
@@ -24303,6 +24304,17 @@
       "class_name": "Matutino",
       "book_title": "ORELHA DE LIMÃO \tKATJA REIDER \tBRINQUE BOOK",
       "timestamp": "2026-02-03 13:20"
+    },
+    {
+      "reservation_id": 1770124909,
+      "book_id": 1765377398,
+      "category": "Livro",
+      "parent_name": "FELIPPE CALAZANS THOMAZ",
+      "student_name": "INACIO MACEDO THOMAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "POEMAS SAPECAS, RIMAS TRAQUINAS \tALMIR CORRÊA \tCIA DAS LETRINHAS",
+      "timestamp": "2026-02-03 13:21"
     }
   ],
   "students_db": [
