@@ -13887,9 +13887,9 @@
       "title": "BLOCOS QUEBRA- CABEÇA (ZOOLÓGICO)\tYALINGO",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "JULIO CEZAR LEITE DE BARROS",
+      "reserved_student": "ISABELLA SAUCEDO LEITE DE BARROS"
     },
     {
       "id": 1765460023,
@@ -24396,6 +24396,17 @@
       "class_name": "Matutino",
       "book_title": "CHORAR É COMO CHOVER \tEMÍLIA NUNEZ\tTIBI EDITORA",
       "timestamp": "2026-02-03 18:29"
+    },
+    {
+      "reservation_id": 1770144100,
+      "book_id": 1765460022,
+      "category": "Brinquedo",
+      "parent_name": "JULIO CEZAR LEITE DE BARROS",
+      "student_name": "ISABELLA SAUCEDO LEITE DE BARROS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "BLOCOS QUEBRA- CABEÇA (ZOOLÓGICO)\tYALINGO",
+      "timestamp": "2026-02-03 18:41"
     }
   ],
   "students_db": [
