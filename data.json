@@ -1942,8 +1942,9 @@
       "title": "JOELHO JUVENAL\tZIRALDO\tMELHORAMENTOS",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAQUEL MOCITAIBA / PEDRO MOCITAIBA",
+      "reserved_student": "BEATRIZ SANTIAGO MACITAIBA"
     },
     {
       "id": 1765376534,
@@ -24361,6 +24362,17 @@
       "class_name": "Matutino",
       "book_title": "PERIGOSO! ESTE LIVRO CONTÉM COELHOS! TIM WARNES\t CIRANDA CULTURAL",
       "timestamp": "2026-02-03 16:24"
+    },
+    {
+      "reservation_id": 1770135975,
+      "book_id": 1765376533,
+      "category": "Livro",
+      "parent_name": "RAQUEL MOCITAIBA / PEDRO MOCITAIBA",
+      "student_name": "BEATRIZ SANTIAGO MACITAIBA",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "JOELHO JUVENAL\tZIRALDO\tMELHORAMENTOS",
+      "timestamp": "2026-02-03 16:26"
     }
   ],
   "students_db": [
