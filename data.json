@@ -7390,9 +7390,9 @@
       "title": "CHORAR É COMO CHOVER \tEMÍLIA NUNEZ\tTIBI EDITORA",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "JULIO CEZAR LEITE DE BARROS",
+      "reserved_student": "ISABELLA SAUCEDO LEITE DE BARROS"
     },
     {
       "id": 1765377460,
@@ -24385,6 +24385,17 @@
       "class_name": "Matutino",
       "book_title": "A CESTA DE DONA MARICOTA\tTATIANA BELINKY\tPAULINAS",
       "timestamp": "2026-02-03 16:29"
+    },
+    {
+      "reservation_id": 1770143343,
+      "book_id": 1765377459,
+      "category": "Livro",
+      "parent_name": "JULIO CEZAR LEITE DE BARROS",
+      "student_name": "ISABELLA SAUCEDO LEITE DE BARROS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "CHORAR É COMO CHOVER \tEMÍLIA NUNEZ\tTIBI EDITORA",
+      "timestamp": "2026-02-03 18:29"
     }
   ],
   "students_db": [
