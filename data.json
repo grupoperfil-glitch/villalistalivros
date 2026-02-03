@@ -11323,8 +11323,9 @@
       "title": "JOGO DA MEMÓRIA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARIANA GOTTSCHALK SUKERMAN BARRETO",
+      "reserved_student": "MANUELA GOTTSCHALK SUKERMAN ARAUJO"
     },
     {
       "id": 1765458290,
@@ -24326,6 +24327,17 @@
       "class_name": "Matutino",
       "book_title": "QUEBRA-CABEÇA PIRÂMIDE DE SAÚDE ALIMENTAR (P/CRIANÇA)\tCARLU",
       "timestamp": "2026-02-03 13:31"
+    },
+    {
+      "reservation_id": 1770129032,
+      "book_id": 1765458289,
+      "category": "Jogo",
+      "parent_name": "MARIANA GOTTSCHALK SUKERMAN BARRETO",
+      "student_name": "MANUELA GOTTSCHALK SUKERMAN ARAUJO",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "JOGO DA MEMÓRIA",
+      "timestamp": "2026-02-03 14:30"
     }
   ],
   "students_db": [
