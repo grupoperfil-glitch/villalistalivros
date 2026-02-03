@@ -12115,8 +12115,9 @@
       "title": "PINOS DE MONTAR\tELKA",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAQUEL MOCITAIBA / PEDRO MOCITAIBA",
+      "reserved_student": "BEATRIZ SANTIAGO MACITAIBA"
     },
     {
       "id": 1765459200,
@@ -24419,6 +24420,17 @@
       "class_name": "Matutino",
       "book_title": "SUPER MEMÓRIA FIGURAS INFANTIS\tGROW",
       "timestamp": "2026-02-03 19:25"
+    },
+    {
+      "reservation_id": 1770147474,
+      "book_id": 1765459199,
+      "category": "Jogo",
+      "parent_name": "RAQUEL MOCITAIBA / PEDRO MOCITAIBA",
+      "student_name": "BEATRIZ SANTIAGO MACITAIBA",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "CUBOS DE ENCAIXE MADEIRA",
+      "timestamp": "2026-02-03 19:37"
     }
   ],
   "students_db": [
