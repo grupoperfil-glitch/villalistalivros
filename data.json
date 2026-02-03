@@ -13683,9 +13683,9 @@
       "title": "QUEBRA-CABEÇA PIRÂMIDE DE SAÚDE ALIMENTAR (P/CRIANÇA)\tCARLU",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "FELIPPE CALAZANS THOMAZ",
+      "reserved_student": "INACIO MACEDO THOMAZ"
     },
     {
       "id": 1765459733,
@@ -24315,6 +24315,17 @@
       "class_name": "Matutino",
       "book_title": "POEMAS SAPECAS, RIMAS TRAQUINAS \tALMIR CORRÊA \tCIA DAS LETRINHAS",
       "timestamp": "2026-02-03 13:21"
+    },
+    {
+      "reservation_id": 1770125478,
+      "book_id": 1765459732,
+      "category": "Jogo",
+      "parent_name": "FELIPPE CALAZANS THOMAZ",
+      "student_name": "INACIO MACEDO THOMAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "QUEBRA-CABEÇA PIRÂMIDE DE SAÚDE ALIMENTAR (P/CRIANÇA)\tCARLU",
+      "timestamp": "2026-02-03 13:31"
     }
   ],
   "students_db": [
