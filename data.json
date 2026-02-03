@@ -5871,8 +5871,9 @@
       "title": "UM TIGRE, DOIS TIGRES, TRÊS TIGRES\tEV FURNARI\tPAULUS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FELIPPE CALAZANS THOMAZ",
+      "reserved_student": "INACIO MACEDO THOMAZ"
     },
     {
       "id": 1765377396,
@@ -24291,6 +24292,17 @@
       "class_name": "Matutino",
       "book_title": "A MAIOR FLOR DO MUNDO  JOSÉ SARAMAGO  CIA DAS LETRINHAS",
       "timestamp": "2026-02-03 13:12"
+    },
+    {
+      "reservation_id": 1770124829,
+      "book_id": 1765377395,
+      "category": "Livro",
+      "parent_name": "FELIPPE CALAZANS THOMAZ",
+      "student_name": "INACIO MACEDO THOMAZ",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "ORELHA DE LIMÃO \tKATJA REIDER \tBRINQUE BOOK",
+      "timestamp": "2026-02-03 13:20"
     }
   ],
   "students_db": [
