@@ -25880,6 +25880,14 @@
       "grade": "1º Ano",
       "class_name": "Vespertino",
       "parent_csv": "Quesia da silva alves santos"
+    },
+    {
+      "email": "raquelsantiagosacramento@gmail.com",
+      "email2": "pedro.mocitaiba@gmail.com",
+      "name": "BEATRIZ SANTIAGO MACITAIBA",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "parent_csv": "RAQUEL MOCITAIBA / PEDRO MOCITAIBA"
     }
   ]
 }
