@@ -17596,8 +17596,9 @@
       "title": "1001 HISTÓRIAS\tLILA PRAP\tBIRUTA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FELIPPE CALAZANS THOMAZ",
+      "reserved_student": "CAETANO MACEDO THOMAZ"
     },
     {
       "id": 1765541655,
@@ -24268,6 +24269,17 @@
       "class_name": "Matutino",
       "book_title": "O NASCIMENTO DA LUA\tCOBY HOL\tBRINQUE BOOK",
       "timestamp": "2026-02-03 13:05"
+    },
+    {
+      "reservation_id": 1770124009,
+      "book_id": 1765541654,
+      "category": "Livro",
+      "parent_name": "FELIPPE CALAZANS THOMAZ",
+      "student_name": "CAETANO MACEDO THOMAZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "1001 HISTÓRIAS\tLILA PRAP\tBIRUTA",
+      "timestamp": "2026-02-03 13:06"
     }
   ],
   "students_db": [
