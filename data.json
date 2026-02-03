@@ -1952,8 +1952,9 @@
       "title": "A CESTA DE DONA MARICOTA\tTATIANA BELINKY\tPAULINAS",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RAQUEL MOCITAIBA / PEDRO MOCITAIBA",
+      "reserved_student": "BEATRIZ SANTIAGO MACITAIBA"
     },
     {
       "id": 1765376535,
@@ -24373,6 +24374,17 @@
       "class_name": "Matutino",
       "book_title": "JOELHO JUVENAL\tZIRALDO\tMELHORAMENTOS",
       "timestamp": "2026-02-03 16:26"
+    },
+    {
+      "reservation_id": 1770136140,
+      "book_id": 1765376534,
+      "category": "Livro",
+      "parent_name": "RAQUEL MOCITAIBA / PEDRO MOCITAIBA",
+      "student_name": "BEATRIZ SANTIAGO MACITAIBA",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "A CESTA DE DONA MARICOTA\tTATIANA BELINKY\tPAULINAS",
+      "timestamp": "2026-02-03 16:29"
     }
   ],
   "students_db": [
