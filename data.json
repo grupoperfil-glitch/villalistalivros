@@ -481,9 +481,9 @@
       "title": "A MAIOR FLOR DO MUNDO  JOSÉ SARAMAGO  CIA DAS LETRINHAS",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "FELIPPE CALAZANS THOMAZ",
+      "reserved_student": "CAETANO MACEDO THOMAZ"
     },
     {
       "id": 1765369014,
@@ -24280,6 +24280,17 @@
       "class_name": "Matutino",
       "book_title": "1001 HISTÓRIAS\tLILA PRAP\tBIRUTA",
       "timestamp": "2026-02-03 13:06"
+    },
+    {
+      "reservation_id": 1770124331,
+      "book_id": 1765369013,
+      "category": "Livro",
+      "parent_name": "FELIPPE CALAZANS THOMAZ",
+      "student_name": "CAETANO MACEDO THOMAZ",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "A MAIOR FLOR DO MUNDO  JOSÉ SARAMAGO  CIA DAS LETRINHAS",
+      "timestamp": "2026-02-03 13:12"
     }
   ],
   "students_db": [
