@@ -11635,9 +11635,9 @@
       "title": "1 KIT PRAIA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "MARIANA GOTTSCHALK SUKERMAN BARRETO",
+      "reserved_student": "MANUELA GOTTSCHALK SUKERMAN ARAUJO"
     },
     {
       "id": 1765458398,
@@ -24337,6 +24337,17 @@
       "grade": "Grupo 3",
       "class_name": "Matutino",
       "book_title": "JOGO DA MEMÓRIA",
+      "timestamp": "2026-02-03 14:30"
+    },
+    {
+      "reservation_id": 1770129044,
+      "book_id": 1765458397,
+      "category": "Brinquedo",
+      "parent_name": "MARIANA GOTTSCHALK SUKERMAN BARRETO",
+      "student_name": "MANUELA GOTTSCHALK SUKERMAN ARAUJO",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "1 KIT PRAIA",
       "timestamp": "2026-02-03 14:30"
     }
   ],
