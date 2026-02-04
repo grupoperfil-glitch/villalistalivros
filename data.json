@@ -11081,8 +11081,9 @@
       "title": "JOGO CONSTRUTOR DE MADEIRA",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUCIANA CALDAS",
+      "reserved_student": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO"
     },
     {
       "id": 1765458276,
@@ -24478,6 +24479,17 @@
       "class_name": "Matutino",
       "book_title": "ANIMAIS MARINHOS",
       "timestamp": "2026-02-04 17:39"
+    },
+    {
+      "reservation_id": 1770226849,
+      "book_id": 1765458275,
+      "category": "Jogo",
+      "parent_name": "LUCIANA CALDAS",
+      "student_name": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "PEQUENO ENGENHEIRO",
+      "timestamp": "2026-02-04 17:40"
     }
   ],
   "students_db": [
