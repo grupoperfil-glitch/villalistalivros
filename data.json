@@ -2766,8 +2766,9 @@
       "title": "CLACT...CLACT...CLACT\tLILIANE E MICHELE IACOCCA\tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUCIANA CALDAS",
+      "reserved_student": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO"
     },
     {
       "id": 1765376921,
@@ -24479,6 +24480,17 @@
       "class_name": "Matutino",
       "book_title": "PEQUENO ENGENHEIRO",
       "timestamp": "2026-02-04 17:40"
+    },
+    {
+      "reservation_id": 1770227340,
+      "book_id": 1765376920,
+      "category": "Livro",
+      "parent_name": "LUCIANA CALDAS",
+      "student_name": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "CLACT...CLACT...CLACT\tLILIANE E MICHELE IACOCCA\tÁTICA",
+      "timestamp": "2026-02-04 17:49"
     }
   ],
   "students_db": [
