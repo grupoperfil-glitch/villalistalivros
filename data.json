@@ -2823,9 +2823,9 @@
       "title": "MARIA VAI COM AS OUTRAS\tSILVIA ORTHOF\tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "LUCIANA CALDAS",
-      "reserved_student": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765376927,
@@ -24446,17 +24446,6 @@
       "class_name": "Matutino",
       "book_title": "EU NUNCA VOU COMER UM TOMATE\tLAUREM CHILD \tÁTICA",
       "timestamp": "2026-02-04 17:36"
-    },
-    {
-      "reservation_id": 1770226631,
-      "book_id": 1765376926,
-      "category": "Livro",
-      "parent_name": "LUCIANA CALDAS",
-      "student_name": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO",
-      "grade": "Grupo 3",
-      "class_name": "Matutino",
-      "book_title": "MARIA VAI COM AS OUTRAS\tSILVIA ORTHOF\tÁTICA",
-      "timestamp": "2026-02-04 17:37"
     },
     {
       "reservation_id": 1770226668,
