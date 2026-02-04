@@ -3141,8 +3141,9 @@
       "title": "OTTO VAI À PRAIA \tTODD PARR\tPANDA BOOKS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LUCIANA CALDAS",
+      "reserved_student": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO"
     },
     {
       "id": 1765376960,
@@ -24503,6 +24504,17 @@
       "class_name": "Vespertino",
       "book_title": "O MENINO QUE DESCOBRIU AS PALAVRAS \tCÍNEAS SANTOS \tÁTICA",
       "timestamp": "2026-02-04 18:00"
+    },
+    {
+      "reservation_id": 1770228604,
+      "book_id": 1765376959,
+      "category": "Livro",
+      "parent_name": "LUCIANA CALDAS",
+      "student_name": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "OTTO VAI À PRAIA \tTODD PARR\tPANDA BOOKS",
+      "timestamp": "2026-02-04 18:10"
     }
   ],
   "students_db": [
