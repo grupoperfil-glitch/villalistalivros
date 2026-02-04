@@ -26075,6 +26075,14 @@
       "grade": "Grupo 2",
       "class_name": "Matutino",
       "parent_csv": "RAQUEL MOCITAIBA / PEDRO MOCITAIBA"
+    },
+    {
+      "email": "",
+      "email2": "",
+      "name": "Thomas",
+      "grade": "Grupo 1",
+      "class_name": "Matutino",
+      "parent_csv": ""
     }
   ]
 }
