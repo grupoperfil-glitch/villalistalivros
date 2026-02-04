@@ -2979,9 +2979,9 @@
       "title": "QUANDO EU SINTO MEDO \tJAMES MISSE \tPÉ DA LETRA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "EDSON CUNHA PIMENTEL",
+      "reserved_student": "MIGUEL DA SILVEIRA PIMENTEL ANDRADE"
     },
     {
       "id": 1765376943,
@@ -24514,6 +24514,17 @@
       "class_name": "Vespertino",
       "book_title": "O CIRCO DA LUA \tEVA FURNARI \tÁTICA",
       "timestamp": "2026-02-04 17:59"
+    },
+    {
+      "reservation_id": 1770228010,
+      "book_id": 1765376942,
+      "category": "Livro",
+      "parent_name": "EDSON CUNHA PIMENTEL",
+      "student_name": "MIGUEL DA SILVEIRA PIMENTEL ANDRADE",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "O MENINO QUE DESCOBRIU AS PALAVRAS \tCÍNEAS SANTOS \tÁTICA",
+      "timestamp": "2026-02-04 18:00"
     }
   ],
   "students_db": [
