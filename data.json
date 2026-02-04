@@ -11403,9 +11403,9 @@
       "title": "ANIMAIS MARINHOS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "LUCIANA CALDAS",
-      "reserved_student": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765458373,
@@ -24467,17 +24467,6 @@
       "class_name": "Matutino",
       "book_title": "GASPAR, O LOBO QUE TINHA MEDO DE LOBO \tARNOUD BOURON \tPANDA BOOKS",
       "timestamp": "2026-02-04 17:37"
-    },
-    {
-      "reservation_id": 1770226742,
-      "book_id": 1765458372,
-      "category": "Brinquedo",
-      "parent_name": "LUCIANA CALDAS",
-      "student_name": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO",
-      "grade": "Grupo 3",
-      "class_name": "Matutino",
-      "book_title": "ANIMAIS MARINHOS",
-      "timestamp": "2026-02-04 17:39"
     }
   ],
   "students_db": [
