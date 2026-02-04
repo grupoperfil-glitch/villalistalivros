@@ -2766,9 +2766,9 @@
       "title": "CLACT...CLACT...CLACT\tLILIANE E MICHELE IACOCCA\tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "LUCIANA CALDAS",
+      "reserved_student": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO"
     },
     {
       "id": 1765376921,
@@ -24515,6 +24515,17 @@
       "class_name": "Matutino",
       "book_title": "OTTO VAI À PRAIA \tTODD PARR\tPANDA BOOKS",
       "timestamp": "2026-02-04 18:10"
+    },
+    {
+      "reservation_id": 1770228728,
+      "book_id": 1765376920,
+      "category": "Livro",
+      "parent_name": "LUCIANA CALDAS",
+      "student_name": "ALEXANDRE CALDAS OLIVEIRA MACIEL PAOLILO",
+      "grade": "Grupo 3",
+      "class_name": "Matutino",
+      "book_title": "CLACT...CLACT...CLACT\tLILIANE E MICHELE IACOCCA\tÁTICA",
+      "timestamp": "2026-02-04 18:12"
     }
   ],
   "students_db": [
