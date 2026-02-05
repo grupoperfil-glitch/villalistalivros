@@ -10955,8 +10955,9 @@
       "title": "BLOCOS DE ENCAIXE",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "EDSON CUNHA PIMENTEL",
+      "reserved_student": "MIGUEL DA SILVEIRA PIMENTEL ANDRADE"
     },
     {
       "id": 1765458262,
@@ -24526,6 +24527,17 @@
       "class_name": "Matutino",
       "book_title": "CLACT...CLACT...CLACT\tLILIANE E MICHELE IACOCCA\tÁTICA",
       "timestamp": "2026-02-04 18:12"
+    },
+    {
+      "reservation_id": 1770308857,
+      "book_id": 1765458261,
+      "category": "Jogo",
+      "parent_name": "EDSON CUNHA PIMENTEL",
+      "student_name": "MIGUEL DA SILVEIRA PIMENTEL ANDRADE",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "BLOCOS DE ENCAIXE",
+      "timestamp": "2026-02-05 16:27"
     }
   ],
   "students_db": [
