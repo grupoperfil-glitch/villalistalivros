@@ -17280,8 +17280,9 @@
       "title": "A VELHA MISTERIOSA\tANA MARIA MACHADO\tSALAMANDRA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "reserved_student": "LEONARDO LUZ LIMA"
     },
     {
       "id": 1765541619,
@@ -24550,6 +24551,17 @@
       "class_name": "Vespertino",
       "book_title": "1 KIT PRAIA",
       "timestamp": "2026-02-05 16:30"
+    },
+    {
+      "reservation_id": 1770329912,
+      "book_id": 1765541618,
+      "category": "Livro",
+      "parent_name": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "student_name": "LEONARDO LUZ LIMA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "A VELHA MISTERIOSA\tANA MARIA MACHADO\tSALAMANDRA",
+      "timestamp": "2026-02-05 22:18"
     }
   ],
   "students_db": [
