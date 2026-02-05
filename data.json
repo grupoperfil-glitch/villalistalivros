@@ -25086,7 +25086,8 @@
     },
     {
       "email": "lea@abmnet.org.br",
-      "name": "LEANDRO DANTAS PINA MARTINEZ",
+      "email2": "",
+      "name": "LEONARDO DANTAS PINA MARTINEZ",
       "grade": "1º Ano",
       "class_name": "Matutino",
       "parent_csv": "LEA CLARISSA FLORES DANTAS PINA"
