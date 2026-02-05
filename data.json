@@ -26221,6 +26221,14 @@
       "grade": "Grupo 1",
       "class_name": "Matutino",
       "parent_csv": ""
+    },
+    {
+      "email": "jr.129@hotmail.com",
+      "email2": "daialaq.luz@hotmail.com",
+      "name": "LEONARDO LUIS LIMA",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "parent_csv": ""
     }
   ]
 }
