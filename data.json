@@ -17505,8 +17505,9 @@
       "title": "O PATINHO CULPADO\tSILVANA TAVANO\tCARAMELO",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "reserved_student": "LEONARDO LUZ LIMA"
     },
     {
       "id": 1765541643,
@@ -24585,6 +24586,17 @@
       "grade": "1º Ano",
       "class_name": "Matutino",
       "book_title": "CADÊ O DOCINHO QUE ESTAVA AQUI?\tMARIA ANGELA RESENDE\tFORMATO",
+      "timestamp": "2026-02-05 22:19"
+    },
+    {
+      "reservation_id": 1770329989,
+      "book_id": 1765541642,
+      "category": "Livro",
+      "parent_name": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "student_name": "LEONARDO LUZ LIMA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O PATINHO CULPADO\tSILVANA TAVANO\tCARAMELO",
       "timestamp": "2026-02-05 22:19"
     }
   ],
