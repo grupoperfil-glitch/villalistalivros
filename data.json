@@ -11899,8 +11899,9 @@
       "title": "1 KIT PRAIA",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "EDSON CUNHA PIMENTEL",
+      "reserved_student": "MIGUEL DA SILVEIRA PIMENTEL ANDRADE"
     },
     {
       "id": 1765458404,
@@ -24538,6 +24539,17 @@
       "class_name": "Vespertino",
       "book_title": "BLOCOS DE ENCAIXE",
       "timestamp": "2026-02-05 16:27"
+    },
+    {
+      "reservation_id": 1770309003,
+      "book_id": 1765458403,
+      "category": "Brinquedo",
+      "parent_name": "EDSON CUNHA PIMENTEL",
+      "student_name": "MIGUEL DA SILVEIRA PIMENTEL ANDRADE",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "1 KIT PRAIA",
+      "timestamp": "2026-02-05 16:30"
     }
   ],
   "students_db": [
