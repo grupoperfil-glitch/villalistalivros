@@ -948,9 +948,9 @@
       "title": "O GRÚFALO  JULIA DONALDSON  BRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "Quesia da silva alves santos",
+      "reserved_student": "Mikael Alves santos "
     },
     {
       "id": 1765369060,
@@ -24598,6 +24598,17 @@
       "class_name": "Matutino",
       "book_title": "O PATINHO CULPADO\tSILVANA TAVANO\tCARAMELO",
       "timestamp": "2026-02-05 22:19"
+    },
+    {
+      "reservation_id": 1770393530,
+      "book_id": 1765369059,
+      "category": "Livro",
+      "parent_name": "Quesia da silva alves santos",
+      "student_name": "Mikael Alves santos ",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "O GRÚFALO  JULIA DONALDSON  BRINQUE BOOK",
+      "timestamp": "2026-02-06 15:58"
     }
   ],
   "students_db": [
