@@ -881,8 +881,9 @@
       "title": "A PALAVRA FEIA DE ALBERTO  AUDREY WOOD ÁTICA",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Quesia da silva alves santos",
+      "reserved_student": "Mikael Alves santos "
     },
     {
       "id": 1765369053,
@@ -24620,6 +24621,17 @@
       "class_name": "Vespertino",
       "book_title": "A CASA SONOLENTA  AUDREY WOOD ÁTICA",
       "timestamp": "2026-02-06 16:05"
+    },
+    {
+      "reservation_id": 1770394677,
+      "book_id": 1765369052,
+      "category": "Livro",
+      "parent_name": "Quesia da silva alves santos",
+      "student_name": "Mikael Alves santos ",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "A PALAVRA FEIA DE ALBERTO  AUDREY WOOD ÁTICA",
+      "timestamp": "2026-02-06 16:17"
     }
   ],
   "students_db": [
