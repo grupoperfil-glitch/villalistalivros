@@ -1684,8 +1684,9 @@
       "title": "O QUE OS OLHOS NÃO VEEM  RUTH ROCHA  SALAMANDRA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CARLA ISA DA SILVA SOUZA",
+      "reserved_student": "ALANA SOUZA DE LIMA"
     },
     {
       "id": 1765369377,
@@ -24644,6 +24645,17 @@
       "class_name": "Vespertino",
       "book_title": "A PALAVRA FEIA DE ALBERTO  AUDREY WOOD ÁTICA",
       "timestamp": "2026-02-06 18:15"
+    },
+    {
+      "reservation_id": 1770475396,
+      "book_id": 1765369376,
+      "category": "Livro",
+      "parent_name": "CARLA ISA DA SILVA SOUZA",
+      "student_name": "ALANA SOUZA DE LIMA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "O QUE OS OLHOS NÃO VEEM  RUTH ROCHA  SALAMANDRA",
+      "timestamp": "2026-02-07 14:43"
     }
   ],
   "students_db": [
