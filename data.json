@@ -18368,8 +18368,9 @@
       "title": "EU, VOCÊ E TUDO QUE EXISTE\tLILIANA LALOCCA/SIRON FRANCO ÁTICA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CARLA ISA DA SILVA SOUZA",
+      "reserved_student": "ALANA SOUZA DE LIMA"
     },
     {
       "id": 1765542069,
@@ -24670,6 +24671,17 @@
       "class_name": "Matutino",
       "book_title": "MENINA AMARROTADA  ALINE ABREU  JUJUBA",
       "timestamp": "2026-02-07 14:43"
+    },
+    {
+      "reservation_id": 1770475859,
+      "book_id": 1765542068,
+      "category": "Livro",
+      "parent_name": "CARLA ISA DA SILVA SOUZA",
+      "student_name": "ALANA SOUZA DE LIMA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "EU, VOCÊ E TUDO QUE EXISTE\tLILIANA LALOCCA/SIRON FRANCO ÁTICA",
+      "timestamp": "2026-02-07 14:50"
     }
   ],
   "students_db": [
