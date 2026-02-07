@@ -1714,8 +1714,9 @@
       "title": "MENINA AMARROTADA  ALINE ABREU  JUJUBA",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CARLA ISA DA SILVA SOUZA",
+      "reserved_student": "ALANA SOUZA DE LIMA"
     },
     {
       "id": 1765369380,
@@ -24655,6 +24656,17 @@
       "grade": "3º Ano",
       "class_name": "Matutino",
       "book_title": "O QUE OS OLHOS NÃO VEEM  RUTH ROCHA  SALAMANDRA",
+      "timestamp": "2026-02-07 14:43"
+    },
+    {
+      "reservation_id": 1770475410,
+      "book_id": 1765369379,
+      "category": "Livro",
+      "parent_name": "CARLA ISA DA SILVA SOUZA",
+      "student_name": "ALANA SOUZA DE LIMA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "MENINA AMARROTADA  ALINE ABREU  JUJUBA",
       "timestamp": "2026-02-07 14:43"
     }
   ],
