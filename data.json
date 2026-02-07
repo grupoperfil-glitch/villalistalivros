@@ -18424,9 +18424,9 @@
       "title": "EU E MEU LUGAR\tVANIA ABREU\tCARAMURÊ",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "CARLA ISA DA SILVA SOUZA",
-      "reserved_student": "ALANA SOUZA DE LIMA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765542075,
@@ -24680,17 +24680,6 @@
       "grade": "3º Ano",
       "class_name": "Matutino",
       "book_title": "QUANDO EU COMECEI A CRESCER\tRUTH ROCHA\tÁTICA",
-      "timestamp": "2026-02-07 14:44"
-    },
-    {
-      "reservation_id": 1770475476,
-      "book_id": 1765542074,
-      "category": "Livro",
-      "parent_name": "CARLA ISA DA SILVA SOUZA",
-      "student_name": "ALANA SOUZA DE LIMA",
-      "grade": "3º Ano",
-      "class_name": "Matutino",
-      "book_title": "EU E MEU LUGAR\tVANIA ABREU\tCARAMURÊ",
       "timestamp": "2026-02-07 14:44"
     }
   ],
