@@ -5944,8 +5944,9 @@
       "title": "NOME, SOBRENOME, APELIDO\tRENATA BUENO\tCIA DAS LETRINHAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "QUESIA DA SILVA ALVES SANTOS",
+      "reserved_student": "ZACK ALVES SANTOS"
     },
     {
       "id": 1765377402,
@@ -24706,6 +24707,17 @@
       "class_name": "Matutino",
       "book_title": "O CASO DA LAGARTA QUE TOMOU CHÁ DE SUMIÇO \tMILTON CÉLIO DE O. FILHO E ANDRÉ NEVES\tBRINQUE BOOK",
       "timestamp": "2026-02-08 13:21"
+    },
+    {
+      "reservation_id": 1770557295,
+      "book_id": 1765377401,
+      "category": "Livro",
+      "parent_name": "QUESIA DA SILVA ALVES SANTOS",
+      "student_name": "ZACK ALVES SANTOS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "TATUS TRANQUILOS\tFLORENCE BREKEN \tCIA DAS LETRINHAS",
+      "timestamp": "2026-02-08 13:28"
     }
   ],
   "students_db": [
