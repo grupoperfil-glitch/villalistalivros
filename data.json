@@ -1118,8 +1118,9 @@
       "title": "AS MENTIRAS DE PAULINHO FERNANDO LOPES DE ALMEIDA ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "LEONARDO DE OLIVEIRA FIGUEIREDO / RENATA PINHEIRO MAGALHAES",
+      "reserved_student": "LAURA MAGALHÃES FIGUEIREDO"
     },
     {
       "id": 1765369191,
@@ -24729,6 +24730,17 @@
       "class_name": "Matutino",
       "book_title": "A MENINA QUE PROCURAVA ALEXANDRE RAMPAZO LAROUSSE",
       "timestamp": "2026-02-08 23:09"
+    },
+    {
+      "reservation_id": 1770667619,
+      "book_id": 1765369190,
+      "category": "Livro",
+      "parent_name": "LEONARDO DE OLIVEIRA FIGUEIREDO / RENATA PINHEIRO MAGALHAES",
+      "student_name": "LAURA MAGALHÃES FIGUEIREDO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "AS MENTIRAS DE PAULINHO FERNANDO LOPES DE ALMEIDA ÁTICA",
+      "timestamp": "2026-02-09 20:06"
     }
   ],
   "students_db": [
