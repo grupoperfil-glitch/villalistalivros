@@ -17374,8 +17374,9 @@
       "title": "O POTE VAZIO\tDEMI\tMARTINS FONTES",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "reserved_student": "LEONARDO LUZ LIMA"
     },
     {
       "id": 1765541628,
@@ -24719,6 +24720,17 @@
       "class_name": "Matutino",
       "book_title": "A MENINA QUE PROCURAVA ALEXANDRE RAMPAZO LAROUSSE",
       "timestamp": "2026-02-08 23:09"
+    },
+    {
+      "reservation_id": 1770669728,
+      "book_id": 1765541627,
+      "category": "Livro",
+      "parent_name": "JERVAL DE JESUS LIMA JUNIOR / DAIALA QUEROLIM SANTOS LUZ",
+      "student_name": "LEONARDO LUZ LIMA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O POTE VAZIO\tDEMI\tMARTINS FONTES",
+      "timestamp": "2026-02-09 20:42"
     }
   ],
   "students_db": [
