@@ -6446,8 +6446,9 @@
       "title": "A TURMA DOS 11\tTELOS\tROCIO BONILHA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "QUESIA DA SILVA ALVES SANTOS",
+      "reserved_student": "ZACK ALVES SANTOS"
     },
     {
       "id": 1765377354,
@@ -24755,6 +24756,17 @@
       "class_name": "Matutino",
       "book_title": "A VELHA MISTERIOSA\tANA MARIA MACHADO\tSALAMANDRA",
       "timestamp": "2026-02-10 14:01"
+    },
+    {
+      "reservation_id": 1770732888,
+      "book_id": 1765377453,
+      "category": "Livro",
+      "parent_name": "QUESIA DA SILVA ALVES SANTOS",
+      "student_name": "ZACK ALVES SANTOS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "A HISTÓRIA DA GOTA D´ÁGUA\tDOMINGOS PELLEGRIN\tGERAÇÃOZINHA",
+      "timestamp": "2026-02-10 14:14"
     }
   ],
   "students_db": [
