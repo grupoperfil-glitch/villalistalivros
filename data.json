@@ -5829,9 +5829,9 @@
       "title": "SÓ UM PULINHO DE GATO\tHENS JONISH \tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "QUESIA DA SILVA ALVES SANTOS",
-      "reserved_student": "ZACK ALVES SANTOS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377390,
@@ -24668,17 +24668,6 @@
       "class_name": "Matutino",
       "book_title": "HISTÓRIAS À BRASILEIRA – A MOURA TORTA VOL. 1 ANA MARIA MACHADO CIA DAS LETRINHAS",
       "timestamp": "2026-02-07 14:55"
-    },
-    {
-      "reservation_id": 1770556889,
-      "book_id": 1765377389,
-      "category": "Livro",
-      "parent_name": "QUESIA DA SILVA ALVES SANTOS",
-      "student_name": "ZACK ALVES SANTOS",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "O CASO DA LAGARTA QUE TOMOU CHÁ DE SUMIÇO \tMILTON CÉLIO DE O. FILHO E ANDRÉ NEVES\tBRINQUE BOOK",
-      "timestamp": "2026-02-08 13:21"
     },
     {
       "reservation_id": 1770557295,
