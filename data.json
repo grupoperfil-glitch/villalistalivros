@@ -17126,9 +17126,9 @@
       "title": "A BRUXA SALOMÉ\tAUREY WOOD\tÁTICA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "AUGUSTO JOSÉ MONTEIRO CARDOSO",
+      "reserved_student": "LUNA MONTEIRO LUNARTI"
     },
     {
       "id": 1765541602,
@@ -24743,6 +24743,17 @@
       "grade": "1º Ano",
       "class_name": "Matutino",
       "book_title": "A PALAVRA FEIA DE ALBERTO  AUDREY WOOD ÁTICA",
+      "timestamp": "2026-02-10 14:01"
+    },
+    {
+      "reservation_id": 1770732073,
+      "book_id": 1765541601,
+      "category": "Livro",
+      "parent_name": "AUGUSTO JOSÉ MONTEIRO CARDOSO",
+      "student_name": "LUNA MONTEIRO LUNARTI",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "A BRUXA SALOMÉ\tAUREY WOOD\tÁTICA",
       "timestamp": "2026-02-10 14:01"
     }
   ],
