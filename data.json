@@ -5558,9 +5558,9 @@
       "title": "COCÔ DE PASSARINHO \tEVA FURNARI \tCIA DAS LETRINHAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "QUESIA DA SILVA ALVES SANTOS",
-      "reserved_student": "ZACK ALVES SANTOS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377362,
@@ -22687,17 +22687,6 @@
       "class_name": "Vespertino",
       "book_title": "UM PRESENTE INCRÍVEL\tGUIDO V. GENECHTEN /CAMILA VERNER\tBRINQUE BOOKS",
       "timestamp": "2026-01-20 20:33"
-    },
-    {
-      "reservation_id": 1768947054,
-      "book_id": 1765377361,
-      "category": "Livro",
-      "parent_name": "QUESIA DA SILVA ALVES SANTOS",
-      "student_name": "ZACK ALVES SANTOS",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "PEDRO, MENINO NAVEGADOR \tLÚCIA FIDALGO \tMANATI",
-      "timestamp": "2026-01-20 22:10"
     },
     {
       "reservation_id": 1768950796,
