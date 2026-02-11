@@ -13745,8 +13745,9 @@
       "title": "SEQUÊNCIA LÓGICA - VIDA",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "QUESIA DA SILVA ALVES SANTOS",
+      "reserved_student": "ZACK ALVES SANTOS"
     },
     {
       "id": 1765459737,
@@ -24767,6 +24768,17 @@
       "class_name": "Matutino",
       "book_title": "O CASO DA LAGARTA QUE TOMOU CHÁ DE SUMIÇO \tMILTON CÉLIO DE O. FILHO E ANDRÉ NEVES\tBRINQUE BOOK",
       "timestamp": "2026-02-10 14:32"
+    },
+    {
+      "reservation_id": 1770805012,
+      "book_id": 1765459736,
+      "category": "Jogo",
+      "parent_name": "QUESIA DA SILVA ALVES SANTOS",
+      "student_name": "ZACK ALVES SANTOS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "SEQUÊNCIA LÓGICA - VIDA",
+      "timestamp": "2026-02-11 10:16"
     }
   ],
   "students_db": [
