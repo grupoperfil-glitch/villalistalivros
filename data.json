@@ -14245,8 +14245,9 @@
       "title": "1 PANELA DE ALUMÍNIO PEQUENA",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "QUESIA DA SILVA ALVES SANTOS",
+      "reserved_student": "ZACK ALVES SANTOS"
     },
     {
       "id": 1765460059,
@@ -24779,6 +24780,17 @@
       "class_name": "Matutino",
       "book_title": "SEQUÊNCIA LÓGICA - VIDA",
       "timestamp": "2026-02-11 10:16"
+    },
+    {
+      "reservation_id": 1770814147,
+      "book_id": 1765460058,
+      "category": "Brinquedo",
+      "parent_name": "QUESIA DA SILVA ALVES SANTOS",
+      "student_name": "ZACK ALVES SANTOS",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "1 PANELA DE ALUMÍNIO PEQUENA",
+      "timestamp": "2026-02-11 12:49"
     }
   ],
   "students_db": [
