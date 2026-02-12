@@ -794,9 +794,9 @@
       "title": "BATUTINHA   ANA MARIA MACHADO  SALAMANDRA",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "Quesia da silva alves santos",
-      "reserved_student": "Mikael Alves santos "
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765369044,
@@ -24781,17 +24781,6 @@
       "class_name": "Matutino",
       "book_title": "O CASO DA LAGARTA QUE TOMOU CHÁ DE SUMIÇO \tMILTON CÉLIO DE O. FILHO E ANDRÉ NEVES\tBRINQUE BOOK",
       "timestamp": "2026-02-11 13:55"
-    },
-    {
-      "reservation_id": 1770917111,
-      "book_id": 1765369043,
-      "category": "Livro",
-      "parent_name": "Quesia da silva alves santos",
-      "student_name": "Mikael Alves santos ",
-      "grade": "1º Ano",
-      "class_name": "Vespertino",
-      "book_title": "BATUTINHA   ANA MARIA MACHADO  SALAMANDRA",
-      "timestamp": "2026-02-12 17:25"
     }
   ],
   "students_db": [
