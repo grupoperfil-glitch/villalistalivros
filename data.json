@@ -26480,6 +26480,14 @@
       "grade": "3º Ano",
       "class_name": "Matutino",
       "parent_csv": ""
+    },
+    {
+      "email": "vanessapereiradeoliveira25@gmai.com",
+      "email2": "jefersonw.araujo@gmail.com",
+      "name": "GHAEL RAVI DE ARAUJO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "Vanessa de oliveira Araújo"
     }
   ]
 }
