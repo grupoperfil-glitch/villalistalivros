@@ -15719,9 +15719,9 @@
       "title": "DOMINÓ DE NÚMEROS",
       "grade": "Grupo 5",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
-      "reserved_student": "GUSTAVO CARNEIRO DE ARAUJO MACHADO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765460569,
@@ -24796,17 +24796,6 @@
       "class_name": "Vespertino",
       "book_title": "JOÃO E MARIA\tHERVÉ LE GOFF\tCIA DAS LETRINHAS",
       "timestamp": "2026-02-20 10:41"
-    },
-    {
-      "reservation_id": 1771597157,
-      "book_id": 1765460568,
-      "category": "Brinquedo",
-      "parent_name": "MARÍLIA CARNEIRO DE ARAUJO MACHADO",
-      "student_name": "GUSTAVO CARNEIRO DE ARAUJO MACHADO",
-      "grade": "Grupo 5",
-      "class_name": "Vespertino",
-      "book_title": "DOMINÓ DE NÚMEROS",
-      "timestamp": "2026-02-20 14:19"
     }
   ],
   "students_db": [
