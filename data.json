@@ -5404,8 +5404,9 @@
       "title": "JOÃO E MARIA\tHERVÉ LE GOFF\tCIA DAS LETRINHAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Vanessa de oliveira Araújo / Jeferson de Araújo",
+      "reserved_student": "GHAEL RAVI DE ARAUJO"
     },
     {
       "id": 1765377346,
@@ -24793,6 +24794,17 @@
       "class_name": "Vespertino",
       "book_title": "A VELHA MISTERIOSA  ANA MARIA MACHADO  SALAMANDRA",
       "timestamp": "2026-02-12 17:27"
+    },
+    {
+      "reservation_id": 1771584105,
+      "book_id": 1765377345,
+      "category": "Livro",
+      "parent_name": "Vanessa de oliveira Araújo / Jeferson de Araújo",
+      "student_name": "GHAEL RAVI DE ARAUJO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "JOÃO E MARIA\tHERVÉ LE GOFF\tCIA DAS LETRINHAS",
+      "timestamp": "2026-02-20 10:41"
     }
   ],
   "students_db": [
