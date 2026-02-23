@@ -16272,8 +16272,9 @@
       "title": "MARIA VAI COM AS OUTRAS SILVIA ORTHOY ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "NARA MARTINS FERRAZ TEIXEIRA",
+      "reserved_student": "MARIA LUISA MARTINS SOUTO"
     },
     {
       "id": 1765483476,
@@ -24823,6 +24824,17 @@
       "class_name": "Matutino",
       "book_title": "DEIXA QUE EU NÃO FAÇO FERNANDA LOPES ÁTICA",
       "timestamp": "2026-02-23 22:03"
+    },
+    {
+      "reservation_id": 1771884247,
+      "book_id": 1765483475,
+      "category": "Livro",
+      "parent_name": "NARA MARTINS FERRAZ TEIXEIRA",
+      "student_name": "MARIA LUISA MARTINS SOUTO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "MARIA VAI COM AS OUTRAS SILVIA ORTHOY ÁTICA",
+      "timestamp": "2026-02-23 22:04"
     }
   ],
   "students_db": [
