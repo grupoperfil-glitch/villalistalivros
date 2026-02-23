@@ -16169,8 +16169,9 @@
       "title": "DEIXA QUE EU NÃO FAÇO FERNANDA LOPES ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "NARA MARTINS FERRAZ TEIXEIRA",
+      "reserved_student": "MARIA LUISA MARTINS SOUTO"
     },
     {
       "id": 1765483465,
@@ -24811,6 +24812,17 @@
       "class_name": "Vespertino",
       "book_title": "CILADA\tESTRELA",
       "timestamp": "2026-02-20 14:36"
+    },
+    {
+      "reservation_id": 1771884233,
+      "book_id": 1765483464,
+      "category": "Livro",
+      "parent_name": "NARA MARTINS FERRAZ TEIXEIRA",
+      "student_name": "MARIA LUISA MARTINS SOUTO",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "DEIXA QUE EU NÃO FAÇO FERNANDA LOPES ÁTICA",
+      "timestamp": "2026-02-23 22:03"
     }
   ],
   "students_db": [
