@@ -2819,8 +2819,9 @@
       "title": "LÁ VEM O CIRCO \tNYE RIBEIRO \tRODA E CIA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "reserved_student": "DANIELA MORENO SILVA MONTEIRO"
     },
     {
       "id": 1765376925,
@@ -25000,6 +25001,17 @@
       "class_name": "Vespertino",
       "book_title": "OTTO VAI À PRAIA \tTODD PARR\tPANDA BOOKS",
       "timestamp": "2026-02-26 22:10"
+    },
+    {
+      "reservation_id": 1772144917,
+      "book_id": 1765376924,
+      "category": "Livro",
+      "parent_name": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "student_name": "DANIELA MORENO SILVA MONTEIRO",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "A CASA SONOLENTA\tAUDREY WOOD \tÁTICA",
+      "timestamp": "2026-02-26 22:28"
     }
   ],
   "students_db": [
