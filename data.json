@@ -17522,8 +17522,9 @@
       "title": "O JOGO DO VIRA-VIRA – CONFORME A NOVA ORTOGRAFIA ANA MARIA MACHADO",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TALITA DA CUNHA SANTOS",
+      "reserved_student": "GIOVANNA SANTOS VIANA"
     },
     {
       "id": 1765541642,
@@ -24881,6 +24882,17 @@
       "class_name": "Matutino",
       "book_title": "PIMENTA NO COCURUTO – CONTA DE NOVO\tANA MARIA MACHADO\tFTD",
       "timestamp": "2026-02-26 12:04"
+    },
+    {
+      "reservation_id": 1772107557,
+      "book_id": 1765541641,
+      "category": "Livro",
+      "parent_name": "TALITA DA CUNHA SANTOS",
+      "student_name": "GIOVANNA SANTOS VIANA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "O JOGO DO VIRA-VIRA – CONFORME A NOVA ORTOGRAFIA ANA MARIA MACHADO",
+      "timestamp": "2026-02-26 12:05"
     }
   ],
   "students_db": [
