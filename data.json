@@ -2986,9 +2986,9 @@
       "title": "RIMAS DE NINAR \tTATIANA BELINKY\tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "MARCIO ALEXANDRE SILVA MONTEIRO",
-      "reserved_student": "DANIELA MORENO SILVA MONTEIRO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765376942,
@@ -25039,17 +25039,6 @@
       "class_name": "Vespertino",
       "book_title": "QUEBRA CABEÇA DIVERSOS",
       "timestamp": "2026-02-26 22:38"
-    },
-    {
-      "reservation_id": 1772146621,
-      "book_id": 1765376941,
-      "category": "Livro",
-      "parent_name": "MARCIO ALEXANDRE SILVA MONTEIRO",
-      "student_name": "DANIELA MORENO SILVA MONTEIRO",
-      "grade": "Grupo 3",
-      "class_name": "Vespertino",
-      "book_title": "PRINCESA ARABELA, MIMADA QUE SÓ ELA.\tMYLO FREEMAN \tÁTICA",
-      "timestamp": "2026-02-26 22:57"
     }
   ],
   "students_db": [
