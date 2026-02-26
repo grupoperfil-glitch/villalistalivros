@@ -10988,9 +10988,9 @@
       "title": "BLOCOS DE ENCAIXE FORMAS GEOMÉTRICAS",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "MARCIO ALEXANDRE SILVA MONTEIRO",
-      "reserved_student": "DANIELA MORENO SILVA MONTEIRO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765458263,
@@ -25025,17 +25025,6 @@
       "class_name": "Vespertino",
       "book_title": "MARIA VAI COM AS OUTRAS\tSILVIA ORTHOF\tÁTICA",
       "timestamp": "2026-02-26 22:29"
-    },
-    {
-      "reservation_id": 1772145240,
-      "book_id": 1765458262,
-      "category": "Jogo",
-      "parent_name": "MARCIO ALEXANDRE SILVA MONTEIRO",
-      "student_name": "DANIELA MORENO SILVA MONTEIRO",
-      "grade": "Grupo 3",
-      "class_name": "Vespertino",
-      "book_title": "BLOCOS DE ENCAIXE FORMAS GEOMÉTRICAS",
-      "timestamp": "2026-02-26 22:34"
     }
   ],
   "students_db": [
