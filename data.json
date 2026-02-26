@@ -17275,8 +17275,9 @@
       "title": "REI BIGODEIRA E SUA BANHEIRA\tAUDREY WOOD\tÁTICA",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TALITA DA CUNHA SANTOS",
+      "reserved_student": "GIOVANNA SANTOS VIANA"
     },
     {
       "id": 1765541616,
@@ -24846,6 +24847,17 @@
       "class_name": "Matutino",
       "book_title": "A ÁRVORE DO BETO RUTH ROCHA SALAMANDRA",
       "timestamp": "2026-02-23 22:05"
+    },
+    {
+      "reservation_id": 1772107393,
+      "book_id": 1765541615,
+      "category": "Livro",
+      "parent_name": "TALITA DA CUNHA SANTOS",
+      "student_name": "GIOVANNA SANTOS VIANA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "REI BIGODEIRA E SUA BANHEIRA\tAUDREY WOOD\tÁTICA",
+      "timestamp": "2026-02-26 12:03"
     }
   ],
   "students_db": [
