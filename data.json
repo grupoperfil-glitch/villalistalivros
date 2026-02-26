@@ -11507,9 +11507,9 @@
       "title": "FANTOCHES (CHAPEUZINHO, LOBO E VOVÓ)",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "reserved_student": "DANIELA MORENO SILVA MONTEIRO"
     },
     {
       "id": 1765458381,
@@ -25025,6 +25025,17 @@
       "class_name": "Vespertino",
       "book_title": "MARIA VAI COM AS OUTRAS\tSILVIA ORTHOF\tÁTICA",
       "timestamp": "2026-02-26 22:29"
+    },
+    {
+      "reservation_id": 1772145324,
+      "book_id": 1765458380,
+      "category": "Brinquedo",
+      "parent_name": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "student_name": "DANIELA MORENO SILVA MONTEIRO",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "BEBÊ",
+      "timestamp": "2026-02-26 22:35"
     }
   ],
   "students_db": [
