@@ -11174,8 +11174,9 @@
       "title": "QUEBRA CABEÇA DIVERSOS",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "reserved_student": "DANIELA MORENO SILVA MONTEIRO"
     },
     {
       "id": 1765458283,
@@ -25037,6 +25038,17 @@
       "class_name": "Vespertino",
       "book_title": "1 KIT PRAIA",
       "timestamp": "2026-02-26 22:37"
+    },
+    {
+      "reservation_id": 1772145537,
+      "book_id": 1765458282,
+      "category": "Jogo",
+      "parent_name": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "student_name": "DANIELA MORENO SILVA MONTEIRO",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "QUEBRA CABEÇA DIVERSOS",
+      "timestamp": "2026-02-26 22:38"
     }
   ],
   "students_db": [
