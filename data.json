@@ -17448,8 +17448,9 @@
       "title": "PIMENTA NO COCURUTO – CONTA DE NOVO\tANA MARIA MACHADO\tFTD",
       "grade": "1º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TALITA DA CUNHA SANTOS",
+      "reserved_student": "GIOVANNA SANTOS VIANA"
     },
     {
       "id": 1765541634,
@@ -24868,6 +24869,17 @@
       "grade": "1º Ano",
       "class_name": "Matutino",
       "book_title": "UM CALDEIRÃO DE POEMAS\tTATIANA BELINKY\tCIA DAS LETRINHAS",
+      "timestamp": "2026-02-26 12:04"
+    },
+    {
+      "reservation_id": 1772107495,
+      "book_id": 1765541633,
+      "category": "Livro",
+      "parent_name": "TALITA DA CUNHA SANTOS",
+      "student_name": "GIOVANNA SANTOS VIANA",
+      "grade": "1º Ano",
+      "class_name": "Matutino",
+      "book_title": "PIMENTA NO COCURUTO – CONTA DE NOVO\tANA MARIA MACHADO\tFTD",
       "timestamp": "2026-02-26 12:04"
     }
   ],
