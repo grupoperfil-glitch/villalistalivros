@@ -794,9 +794,9 @@
       "title": "BATUTINHA   ANA MARIA MACHADO  SALAMANDRA",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "reserved_student": "MAXIMUS FERNANDES EVANGELISTA DOS SANTOS"
     },
     {
       "id": 1765369044,
@@ -24942,6 +24942,17 @@
       "class_name": "Vespertino",
       "book_title": "UMA LAGARTA MUITO COMILONA \tERIC CARLE\tCALLIS",
       "timestamp": "2026-02-26 15:18"
+    },
+    {
+      "reservation_id": 1772121550,
+      "book_id": 1765369043,
+      "category": "Livro",
+      "parent_name": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "student_name": "MAXIMUS FERNANDES EVANGELISTA DOS SANTOS",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "BATUTINHA   ANA MARIA MACHADO  SALAMANDRA",
+      "timestamp": "2026-02-26 15:59"
     }
   ],
   "students_db": [
