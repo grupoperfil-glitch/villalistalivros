@@ -3107,8 +3107,9 @@
       "title": "NO IMENSO MAR AZUL \tANA MARIA MACHADO \tSALAMANDRA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ISAQUE MENEZES DA SILVA BENJAMIN",
+      "reserved_student": "ISABELA MENEZES BENJAMIN"
     },
     {
       "id": 1765376955,
@@ -24930,6 +24931,17 @@
       "class_name": "Matutino",
       "book_title": "NHAC!\tCAROLINA RABEL",
       "timestamp": "2026-02-26 12:12"
+    },
+    {
+      "reservation_id": 1772118831,
+      "book_id": 1765376954,
+      "category": "Livro",
+      "parent_name": "ISAQUE MENEZES DA SILVA BENJAMIN",
+      "student_name": "ISABELA MENEZES BENJAMIN",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "O PALHAÇO ESPALHAFATO\tANA MARIA MACHADO \tSALAMANDRA",
+      "timestamp": "2026-02-26 15:13"
     }
   ],
   "students_db": [
