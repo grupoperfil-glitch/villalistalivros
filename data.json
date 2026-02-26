@@ -2234,8 +2234,9 @@
       "title": "NHAC!\tCAROLINA RABEL",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TALITA DA CUNHA SANTOS",
+      "reserved_student": "MARINA SANTOS VIANA"
     },
     {
       "id": 1765376563,
@@ -24917,6 +24918,17 @@
       "class_name": "Matutino",
       "book_title": "RAPIDO COMO UM GARFANHOTO\tANDREY WOOD",
       "timestamp": "2026-02-26 12:10"
+    },
+    {
+      "reservation_id": 1772107955,
+      "book_id": 1765376562,
+      "category": "Livro",
+      "parent_name": "TALITA DA CUNHA SANTOS",
+      "student_name": "MARINA SANTOS VIANA",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "NHAC!\tCAROLINA RABEL",
+      "timestamp": "2026-02-26 12:12"
     }
   ],
   "students_db": [
