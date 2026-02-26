@@ -11937,9 +11937,9 @@
       "title": "1 KIT PRAIA",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "reserved_student": "DANIELA MORENO SILVA MONTEIRO"
     },
     {
       "id": 1765458405,
@@ -25041,6 +25041,17 @@
       "class_name": "Vespertino",
       "book_title": "QUEM TEM MEDO DE DIZER NÃO?\tRUTH ROCHA\tGLOBAL",
       "timestamp": "2026-02-26 22:58"
+    },
+    {
+      "reservation_id": 1772148295,
+      "book_id": 1765458404,
+      "category": "Brinquedo",
+      "parent_name": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "student_name": "DANIELA MORENO SILVA MONTEIRO",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "1 KIT PRAIA",
+      "timestamp": "2026-02-26 23:24"
     }
   ],
   "students_db": [
