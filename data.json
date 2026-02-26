@@ -3241,8 +3241,9 @@
       "title": "COISAS DE ÍNDIO\tDANIEL MANDURUKU \tCALLIS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "reserved_student": "DANIELA MORENO SILVA MONTEIRO"
     },
     {
       "id": 1765376969,
@@ -24988,6 +24989,17 @@
       "class_name": "Vespertino",
       "book_title": "REI BIGODEIRA E SUA BANHEIRA  AUDREY WOOD ÁTICA",
       "timestamp": "2026-02-26 16:00"
+    },
+    {
+      "reservation_id": 1772143844,
+      "book_id": 1765376968,
+      "category": "Livro",
+      "parent_name": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "student_name": "DANIELA MORENO SILVA MONTEIRO",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "OTTO VAI À PRAIA \tTODD PARR\tPANDA BOOKS",
+      "timestamp": "2026-02-26 22:10"
     }
   ],
   "students_db": [
