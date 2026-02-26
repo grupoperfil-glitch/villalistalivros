@@ -3056,8 +3056,9 @@
       "title": "A JOANINHA MAL-HUMORADA\tERIC CARLE\tCALLIS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "reserved_student": "DANIELA MORENO SILVA MONTEIRO"
     },
     {
       "id": 1765376949,
@@ -25040,6 +25041,17 @@
       "class_name": "Vespertino",
       "book_title": "QUEBRA CABEÇA DIVERSOS",
       "timestamp": "2026-02-26 22:38"
+    },
+    {
+      "reservation_id": 1772146730,
+      "book_id": 1765376948,
+      "category": "Livro",
+      "parent_name": "MARCIO ALEXANDRE SILVA MONTEIRO",
+      "student_name": "DANIELA MORENO SILVA MONTEIRO",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "QUEM TEM MEDO DE DIZER NÃO?\tRUTH ROCHA\tGLOBAL",
+      "timestamp": "2026-02-26 22:58"
     }
   ],
   "students_db": [
