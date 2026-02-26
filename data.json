@@ -933,8 +933,9 @@
       "title": "REI BIGODEIRA E SUA BANHEIRA  AUDREY WOOD ÁTICA",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "reserved_student": "MAXIMUS FERNANDES EVANGELISTA DOS SANTOS"
     },
     {
       "id": 1765369058,
@@ -24976,6 +24977,17 @@
       "class_name": "Vespertino",
       "book_title": "OS TRÊS PORQUINHOS  RUI DE OLIVEIRA  GLOBO",
       "timestamp": "2026-02-26 15:59"
+    },
+    {
+      "reservation_id": 1772121624,
+      "book_id": 1765369057,
+      "category": "Livro",
+      "parent_name": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "student_name": "MAXIMUS FERNANDES EVANGELISTA DOS SANTOS",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "REI BIGODEIRA E SUA BANHEIRA  AUDREY WOOD ÁTICA",
+      "timestamp": "2026-02-26 16:00"
     }
   ],
   "students_db": [
