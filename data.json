@@ -2839,9 +2839,9 @@
       "title": "MARIA VAI COM AS OUTRAS\tSILVIA ORTHOF\tÁTICA",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "MARCIO ALEXANDRE SILVA MONTEIRO",
-      "reserved_student": "DANIELA MORENO SILVA MONTEIRO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765376927,
@@ -25038,17 +25038,6 @@
       "class_name": "Vespertino",
       "book_title": "QUEBRA CABEÇA DIVERSOS",
       "timestamp": "2026-02-26 22:38"
-    },
-    {
-      "reservation_id": 1772146359,
-      "book_id": 1765376926,
-      "category": "Livro",
-      "parent_name": "MARCIO ALEXANDRE SILVA MONTEIRO",
-      "student_name": "DANIELA MORENO SILVA MONTEIRO",
-      "grade": "Grupo 3",
-      "class_name": "Vespertino",
-      "book_title": "BEM-TE-VI E OUTRAS POESIAS \tLALAU E LAURA BEATRIZ\tCIA DAS LETRINHAS",
-      "timestamp": "2026-02-26 22:52"
     }
   ],
   "students_db": [
