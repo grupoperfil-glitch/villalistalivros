@@ -11937,9 +11937,9 @@
       "title": "1 KIT PRAIA",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "MARCIO ALEXANDRE SILVA MONTEIRO",
-      "reserved_student": "DANIELA MORENO SILVA MONTEIRO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765458405,
@@ -25019,17 +25019,6 @@
       "class_name": "Vespertino",
       "book_title": "A CASA SONOLENTA\tAUDREY WOOD \tÁTICA",
       "timestamp": "2026-02-26 22:28"
-    },
-    {
-      "reservation_id": 1772145461,
-      "book_id": 1765458404,
-      "category": "Brinquedo",
-      "parent_name": "MARCIO ALEXANDRE SILVA MONTEIRO",
-      "student_name": "DANIELA MORENO SILVA MONTEIRO",
-      "grade": "Grupo 3",
-      "class_name": "Vespertino",
-      "book_title": "1 KIT PRAIA",
-      "timestamp": "2026-02-26 22:37"
     },
     {
       "reservation_id": 1772145537,
