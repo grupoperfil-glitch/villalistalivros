@@ -1893,8 +1893,9 @@
       "title": "A JACAREZINHA QUE MORDIA  \tEMILIA NUNEZ",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "TALITA DA CUNHA SANTOS",
+      "reserved_student": "MARINA SANTOS VIANA"
     },
     {
       "id": 1765376528,
@@ -24893,6 +24894,17 @@
       "class_name": "Matutino",
       "book_title": "O JOGO DO VIRA-VIRA – CONFORME A NOVA ORTOGRAFIA ANA MARIA MACHADO",
       "timestamp": "2026-02-26 12:05"
+    },
+    {
+      "reservation_id": 1772107763,
+      "book_id": 1765376527,
+      "category": "Livro",
+      "parent_name": "TALITA DA CUNHA SANTOS",
+      "student_name": "MARINA SANTOS VIANA",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "A JACAREZINHA QUE MORDIA  \tEMILIA NUNEZ",
+      "timestamp": "2026-02-26 12:09"
     }
   ],
   "students_db": [
