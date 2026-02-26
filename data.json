@@ -2976,9 +2976,9 @@
       "title": "QUEM TEM MEDO DE ESCURO? \tFANNY JOLLY \tSCIPIONE",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "MARCIO ALEXANDRE SILVA MONTEIRO",
-      "reserved_student": "DANIELA MORENO SILVA MONTEIRO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765376941,
@@ -25039,17 +25039,6 @@
       "class_name": "Vespertino",
       "book_title": "QUEBRA CABEÇA DIVERSOS",
       "timestamp": "2026-02-26 22:38"
-    },
-    {
-      "reservation_id": 1772146531,
-      "book_id": 1765376940,
-      "category": "Livro",
-      "parent_name": "MARCIO ALEXANDRE SILVA MONTEIRO",
-      "student_name": "DANIELA MORENO SILVA MONTEIRO",
-      "grade": "Grupo 3",
-      "class_name": "Vespertino",
-      "book_title": "O MONSTRUOSO SEGREDO DE LILI \tANGELIKA GLITZ \tBRINQUE BOOK",
-      "timestamp": "2026-02-26 22:55"
     }
   ],
   "students_db": [
