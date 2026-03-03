@@ -16263,8 +16263,9 @@
       "title": "ROMEU E JULIETA RUTH ROCHA ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PRISCILA DINIZ GUIMARAES",
+      "reserved_student": "OTTAVIO DINIZ FAGGANI PIMENTEL"
     },
     {
       "id": 1765483473,
@@ -25087,6 +25088,17 @@
       "grade": "2º Ano",
       "class_name": "Matutino",
       "book_title": "O QUE LEVAR PARA UMAI LHA DESERTA  LALAU LEYA",
+      "timestamp": "2026-03-03 10:59"
+    },
+    {
+      "reservation_id": 1772535590,
+      "book_id": 1765483472,
+      "category": "Livro",
+      "parent_name": "PRISCILA DINIZ GUIMARAES",
+      "student_name": "OTTAVIO DINIZ FAGGANI PIMENTEL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "ROMEU E JULIETA RUTH ROCHA ÁTICA",
       "timestamp": "2026-03-03 10:59"
     }
   ],
