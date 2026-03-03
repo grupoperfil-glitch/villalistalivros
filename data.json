@@ -1306,8 +1306,9 @@
       "title": "JOÃO E O PÉ DE FEIJÃO SÂMIA RIOS SCIPIONE",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "PRISCILA DINIZ GUIMARAES",
+      "reserved_student": "OTTAVIO DINIZ FAGGANI PIMENTEL"
     },
     {
       "id": 1765369210,
@@ -25052,6 +25053,17 @@
       "class_name": "Vespertino",
       "book_title": "1 KIT PRAIA",
       "timestamp": "2026-02-26 23:24"
+    },
+    {
+      "reservation_id": 1772535500,
+      "book_id": 1765369209,
+      "category": "Livro",
+      "parent_name": "PRISCILA DINIZ GUIMARAES",
+      "student_name": "OTTAVIO DINIZ FAGGANI PIMENTEL",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "JOÃO E O PÉ DE FEIJÃO SÂMIA RIOS SCIPIONE",
+      "timestamp": "2026-03-03 10:58"
     }
   ],
   "students_db": [
