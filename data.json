@@ -7774,8 +7774,9 @@
       "title": "A ÁGUIA QUE NÃO QUERIA VOAR  CIA DAS LETRAS   JAMES AGGREY WOLF ERLBRUCH",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRE LUIS SILVA FREITAS",
+      "reserved_student": "CECÍLIA SILVA SANTOS FREITAS"
     },
     {
       "id": 1765391788,
@@ -25124,6 +25125,17 @@
       "class_name": "Vespertino",
       "book_title": "SOLTEI O PUM NA ESCOLA  COMPANHIA DAS LETRAS  BLANDINA FRANCO E JOSÉ CARLOS LOLLO",
       "timestamp": "2026-03-04 10:54"
+    },
+    {
+      "reservation_id": 1772657010,
+      "book_id": 1765391787,
+      "category": "Livro",
+      "parent_name": "ANDRE LUIS SILVA FREITAS",
+      "student_name": "CECÍLIA SILVA SANTOS FREITAS",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "TUDO VAI DAR CERTO   MARTINS FONTES-SELO MARTINS  CEDELLA MARLEY",
+      "timestamp": "2026-03-04 20:43"
     }
   ],
   "students_db": [
