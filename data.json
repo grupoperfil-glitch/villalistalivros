@@ -26847,6 +26847,14 @@
       "grade": "2º Ano",
       "class_name": "Matutino",
       "parent_csv": "PRISCILA DINIZ GUIMARAES"
+    },
+    {
+      "email": "",
+      "email2": "",
+      "name": "benicio",
+      "grade": "Grupo 1",
+      "class_name": "Matutino",
+      "parent_csv": ""
     }
   ]
 }
