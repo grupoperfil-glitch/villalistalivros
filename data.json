@@ -7881,8 +7881,9 @@
       "title": "A BRUXINHA CURIOSA  BRINQUE-BOOK  LIEVE BAETEN",
       "grade": "Grupo 5",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ANDRE LUIS SILVA FREITAS",
+      "reserved_student": "CECÍLIA SILVA SANTOS FREITAS"
     },
     {
       "id": 1765391799,
@@ -25100,6 +25101,17 @@
       "class_name": "Matutino",
       "book_title": "ROMEU E JULIETA RUTH ROCHA ÁTICA",
       "timestamp": "2026-03-03 10:59"
+    },
+    {
+      "reservation_id": 1772621614,
+      "book_id": 1765391798,
+      "category": "Livro",
+      "parent_name": "ANDRE LUIS SILVA FREITAS",
+      "student_name": "CECÍLIA SILVA SANTOS FREITAS",
+      "grade": "Grupo 5",
+      "class_name": "Vespertino",
+      "book_title": "QUEM TEM MEDO DE DIZER NÃO?  GLOBAL  RUTH ROCHA",
+      "timestamp": "2026-03-04 10:53"
     }
   ],
   "students_db": [
