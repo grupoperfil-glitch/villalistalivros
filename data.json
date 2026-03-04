@@ -18511,9 +18511,9 @@
       "title": "HISTÓRIAS CONTADAS AOS PÉS DA TENDA\tALI YEZZID IZZ-EDIN IBN- SALIN MALBA TAHAN\tCIRANDA CULTURAL",
       "grade": "3º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "ROGERIO NASCIMENTO BRANDAO DE SANTANA",
+      "reserved_student": "ANNE CHARLOTTE MAIA DE SANTANA"
     },
     {
       "id": 1765542079,
@@ -25173,6 +25173,17 @@
       "class_name": "Matutino",
       "book_title": "O JABUTI, A BALEIA E A ANTA\tSTELA BARBIERI\tJUJUBA",
       "timestamp": "2026-03-04 21:54"
+    },
+    {
+      "reservation_id": 1772661360,
+      "book_id": 1765542078,
+      "category": "Livro",
+      "parent_name": "ROGERIO NASCIMENTO BRANDAO DE SANTANA",
+      "student_name": "ANNE CHARLOTTE MAIA DE SANTANA",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "book_title": "HISTÓRIAS CONTADAS AOS PÉS DA TENDA\tALI YEZZID IZZ-EDIN IBN- SALIN MALBA TAHAN\tCIRANDA CULTURAL",
+      "timestamp": "2026-03-04 21:56"
     }
   ],
   "students_db": [
