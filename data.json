@@ -854,8 +854,9 @@
       "title": "FADA FOFA E OS SETE ANJINHOS  SYLVIA ORTHOF PAULINAS",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "reserved_student": "DIAMOND FERNANDES EVANGELISTA DOS SANTOS"
     },
     {
       "id": 1765369050,
@@ -25185,6 +25186,17 @@
       "class_name": "Matutino",
       "book_title": "NUNO E AS COISAS INCRÍVEIS\tANDRÉ NEVES\tJUJUBA",
       "timestamp": "2026-03-04 21:57"
+    },
+    {
+      "reservation_id": 1772716882,
+      "book_id": 1765369049,
+      "category": "Livro",
+      "parent_name": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "student_name": "DIAMOND FERNANDES EVANGELISTA DOS SANTOS",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "FADA FOFA E OS SETE ANJINHOS  SYLVIA ORTHOF PAULINAS",
+      "timestamp": "2026-03-05 13:21"
     }
   ],
   "students_db": [
