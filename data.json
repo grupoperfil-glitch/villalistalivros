@@ -1034,9 +1034,9 @@
       "title": "BRUXA, BRUXA VENHA À MINHA FESTA  ARDEN DUCEN  BRINQUE BOOK",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "reserved_student": "DIAMOND FERNANDES EVANGELISTA DOS SANTOS"
     },
     {
       "id": 1765369182,
@@ -25196,6 +25196,17 @@
       "grade": "1º Ano",
       "class_name": "Vespertino",
       "book_title": "FADA FOFA E OS SETE ANJINHOS  SYLVIA ORTHOF PAULINAS",
+      "timestamp": "2026-03-05 13:21"
+    },
+    {
+      "reservation_id": 1772716904,
+      "book_id": 1765369067,
+      "category": "Livro",
+      "parent_name": "CAROLINA FERNANDES RODRIGUES DOS SANTOS",
+      "student_name": "DIAMOND FERNANDES EVANGELISTA DOS SANTOS",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "BRUXA, BRUXA VENHA À MINHA FESTA  ARDEN DUCEN  BRINQUE BOOK",
       "timestamp": "2026-03-05 13:21"
     }
   ],
