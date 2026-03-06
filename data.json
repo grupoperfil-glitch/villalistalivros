@@ -14196,8 +14196,9 @@
       "title": "INSTRUMENTOS MUSICAIS: PANDEIRO ,TAMBOR E TAMBOR",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "THAIS NASCIMENTO LIMA",
+      "reserved_student": "LIZZ NASCIMENTO LIMA"
     },
     {
       "id": 1765460051,
@@ -25176,6 +25177,17 @@
       "class_name": "Matutino",
       "book_title": "AS MENTIRAS DE PAULINHO FERNANDO LOPES DE ALMEIDA ÁTICA",
       "timestamp": "2026-03-06 01:45"
+    },
+    {
+      "reservation_id": 1772762404,
+      "book_id": 1765460050,
+      "category": "Brinquedo",
+      "parent_name": "THAIS NASCIMENTO LIMA",
+      "student_name": "LIZZ NASCIMENTO LIMA",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "INSTRUMENTOS MUSICAIS: PANDEIRO ,TAMBOR E TAMBOR",
+      "timestamp": "2026-03-06 02:00"
     }
   ],
   "students_db": [
