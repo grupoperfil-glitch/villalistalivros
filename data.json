@@ -644,15 +644,6 @@
       "reserved_student": "LARA ARAUJO MENEZES"
     },
     {
-      "id": 1765369030,
-      "category": "Livro",
-      "title": "REI BIGODEIRA E SUA BANHEIRA  AUDREY WOOD ÁTICA",
-      "grade": "1º Ano",
-      "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
-    },
-    {
       "id": 1765369031,
       "category": "Livro",
       "title": "A CASA SONOLENTA  AUDREY WOOD ÁTICA",
