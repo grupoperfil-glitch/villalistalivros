@@ -6374,9 +6374,9 @@
       "title": "APERTADO E SEM ESPAÇO\tJULIA DONALDSON\tBRINQUE-BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "THAIS NASCIMENTO LIMA",
-      "reserved_student": "LIZZ NASCIMENTO LIMA"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377445,
@@ -25175,17 +25175,6 @@
       "class_name": "Vespertino",
       "book_title": "BRUXA, BRUXA VENHA À MINHA FESTA  ARDEN DUCEN  BRINQUE BOOK",
       "timestamp": "2026-03-05 13:21"
-    },
-    {
-      "reservation_id": 1772761112,
-      "book_id": 1765377444,
-      "category": "Livro",
-      "parent_name": "THAIS NASCIMENTO LIMA",
-      "student_name": "LIZZ NASCIMENTO LIMA",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "QUE TEM MEDO DE BRUXA?\tFANNY /JOLY\tSCIPIONE",
-      "timestamp": "2026-03-06 01:38"
     }
   ],
   "students_db": [
