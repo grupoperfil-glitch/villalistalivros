@@ -1124,9 +1124,9 @@
       "title": "AS MENTIRAS DE PAULINHO FERNANDO LOPES DE ALMEIDA ÁTICA",
       "grade": "2º Ano",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "THAIS NASCIMENTO LIMA",
+      "reserved_student": "MELL NASCIMENTO LIMA"
     },
     {
       "id": 1765369191,
@@ -25164,6 +25164,17 @@
       "class_name": "Vespertino",
       "book_title": "BRUXA, BRUXA VENHA À MINHA FESTA  ARDEN DUCEN  BRINQUE BOOK",
       "timestamp": "2026-03-05 13:21"
+    },
+    {
+      "reservation_id": 1772761513,
+      "book_id": 1765369190,
+      "category": "Livro",
+      "parent_name": "THAIS NASCIMENTO LIMA",
+      "student_name": "MELL NASCIMENTO LIMA",
+      "grade": "2º Ano",
+      "class_name": "Matutino",
+      "book_title": "AS MENTIRAS DE PAULINHO FERNANDO LOPES DE ALMEIDA ÁTICA",
+      "timestamp": "2026-03-06 01:45"
     }
   ],
   "students_db": [
