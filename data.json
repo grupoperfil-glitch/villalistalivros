@@ -5415,9 +5415,9 @@
       "title": "ANA, GUTO E O GATO DANÇARINO \tSTEPHEN MICHAEL KING \tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "Luciano serrado de Souza pereira / layjsouza@hotmial.com",
+      "reserved_student": "LAURA DE SOUZA PEREIRA"
     },
     {
       "id": 1765377353,
@@ -24847,6 +24847,17 @@
       "class_name": "Vespertino",
       "book_title": "PEDRO, MENINO NAVEGADOR \tLÚCIA FIDALGO \tMANATI",
       "timestamp": "2026-03-09 18:32"
+    },
+    {
+      "reservation_id": 1773081215,
+      "book_id": 1765377352,
+      "category": "Livro",
+      "parent_name": "Luciano serrado de Souza pereira / layjsouza@hotmial.com",
+      "student_name": "LAURA DE SOUZA PEREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "ANA, GUTO E O GATO DANÇARINO \tSTEPHEN MICHAEL KING \tBRINQUE BOOK",
+      "timestamp": "2026-03-09 18:33"
     }
   ],
   "students_db": [
