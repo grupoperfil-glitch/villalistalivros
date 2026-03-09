@@ -26619,6 +26619,14 @@
       "grade": "2º Ano",
       "class_name": "Matutino",
       "parent_csv": ""
+    },
+    {
+      "email": "luserrado@hotmail.com",
+      "email2": "",
+      "name": "LAURA DE SOUZA PEREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "parent_csv": "Luciano serrado de Souza pereira / layjsouza@hotmial.com"
     }
   ]
 }
