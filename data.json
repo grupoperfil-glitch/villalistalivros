@@ -5356,8 +5356,9 @@
       "title": "A BELA ADORMECIDA\tDULCY GRISOLIA\tFTD",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Luciano serrado de Souza pereira / layjsouza@hotmial.com",
+      "reserved_student": "LAURA DE SOUZA PEREIRA"
     },
     {
       "id": 1765377347,
@@ -24823,6 +24824,17 @@
       "class_name": "Matutino",
       "book_title": "INSTRUMENTOS MUSICAIS: PANDEIRO ,TAMBOR E TAMBOR",
       "timestamp": "2026-03-06 02:00"
+    },
+    {
+      "reservation_id": 1773080959,
+      "book_id": 1765377346,
+      "category": "Livro",
+      "parent_name": "Luciano serrado de Souza pereira / layjsouza@hotmial.com",
+      "student_name": "LAURA DE SOUZA PEREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "A BELA ADORMECIDA\tDULCY GRISOLIA\tFTD",
+      "timestamp": "2026-03-09 18:29"
     }
   ],
   "students_db": [
