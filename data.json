@@ -14581,8 +14581,9 @@
       "title": "PRIMEIROS NÚMEROS \tGROW",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DJACI DA SILVA GOMES",
+      "reserved_student": "MARCELO LEVI GOMES DA SILVA"
     },
     {
       "id": 1765460064,
@@ -24870,6 +24871,17 @@
       "class_name": "Vespertino",
       "book_title": "A PISCINA CRISTALINA DE MARIANA \tJONAS RIBEIRO \tELEMENTAR",
       "timestamp": "2026-03-10 03:53"
+    },
+    {
+      "reservation_id": 1773157103,
+      "book_id": 1765460063,
+      "category": "Brinquedo",
+      "parent_name": "DJACI DA SILVA GOMES",
+      "student_name": "MARCELO LEVI GOMES DA SILVA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "PRIMEIROS NÚMEROS \tGROW",
+      "timestamp": "2026-03-10 15:38"
     }
   ],
   "students_db": [
