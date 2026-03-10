@@ -13324,9 +13324,9 @@
       "title": "JÁ SEI CONTAR\tGROW",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "DJACI DA SILVA GOMES",
+      "reserved_student": "MARCELO LEVI GOMES DA SILVA"
     },
     {
       "id": 1765459705,
@@ -24882,6 +24882,17 @@
       "class_name": "Vespertino",
       "book_title": "PRIMEIROS NÚMEROS \tGROW",
       "timestamp": "2026-03-10 15:38"
+    },
+    {
+      "reservation_id": 1773157176,
+      "book_id": 1765459704,
+      "category": "Jogo",
+      "parent_name": "DJACI DA SILVA GOMES",
+      "student_name": "MARCELO LEVI GOMES DA SILVA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "JÁ SEI CONTAR\tGROW",
+      "timestamp": "2026-03-10 15:39"
     }
   ],
   "students_db": [
