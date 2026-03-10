@@ -5386,8 +5386,9 @@
       "title": "A PISCINA CRISTALINA DE MARIANA \tJONAS RIBEIRO \tELEMENTAR",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DJACI DA SILVA GOMES",
+      "reserved_student": "MARCELO LEVI GOMES DA SILVA"
     },
     {
       "id": 1765377350,
@@ -24858,6 +24859,17 @@
       "class_name": "Vespertino",
       "book_title": "ANA, GUTO E O GATO DANÇARINO \tSTEPHEN MICHAEL KING \tBRINQUE BOOK",
       "timestamp": "2026-03-09 18:33"
+    },
+    {
+      "reservation_id": 1773114834,
+      "book_id": 1765377349,
+      "category": "Livro",
+      "parent_name": "DJACI DA SILVA GOMES",
+      "student_name": "MARCELO LEVI GOMES DA SILVA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "A PISCINA CRISTALINA DE MARIANA \tJONAS RIBEIRO \tELEMENTAR",
+      "timestamp": "2026-03-10 03:53"
     }
   ],
   "students_db": [
