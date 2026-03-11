@@ -6072,8 +6072,9 @@
       "title": "EU SOU ASSIM E VOU TE MOSTRAR\tHEINZ JANISCH\tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Luciano serrado de Souza pereira / layjsouza@hotmial.com",
+      "reserved_student": "LAURA DE SOUZA PEREIRA"
     },
     {
       "id": 1765377421,
@@ -24882,6 +24883,17 @@
       "class_name": "Vespertino",
       "book_title": "JÁ SEI CONTAR\tGROW",
       "timestamp": "2026-03-10 15:39"
+    },
+    {
+      "reservation_id": 1773234266,
+      "book_id": 1765377420,
+      "category": "Livro",
+      "parent_name": "Luciano serrado de Souza pereira / layjsouza@hotmial.com",
+      "student_name": "LAURA DE SOUZA PEREIRA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "EU SOU ASSIM E VOU TE MOSTRAR\tHEINZ JANISCH\tBRINQUE BOOK",
+      "timestamp": "2026-03-11 13:04"
     }
   ],
   "students_db": [
