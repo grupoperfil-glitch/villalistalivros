@@ -5496,9 +5496,9 @@
       "title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "GISELLE PASSOS MORAIS BARBOSA",
+      "reserved_student": "MARIA LUNA PASSOS MORAIS BONFIM NAVARRO"
     },
     {
       "id": 1765377361,
@@ -24927,6 +24927,17 @@
       "grade": "Grupo 4",
       "class_name": "Vespertino",
       "book_title": "QUEM SOU EU?\tSILVIA ZATZ \tCIA DAS LETRINHAS",
+      "timestamp": "2026-03-12 20:11"
+    },
+    {
+      "reservation_id": 1773346312,
+      "book_id": 1765377360,
+      "category": "Livro",
+      "parent_name": "GISELLE PASSOS MORAIS BARBOSA",
+      "student_name": "MARIA LUNA PASSOS MORAIS BONFIM NAVARRO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
       "timestamp": "2026-03-12 20:11"
     }
   ],
