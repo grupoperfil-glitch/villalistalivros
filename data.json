@@ -5356,9 +5356,9 @@
       "title": "A BELA ADORMECIDA\tDULCY GRISOLIA\tFTD",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "GISELLE PASSOS MORAIS BARBOSA",
+      "reserved_student": "MARIA LUNA PASSOS MORAIS BONFIM NAVARRO"
     },
     {
       "id": 1765377347,
@@ -24906,6 +24906,17 @@
       "class_name": "Vespertino",
       "book_title": "CHAPEUZINHO VERMELHO\tROSINHA \tCALLIS",
       "timestamp": "2026-03-12 20:00"
+    },
+    {
+      "reservation_id": 1773346294,
+      "book_id": 1765377346,
+      "category": "Livro",
+      "parent_name": "GISELLE PASSOS MORAIS BARBOSA",
+      "student_name": "MARIA LUNA PASSOS MORAIS BONFIM NAVARRO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "A BELA ADORMECIDA\tDULCY GRISOLIA\tFTD",
+      "timestamp": "2026-03-12 20:11"
     }
   ],
   "students_db": [
