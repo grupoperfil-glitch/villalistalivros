@@ -26722,6 +26722,14 @@
       "grade": "3º Ano",
       "class_name": "Matutino",
       "parent_csv": ""
+    },
+    {
+      "email": "vasconcelospedrofelipe@gmail.com",
+      "email2": "gessianne.oliveira@hotmail.com",
+      "name": "João Oliveira Vasconcelos",
+      "grade": "3º Ano",
+      "class_name": "Matutino",
+      "parent_csv": "Pedro Felipe Ramos dos Santos Vasconcelos"
     }
   ]
 }
