@@ -5406,9 +5406,9 @@
       "title": "CARONA NA VASSOURA \tJULIA DONALDSON \tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "DJACI DA SILVA GOMES",
+      "reserved_student": "MARCELO LEVI GOMES DA SILVA"
     },
     {
       "id": 1765377352,
@@ -24963,6 +24963,17 @@
       "class_name": "Vespertino",
       "book_title": "ALFABETO BINGO DE LETRAS  CARLU",
       "timestamp": "2026-03-12 20:13"
+    },
+    {
+      "reservation_id": 1773346460,
+      "book_id": 1765377351,
+      "category": "Livro",
+      "parent_name": "DJACI DA SILVA GOMES",
+      "student_name": "MARCELO LEVI GOMES DA SILVA",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "CARONA NA VASSOURA \tJULIA DONALDSON \tBRINQUE BOOK",
+      "timestamp": "2026-03-12 20:14"
     }
   ],
   "students_db": [
