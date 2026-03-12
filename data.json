@@ -13336,8 +13336,9 @@
       "title": "JOGO DA PESCARIA \tGROW",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "GISELLE PASSOS MORAIS BARBOSA",
+      "reserved_student": "MARIA LUNA PASSOS MORAIS BONFIM NAVARRO"
     },
     {
       "id": 1765459706,
@@ -24939,6 +24940,17 @@
       "class_name": "Vespertino",
       "book_title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
       "timestamp": "2026-03-12 20:11"
+    },
+    {
+      "reservation_id": 1773346354,
+      "book_id": 1765459705,
+      "category": "Jogo",
+      "parent_name": "GISELLE PASSOS MORAIS BARBOSA",
+      "student_name": "MARIA LUNA PASSOS MORAIS BONFIM NAVARRO",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "JOGO DA PESCARIA \tGROW",
+      "timestamp": "2026-03-12 20:12"
     }
   ],
   "students_db": [
