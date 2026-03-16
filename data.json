@@ -11071,8 +11071,9 @@
       "title": "JOGO DA MEMÓRIA",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VICTORIA STEPHAHY SANTOS MENDES ",
+      "reserved_student": "JOÃO FELIPE MENDES DA SILVA"
     },
     {
       "id": 1765458278,
@@ -25010,6 +25011,17 @@
       "class_name": "Vespertino",
       "book_title": "FOI VOVÓ QUE DISSE\tDANIEL MUNDURUKU\tEDELBRA",
       "timestamp": "2026-03-16 13:45"
+    },
+    {
+      "reservation_id": 1773668861,
+      "book_id": 1765458277,
+      "category": "Jogo",
+      "parent_name": "VICTORIA STEPHAHY SANTOS MENDES ",
+      "student_name": "JOÃO FELIPE MENDES DA SILVA",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "JOGO DA MEMÓRIA",
+      "timestamp": "2026-03-16 13:47"
     }
   ],
   "students_db": [
