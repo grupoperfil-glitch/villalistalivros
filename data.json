@@ -11859,8 +11859,9 @@
       "title": "3 PENEIRAS DE INOX",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VICTORIA STEPHAHY SANTOS MENDES ",
+      "reserved_student": "JOÃO FELIPE MENDES DA SILVA"
     },
     {
       "id": 1765458403,
@@ -25022,6 +25023,17 @@
       "class_name": "Vespertino",
       "book_title": "JOGO DA MEMÓRIA",
       "timestamp": "2026-03-16 13:47"
+    },
+    {
+      "reservation_id": 1773668901,
+      "book_id": 1765458402,
+      "category": "Brinquedo",
+      "parent_name": "VICTORIA STEPHAHY SANTOS MENDES ",
+      "student_name": "JOÃO FELIPE MENDES DA SILVA",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "3 PENEIRAS DE INOX",
+      "timestamp": "2026-03-16 13:48"
     }
   ],
   "students_db": [
