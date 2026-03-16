@@ -995,9 +995,9 @@
       "title": "OS TRÊS PORQUINHOS  RUI DE OLIVEIRA  GLOBO",
       "grade": "1º Ano",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "PATRICIA ALMEIDA SANTOS",
+      "reserved_student": "ARTHUR ALMEIDA SANTOS DA CONCEIÇÃO"
     },
     {
       "id": 1765369065,
@@ -25044,6 +25044,17 @@
       "grade": "1º Ano",
       "class_name": "Vespertino",
       "book_title": "BATUTINHA   ANA MARIA MACHADO  SALAMANDRA",
+      "timestamp": "2026-03-16 16:22"
+    },
+    {
+      "reservation_id": 1773678176,
+      "book_id": 1765369064,
+      "category": "Livro",
+      "parent_name": "PATRICIA ALMEIDA SANTOS",
+      "student_name": "ARTHUR ALMEIDA SANTOS DA CONCEIÇÃO",
+      "grade": "1º Ano",
+      "class_name": "Vespertino",
+      "book_title": "OS TRÊS PORQUINHOS  RUI DE OLIVEIRA  GLOBO",
       "timestamp": "2026-03-16 16:22"
     }
   ],
