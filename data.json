@@ -4427,8 +4427,9 @@
       "title": "O MENINO COM FLORES NO CABELO\tPEQUENA ZAHAR\tJARVIS",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VICTORIA STEPHAHY SANTOS MENDES ",
+      "reserved_student": "JOÃO FELIPE MENDES DA SILVA"
     },
     {
       "id": 1765377018,
@@ -24986,6 +24987,17 @@
       "class_name": "Vespertino",
       "book_title": "NO IMENSO MAR AZUL \tANA MARIA MACHADO \tSALAMANDRA",
       "timestamp": "2026-03-16 13:43"
+    },
+    {
+      "reservation_id": 1773668655,
+      "book_id": 1765377017,
+      "category": "Livro",
+      "parent_name": "VICTORIA STEPHAHY SANTOS MENDES ",
+      "student_name": "JOÃO FELIPE MENDES DA SILVA",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "O MENINO COM FLORES NO CABELO\tPEQUENA ZAHAR\tJARVIS",
+      "timestamp": "2026-03-16 13:44"
     }
   ],
   "students_db": [
