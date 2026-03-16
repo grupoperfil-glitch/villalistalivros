@@ -3129,8 +3129,9 @@
       "title": "O MUNDO DE TAINÁ - UMA AVENTURA EM TUPITUGUÊS\tCLÁUDIA LEVAY \tCIA DAS LETRINHAS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VICTORIA STEPHAHY SANTOS MENDES ",
+      "reserved_student": "JOÃO FELIPE MENDES DA SILVA"
     },
     {
       "id": 1765376964,
@@ -24974,6 +24975,17 @@
       "class_name": "Vespertino",
       "book_title": "CARONA NA VASSOURA \tJULIA DONALDSON \tBRINQUE BOOK",
       "timestamp": "2026-03-12 20:14"
+    },
+    {
+      "reservation_id": 1773668637,
+      "book_id": 1765376963,
+      "category": "Livro",
+      "parent_name": "VICTORIA STEPHAHY SANTOS MENDES ",
+      "student_name": "JOÃO FELIPE MENDES DA SILVA",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "NO IMENSO MAR AZUL \tANA MARIA MACHADO \tSALAMANDRA",
+      "timestamp": "2026-03-16 13:43"
     }
   ],
   "students_db": [
