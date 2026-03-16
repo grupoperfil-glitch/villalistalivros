@@ -3419,8 +3419,9 @@
       "title": "MANECO CANECO CHAPÉU DE FUNIL\tLUÍS CAMARGO",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "VICTORIA STEPHAHY SANTOS MENDES ",
+      "reserved_student": "JOÃO FELIPE MENDES DA SILVA"
     },
     {
       "id": 1765376995,
@@ -24998,6 +24999,17 @@
       "class_name": "Vespertino",
       "book_title": "O MENINO COM FLORES NO CABELO\tPEQUENA ZAHAR\tJARVIS",
       "timestamp": "2026-03-16 13:44"
+    },
+    {
+      "reservation_id": 1773668746,
+      "book_id": 1765376994,
+      "category": "Livro",
+      "parent_name": "VICTORIA STEPHAHY SANTOS MENDES ",
+      "student_name": "JOÃO FELIPE MENDES DA SILVA",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "FOI VOVÓ QUE DISSE\tDANIEL MUNDURUKU\tEDELBRA",
+      "timestamp": "2026-03-16 13:45"
     }
   ],
   "students_db": [
