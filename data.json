@@ -13923,9 +13923,9 @@
       "title": "BRINCANDO COM FIGURAS",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "GISELLE PASSOS MORAIS BARBOSA",
-      "reserved_student": "MARIA LUNA PASSOS MORAIS BONFIM NAVARRO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765460028,
@@ -24928,17 +24928,6 @@
       "class_name": "Vespertino",
       "book_title": "JOGO DA PESCARIA \tGROW",
       "timestamp": "2026-03-12 20:12"
-    },
-    {
-      "reservation_id": 1773346398,
-      "book_id": 1765460027,
-      "category": "Brinquedo",
-      "parent_name": "GISELLE PASSOS MORAIS BARBOSA",
-      "student_name": "MARIA LUNA PASSOS MORAIS BONFIM NAVARRO",
-      "grade": "Grupo 4",
-      "class_name": "Vespertino",
-      "book_title": "ALFABETO BINGO DE LETRAS  CARLU",
-      "timestamp": "2026-03-12 20:13"
     },
     {
       "reservation_id": 1773346460,
