@@ -12052,8 +12052,9 @@
       "title": "LE GRAND CHEF\tCALESITA",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
+      "reserved_student": "SAMIRA SOUZA E SOUZA BARROS"
     },
     {
       "id": 1765459195,
@@ -25092,6 +25093,17 @@
       "class_name": "Vespertino",
       "book_title": "BOM DIA CORES   RUTE ROCHA",
       "timestamp": "2026-03-17 00:09"
+    },
+    {
+      "reservation_id": 1773706262,
+      "book_id": 1765459194,
+      "category": "Jogo",
+      "parent_name": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
+      "student_name": "SAMIRA SOUZA E SOUZA BARROS",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "LE GRAND CHEF\tCALESITA",
+      "timestamp": "2026-03-17 00:11"
     }
   ],
   "students_db": [
