@@ -2523,9 +2523,9 @@
       "title": "ROLIM\tZIRALDO",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
-      "reserved_student": "SAMIRA SOUZA E SOUZA BARROS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765376574,
@@ -25081,17 +25081,6 @@
       "class_name": "Vespertino",
       "book_title": "QUERO COLO! \tSTELA BARBIERI E FERNANDO VILELA \tEDIÇÕES SM",
       "timestamp": "2026-03-17 00:08"
-    },
-    {
-      "reservation_id": 1773706140,
-      "book_id": 1765376573,
-      "category": "Livro",
-      "parent_name": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
-      "student_name": "SAMIRA SOUZA E SOUZA BARROS",
-      "grade": "Grupo 2",
-      "class_name": "Vespertino",
-      "book_title": "ROLIM\tZIRALDO",
-      "timestamp": "2026-03-17 00:09"
     }
   ],
   "students_db": [
