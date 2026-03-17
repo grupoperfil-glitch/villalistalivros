@@ -2625,8 +2625,9 @@
       "title": "O CARACOL E A TARTARUGA SÃO AMIGOS\tSTEPHEN MICHAEL KING\tBRINQUE BOOK",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
+      "reserved_student": "SAMIRA SOUZA E SOUZA BARROS"
     },
     {
       "id": 1765376585,
@@ -25056,6 +25057,17 @@
       "class_name": "Vespertino",
       "book_title": "OS TRÊS PORQUINHOS  RUI DE OLIVEIRA  GLOBO",
       "timestamp": "2026-03-16 16:22"
+    },
+    {
+      "reservation_id": 1773706073,
+      "book_id": 1765376584,
+      "category": "Livro",
+      "parent_name": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
+      "student_name": "SAMIRA SOUZA E SOUZA BARROS",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "O CARACOL E A TARTARUGA SÃO AMIGOS\tSTEPHEN MICHAEL KING\tBRINQUE BOOK",
+      "timestamp": "2026-03-17 00:07"
     }
   ],
   "students_db": [
