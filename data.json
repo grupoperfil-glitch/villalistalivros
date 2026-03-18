@@ -5775,8 +5775,9 @@
       "title": "QUEM TEM MEDO DE ESCURO?\tFANNY JOLI \tSC",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA MELLO LEITE",
+      "reserved_student": "VALENTINA MELLO LEITE"
     },
     {
       "id": 1765377389,
@@ -25038,6 +25039,17 @@
       "class_name": "Vespertino",
       "book_title": "BOM DIA CORES   RUTE ROCHA",
       "timestamp": "2026-03-17 00:09"
+    },
+    {
+      "reservation_id": 1773841135,
+      "book_id": 1765377388,
+      "category": "Livro",
+      "parent_name": "FLAVIA MELLO LEITE",
+      "student_name": "VALENTINA MELLO LEITE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "QUEM TEM MEDO DE ESCURO?\tFANNY JOLI \tSC",
+      "timestamp": "2026-03-18 13:38"
     }
   ],
   "students_db": [
