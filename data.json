@@ -6188,8 +6188,9 @@
       "title": "MEU CORPO, MEU CORPINHO ROSELI MENDONÇA / SIDINEY MEIRELES\tMATRESCÊNCIA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ADSON MAURICIO SANTOS DOS SANTOS / SOELEM DA SILVA CAMARGO",
+      "reserved_student": "MIGUEL DOS SANTOS CAMARGO"
     },
     {
       "id": 1765377432,
@@ -25062,6 +25063,17 @@
       "class_name": "Matutino",
       "book_title": "REI BIGODEIRA E SUA BANHEIRA\tAUDREY WOOD\tÁTICA",
       "timestamp": "2026-03-18 14:54"
+    },
+    {
+      "reservation_id": 1773845793,
+      "book_id": 1765377431,
+      "category": "Livro",
+      "parent_name": "ADSON MAURICIO SANTOS DOS SANTOS / SOELEM DA SILVA CAMARGO",
+      "student_name": "MIGUEL DOS SANTOS CAMARGO",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "EU SOU ASSIM E VOU TE MOSTRAR\tHEINZ JANISCH\tBRINQUE BOOK",
+      "timestamp": "2026-03-18 14:56"
     }
   ],
   "students_db": [
