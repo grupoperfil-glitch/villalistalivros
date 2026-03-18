@@ -6168,9 +6168,9 @@
       "title": "LÁ E AQUI \tCAROLINA MOREYRA E ODILON MORAES PEQUENAZAHAR",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "ADSON MAURICIO SANTOS DOS SANTOS / SOELEM DA SILVA CAMARGO",
+      "reserved_student": "MIGUEL DOS SANTOS CAMARGO"
     },
     {
       "id": 1765377430,
@@ -25074,6 +25074,17 @@
       "class_name": "Matutino",
       "book_title": "EU SOU ASSIM E VOU TE MOSTRAR\tHEINZ JANISCH\tBRINQUE BOOK",
       "timestamp": "2026-03-18 14:56"
+    },
+    {
+      "reservation_id": 1773845934,
+      "book_id": 1765377429,
+      "category": "Livro",
+      "parent_name": "ADSON MAURICIO SANTOS DOS SANTOS / SOELEM DA SILVA CAMARGO",
+      "student_name": "MIGUEL DOS SANTOS CAMARGO",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "MARÉ BAIXA, MARÉ ALTA\tANA MARIA MACHADO\tGLOBAL",
+      "timestamp": "2026-03-18 14:58"
     }
   ],
   "students_db": [
