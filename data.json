@@ -5432,9 +5432,9 @@
       "title": "QUEM SOU EU?\tSILVIA ZATZ \tCIA DAS LETRINHAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "FLAVIA MELLO LEITE",
-      "reserved_student": "VALENTINA MELLO LEITE"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377354,
@@ -25050,17 +25050,6 @@
       "class_name": "Vespertino",
       "book_title": "QUEM TEM MEDO DE ESCURO?\tFANNY JOLI \tSC",
       "timestamp": "2026-03-18 13:38"
-    },
-    {
-      "reservation_id": 1773841149,
-      "book_id": 1765377353,
-      "category": "Livro",
-      "parent_name": "FLAVIA MELLO LEITE",
-      "student_name": "VALENTINA MELLO LEITE",
-      "grade": "Grupo 4",
-      "class_name": "Vespertino",
-      "book_title": "QUEM SOU EU?\tSILVIA ZATZ \tCIA DAS LETRINHAS",
-      "timestamp": "2026-03-18 13:39"
     },
     {
       "reservation_id": 1773841161,
