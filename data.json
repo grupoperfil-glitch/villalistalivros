@@ -6178,9 +6178,9 @@
       "title": "O MONSTRO DAS CORES\tANNA LLENAS",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "ADSON MAURICIO SANTOS DOS SANTOS / SOELEM DA SILVA CAMARGO",
-      "reserved_student": "MIGUEL DOS SANTOS CAMARGO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377431,
@@ -25052,17 +25052,6 @@
       "class_name": "Vespertino",
       "book_title": "QUEM TEM MEDO DE ESCURO?\tFANNY JOLI \tSC",
       "timestamp": "2026-03-18 13:38"
-    },
-    {
-      "reservation_id": 1773845684,
-      "book_id": 1765377430,
-      "category": "Livro",
-      "parent_name": "ADSON MAURICIO SANTOS DOS SANTOS / SOELEM DA SILVA CAMARGO",
-      "student_name": "MIGUEL DOS SANTOS CAMARGO",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "REI BIGODEIRA E SUA BANHEIRA\tAUDREY WOOD\tÁTICA",
-      "timestamp": "2026-03-18 14:54"
     },
     {
       "reservation_id": 1773845793,
