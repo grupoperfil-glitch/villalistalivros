@@ -5677,9 +5677,9 @@
       "title": "O CASO DA LAGARTA QUE TOMOU CHÁ DE SUMIÇO \tMILTON CÉLIO DE O. FILHO E ANDRÉ NEVES\tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "FLAVIA MELLO LEITE",
+      "reserved_student": "VALENTINA MELLO LEITE"
     },
     {
       "id": 1765377379,
@@ -25063,6 +25063,17 @@
       "class_name": "Matutino",
       "book_title": "MARÉ BAIXA, MARÉ ALTA\tANA MARIA MACHADO\tGLOBAL",
       "timestamp": "2026-03-18 14:58"
+    },
+    {
+      "reservation_id": 1774118758,
+      "book_id": 1765377378,
+      "category": "Livro",
+      "parent_name": "FLAVIA MELLO LEITE",
+      "student_name": "VALENTINA MELLO LEITE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "O CASO DA LAGARTA QUE TOMOU CHÁ DE SUMIÇO \tMILTON CÉLIO DE O. FILHO E ANDRÉ NEVES\tBRINQUE BOOK",
+      "timestamp": "2026-03-21 18:45"
     }
   ],
   "students_db": [
