@@ -6276,8 +6276,9 @@
       "title": "QUEM DISSE? CAROLINE ARCARI\tCAQUI",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "FLAVIA MELLO LEITE",
+      "reserved_student": "VALENTINA MELLO LEITE"
     },
     {
       "id": 1765377441,
@@ -25074,6 +25075,17 @@
       "class_name": "Vespertino",
       "book_title": "O CASO DA LAGARTA QUE TOMOU CHÁ DE SUMIÇO \tMILTON CÉLIO DE O. FILHO E ANDRÉ NEVES\tBRINQUE BOOK",
       "timestamp": "2026-03-21 18:45"
+    },
+    {
+      "reservation_id": 1774118900,
+      "book_id": 1765377440,
+      "category": "Livro",
+      "parent_name": "FLAVIA MELLO LEITE",
+      "student_name": "VALENTINA MELLO LEITE",
+      "grade": "Grupo 4",
+      "class_name": "Vespertino",
+      "book_title": "QUEM DISSE? CAROLINE ARCARI\tCAQUI",
+      "timestamp": "2026-03-21 18:48"
     }
   ],
   "students_db": [
