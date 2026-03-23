@@ -4413,8 +4413,9 @@
       "title": "QUANDO EU SINTO RAIVA \tJAMES MISSE \tPÉ DA LETRA",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DEBORA ALVES CELES",
+      "reserved_student": "BENTO CELES CHAGAS"
     },
     {
       "id": 1765377016,
@@ -25110,6 +25111,17 @@
       "class_name": "Vespertino",
       "book_title": "BLOCOS DE ENCAIXE FORMAS GEOMÉTRICAS",
       "timestamp": "2026-03-23 18:51"
+    },
+    {
+      "reservation_id": 1774293613,
+      "book_id": 1765377015,
+      "category": "Livro",
+      "parent_name": "DEBORA ALVES CELES",
+      "student_name": "BENTO CELES CHAGAS",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "QUANDO EU SINTO RAIVA \tJAMES MISSE \tPÉ DA LETRA",
+      "timestamp": "2026-03-23 19:20"
     }
   ],
   "students_db": [
