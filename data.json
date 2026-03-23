@@ -11508,8 +11508,9 @@
       "title": "JOGO PANELINHAS",
       "grade": "Grupo 3",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DEBORA ALVES CELES",
+      "reserved_student": "BENTO CELES CHAGAS"
     },
     {
       "id": 1765458386,
@@ -25097,6 +25098,17 @@
       "grade": "Grupo 3",
       "class_name": "Vespertino",
       "book_title": "JOGOS DE ENCAIXE",
+      "timestamp": "2026-03-23 18:49"
+    },
+    {
+      "reservation_id": 1774291779,
+      "book_id": 1765458385,
+      "category": "Brinquedo",
+      "parent_name": "DEBORA ALVES CELES",
+      "student_name": "BENTO CELES CHAGAS",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "CAMINHÃO",
       "timestamp": "2026-03-23 18:49"
     }
   ],
