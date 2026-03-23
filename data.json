@@ -11106,8 +11106,9 @@
       "title": "JOGOS DE ENCAIXE",
       "grade": "Grupo 3",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "DEBORA ALVES CELES",
+      "reserved_student": "BENTO CELES CHAGAS"
     },
     {
       "id": 1765458281,
@@ -25086,6 +25087,17 @@
       "class_name": "Vespertino",
       "book_title": "QUEM DISSE? CAROLINE ARCARI\tCAQUI",
       "timestamp": "2026-03-21 18:48"
+    },
+    {
+      "reservation_id": 1774291744,
+      "book_id": 1765458280,
+      "category": "Jogo",
+      "parent_name": "DEBORA ALVES CELES",
+      "student_name": "BENTO CELES CHAGAS",
+      "grade": "Grupo 3",
+      "class_name": "Vespertino",
+      "book_title": "JOGOS DE ENCAIXE",
+      "timestamp": "2026-03-23 18:49"
     }
   ],
   "students_db": [
