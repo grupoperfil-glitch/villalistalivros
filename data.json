@@ -1854,8 +1854,9 @@
       "title": "O SAPO BOCARRÃO\tKEITH FAULKNER\tCOMPANHIA DAS LETRINHAS",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RENATATA CARDOSO FERREIRA LAYTYNHER RIBEIRO",
+      "reserved_student": "MARIA JULIA LAYTYNHER  BONIFACIO"
     },
     {
       "id": 1765376531,
@@ -25123,6 +25124,17 @@
       "class_name": "Vespertino",
       "book_title": "O RABO DO RATO \tBALBINA OLIVEIRA \tALETRIA",
       "timestamp": "2026-03-23 19:26"
+    },
+    {
+      "reservation_id": 1774523672,
+      "book_id": 1765376530,
+      "category": "Livro",
+      "parent_name": "RENATATA CARDOSO FERREIRA LAYTYNHER RIBEIRO",
+      "student_name": "MARIA JULIA LAYTYNHER  BONIFACIO",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "O SAPO BOCARRÃO\tKEITH FAULKNER\tCOMPANHIA DAS LETRINHAS",
+      "timestamp": "2026-03-26 11:14"
     }
   ],
   "students_db": [
