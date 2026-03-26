@@ -1923,8 +1923,9 @@
       "title": "O PEQUENIQUE\tMARY FRANÇA\tÁTICA",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RENATATA CARDOSO FERREIRA LAYTYNHER RIBEIRO",
+      "reserved_student": "MARIA JULIA LAYTYNHER  BONIFACIO"
     },
     {
       "id": 1765376538,
@@ -25146,6 +25147,17 @@
       "grade": "Grupo 2",
       "class_name": "Matutino",
       "book_title": "A LAGARTIXA COM CARA DE SALSICHA\tPATRICK GEORGE",
+      "timestamp": "2026-03-26 11:15"
+    },
+    {
+      "reservation_id": 1774523728,
+      "book_id": 1765376537,
+      "category": "Livro",
+      "parent_name": "RENATATA CARDOSO FERREIRA LAYTYNHER RIBEIRO",
+      "student_name": "MARIA JULIA LAYTYNHER  BONIFACIO",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "O PEQUENIQUE\tMARY FRANÇA\tÁTICA",
       "timestamp": "2026-03-26 11:15"
     }
   ],
