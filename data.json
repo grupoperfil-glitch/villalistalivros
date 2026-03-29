@@ -12751,8 +12751,9 @@
       "title": "MÁQUINA FOTOGRÁFICA DR.  JÚNIOR\tDICAN",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
+      "reserved_student": "SAMIRA SOUZA E SOUZA BARROS"
     },
     {
       "id": 1765459319,
@@ -25160,6 +25161,17 @@
       "class_name": "Matutino",
       "book_title": "O PEQUENIQUE\tMARY FRANÇA\tÁTICA",
       "timestamp": "2026-03-26 11:15"
+    },
+    {
+      "reservation_id": 1774744662,
+      "book_id": 1765459318,
+      "category": "Brinquedo",
+      "parent_name": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
+      "student_name": "SAMIRA SOUZA E SOUZA BARROS",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "FANTOCHES DE ANIMAIS",
+      "timestamp": "2026-03-29 00:37"
     }
   ],
   "students_db": [
