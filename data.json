@@ -12073,8 +12073,9 @@
       "title": "MEU PRIMEIRO QUEBRA-CABEÇA\tGROW",
       "grade": "Grupo 2",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
+      "reserved_student": "SAMIRA SOUZA E SOUZA BARROS"
     },
     {
       "id": 1765459196,
@@ -25172,6 +25173,17 @@
       "class_name": "Vespertino",
       "book_title": "FANTOCHES DE ANIMAIS",
       "timestamp": "2026-03-29 00:37"
+    },
+    {
+      "reservation_id": 1774745143,
+      "book_id": 1765459195,
+      "category": "Jogo",
+      "parent_name": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
+      "student_name": "SAMIRA SOUZA E SOUZA BARROS",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "MEU PRIMEIRO QUEBRA-CABEÇA\tGROW",
+      "timestamp": "2026-03-29 00:45"
     }
   ],
   "students_db": [
