@@ -12659,9 +12659,9 @@
       "title": "EXPRESSO MALUQUINHO",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
-      "reserved_student": "SAMIRA SOUZA E SOUZA BARROS"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765459309,
@@ -25160,17 +25160,6 @@
       "class_name": "Matutino",
       "book_title": "O PEQUENIQUE\tMARY FRANÇA\tÁTICA",
       "timestamp": "2026-03-26 11:15"
-    },
-    {
-      "reservation_id": 1774744320,
-      "book_id": 1765459308,
-      "category": "Brinquedo",
-      "parent_name": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
-      "student_name": "SAMIRA SOUZA E SOUZA BARROS",
-      "grade": "Grupo 2",
-      "class_name": "Vespertino",
-      "book_title": "2 BONECAS BEBÊS",
-      "timestamp": "2026-03-29 00:32"
     }
   ],
   "students_db": [
