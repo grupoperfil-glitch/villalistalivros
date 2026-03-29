@@ -12567,8 +12567,9 @@
       "title": "KIT FERRAMENTA 5 PEÇAS \tSITE: ATELIÊ 14",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
+      "reserved_student": "SAMIRA SOUZA E SOUZA BARROS"
     },
     {
       "id": 1765459299,
@@ -25173,6 +25174,17 @@
       "class_name": "Vespertino",
       "book_title": "MEU PRIMEIRO QUEBRA-CABEÇA\tGROW",
       "timestamp": "2026-03-29 00:45"
+    },
+    {
+      "reservation_id": 1774745945,
+      "book_id": 1765459298,
+      "category": "Brinquedo",
+      "parent_name": "ITANA DE ARAUJO BARROS / JEFERSON AUGUSTO SOUZA E SOUZA",
+      "student_name": "SAMIRA SOUZA E SOUZA BARROS",
+      "grade": "Grupo 2",
+      "class_name": "Vespertino",
+      "book_title": "2 PANELAS EM ALUMÍNIO TAMANHO MÉDIO",
+      "timestamp": "2026-03-29 00:59"
     }
   ],
   "students_db": [
