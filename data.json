@@ -2246,8 +2246,9 @@
       "title": "É UMA RÃ?\tGUIDO VAN GENECHTEN\tGAUDÍ EDITORIAL",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "RENATATA CARDOSO FERREIRA LAYTYNHER RIBEIRO",
+      "reserved_student": "MARIA JULIA LAYTYNHER  BONIFACIO"
     },
     {
       "id": 1765376543,
@@ -25174,6 +25175,17 @@
       "class_name": "Vespertino",
       "book_title": "2 PANELAS EM ALUMÍNIO TAMANHO MÉDIO",
       "timestamp": "2026-03-29 00:59"
+    },
+    {
+      "reservation_id": 1776189420,
+      "book_id": 1765376570,
+      "category": "Livro",
+      "parent_name": "RENATATA CARDOSO FERREIRA LAYTYNHER RIBEIRO",
+      "student_name": "MARIA JULIA LAYTYNHER  BONIFACIO",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "É UMA RÃ?\tGUIDO VAN GENECHTEN\tGAUDÍ EDITORIAL",
+      "timestamp": "2026-04-14 17:57"
     }
   ],
   "students_db": [
