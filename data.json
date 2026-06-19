@@ -13874,8 +13874,9 @@
       "title": "BLOCOS LÓGICOS\tCARLU",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JULIANA LIRA GAMA PIRES ALVES",
+      "reserved_student": "MARIA JULIA GAMA ALVES TORRES"
     },
     {
       "id": 1765460021,
@@ -25210,6 +25211,17 @@
       "class_name": "Matutino",
       "book_title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
       "timestamp": "2026-06-19 18:23"
+    },
+    {
+      "reservation_id": 1781893552,
+      "book_id": 1765460020,
+      "category": "Brinquedo",
+      "parent_name": "JULIANA LIRA GAMA PIRES ALVES",
+      "student_name": "MARIA JULIA GAMA ALVES TORRES",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "BLOCOS LÓGICOS\tCARLU",
+      "timestamp": "2026-06-19 18:25"
     }
   ],
   "students_db": [
