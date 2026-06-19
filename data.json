@@ -5615,9 +5615,9 @@
       "title": "MANECO CANECO CHAPÉU DE FUNIL \tLUÍS CAMARGO \tÁTICA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "JULIANA LIRA GAMA PIRES ALVES",
+      "reserved_student": "MARIA JULIA GAMA ALVES TORRES"
     },
     {
       "id": 1765377372,
@@ -25199,6 +25199,17 @@
       "class_name": "Matutino",
       "book_title": "DE VÁRIOS JEITOS\tFLÁVIA REIS\tCALLIS",
       "timestamp": "2026-06-19 11:22"
+    },
+    {
+      "reservation_id": 1781893395,
+      "book_id": 1765377371,
+      "category": "Livro",
+      "parent_name": "JULIANA LIRA GAMA PIRES ALVES",
+      "student_name": "MARIA JULIA GAMA ALVES TORRES",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "O TAMANHO DO MEU SONHO\tPRZEMYSLAW WECHTEROWICZ\tBIRUTA",
+      "timestamp": "2026-06-19 18:23"
     }
   ],
   "students_db": [
