@@ -5668,8 +5668,9 @@
       "title": "NO IMENSO MAR AZUL\tANA MARIA MACHADO \tSALAMANDRA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JULIANA LIRA GAMA PIRES ALVES",
+      "reserved_student": "MARIA JULIA GAMA ALVES TORRES"
     },
     {
       "id": 1765377377,
@@ -25227,6 +25228,17 @@
       "class_name": "Matutino",
       "book_title": "CASINHA DE BICHOS \tHARDI FILHO \tÁTICA",
       "timestamp": "2026-07-07 20:18"
+    },
+    {
+      "reservation_id": 1783456043,
+      "book_id": 1765377376,
+      "category": "Livro",
+      "parent_name": "JULIANA LIRA GAMA PIRES ALVES",
+      "student_name": "MARIA JULIA GAMA ALVES TORRES",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "DA PEQUENA TOUPEIRA\tWERNWE HOLZWARTH \tCIA DAS LETRINHAS",
+      "timestamp": "2026-07-07 20:27"
     }
   ],
   "students_db": [
