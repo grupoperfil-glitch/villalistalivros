@@ -6030,9 +6030,9 @@
       "title": "O LOBO QUE QUASE VIROU BOLO\tRENATA FERNANDES\tLETRA A",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "JULIANA LIRA GAMA PIRES ALVES",
-      "reserved_student": "MARIA JULIA GAMA ALVES TORRES"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377415,
@@ -25179,17 +25179,6 @@
       "class_name": "Matutino",
       "book_title": "É UMA RÃ?\tGUIDO VAN GENECHTEN\tGAUDÍ EDITORIAL",
       "timestamp": "2026-04-14 17:57"
-    },
-    {
-      "reservation_id": 1781868156,
-      "book_id": 1765377414,
-      "category": "Livro",
-      "parent_name": "JULIANA LIRA GAMA PIRES ALVES",
-      "student_name": "MARIA JULIA GAMA ALVES TORRES",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "DE VÁRIOS JEITOS\tFLÁVIA REIS\tCALLIS",
-      "timestamp": "2026-06-19 11:22"
     },
     {
       "reservation_id": 1781893395,
