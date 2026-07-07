@@ -5588,8 +5588,9 @@
       "title": "FESTA NO CÉU \tRUTH ROCHA \tFTD",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JULIANA LIRA GAMA PIRES ALVES",
+      "reserved_student": "MARIA JULIA GAMA ALVES TORRES"
     },
     {
       "id": 1765377369,
@@ -25213,6 +25214,17 @@
       "class_name": "Matutino",
       "book_title": "BRUXA ONILDA E A MACACA \tROSER CAPDEVILA \tSCIPIONE",
       "timestamp": "2026-07-07 20:12"
+    },
+    {
+      "reservation_id": 1783455260,
+      "book_id": 1765377368,
+      "category": "Livro",
+      "parent_name": "JULIANA LIRA GAMA PIRES ALVES",
+      "student_name": "MARIA JULIA GAMA ALVES TORRES",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "CACHINHOS DE OURO \tANA MARIA MACHADO \tFTD",
+      "timestamp": "2026-07-07 20:14"
     }
   ],
   "students_db": [
