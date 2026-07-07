@@ -5578,8 +5578,9 @@
       "title": "EU NUNCA VOU COMER TOMATE\tLAUREN CHILD \tÁTICA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JULIANA LIRA GAMA PIRES ALVES",
+      "reserved_student": "MARIA JULIA GAMA ALVES TORRES"
     },
     {
       "id": 1765377368,
@@ -25201,6 +25202,17 @@
       "class_name": "Matutino",
       "book_title": "NOSSO CORPO\tCARIMBRAS",
       "timestamp": "2026-07-07 19:44"
+    },
+    {
+      "reservation_id": 1783455160,
+      "book_id": 1765377367,
+      "category": "Livro",
+      "parent_name": "JULIANA LIRA GAMA PIRES ALVES",
+      "student_name": "MARIA JULIA GAMA ALVES TORRES",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "BRUXA ONILDA E A MACACA \tROSER CAPDEVILA \tSCIPIONE",
+      "timestamp": "2026-07-07 20:12"
     }
   ],
   "students_db": [
