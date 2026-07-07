@@ -7402,9 +7402,9 @@
       "title": "SEMENTES DE AFETO\tSILVIA DELAZARI\tADONIS",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": false,
-      "reserved_by": "JULIANA LIRA GAMA PIRES ALVES",
-      "reserved_student": "MARIA JULIA GAMA ALVES TORRES"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377463,
@@ -25179,17 +25179,6 @@
       "class_name": "Matutino",
       "book_title": "É UMA RÃ?\tGUIDO VAN GENECHTEN\tGAUDÍ EDITORIAL",
       "timestamp": "2026-04-14 17:57"
-    },
-    {
-      "reservation_id": 1781868023,
-      "book_id": 1765377462,
-      "category": "Livro",
-      "parent_name": "JULIANA LIRA GAMA PIRES ALVES",
-      "student_name": "MARIA JULIA GAMA ALVES TORRES",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "SEMENTES DE AFETO\tSILVIA DELAZARI\tADONIS",
-      "timestamp": "2026-06-19 11:20"
     },
     {
       "reservation_id": 1781868156,
