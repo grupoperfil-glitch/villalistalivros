@@ -13635,8 +13635,9 @@
       "title": "NOSSO CORPO\tCARIMBRAS",
       "grade": "Grupo 4",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JULIANA LIRA GAMA PIRES ALVES",
+      "reserved_student": "MARIA JULIA GAMA ALVES TORRES"
     },
     {
       "id": 1765459727,
@@ -25222,6 +25223,17 @@
       "class_name": "Matutino",
       "book_title": "BLOCOS LÓGICOS\tCARLU",
       "timestamp": "2026-06-19 18:25"
+    },
+    {
+      "reservation_id": 1783453455,
+      "book_id": 1765459726,
+      "category": "Jogo",
+      "parent_name": "JULIANA LIRA GAMA PIRES ALVES",
+      "student_name": "MARIA JULIA GAMA ALVES TORRES",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "NOSSO CORPO\tCARIMBRAS",
+      "timestamp": "2026-07-07 19:44"
     }
   ],
   "students_db": [
