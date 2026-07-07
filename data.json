@@ -5608,8 +5608,9 @@
       "title": "MAMÃE É GRANDE COMO UMA TORRE \tBRIGITTE SCHAR\tCOSACNAIF",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "JULIANA LIRA GAMA PIRES ALVES",
+      "reserved_student": "MARIA JULIA GAMA ALVES TORRES"
     },
     {
       "id": 1765377371,
@@ -25214,6 +25215,17 @@
       "class_name": "Matutino",
       "book_title": "BRUXA ONILDA E A MACACA \tROSER CAPDEVILA \tSCIPIONE",
       "timestamp": "2026-07-07 20:12"
+    },
+    {
+      "reservation_id": 1783455504,
+      "book_id": 1765377370,
+      "category": "Livro",
+      "parent_name": "JULIANA LIRA GAMA PIRES ALVES",
+      "student_name": "MARIA JULIA GAMA ALVES TORRES",
+      "grade": "Grupo 4",
+      "class_name": "Matutino",
+      "book_title": "CASINHA DE BICHOS \tHARDI FILHO \tÁTICA",
+      "timestamp": "2026-07-07 20:18"
     }
   ],
   "students_db": [
