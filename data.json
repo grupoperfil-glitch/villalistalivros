@@ -5696,9 +5696,9 @@
       "title": "O DUENDE DA PONTE \tPATRÍCIA ERA WOLFF\tBRINQUE BOOK",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "JULIANA LIRA GAMA PIRES ALVES",
-      "reserved_student": "MARIA JULIA GAMA ALVES TORRES"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377380,
@@ -25227,17 +25227,6 @@
       "class_name": "Matutino",
       "book_title": "CASINHA DE BICHOS \tHARDI FILHO \tÁTICA",
       "timestamp": "2026-07-07 20:18"
-    },
-    {
-      "reservation_id": 1783455726,
-      "book_id": 1765377379,
-      "category": "Livro",
-      "parent_name": "JULIANA LIRA GAMA PIRES ALVES",
-      "student_name": "MARIA JULIA GAMA ALVES TORRES",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "FESTA NO CÉU \tRUTH ROCHA \tFTD",
-      "timestamp": "2026-07-07 20:22"
     }
   ],
   "students_db": [
