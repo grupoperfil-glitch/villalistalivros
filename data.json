@@ -5498,9 +5498,9 @@
       "title": "CASINHA DE BICHOS \tHARDI FILHO \tÁTICA",
       "grade": "Grupo 4",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "JULIANA LIRA GAMA PIRES ALVES",
-      "reserved_student": "MARIA JULIA GAMA ALVES TORRES"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765377360,
@@ -25201,17 +25201,6 @@
       "class_name": "Matutino",
       "book_title": "NOSSO CORPO\tCARIMBRAS",
       "timestamp": "2026-07-07 19:44"
-    },
-    {
-      "reservation_id": 1783454643,
-      "book_id": 1765377359,
-      "category": "Livro",
-      "parent_name": "JULIANA LIRA GAMA PIRES ALVES",
-      "student_name": "MARIA JULIA GAMA ALVES TORRES",
-      "grade": "Grupo 4",
-      "class_name": "Matutino",
-      "book_title": "A MÃE DE JULIO ESPERA UM BEBÊ\tCHRISTIAN LAMBLIM \tÁTICA",
-      "timestamp": "2026-07-07 20:04"
     },
     {
       "reservation_id": 1783454654,
