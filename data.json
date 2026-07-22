@@ -1874,9 +1874,9 @@
       "title": "O CASO DO BOLINHO\tTATIANA BELINKY\tMODERNA",
       "grade": "Grupo 2",
       "class_name": "Matutino",
-      "available": true,
-      "reserved_by": null,
-      "reserved_student": null
+      "available": false,
+      "reserved_by": "ALAN MIRANDA DE LIMA / AMANDA SOARES ALELUIA",
+      "reserved_student": "ANNE SOARES MIRANDA DE LIMA"
     },
     {
       "id": 1765376533,
@@ -25239,6 +25239,17 @@
       "class_name": "Matutino",
       "book_title": "DA PEQUENA TOUPEIRA\tWERNWE HOLZWARTH \tCIA DAS LETRINHAS",
       "timestamp": "2026-07-07 20:27"
+    },
+    {
+      "reservation_id": 1784713879,
+      "book_id": 1765376532,
+      "category": "Livro",
+      "parent_name": "ALAN MIRANDA DE LIMA / AMANDA SOARES ALELUIA",
+      "student_name": "ANNE SOARES MIRANDA DE LIMA",
+      "grade": "Grupo 2",
+      "class_name": "Matutino",
+      "book_title": "O CASO DO BOLINHO\tTATIANA BELINKY\tMODERNA",
+      "timestamp": "2026-07-22 09:51"
     }
   ],
   "students_db": [
