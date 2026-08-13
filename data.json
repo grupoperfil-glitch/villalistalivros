@@ -10354,9 +10354,9 @@
       "title": "QUEBRA CABEÇA DE MADEIRA",
       "grade": "Grupo 1",
       "class_name": "Vespertino",
-      "available": false,
-      "reserved_by": "Roberta lima santos",
-      "reserved_student": "ROSA LIMA CASSILLO"
+      "available": true,
+      "reserved_by": null,
+      "reserved_student": null
     },
     {
       "id": 1765457428,
@@ -25287,17 +25287,6 @@
       "class_name": "Vespertino",
       "book_title": "FARRA NO QUINTAL  EDITH CHACON  BIRUTA",
       "timestamp": "2026-08-13 01:34"
-    },
-    {
-      "reservation_id": 1786621011,
-      "book_id": 1765457427,
-      "category": "Jogo",
-      "parent_name": "Roberta lima santos",
-      "student_name": "ROSA LIMA CASSILLO",
-      "grade": "Grupo 1",
-      "class_name": "Vespertino",
-      "book_title": "QUEBRA CABEÇA DE MADEIRA",
-      "timestamp": "2026-08-13 11:36"
     }
   ],
   "students_db": [
