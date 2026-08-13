@@ -10654,8 +10654,9 @@
       "title": "FAZ DE CONTA HOSPITAL",
       "grade": "Grupo 1",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Roberta lima santos",
+      "reserved_student": "ROSA LIMA CASSILLO"
     },
     {
       "id": 1765457465,
@@ -25299,6 +25300,17 @@
       "class_name": "Vespertino",
       "book_title": "QUEBRA CABEÇA DE ANIMAIS (DE MADEIRA)",
       "timestamp": "2026-08-13 11:44"
+    },
+    {
+      "reservation_id": 1786621770,
+      "book_id": 1765457464,
+      "category": "Brinquedo",
+      "parent_name": "Roberta lima santos",
+      "student_name": "ROSA LIMA CASSILLO",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "book_title": "FAZ DE CONTA HOSPITAL",
+      "timestamp": "2026-08-13 11:49"
     }
   ],
   "students_db": [
