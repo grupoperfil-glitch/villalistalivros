@@ -374,8 +374,9 @@
       "title": "FARRA NO QUINTAL  EDITH CHACON  BIRUTA",
       "grade": "Grupo 1",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Roberta lima santos",
+      "reserved_student": "ROSA LIMA CASSILLO"
     },
     {
       "id": 1765212970,
@@ -25273,6 +25274,17 @@
       "grade": "Grupo 1",
       "class_name": "Vespertino",
       "book_title": "BALEIA NA BANHEIRA  SUSANNE STRASSER  COMPANHIA DAS LETRINHAS",
+      "timestamp": "2026-08-13 01:34"
+    },
+    {
+      "reservation_id": 1786584882,
+      "book_id": 1765212969,
+      "category": "Livro",
+      "parent_name": "Roberta lima santos",
+      "student_name": "ROSA LIMA CASSILLO",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "book_title": "FARRA NO QUINTAL  EDITH CHACON  BIRUTA",
       "timestamp": "2026-08-13 01:34"
     }
   ],
