@@ -9,8 +9,9 @@
       "title": "A ARCA DE NOÉ  VINICIUS DE MORAES  CIA DAS LETRINHAS",
       "grade": "Grupo 1",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Roberta lima santos",
+      "reserved_student": "ROSA LIMA CASSILLO"
     },
     {
       "id": 1765212930,
@@ -25250,6 +25251,17 @@
       "class_name": "Matutino",
       "book_title": "O CASO DO BOLINHO\tTATIANA BELINKY\tMODERNA",
       "timestamp": "2026-07-22 09:51"
+    },
+    {
+      "reservation_id": 1786584769,
+      "book_id": 1765212929,
+      "category": "Livro",
+      "parent_name": "Roberta lima santos",
+      "student_name": "ROSA LIMA CASSILLO",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "book_title": "A ARCA DE NOÉ  VINICIUS DE MORAES  CIA DAS LETRINHAS",
+      "timestamp": "2026-08-13 01:32"
     }
   ],
   "students_db": [
