@@ -219,8 +219,9 @@
       "title": "BALEIA NA BANHEIRA  SUSANNE STRASSER  COMPANHIA DAS LETRINHAS",
       "grade": "Grupo 1",
       "class_name": "Vespertino",
-      "available": true,
-      "reserved_by": null
+      "available": false,
+      "reserved_by": "Roberta lima santos",
+      "reserved_student": "ROSA LIMA CASSILLO"
     },
     {
       "id": 1765212953,
@@ -25262,6 +25263,17 @@
       "class_name": "Vespertino",
       "book_title": "A ARCA DE NOÉ  VINICIUS DE MORAES  CIA DAS LETRINHAS",
       "timestamp": "2026-08-13 01:32"
+    },
+    {
+      "reservation_id": 1786584859,
+      "book_id": 1765212952,
+      "category": "Livro",
+      "parent_name": "Roberta lima santos",
+      "student_name": "ROSA LIMA CASSILLO",
+      "grade": "Grupo 1",
+      "class_name": "Vespertino",
+      "book_title": "BALEIA NA BANHEIRA  SUSANNE STRASSER  COMPANHIA DAS LETRINHAS",
+      "timestamp": "2026-08-13 01:34"
     }
   ],
   "students_db": [
